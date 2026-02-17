@@ -1,92 +1,278 @@
 [
   {
-    "category": "Ciencia",
-    "question": "¿Cuál es el planeta más grande del sistema solar?",
-    "options": ["Saturno", "Júpiter", "Neptuno", "Urano"],
+    "category": "Aerodinámica Básica",
+    "question": "3217.- La cantidad de exceso de carga que se puede imponer al ala de un avión depende de la:",
+    "options": ["Posición del CG.", "Velocidad del avión.", "Brusquedad a la que se aplica la carga."],
     "answer": 1
   },
   {
-    "category": "Historia",
-    "question": "¿En qué año llegó Cristóbal Colón a América?",
-    "options": ["1488", "1500", "1492", "1510"],
+    "category": "Aerodinámica Básica",
+    "question": "3218.- ¿Qué maniobra de vuelo básica aumenta el factor de carga en un avión en comparación con el vuelo recto y nivelado?",
+    "options": ["Ascensos.", "Virajes.", "Entrar en pérdida."],
+    "answer": 1
+  },
+  {
+    "category": "Aerodinámica Básica",
+    "question": "3301.- ¿Qué fuerza hace girar un avión?",
+    "options": ["El componente horizontal de la sustentación.", "El componente horizontal de la sustentación.", "La fuerza centrífuga."],
+    "answer": 0
+  },
+  {
+    "category": "Aerodinámica Básica",
+    "question": "3316.- Durante una aproximación a una entrada a pérdida, un factor de carga incrementado hará que el avión:",
+    "options": ["Entre en perdida a una velocidad aérea más alta.", "Tenga tendencia a girar.", "Sea más difícil de controlar."],
+    "answer": 0
+  },
+  {
+    "category": "Aerodinámica Básica",
+    "question": "3202.1.- Seleccione los cuatro fundamentos de vuelo que intervienen en la maniobra de una aeronave:",
+    "options": ["Potencia, cabeceo, inclinación y compensación de la aeronave.", "Arranque, rodaje, despegue y aterrizaje.", "Vuelo recto y nivelado, giros, ascensos y descensos."],
     "answer": 2
   },
   {
-    "category": "Geografía",
-    "question": "¿Cuál es el río más largo del mundo?",
-    "options": ["Nilo", "Amazonas", "Yangtsé", "Misisipi"],
+    "category": "Aerodinámica Básica",
+    "question": "3202.2.- (Refiérase a la figura 62.) Al volar en rumbo rectangular, ¿cuándo giraría la aeronave menos de 90°?",
+    "options": ["Esquinas 1 y 4.", "Esquinas 1 y 2.", "Esquinas 2 y 4."],
+    "answer": 0
+  },
+  {
+    "category": "Aerodinámica Básica",
+    "question": "3202.3.- (Refiérase a la figura 66.) Mientras se practica giros en S, se hace un semicírculo consistentemente más pequeño en un lado de la ruta que en el otro, y este giro no se completa antes de cruzar la ruta o la línea de referencia. Lo más probable es que esto ocurra a su vez:",
+    "options": ["1-2-3 porque la inclinación se reduce demasiado rápido durante la última parte del giro.", "4-5-6 porque la inclinación se incrementa demasiado rápido durante la primera parte del giro.", "4-5-6 porque la inclinación se incrementa demasiado lento durante la última parte del giro."],
     "answer": 1
   },
   {
-    "category": "Ciencia",
-    "question": "¿Cuál es el elemento químico con el símbolo 'O'?",
-    "options": ["Oro", "Osmio", "Oxígeno", "Oganesón"],
+    "category": "Aerodinámica Básica",
+    "question": "3202.4.- Si una situación de emergencia requiere un aterrizaje a favor del viento, los pilotos deben esperar una:",
+    "options": ["Velocidad del aire en el momento del aterrizaje, un rodamiento más largo en el terreno y un mejor control durante todo el recorrido del aterrizaje.", "Velocidad en tierra en el momento del aterrizaje, un rodamiento más largo en el terreno y la probabilidad de sobrepasar el punto de aterrizaje deseado.", "Velocidad en tierra en el momento del aterrizaje, un rodamiento más corto en el terreno y la probabilidad de no alcanzar el punto de aterrizaje deseado."],
+    "answer": 1
+  },
+  {
+    "category": "Aerodinámica Básica",
+    "question": "3202.5.- Al ejecutar una aproximación de emergencia para aterrizar en un avión monomotor, es importante mantener una velocidad de planeo constante porque las variaciones en la velocidad de planeo:",
+    "options": ["Aumentan las posibilidades de que el motor se enfríe.", "Aseguran que se mantenga el ángulo de descenso adecuado hasta que entre en la llamarada.", "Anula todos los intentos de precisión en el juicio de distancia de planeo y el punto de aterrizaje."],
     "answer": 2
   },
   {
-    "category": "Cultura",
-    "question": "¿Quién pintó la obra 'Guernica'?",
-    "options": ["Salvador Dalí", "Pablo Picasso", "Francisco de Goya", "Diego Velázquez"],
-    "answer": 1
-  },
-  {
-    "category": "Geografía",
-    "question": "¿Cuál es la capital de Argentina?",
-    "options": ["Santiago", "Montevideo", "Lima", "Buenos Aires"],
-    "answer": 3
-  },
-  {
-    "category": "Ciencia",
-    "question": "¿Cuántos huesos tiene el cuerpo humano adulto?",
-    "options": ["186", "206", "216", "196"],
-    "answer": 1
-  },
-  {
-    "category": "Historia",
-    "question": "¿En qué país se originó la Revolución Francesa?",
-    "options": ["España", "Inglaterra", "Francia", "Alemania"],
+    "category": "Aerodinámica Básica",
+    "question": "3263.- A medida que aumenta la altitud, la velocidad indicada a la que un avión dado se detiene en una configuración particular:",
+    "options": ["Disminuye a medida que disminuye la velocidad verdadera.", "Disminuye a medida que aumenta la velocidad verdadera.", "Sigue siendo la misma independientemente de la altitud."],
     "answer": 2
   },
   {
-    "category": "Naturaleza",
-    "question": "¿Cuál es el animal terrestre más rápido del mundo?",
-    "options": ["León", "Guepardo", "Gacela", "Caballo"],
-    "answer": 1
-  },
-  {
-    "category": "Literatura",
-    "question": "¿Quién escribió 'Don Quijote de la Mancha'?",
-    "options": ["Lope de Vega", "Miguel de Cervantes", "Federico García Lorca", "Gabriel García Márquez"],
-    "answer": 1
-  },
-  {
-    "category": "Matemáticas",
-    "question": "¿Cuánto es la raíz cuadrada de 144?",
-    "options": ["10", "14", "12", "16"],
+    "category": "Aerodinámica Básica",
+    "question": "3309.- ¿En qué condiciones de vuelo debe colocarse una aeronave para girar?",
+    "options": ["Parcialmente en pérdida con un ala baja.", "En una espiral empinada en picada.", "En pérdida."],
     "answer": 2
   },
   {
-    "category": "Ciencia",
-    "question": "¿Qué gas es el más abundante en la atmósfera terrestre?",
-    "options": ["Oxígeno", "Dióxido de carbono", "Nitrógeno", "Argón"],
+    "category": "Aerodinámica Básica",
+    "question": "3310.- Durante un giro hacia la izquierda, ¿qué ala(s) entran en pérdida?",
+    "options": ["Ambas alas entran en pérdida.", "Ninguna ala alas entra en pérdida.", "Solo el ala izquierda entra en pérdida."],
+    "answer": 0
+  },
+  {
+    "category": "Aerodinámica Básica",
+    "question": "3311.- El ángulo de ataque en el que el ala de un avión entra en pérdida:",
+    "options": ["Aumentará si el CG se mueve hacia adelante.", "Cambiará con un aumento en el peso bruto.", "Sigue siendo la misma independientemente del peso bruto."],
     "answer": 2
   },
   {
-    "category": "Geografía",
-    "question": "¿Cuál es el océano más grande del mundo?",
-    "options": ["Atlántico", "Índico", "Ártico", "Pacífico"],
-    "answer": 3
+    "category": "Aerodinámica Básica",
+    "question": "3219.- Una de las principales funciones de los flaps durante la aproximación y el aterrizaje es:",
+    "options": ["Disminuir el ángulo de descenso sin aumentar la velocidad del aire.", "Permitir un aterrizaje a una mayor velocidad indicada.", "Incrementar el ángulo de descenso sin incrementar la velocidad del aire."],
+    "answer": 2
   },
   {
-    "category": "Historia",
-    "question": "¿Quién fue el primer presidente de los Estados Unidos?",
-    "options": ["Thomas Jefferson", "George Washington", "Abraham Lincoln", "John Adams"],
+    "category": "Aerodinámica Básica",
+    "question": "3220.- ¿Cuál es uno de los propósitos de los flaps?",
+    "options": ["Permitir al piloto realizar aproximaciones más pronunciadas a un aterrizaje sin aumentar la velocidad del aire.", "Para aliviar al piloto de mantener una presión continua sobre los controles.", "Disminuir el área del ala para variar la sustentación."],
+    "answer": 0
+  },
+  {
+    "category": "Aerodinámica Básica",
+    "question": "3315.- ¿En qué problema es más probable que se produzca el efecto suelo?",
+    "options": ["Asentamiento en la superficie abruptamente durante el aterrizaje.", "Estar en vuelo antes de alcanzar la velocidad de despegue recomendada.", "Incapacidad para despegar a pesar de que la velocidad es suficiente para las necesidades normales de despegue."],
     "answer": 1
   },
   {
-    "category": "Cultura",
-    "question": "¿En qué país se encuentra la Torre Eiffel?",
-    "options": ["Italia", "España", "Francia", "Alemania"],
+    "category": "Aerodinámica Básica",
+    "question": "3312.- ¿Qué es el efecto suelo?",
+    "options": ["El resultado de la interferencia de la superficie de la tierra con los patrones de flujo de aire alrededor de un avión.", "El resultado de una alteración en los patrones de flujo de aire que aumenta la resistencia inducida en las alas de un avión.", "El resultado de la interrupción de los patrones de flujo de aire alrededor de las alas de un avión hasta el punto en que las alas ya no soportarán al avión en vuelo."],
+    "answer": 0
+  },
+  {
+    "category": "Aerodinámica Básica",
+    "question": "3313.- La flotación causada por el fenómeno del efecto suelo será más evidente durante una aproximación a tierra cuando:",
+    "options": ["Menos que la longitud de la envergadura sobre la superficie.", "El doble de la longitud de la envergadura sobre la superficie.", "Un ángulo de ataque más alto de lo normal."],
+    "answer": 0
+  },
+  {
+    "category": "Aerodinámica Básica",
+    "question": "3314.- ¿De qué debe ser consciente un piloto como resultado del efecto suelo?",
+    "options": ["Vórtices en la punta de las alas que crean problemas de estela turbulenta para las aeronaves que llegan y salen.", "La resistencia inducida disminuye: por lo tanto, cualquier exceso de velocidad en el punto de llamarada puede causar una considerable flotación.", "Un aterrizaje de pérdida completa requerirá menos deflexión hacia arriba del elevador que una pérdida completa cuando se realiza sin el efecto del suelo."],
+    "answer": 1
+  },
+  {
+    "category": "Aerodinámica Básica",
+    "question": "3829.2.- Al aterrizar detrás de una aeronave grande, ¿qué procedimiento se debe seguir para evitar vórtices?",
+    "options": ["Mantenerse por encima de su trayectoria de vuelo de aproximación final hasta el aterrizaje.", "Mantenerse debajo y a un lado de su trayectoria de vuelo de aproximación final.", "Mantenerse muy por debajo de su trayectoria de vuelo de aproximación final y aterrizar al menos a 2,000 pies detrás."],
+    "answer": 0
+  },
+  {
+    "category": "Aerodinámica Básica",
+    "question": "3824.- Los vórtices de las puntas de las alas se crean solo cuando se:",
+    "options": ["Opera a alta velocidad.", "Tiene el avión muy cargado.", "Genera sustentación."],
     "answer": 2
+  },
+  {
+    "category": "Aerodinámica Básica",
+    "question": "3825.- La mayor fuerza de vórtice ocurre cuando la aeronave generadora está:",
+    "options": ["Ligero, sucio y rápido.", "Pesado, sucio y rápido.", "Pesado, limpio y lento."],
+    "answer": 2
+  },
+  {
+    "category": "Aerodinámica Básica",
+    "question": "3826.- Los vórtices de punta de ala creados por aviones grandes tienden a:",
+    "options": ["Hundirse debajo de la aeronave generando turbulencias.", "Aumentar el patrón de tráfico.", "Aumentar a la trayectoria de despegue o aterrizaje de una pista de cruce."],
+    "answer": 0
+  },
+  {
+    "category": "Aerodinámica Básica",
+    "question": "3828.- La condición del viento que requiere la máxima precaución para evitar la estela turbulenta al aterrizar es una:",
+    "options": ["Ligero viento de frente.", "Ligero viento de cola.", "Fuerte viento de frente."],
+    "answer": 1
+  },
+  {
+    "category": "Aerodinámica Básica",
+    "question": "3829.- Al aterrizar detrás de un avión grande, el piloto debe evitar la estela turbulenta manteniéndose:",
+    "options": ["Por encima de la trayectoria de aproximación final del avión grande y aterrizando más allá del punto de toma de contacto del avión grande.", "Debajo de la trayectoria de aproximación final del avión grande y aterrizando antes del punto de toma de contacto del avión grande.", "Por encima de la trayectoria de aproximación final del avión grande y aterrizando antes del punto de toma de contacto del avión grande."],
+    "answer": 0
+  },
+  {
+    "category": "Aerodinámica Básica",
+    "question": "3830.- Al salir detrás de un avión pesado, el piloto debe evitar la estela turbulenta maniobrando el avión:",
+    "options": ["Debajo y a favor del viento del avión pesado.", "Sobre y en contra del viento del avión pesado.", "Debajo y en contra del viento del avión pesado."],
+    "answer": 1
+  },
+  {
+    "category": "Aerodinámica Básica",
+    "question": "3829.3.- ¿Cómo circula el vórtice de estela turbulenta alrededor de cada punta de ala?",
+    "options": ["Hacia adentro, hacia arriba y alrededor de cada punta.", "Hacia adentro, hacia arriba y en sentido anti horario.", "Hacia afuera, hacia arriba y alrededor de cada punta."],
+    "answer": 2
+  },
+  {
+    "category": "Aerodinámica Básica",
+    "question": "3827.- Al despegar o aterrizar en un aeropuerto donde operan aviones pesados, se debe estar particularmente alerta a los peligros de los vórtices en la punta de las alas porque esta turbulencia tiende a:",
+    "options": ["Ascender desde una pista de cruce hacia la ruta de despegue o aterrizaje.", "Incrementar al área del patrón de tráfico que rodea el aeropuerto.", "Hundirse dentro de la senda de vuelo de la aeronave que opera debajo de la aeronave que genera la turbulencia."],
+    "answer": 2
+  },
+  {
+    "category": "Aerodinámica Básica",
+    "question": "3203.- (Refiérase a la Figura 1). El ángulo agudo A es el ángulo de:",
+    "options": ["Incidencia.", "Ataque.", "Diedro."],
+    "answer": 1
+  },
+  {
+    "category": "Aerodinámica Básica",
+    "question": "3204.- El término 'ángulo de ataque' se define como el ángulo:",
+    "options": ["Entre la línea de la cuerda del ala y el viento relativo.", "Entre el ángulo de ascenso del avión y el horizonte.", "Formado por el eje longitudinal del avión y la línea de cuerda del ala."],
+    "answer": 0
+  },
+  {
+    "category": "Aerodinámica Básica",
+    "question": "3204.1.- El ángulo entre la línea de cuerda de un perfil aerodinámico y el viento relativo se conoce como el ángulo de:",
+    "options": ["Sustentación.", "Ataque.", "Incidencia."],
+    "answer": 1
+  },
+  {
+    "category": "Aerodinámica Básica",
+    "question": "3317.- El término \"ángulo de ataque\" se define como el ángulo entre:",
+    "options": ["La cuerda del ala y el viento relativo.", "El eje longitudinal del avión y el del aire que golpea el perfil aerodinámico.", "La línea central del avión y el viento relativo."],
+    "answer": 0
+  },
+  {
+    "category": "Aerodinámica Básica",
+    "question": "3201.01.- ¿Qué enunciado se relaciona con el principio de Bernoulli?",
+    "options": ["Por cada acción hay una reacción igual y opuesta.", "Se genera una fuerza adicional hacia arriba cuando la superficie inferior del ala desvía el aire.", "El aire viaja más rápido sobre la superficie superior curva de un perfil aerodinámico reduciendo la presión en la superficie superior."],
+    "answer": 2
+  },
+  {
+    "category": "Aerodinámica Básica",
+    "question": "3201.- Las cuatro fuerzas que actúan sobre un avión en vuelo son:",
+    "options": ["Sustentación, peso, empuje, resistencia.", "Sustentación, peso, gravedad, empuje.", "Sustentación, gravedad, potencia y fricción."],
+    "answer": 0
+  },
+  {
+    "category": "Aerodinámica Básica",
+    "question": "3213.- ¿Cuál es el propósito del timón de un avión?",
+    "options": ["Controlar la guiñada.", "Controlar la tendencia la sobre inclinación.", "Controlar el alabeo."],
+    "answer": 0
+  },
+  {
+    "category": "Aerodinámica Básica",
+    "question": "3205.- ¿Cuál es la relación de sustentación, resistencia, empuje y peso cuando el avión está en vuelo recto y nivelado?",
+    "options": ["La sustentación es igual al peso y el empuje es igual a la resistencia.", "La sustentación, la resistencia y el peso es igual empuje.", "La sustentación y el peso son iguales en empuje y a la resistencia."],
+    "answer": 0
+  },
+  {
+    "category": "Aerodinámica Básica",
+    "question": "3202.- ¿Cuándo están en equilibrio las cuatro fuerzas que actúan sobre un avión?",
+    "options": ["Durante un vuelo no acelerado.", "Cuando la aeronave acelera.", "Cuando la aeronave está en reposo en tierra."],
+    "answer": 0
+  },
+  {
+    "category": "Aerodinámica Básica",
+    "question": "3210.- Un avión que se dice que es inherentemente estable:",
+    "options": ["Será difícil que entre en pérdida.", "Requiere menos esfuerzo para controlarlo.", "No gira."],
+    "answer": 1
+  },
+  {
+    "category": "Aerodinámica Básica",
+    "question": "3211.- ¿Qué determina la estabilidad longitudinal de un avión?",
+    "options": ["La ubicación del centro de gravedad con respecto al centro de sustentación.", "La efectividad del estabilizador horizontal, el timón y la pestaña de ajuste del timón.", "La relación de empuje y sustentación con peso y resistencia."],
+    "answer": 0
+  },
+  {
+    "category": "Aerodinámica Básica",
+    "question": "3212.- ¿Qué hace que un avión (excepto una cola en T) se incline hacia abajo cuando se reduce la potencia y los controles no están ajustados?",
+    "options": ["El CG se desplaza hacia adelante cuando se reduce el empuje y la resistencia.", "Se reduce la corriente descendente en los elevadores de la corriente de deslizamiento de la hélice y se reduce la eficacia del elevador.", "Cuando el empuje se reduce a menos que el peso, la sustentación también se reduce y las alas ya no pueden soportar el peso."],
+    "answer": 1
+  },
+  {
+    "category": "Aerodinámica Básica",
+    "question": "3287.- Se ha cargado un avión de tal manera que el CG está ubicado detrás del límite posterior del CG. Una característica de vuelo indeseable que un piloto podría experimentar con este avión sería:",
+    "options": ["Una carrera de despegue más larga.", "Dificultad para recuperarse de una condición de entrada en pérdida.", "Entrada en pérdida a una velocidad aérea superior a la normal."],
+    "answer": 1
+  },
+  {
+    "category": "Aerodinámica Básica",
+    "question": "3288.- Cargar un avión en el CG más hacia el límite posterior hará que el avión sea:",
+    "options": ["Menos estable a todas las velocidades.", "Menos estable a bajas velocidades, pero más estable a altas velocidades.", "Menos estable a altas velocidades, pero más estable a bajas velocidades."],
+    "answer": 0
+  },
+  {
+    "category": "Aerodinámica Básica",
+    "question": "3211.1.- Los cambios en el centro de presión de un ala afectan a la:",
+    "options": ["Relación sustentación / resistencia.", "Capacidad de sustentación.", "Equilibrio aerodinámico y controlabilidad."],
+    "answer": 2
+  },
+  {
+    "category": "Aerodinámica Básica",
+    "question": "3214.- (Refiérase a la Figura 2). Si un avión pesa 2,300 libras, ¿qué peso aproximado podría soportar la estructura del avión durante un viraje inclinado de 60° mientras se mantiene la altitud?",
+    "options": ["2,300 libras.", "3,400 libras.", "4,600 libras."],
+    "answer": 2
+  },
+  {
+    "category": "Aerodinámica Básica",
+    "question": "3215.- (Refiérase la Figura 2). Si un avión pesa 3,300 libras, ¿qué peso aproximado debería soportar la estructura del avión durante un viraje inclinado de 30° mientras se mantiene la altitud?",
+    "options": ["1,200 libras.", "3,100 libras.", "3,960 libras."],
+    "answer": 2
+  },
+  {
+    "category": "Aerodinámica Básica",
+    "question": "3216.- (Refiérase a la Figura 2.) Si un avión pesa 4,500 libras, ¿qué peso aproximado debería soportar la estructura del avión durante un viraje inclinado de 45° mientras se mantiene la altitud?",
+    "options": ["4,500 libras.", "6,750 libras.", "7,200 libras."],
+    "answer": 1
   }
 ]
