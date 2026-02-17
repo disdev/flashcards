@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarjetas de Estudio</title>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --card-border: #334155;
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+      --accent: #6366f1;
+      --accent-hover: #818cf8;
+      --correct: #22c55e;
+      --correct-bg: rgba(34, 197, 94, 0.15);
+      --incorrect: #ef4444;
+      --incorrect-bg: rgba(239, 68, 68, 0.15);
+      --option-bg: #273548;
+      --option-hover: #334155;
+      --radius: 12px;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      width: 100%;
+      padding: 1.25rem 1.5rem;
+      text-align: center;
+      border-bottom: 1px solid var(--card-border);
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      letter-spacing: -0.025em;
+    }
+
+    .progress-bar-container {
+      width: 100%;
+      max-width: 600px;
+      margin: 1.5rem auto 0;
+      padding: 0 1.5rem;
+    }
+
+    .progress-info {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 0.5rem;
+    }
+
+    .progress-track {
+      width: 100%;
+      height: 6px;
+      background: var(--card-border);
+      border-radius: 3px;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: var(--accent);
+      border-radius: 3px;
+      transition: width 0.4s ease;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      max-width: 600px;
+      padding: 1.5rem;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 2rem 1.5rem;
+      width: 100%;
+      animation: fadeIn 0.3s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .category {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--accent);
+      margin-bottom: 0.75rem;
+    }
+
+    .question {
+      font-size: 1.25rem;
+      font-weight: 600;
+      line-height: 1.5;
+      margin-bottom: 1.5rem;
+    }
+
+    .options {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .option-btn {
+      background: var(--option-bg);
+      color: var(--text);
+      border: 2px solid transparent;
+      border-radius: var(--radius);
+      padding: 1rem 1.25rem;
+      font-size: 1rem;
+      text-align: left;
+      cursor: pointer;
+      transition: background 0.15s ease, border-color 0.15s ease, transform 0.1s ease;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .option-btn:hover:not(:disabled) {
+      background: var(--option-hover);
+      transform: translateX(4px);
+    }
+
+    .option-btn:disabled {
+      cursor: default;
+    }
+
+    .option-letter {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+      background: var(--card-border);
+      font-weight: 700;
+      font-size: 0.85rem;
+      flex-shrink: 0;
+      transition: background 0.15s ease, color 0.15s ease;
+    }
+
+    .option-btn.correct {
+      background: var(--correct-bg);
+      border-color: var(--correct);
+    }
+
+    .option-btn.correct .option-letter {
+      background: var(--correct);
+      color: #fff;
+    }
+
+    .option-btn.incorrect {
+      background: var(--incorrect-bg);
+      border-color: var(--incorrect);
+    }
+
+    .option-btn.incorrect .option-letter {
+      background: var(--incorrect);
+      color: #fff;
+    }
+
+    .feedback {
+      margin-top: 1.25rem;
+      padding: 1rem 1.25rem;
+      border-radius: var(--radius);
+      font-weight: 600;
+      font-size: 0.95rem;
+      display: none;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .feedback.show {
+      display: flex;
+    }
+
+    .feedback.correct {
+      background: var(--correct-bg);
+      color: var(--correct);
+    }
+
+    .feedback.incorrect {
+      background: var(--incorrect-bg);
+      color: var(--incorrect);
+    }
+
+    .next-btn {
+      margin-top: 1.25rem;
+      width: 100%;
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      border-radius: var(--radius);
+      padding: 1rem;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.15s ease;
+      display: none;
+    }
+
+    .next-btn:hover {
+      background: var(--accent-hover);
+    }
+
+    .next-btn.show {
+      display: block;
+    }
+
+    /* Results screen */
+    .results {
+      text-align: center;
+    }
+
+    .results-icon {
+      font-size: 4rem;
+      margin-bottom: 1rem;
+    }
+
+    .results h2 {
+      font-size: 1.75rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .results .score {
+      font-size: 3rem;
+      font-weight: 800;
+      color: var(--accent);
+      margin: 1rem 0;
+    }
+
+    .results .score-detail {
+      color: var(--text-muted);
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .restart-btn {
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      border-radius: var(--radius);
+      padding: 1rem 2.5rem;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.15s ease;
+    }
+
+    .restart-btn:hover {
+      background: var(--accent-hover);
+    }
+
+    /* Responsive */
+    @media (max-width: 480px) {
+      .card {
+        padding: 1.5rem 1rem;
+      }
+
+      .question {
+        font-size: 1.1rem;
+      }
+
+      .option-btn {
+        padding: 0.85rem 1rem;
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tarjetas de Estudio</h1>
+  </header>
+
+  <div class="progress-bar-container">
+    <div class="progress-info">
+      <span id="progress-text">Pregunta 1 de 10</span>
+      <span id="score-text">Correctas: 0</span>
+    </div>
+    <div class="progress-track">
+      <div class="progress-fill" id="progress-fill" style="width: 0%"></div>
+    </div>
+  </div>
+
+  <main id="main"></main>
+
+  <script>
+    let flashcards = [];
+    let currentIndex = 0;
+    let correctCount = 0;
+    let answered = false;
+    let shuffledCards = [];
+
+    const letters = ['A', 'B', 'C', 'D'];
+
+    function shuffle(arr) {
+      const a = [...arr];
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+      }
+      return a;
+    }
+
+    function showLoading() {
+      document.getElementById('main').innerHTML = `
+        <div class="card" style="text-align:center;">
+          <div class="question">Cargando tarjetas...</div>
+        </div>
+      `;
+    }
+
+    function showError(msg) {
+      document.getElementById('main').innerHTML = `
+        <div class="card" style="text-align:center;">
+          <div class="question" style="color:var(--incorrect);">Error al cargar las tarjetas</div>
+          <p style="color:var(--text-muted);margin-top:1rem;">${msg}</p>
+          <button class="restart-btn" style="margin-top:1.5rem;" onclick="loadCards()">Reintentar</button>
+        </div>
+      `;
+    }
+
+    async function loadCards() {
+      showLoading();
+      try {
+        const resp = await fetch('cards.json');
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        flashcards = await resp.json();
+        startQuiz();
+      } catch (err) {
+        showError(err.message);
+      }
+    }
+
+    function startQuiz() {
+      shuffledCards = shuffle(flashcards);
+      currentIndex = 0;
+      correctCount = 0;
+      answered = false;
+      renderCard();
+    }
+
+    function updateProgress() {
+      const total = shuffledCards.length;
+      document.getElementById('progress-text').textContent =
+        `Pregunta ${currentIndex + 1} de ${total}`;
+      document.getElementById('score-text').textContent =
+        `Correctas: ${correctCount}`;
+      document.getElementById('progress-fill').style.width =
+        `${(currentIndex / total) * 100}%`;
+    }
+
+    function renderCard() {
+      if (currentIndex >= shuffledCards.length) {
+        renderResults();
+        return;
+      }
+
+      answered = false;
+      updateProgress();
+
+      const card = shuffledCards[currentIndex];
+
+      document.getElementById('main').innerHTML = `
+        <div class="card">
+          <div class="category">${card.category}</div>
+          <div class="question">${card.question}</div>
+          <div class="options" id="options">
+            ${card.options.map((opt, i) => `
+              <button class="option-btn" data-index="${i}" onclick="selectOption(${i})">
+                <span class="option-letter">${letters[i]}</span>
+                <span>${opt}</span>
+              </button>
+            `).join('')}
+          </div>
+          <div class="feedback" id="feedback"></div>
+          <button class="next-btn" id="next-btn" onclick="nextCard()">
+            ${currentIndex < shuffledCards.length - 1 ? 'Siguiente' : 'Ver resultados'}
+          </button>
+        </div>
+      `;
+    }
+
+    function selectOption(selected) {
+      if (answered) return;
+      answered = true;
+
+      const card = shuffledCards[currentIndex];
+      const buttons = document.querySelectorAll('.option-btn');
+      const feedback = document.getElementById('feedback');
+      const nextBtn = document.getElementById('next-btn');
+
+      buttons.forEach(btn => btn.disabled = true);
+
+      const isCorrect = selected === card.answer;
+
+      if (isCorrect) {
+        correctCount++;
+        buttons[selected].classList.add('correct');
+        feedback.className = 'feedback show correct';
+        feedback.innerHTML = '&#10003; &#160; &#161;Correcto!';
+      } else {
+        buttons[selected].classList.add('incorrect');
+        buttons[card.answer].classList.add('correct');
+        feedback.className = 'feedback show incorrect';
+        feedback.innerHTML = `&#10007; &#160; Incorrecto. La respuesta es: ${card.options[card.answer]}`;
+      }
+
+      document.getElementById('score-text').textContent =
+        `Correctas: ${correctCount}`;
+
+      nextBtn.classList.add('show');
+    }
+
+    function nextCard() {
+      currentIndex++;
+      renderCard();
+    }
+
+    function renderResults() {
+      const total = shuffledCards.length;
+      const pct = Math.round((correctCount / total) * 100);
+
+      document.getElementById('progress-fill').style.width = '100%';
+      document.getElementById('progress-text').textContent = 'Completado';
+      document.getElementById('score-text').textContent =
+        `Correctas: ${correctCount}`;
+
+      let emoji = '&#127942;';
+      let message = '&#161;Excelente trabajo!';
+      if (pct < 50) {
+        emoji = '&#128170;';
+        message = '&#161;Sigue practicando!';
+      } else if (pct < 80) {
+        emoji = '&#128077;';
+        message = '&#161;Buen esfuerzo!';
+      }
+
+      document.getElementById('main').innerHTML = `
+        <div class="card results">
+          <div class="results-icon">${emoji}</div>
+          <h2>${message}</h2>
+          <div class="score">${pct}%</div>
+          <div class="score-detail">${correctCount} de ${total} respuestas correctas</div>
+          <button class="restart-btn" onclick="startQuiz()">Intentar de nuevo</button>
+        </div>
+      `;
+    }
+
+    loadCards();
+  </script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+[
+  {
+    "category": "Ciencia",
+    "question": "¿Cuál es el planeta más grande del sistema solar?",
+    "options": ["Saturno", "Júpiter", "Neptuno", "Urano"],
+    "answer": 1
+  },
+  {
+    "category": "Historia",
+    "question": "¿En qué año llegó Cristóbal Colón a América?",
+    "options": ["1488", "1500", "1492", "1510"],
+    "answer": 2
+  },
+  {
+    "category": "Geografía",
+    "question": "¿Cuál es el río más largo del mundo?",
+    "options": ["Nilo", "Amazonas", "Yangtsé", "Misisipi"],
+    "answer": 1
+  },
+  {
+    "category": "Ciencia",
+    "question": "¿Cuál es el elemento químico con el símbolo 'O'?",
+    "options": ["Oro", "Osmio", "Oxígeno", "Oganesón"],
+    "answer": 2
+  },
+  {
+    "category": "Cultura",
+    "question": "¿Quién pintó la obra 'Guernica'?",
+    "options": ["Salvador Dalí", "Pablo Picasso", "Francisco de Goya", "Diego Velázquez"],
+    "answer": 1
+  },
+  {
+    "category": "Geografía",
+    "question": "¿Cuál es la capital de Argentina?",
+    "options": ["Santiago", "Montevideo", "Lima", "Buenos Aires"],
+    "answer": 3
+  },
+  {
+    "category": "Ciencia",
+    "question": "¿Cuántos huesos tiene el cuerpo humano adulto?",
+    "options": ["186", "206", "216", "196"],
+    "answer": 1
+  },
+  {
+    "category": "Historia",
+    "question": "¿En qué país se originó la Revolución Francesa?",
+    "options": ["España", "Inglaterra", "Francia", "Alemania"],
+    "answer": 2
+  },
+  {
+    "category": "Naturaleza",
+    "question": "¿Cuál es el animal terrestre más rápido del mundo?",
+    "options": ["León", "Guepardo", "Gacela", "Caballo"],
+    "answer": 1
+  },
+  {
+    "category": "Literatura",
+    "question": "¿Quién escribió 'Don Quijote de la Mancha'?",
+    "options": ["Lope de Vega", "Miguel de Cervantes", "Federico García Lorca", "Gabriel García Márquez"],
+    "answer": 1
+  },
+  {
+    "category": "Matemáticas",
+    "question": "¿Cuánto es la raíz cuadrada de 144?",
+    "options": ["10", "14", "12", "16"],
+    "answer": 2
+  },
+  {
+    "category": "Ciencia",
+    "question": "¿Qué gas es el más abundante en la atmósfera terrestre?",
+    "options": ["Oxígeno", "Dióxido de carbono", "Nitrógeno", "Argón"],
+    "answer": 2
+  },
+  {
+    "category": "Geografía",
+    "question": "¿Cuál es el océano más grande del mundo?",
+    "options": ["Atlántico", "Índico", "Ártico", "Pacífico"],
+    "answer": 3
+  },
+  {
+    "category": "Historia",
+    "question": "¿Quién fue el primer presidente de los Estados Unidos?",
+    "options": ["Thomas Jefferson", "George Washington", "Abraham Lincoln", "John Adams"],
+    "answer": 1
+  },
+  {
+    "category": "Cultura",
+    "question": "¿En qué país se encuentra la Torre Eiffel?",
+    "options": ["Italia", "España", "Francia", "Alemania"],
+    "answer": 2
+  }
+]
