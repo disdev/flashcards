@@ -211,6 +211,29 @@
       color: var(--incorrect);
     }
 
+    .reason {
+      margin-top: 1rem;
+      padding: 1rem 1.25rem;
+      border-radius: var(--radius);
+      background: rgba(99, 102, 241, 0.1);
+      border-left: 3px solid var(--accent);
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+      font-weight: 400;
+      line-height: 1.5;
+      display: none;
+    }
+
+    .reason.show {
+      display: block;
+    }
+
+    .reason-label {
+      font-weight: 600;
+      color: var(--accent);
+      margin-bottom: 0.25rem;
+    }
+
     .next-btn {
       margin-top: 1.25rem;
       width: 100%;
@@ -574,6 +597,7 @@
             `).join('')}
           </div>
           <div class="feedback" id="feedback"></div>
+          <div class="reason" id="reason"></div>
           <button class="next-btn" id="next-btn" onclick="nextCard()">
             ${currentIndex < shuffledCards.length - 1 ? 'Siguiente' : 'Ver resultados'}
           </button>
@@ -608,6 +632,12 @@
 
       document.getElementById('score-text').textContent =
         `Correctas: ${correctCount}`;
+
+      if (card.reason) {
+        const reasonEl = document.getElementById('reason');
+        reasonEl.innerHTML = `<div class="reason-label">¿Por qué?</div>${card.reason}`;
+        reasonEl.classList.add('show');
+      }
 
       nextBtn.classList.add('show');
     }
