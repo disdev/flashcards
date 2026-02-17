@@ -1,278 +1,1802 @@
 [
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
+    "question": "3310.- Durante un giro hacia la izquierda, ¿qué ala (s) entran en pérdida?",
+    "options": [
+      "Ambas alas entran en pérdida.",
+      "Ninguna ala alas entra en pérdida.",
+      "Solo el ala izquierda entra en pérdida."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "AERODINÁMICA BÁSICA",
+    "question": "3214.- (Refiérase a la Figura 2). Si un avión pesa 2,300 libras, ¿qué peso aproximado podría soportar la estructura del avión durante un viraje inclinado de 60 ° mientras se mantiene la altitud?",
+    "options": [
+      "2,300 libras.",
+      "3,400 libras.",
+      "4,600 libras."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "AERODINÁMICA BÁSICA",
+    "question": "3215.- (Refiérase la Figura 2). Si un avión pesa 3,300 libras, ¿qué peso aproximado debería soportar la estructura del avión durante un viraje inclinado de 30 ° mientras se mantiene la altitud?",
+    "options": [
+      "1,200 libras.",
+      "3,100 libras",
+      "3,960 libras."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3248.- ¿Qué instrumento dejará de funcionar si el tubo de pitot se obstruye?",
+    "options": [
+      "Altímetro.",
+      "Velocidad vertical.",
+      "Velocidad con respecto al aire."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3249.- ¿Qué instrumentos dejarán de funcionar si las rejillas de ventilación estáticas se obstruyen?",
+    "options": [
+      "Únicamente velocidad con respecto al aire.",
+      "Únicamente el altímetro.",
+      "Velocidad con respecto al aire, altímetro y velocidad vertical."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3247.- Si el tubo de pitot y las ventilaciones estáticas exteriores se obstruyen, ¿qué instrumentos se verían afectados?",
+    "options": [
+      "El altímetro, el indicador de velocidad con respecto al aire y el indicador de viraje y deslizamiento.",
+      "El altímetro, el indicador de velocidad con respecto al aire y el indicador de velocidad vertical.",
+      "El altímetro, el indicador de actitud y el indicador de viraje y deslizamiento."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3262.- ¿El sistema de pitot proporciona presión de impacto para qué instrumento?",
+    "options": [
+      "Altímetro.",
+      "Indicador de velocidad vertical.",
+      "Indicador de la velocidad con respecto al aire."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3006.- ¿Qué velocidad V representa la velocidad de maniobra?",
+    "options": [
+      "VA",
+      "VLO",
+      "VNE"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3264.- ¿Qué representa la línea roja en un indicador de velocidad con respecto al aire?",
+    "options": [
+      "Velocidad de maniobra.",
+      "Velocidad turbulenta o de aire agitado.",
+      "Nunca supere la velocidad."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3268.- (Consulte la Figura 4). ¿Qué marca identifica la velocidad que nunca se excede?",
+    "options": [
+      "Límite superior del arco verde.",
+      "Límite superior del arco blanco.",
+      "La línea radial roja."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3269.- (Refiérase a la Figura 4). ¿Qué color identifica la velocidad de pérdida de potencia en una configuración específica?",
+    "options": [
+      "Límite superior del arco verde.",
+      "Límite superior del arco blanco.",
+      "Límite inferior del arco verde."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3265.- (Consulte la Figura 4). ¿Cuál es el rango de funcionamiento completo de los flaps del avión?",
+    "options": [
+      "55 a 100 nudos.",
+      "55 a 208 nudos.",
+      "55 a 165 nudos."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3267.- (Refiérase a la Figura 4). La velocidad máxima a la que el avión puede operarse en aire no turbulento es:",
+    "options": [
+      "100 nudos.",
+      "165 nudos.",
+      "208 nudos."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3270.- (Refiérase a la Figura 4). ¿Cuál es la velocidad máxima de flaps extendidos?",
+    "options": [
+      "67 nudos.",
+      "100 nudos.",
+      "165 nudos."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3271.- (Refiérase a la Figura 4.) ¿Qué color identifica el rango de funcionamiento normal del flap?",
+    "options": [
+      "El arco amarillo.",
+      "El arco verde.",
+      "El arco blanco."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3272.- (Refiérase a la Figura 4). ¿Qué color identifica la velocidad de pérdida de potencia con los flaps de las alas y el tren de aterrizaje en la configuración de aterrizaje?",
+    "options": [
+      "Límite superior del arco verde.",
+      "Límite superior del arco blanco.",
+      "Límite inferior del arco blanco."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3273.- (Refiérase a la Figura 4). ¿Cuál es la velocidad máxima de crucero estructural?",
+    "options": [
+      "100 nudos.",
+      "165 nudos.",
+      "208 nudos."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3274.- ¿Cuál es una limitación importante de velocidad aérea que no está codificada por colores en los indicadores de velocidad con respecto al aire?",
+    "options": [
+      "Nunca supere la velocidad.",
+      "Velocidad máxima de crucero estructural.",
+      "Velocidad de maniobra."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3007.- ¿Qué velocidad en V representa la velocidad máxima extendida del flap?",
+    "options": [
+      "VFE",
+      "VLOF",
+      "VFC"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3008.- ¿Qué velocidad V representa la velocidad máxima extendida del tren de aterrizaje?",
+    "options": [
+      "VLE",
+      "VLO",
+      "VFE"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3009.- VNO se define como el:",
+    "options": [
+      "Rango de funcionamiento normal.",
+      "Velocidad nunca superada.",
+      "Máxima velocidad de crucero estructural."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3010.- VSO se define como el:",
+    "options": [
+      "Velocidad de pérdida o velocidad mínima de vuelo constante en la configuración de aterrizaje.",
+      "Velocidad de pérdida o velocidad mínima de vuelo constante en una configuración especificada.",
+      "Velocidad de pérdida o velocidad mínima de seguridad de despegue."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3266.- (Refiérase a la Figura 4). ¿Cuál es el rango de precaución del avión?",
+    "options": [
+      "0 a 60 nudos.",
+      "100 a 165 nudos.",
+      "165 a 208 nudos."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3105.- Si no se dispone de un ajuste de altímetro antes del vuelo, ¿a qué altitud debe ajustar el piloto el altímetro?",
+    "options": [
+      "La elevación del aeropuerto más cercano corregida al nivel medio del mar.",
+      "La elevación del área de salida.",
+      "Altitud de presión corregida por temperatura no estándar."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3106.- Antes del despegue, ¿el altímetro debe ajustarse a qué altitud o ajuste de altímetro?",
+    "options": [
+      "El ajuste actual del altímetro local, si está disponible, o la elevación del aeropuerto de salida.",
+      "La altitud de densidad corregida del aeropuerto de salida.",
+      "La altitud de presión corregida para el aeropuerto de salida."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3107.- ¿A qué altitud se fijará el altímetro en 29,92 cuando se suba al nivel de vuelo de crucero?",
+    "options": [
+      "14,500 pies MSL.",
+      "18,000 pies MSL.",
+      "24,000 pies MSL."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3254.- El ajuste del altímetro es el valor al que se ajusta la escala de presión barométrica del altímetro para que el altímetro indique:",
+    "options": [
+      "Altitud calibrada en la elevación del campo.",
+      "Altitud absoluta en la elevación del campo.",
+      "Altitud verdadera a la elevación del campo."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3255.- ¿Cómo afectan las variaciones de temperatura al altímetro?",
+    "options": [
+      "Los niveles de presión aumentan en los días cálidos y la altitud indicada es menor que la altitud real.",
+      "Las temperaturas más altas expanden los niveles de presión y la altitud indicada es más alta que la altitud real.",
+      "Las temperaturas más bajas reducen los niveles de presión y la altitud indicada es menor que la altitud real."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3256.- ¿Qué es la verdadera altitud?",
+    "options": [
+      "La distancia vertical de la aeronave sobre el nivel del mar.",
+      "La distancia vertical de la aeronave sobre la superficie.",
+      "La altura por encima del plano de referencia estándar."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3392.- ¿Bajo qué condiciones será la altitud real menor que la altitud indicada?",
+    "options": [
+      "En una temperatura del aire más fría que la estándar.",
+      "En una temperatura del aire más cálida que la estándar.",
+      "Cuando la altitud de densidad es mayor que la altitud indicada."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3257.- ¿Qué es la altitud absoluta?",
+    "options": [
+      "La altitud se lee directamente en el altímetro.",
+      "La distancia vertical de la aeronave sobre la superficie.",
+      "La altura por encima del plano de referencia estándar."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3011.- ¿Cuál proporcionaría la mayor ganancia de altitud en la distancia más corta durante el ascenso después del despegue?",
+    "options": [
+      "VY",
+      "VA",
+      "VX"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3012.1.- Después del despegue, ¿qué velocidad con respecto al aire utilizaría el piloto para ganar la mayor altitud en un período de tiempo determinado?",
+    "options": [
+      "VY",
+      "VX",
+      "VA"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3258.- ¿Qué es la altitud de densidad?",
+    "options": [
+      "La altura por encima del plano de referencia estándar.",
+      "La altitud de presión corregida por temperatura no estándar.",
+      "La altitud se lee directamente en el altímetro."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3259.- ¿Qué es la altitud de presión?",
+    "options": [
+      "La altitud indicada corregida por error de instalación y posición.",
+      "La altitud indicada cuando la escala de presión barométrica se establece en 29,92.",
+      "La altitud indicada corregida por temperatura y presión no estándar."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3260.- ¿En qué condiciones la altitud indicada es igual a la altitud real?",
+    "options": [
+      "Si el altímetro no tiene error mecánico.",
+      "Cuando esté al nivel del mar en condiciones estándar.",
+      "Cuando está a 18,000 pies MSL con el altímetro ajustado a 29.92."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3261.- Si es necesario ajustar el altímetro de 29.15 a 29.85, ¿qué cambio ocurre?",
+    "options": [
+      "Aumento de 70 pies en la altitud indicada.",
+      "Aumento de 70 pies en la altitud de densidad.",
+      "Aumento de 700 pies en la altitud indicada."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3388.- ¿En qué condiciones la altitud de presión será igual a la altitud real?",
+    "options": [
+      "Cuando la presión atmosférica es 29.92\" Hg.",
+      "Cuando existen condiciones atmosféricas estándar.",
+      "Cuando la altitud indicada es igual a la altitud de presión."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3389.- ¿En qué condiciones la altitud de presión y la altitud de densidad tienen el mismo valor?",
+    "options": [
+      "Al nivel del mar, cuando la temperatura es de 0° F.",
+      "Cuando el altímetro no tiene error de instalación.",
+      "A temperatura estándar."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3390.- Si se realiza un vuelo desde un área de baja presión a un área de alta presión sin que se haya ajustado la configuración del altímetro, el altímetro indicará:",
+    "options": [
+      "La altitud real sobre el nivel del mar.",
+      "La altitud más alta que la altitud real sobre el nivel del mar.",
+      "La altitud más baja que la altitud real sobre el nivel del mar."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3391.- Si se realiza un vuelo desde un área de alta presión a un área de menor presión sin que se haya ajustado la configuración del altímetro, el altímetro indicará:",
+    "options": [
+      "Más baja que la altitud real sobre el nivel del mar.",
+      "Más alta que la altitud real sobre el nivel del mar.",
+      "La altitud real sobre el nivel del mar."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3393.- ¿Qué condición haría que el altímetro indique una altitud menor que la altitud real?",
+    "options": [
+      "Temperatura del aire más baja que la estándar.",
+      "Presión atmosférica más baja que la estándar.",
+      "Temperatura del aire más caliente que la estándar."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3250.- (Refiérase a la Figura 3.) El altímetro 1 indica:",
+    "options": [
+      "500 pies.",
+      "1,500 pies.",
+      "10,500 pies."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3251.- (Refiérase a la Figura 3.) El altímetro 2 indica:",
+    "options": [
+      "1,500 pies.",
+      "4, 500 pies.",
+      "14,500 pies."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3252.- (Consulte la Figura 3.) El altímetro 3 indica:",
+    "options": [
+      "9,500 pies.",
+      "10,950 pies.",
+      "15,940 pies."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3253.- (Refiérase a la Figura 3.) ¿Qué altímetro o altímetros indican más de 10,000 pies?",
+    "options": [
+      "1, 2, y 3.",
+      "1 y 2 solamente.",
+      "Únicamente el 1."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3253.1.- (Refiérase a la Figura 82.) ¿El altímetro 3 indica una altitud de crucero VFR para qué dirección?",
+    "options": [
+      "180-359 grados magnético",
+      "179 grados verdadero.",
+      "080 grados magnético."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3387.- Si un piloto cambia el ajuste del altímetro de 30.11 a 29.96, ¿cuál es el cambio aproximado en la indicación?",
+    "options": [
+      "El altímetro indicará 15\" Hg más alta.",
+      "El altímetro indicará 150 pies más alto.",
+      "El altímetro indicará 150 pies más bajo."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3278.- (Refiérase a la Figura 7.) ¿Cómo debe un piloto determinar la dirección de inclinación a partir de un indicador de actitud como el que se muestra en la ilustración?",
+    "options": [
+      "Por la dirección de deflexión de la escala de inclinación (A).",
+      "Por la dirección de deflexión de la barra de horizonte (B).",
+      "Por la relación del avión en miniatura (C) con la barra de horizonte desviada (B)."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3275.- (Refiérase a la Figura 5). Un coordinador de giro proporciona una indicación del:",
+    "options": [
+      "Movimiento de la aeronave sobre el eje de guiñada y alabeo.",
+      "Ángulo de inclinación hasta 30°, pero no superior.",
+      "Actitud de la aeronave con respecto al eje longitudinal."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3277.- (Refiérase a la Figura 7). El ajuste correcto que se debe realizar en el indicador de actitud durante el vuelo nivelado es alinear:",
+    "options": [
+      "Barra de horizonte a la indicación de nivel de vuelo.",
+      "Barra de horizonte al avión en miniatura.",
+      "Avión en miniatura a la barra del horizonte."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3276.- (Refiérase la Figura 6). Para recibir indicaciones precisas durante el vuelo de un indicador de rumbo, el instrumento debe estar:",
+    "options": [
+      "Establecido antes del vuelo en un rumbo conocido.",
+      "Calibrado en una rosa de los vientos a intervalos regulares.",
+      "Periódicamente realineados con la brújula magnética mientras el giróscopo avanza."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3279.- La desviación en una brújula magnética es causada por la:",
+    "options": [
+      "Presencia de fallas en los imanes permanentes de la brújula.",
+      "Diferencia en la ubicación entre el norte verdadero y el norte magnético.",
+      "Campos magnéticos dentro de la aeronave que distorsionan las líneas de fuerza magnética."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3279.1.- La diferencia angular entre el norte verdadero y el norte magnético es:",
+    "options": [
+      "Desviación magnética.",
+      "Variación magnética.",
+      "Error de aceleración de la brújula."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3279.2.- El error de desviación de la brújula magnética es causado por:",
+    "options": [
+      "Un error de giro al norte.",
+      "Ciertos metales y sistemas eléctricos dentro de la aeronave.",
+      "La diferencia en la ubicación del norte verdadero y el norte magnético."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3282.- En el hemisferio norte, una brújula magnética normalmente indicará un giro hacia el norte si:",
+    "options": [
+      "Una aeronave se desacelera mientras está en rumbo este u oeste.",
+      "Se ingresa a un giro a la izquierda desde un rumbo oeste.",
+      "Una aeronave se acelera mientras está en rumbo este u oeste."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3283.- En el hemisferio norte, la brújula magnética normalmente indicará un giro hacia el sur cuando:",
+    "options": [
+      "Se ingresa un giro a la izquierda desde un rumbo este.",
+      "Se ingresa un giro a la derecha desde un rumbo oeste.",
+      "La aeronave se desacelera mientras se dirige hacia el oeste."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3283.1.- ¿Cuál debería ser la indicación en la brújula magnética al girar en un giro de velocidad estándar hacia la derecha desde un rumbo sur en el hemisferio norte?",
+    "options": [
+      "La brújula inicialmente indicará un giro a la izquierda.",
+      "La brújula indicará un giro a la derecha, pero a un ritmo más rápido de lo que realmente está ocurriendo.",
+      "La brújula permanecerá en el sur durante un breve período de tiempo y luego alcanzará gradualmente el rumbo magnético del avión."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3284.- En el hemisferio norte, si una aeronave se acelera o desacelera, la brújula magnética normalmente indicará:",
+    "options": [
+      "Un giro momentáneamente.",
+      "Correctamente cuando se dirige al norte o al sur.",
+      "Un giro hacia el sur."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3280.- En el hemisferio norte, una brújula magnética normalmente indicará inicialmente un giro hacia el oeste si:",
+    "options": [
+      "Se ingresa a un giro a la izquierda desde un rumbo norte.",
+      "Se ingresa un giro a la derecha desde un rumbo norte.",
+      "Un avión se acelera mientras está en rumbo norte."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3281.- En el hemisferio norte, una brújula magnética normalmente indicará inicialmente un giro hacia el este si:",
+    "options": [
+      "Un avión se desacelera mientras se dirige hacia el sur.",
+      "Un avión se acelera mientras está en rumbo norte.",
+      "Se ingresa a un giro a la izquierda desde un rumbo norte."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "INSTRUMENTOS DE VUELO",
+    "question": "3286.- Durante el vuelo, ¿cuándo son precisas las indicaciones de una brújula magnética?",
+    "options": [
+      "Solo en vuelo recto y nivelado sin aceleración.",
+      "Siempre que la velocidad con respecto al aire sea constante.",
+      "Durante los giros si la inclinación no supera los 18°."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3217.- La cantidad de exceso de carga que se puede imponer al ala de un avión depende de la:",
-    "options": ["Posición del CG.", "Velocidad del avión.", "Brusquedad a la que se aplica la carga."],
+    "options": [
+      "Posición del CG.",
+      "Velocidad del avión.",
+      "Brusquedad a la que se aplica la carga."
+    ],
     "answer": 1
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3218.- ¿Qué maniobra de vuelo básica aumenta el factor de carga en un avión en comparación con el vuelo recto y nivelado?",
-    "options": ["Ascensos.", "Virajes.", "Entrar en pérdida."],
+    "options": [
+      "Ascensos.",
+      "Virajes.",
+      "Entrar en pérdida."
+    ],
     "answer": 1
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3301.- ¿Qué fuerza hace girar un avión?",
-    "options": ["El componente horizontal de la sustentación.", "El componente horizontal de la sustentación.", "La fuerza centrífuga."],
+    "options": [
+      "El componente horizontal de la sustentación.",
+      "El componente horizontal de la sustentación.",
+      "La fuerza centrífuga."
+    ],
     "answer": 0
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3316.- Durante una aproximación a una entrada a pérdida, un factor de carga incrementado hará que el avión:",
-    "options": ["Entre en perdida a una velocidad aérea más alta.", "Tenga tendencia a girar.", "Sea más difícil de controlar."],
+    "options": [
+      "Entre en perdida a una velocidad aérea más alta.",
+      "Tenga tendencia a girar.",
+      "Sea más difícil de controlar."
+    ],
     "answer": 0
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3202.1.- Seleccione los cuatro fundamentos de vuelo que intervienen en la maniobra de una aeronave:",
-    "options": ["Potencia, cabeceo, inclinación y compensación de la aeronave.", "Arranque, rodaje, despegue y aterrizaje.", "Vuelo recto y nivelado, giros, ascensos y descensos."],
+    "options": [
+      "Potencia, cabeceo, inclinación y compensación de la aeronave.",
+      "Arranque, rodaje, despegue y aterrizaje.",
+      "Vuelo recto y nivelado, giros, ascensos y descensos."
+    ],
     "answer": 2
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3202.2.- (Refiérase a la figura 62.) Al volar en rumbo rectangular, ¿cuándo giraría la aeronave menos de 90°?",
-    "options": ["Esquinas 1 y 4.", "Esquinas 1 y 2.", "Esquinas 2 y 4."],
+    "options": [
+      "Esquinas 1 y 4.",
+      "Esquinas 1 y 2.",
+      "Esquinas 2 y 4."
+    ],
     "answer": 0
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3202.3.- (Refiérase a la figura 66.) Mientras se practica giros en S, se hace un semicírculo consistentemente más pequeño en un lado de la ruta que en el otro, y este giro no se completa antes de cruzar la ruta o la línea de referencia. Lo más probable es que esto ocurra a su vez:",
-    "options": ["1-2-3 porque la inclinación se reduce demasiado rápido durante la última parte del giro.", "4-5-6 porque la inclinación se incrementa demasiado rápido durante la primera parte del giro.", "4-5-6 porque la inclinación se incrementa demasiado lento durante la última parte del giro."],
+    "options": [
+      "1-2-3 porque la inclinación se reduce demasiado rápido durante la última parte del giro.",
+      "4-5-6 porque la inclinación se incrementa demasiado rápido durante la primera parte del giro.",
+      "4-5-6 porque la inclinación se incrementa demasiado lento durante la última parte del giro."
+    ],
     "answer": 1
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3202.4.- Si una situación de emergencia requiere un aterrizaje a favor del viento, los pilotos deben esperar una:",
-    "options": ["Velocidad del aire en el momento del aterrizaje, un rodamiento más largo en el terreno y un mejor control durante todo el recorrido del aterrizaje.", "Velocidad en tierra en el momento del aterrizaje, un rodamiento más largo en el terreno y la probabilidad de sobrepasar el punto de aterrizaje deseado.", "Velocidad en tierra en el momento del aterrizaje, un rodamiento más corto en el terreno y la probabilidad de no alcanzar el punto de aterrizaje deseado."],
+    "options": [
+      "Velocidad del aire en el momento del aterrizaje, un rodamiento más largo en el terreno y un mejor control durante todo el recorrido del aterrizaje.",
+      "Velocidad en tierra en el momento del aterrizaje, un rodamiento más largo en el terreno y la probabilidad de sobrepasar el punto de aterrizaje deseado.",
+      "Velocidad en tierra en el momento del aterrizaje, un rodamiento más corto en el terreno y la probabilidad de no alcanzar el punto de aterrizaje deseado."
+    ],
     "answer": 1
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3202.5.- Al ejecutar una aproximación de emergencia para aterrizar en un avión monomotor, es importante mantener una velocidad de planeo constante porque las variaciones en la velocidad de planeo:",
-    "options": ["Aumentan las posibilidades de que el motor se enfríe.", "Aseguran que se mantenga el ángulo de descenso adecuado hasta que entre en la llamarada.", "Anula todos los intentos de precisión en el juicio de distancia de planeo y el punto de aterrizaje."],
+    "options": [
+      "Aumentan las posibilidades de que el motor se enfríe.",
+      "Aseguran que se mantenga el ángulo de descenso adecuado hasta que entre en la llamarada.",
+      "Anula todos los intentos de precisión en el juicio de distancia de planeo y el punto de aterrizaje."
+    ],
     "answer": 2
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3263.- A medida que aumenta la altitud, la velocidad indicada a la que un avión dado se detiene en una configuración particular:",
-    "options": ["Disminuye a medida que disminuye la velocidad verdadera.", "Disminuye a medida que aumenta la velocidad verdadera.", "Sigue siendo la misma independientemente de la altitud."],
+    "options": [
+      "Disminuye a medida que disminuye la velocidad verdadera.",
+      "Disminuye a medida que aumenta la velocidad verdadera.",
+      "Sigue siendo la misma independientemente de la altitud."
+    ],
     "answer": 2
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3309.- ¿En qué condiciones de vuelo debe colocarse una aeronave para girar?",
-    "options": ["Parcialmente en pérdida con un ala baja.", "En una espiral empinada en picada.", "En pérdida."],
+    "options": [
+      "Parcialmente en pérdida con un ala baja.",
+      "En una espiral empinada en picada.",
+      "En pérdida."
+    ],
     "answer": 2
   },
   {
-    "category": "Aerodinámica Básica",
-    "question": "3310.- Durante un giro hacia la izquierda, ¿qué ala(s) entran en pérdida?",
-    "options": ["Ambas alas entran en pérdida.", "Ninguna ala alas entra en pérdida.", "Solo el ala izquierda entra en pérdida."],
-    "answer": 0
-  },
-  {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3311.- El ángulo de ataque en el que el ala de un avión entra en pérdida:",
-    "options": ["Aumentará si el CG se mueve hacia adelante.", "Cambiará con un aumento en el peso bruto.", "Sigue siendo la misma independientemente del peso bruto."],
+    "options": [
+      "Aumentará si el CG se mueve hacia adelante.",
+      "Cambiará con un aumento en el peso bruto.",
+      "Sigue siendo la misma independientemente del peso bruto."
+    ],
     "answer": 2
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3219.- Una de las principales funciones de los flaps durante la aproximación y el aterrizaje es:",
-    "options": ["Disminuir el ángulo de descenso sin aumentar la velocidad del aire.", "Permitir un aterrizaje a una mayor velocidad indicada.", "Incrementar el ángulo de descenso sin incrementar la velocidad del aire."],
+    "options": [
+      "Disminuir el ángulo de descenso sin aumentar la velocidad del aire.",
+      "Permitir un aterrizaje a una mayor velocidad indicada.",
+      "Incrementar el ángulo de descenso sin incrementar la velocidad del aire."
+    ],
     "answer": 2
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3220.- ¿Cuál es uno de los propósitos de los flaps?",
-    "options": ["Permitir al piloto realizar aproximaciones más pronunciadas a un aterrizaje sin aumentar la velocidad del aire.", "Para aliviar al piloto de mantener una presión continua sobre los controles.", "Disminuir el área del ala para variar la sustentación."],
+    "options": [
+      "Permitir al piloto realizar aproximaciones más pronunciadas a un aterrizaje sin aumentar la velocidad del aire.",
+      "Para aliviar al piloto de mantener una presión continua sobre los controles.",
+      "Disminuir el área del ala para variar la sustentación."
+    ],
     "answer": 0
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3315.- ¿En qué problema es más probable que se produzca el efecto suelo?",
-    "options": ["Asentamiento en la superficie abruptamente durante el aterrizaje.", "Estar en vuelo antes de alcanzar la velocidad de despegue recomendada.", "Incapacidad para despegar a pesar de que la velocidad es suficiente para las necesidades normales de despegue."],
+    "options": [
+      "Asentamiento en la superficie abruptamente durante el aterrizaje.",
+      "Estar en vuelo antes de alcanzar la velocidad de despegue recomendada.",
+      "Incapacidad para despegar a pesar de que la velocidad es suficiente para las necesidades normales de despegue."
+    ],
     "answer": 1
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3312.- ¿Qué es el efecto suelo?",
-    "options": ["El resultado de la interferencia de la superficie de la tierra con los patrones de flujo de aire alrededor de un avión.", "El resultado de una alteración en los patrones de flujo de aire que aumenta la resistencia inducida en las alas de un avión.", "El resultado de la interrupción de los patrones de flujo de aire alrededor de las alas de un avión hasta el punto en que las alas ya no soportarán al avión en vuelo."],
+    "options": [
+      "El resultado de la interferencia de la superficie de la tierra con los patrones de flujo de aire alrededor de un avión.",
+      "El resultado de una alteración en los patrones de flujo de aire que aumenta la resistencia inducida en las alas de un avión",
+      "El resultado de la interrupción de los patrones de flujo de aire alrededor de las alas de un avión hasta el punto en que las alas ya no soportarán al avión en vuelo."
+    ],
     "answer": 0
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3313.- La flotación causada por el fenómeno del efecto suelo será más evidente durante una aproximación a tierra cuando:",
-    "options": ["Menos que la longitud de la envergadura sobre la superficie.", "El doble de la longitud de la envergadura sobre la superficie.", "Un ángulo de ataque más alto de lo normal."],
+    "options": [
+      "Menos que la longitud de la envergadura sobre la superficie.",
+      "El doble de la longitud de la envergadura sobre la superficie.",
+      "Un ángulo de ataque más alto de lo normal."
+    ],
     "answer": 0
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3314.- ¿De qué debe ser consciente un piloto como resultado del efecto suelo?",
-    "options": ["Vórtices en la punta de las alas que crean problemas de estela turbulenta para las aeronaves que llegan y salen.", "La resistencia inducida disminuye: por lo tanto, cualquier exceso de velocidad en el punto de llamarada puede causar una considerable flotación.", "Un aterrizaje de pérdida completa requerirá menos deflexión hacia arriba del elevador que una pérdida completa cuando se realiza sin el efecto del suelo."],
+    "options": [
+      "Vórtices en la punta de las alas que crean problemas de estela turbulenta para las aeronaves que llegan y salen",
+      "La resistencia inducida disminuye: por lo tanto, cualquier exceso de velocidad en el punto de llamarada puede causar una considerable flotación.",
+      "Un aterrizaje de pérdida completa requerirá menos deflexión hacia arriba del elevador que una pérdida completa cuando se realiza sin el efecto del suelo."
+    ],
     "answer": 1
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3829.2.- Al aterrizar detrás de una aeronave grande, ¿qué procedimiento se debe seguir para evitar vórtices?",
-    "options": ["Mantenerse por encima de su trayectoria de vuelo de aproximación final hasta el aterrizaje.", "Mantenerse debajo y a un lado de su trayectoria de vuelo de aproximación final.", "Mantenerse muy por debajo de su trayectoria de vuelo de aproximación final y aterrizar al menos a 2,000 pies detrás."],
+    "options": [
+      "Mantenerse por encima de su trayectoria de vuelo de aproximación final hasta el aterrizaje.",
+      "Mantenerse debajo y a un lado de su trayectoria de vuelo de aproximación final.",
+      "Mantenerse muy por debajo de su trayectoria de vuelo de aproximación final y aterrizar al menos a 2,000 pies detrás."
+    ],
     "answer": 0
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3824.- Los vórtices de las puntas de las alas se crean solo cuando se:",
-    "options": ["Opera a alta velocidad.", "Tiene el avión muy cargado.", "Genera sustentación."],
+    "options": [
+      "Opera a alta velocidad.",
+      "Tiene el avión muy cargado.",
+      "Genera sustentación."
+    ],
     "answer": 2
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3825.- La mayor fuerza de vórtice ocurre cuando la aeronave generadora está:",
-    "options": ["Ligero, sucio y rápido.", "Pesado, sucio y rápido.", "Pesado, limpio y lento."],
+    "options": [
+      "Ligero, sucio y rápido.",
+      "Pesado, sucio y rápido.",
+      "Pesado, limpio y lento."
+    ],
     "answer": 2
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3826.- Los vórtices de punta de ala creados por aviones grandes tienden a:",
-    "options": ["Hundirse debajo de la aeronave generando turbulencias.", "Aumentar el patrón de tráfico.", "Aumentar a la trayectoria de despegue o aterrizaje de una pista de cruce."],
+    "options": [
+      "Hundirse debajo de la aeronave generando turbulencias.",
+      "Aumentar el patrón de tráfico.",
+      "Aumentar a la trayectoria de despegue o aterrizaje de una pista de cruce."
+    ],
     "answer": 0
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3828.- La condición del viento que requiere la máxima precaución para evitar la estela turbulenta al aterrizar es una:",
-    "options": ["Ligero viento de frente.", "Ligero viento de cola.", "Fuerte viento de frente."],
+    "options": [
+      "Ligero viento de frente.",
+      "Ligero viento de cola.",
+      "Fuerte viento de frente."
+    ],
     "answer": 1
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3829.- Al aterrizar detrás de un avión grande, el piloto debe evitar la estela turbulenta manteniéndose:",
-    "options": ["Por encima de la trayectoria de aproximación final del avión grande y aterrizando más allá del punto de toma de contacto del avión grande.", "Debajo de la trayectoria de aproximación final del avión grande y aterrizando antes del punto de toma de contacto del avión grande.", "Por encima de la trayectoria de aproximación final del avión grande y aterrizando antes del punto de toma de contacto del avión grande."],
+    "options": [
+      "Por encima de la trayectoria de aproximación final del avión grande y aterrizando más allá del punto de toma de contacto del avión grande.",
+      "Debajo de la trayectoria de aproximación final del avión grande y aterrizando antes del punto de toma de contacto del avión grande.",
+      "Por encima de la trayectoria de aproximación final del avión grande y aterrizando antes del punto de toma de contacto del avión grande."
+    ],
     "answer": 0
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3830.- Al salir detrás de un avión pesado, el piloto debe evitar la estela turbulenta maniobrando el avión:",
-    "options": ["Debajo y a favor del viento del avión pesado.", "Sobre y en contra del viento del avión pesado.", "Debajo y en contra del viento del avión pesado."],
+    "options": [
+      "Debajo y a favor del viento del avión pesado.",
+      "Sobre y en contra del viento del avión pesado.",
+      "Debajo y en contra del viento del avión pesado."
+    ],
     "answer": 1
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3829.3.- ¿Cómo circula el vórtice de estela turbulenta alrededor de cada punta de ala?",
-    "options": ["Hacia adentro, hacia arriba y alrededor de cada punta.", "Hacia adentro, hacia arriba y en sentido anti horario.", "Hacia afuera, hacia arriba y alrededor de cada punta."],
+    "options": [
+      "Hacia adentro, hacia arriba y alrededor de cada punta.",
+      "Hacia adentro, hacia arriba y en sentido anti horario.",
+      "Hacia afuera, hacia arriba y alrededor de cada punta."
+    ],
     "answer": 2
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3827.- Al despegar o aterrizar en un aeropuerto donde operan aviones pesados, se debe estar particularmente alerta a los peligros de los vórtices en la punta de las alas porque esta turbulencia tiende a:",
-    "options": ["Ascender desde una pista de cruce hacia la ruta de despegue o aterrizaje.", "Incrementar al área del patrón de tráfico que rodea el aeropuerto.", "Hundirse dentro de la senda de vuelo de la aeronave que opera debajo de la aeronave que genera la turbulencia."],
+    "options": [
+      "Ascender desde una pista de cruce hacia la ruta de despegue o aterrizaje.",
+      "Incrementar al área del patrón de tráfico que rodea el aeropuerto.",
+      "Hundirse dentro de la senda de vuelo de la aeronave que opera debajo de la aeronave que genera la turbulencia."
+    ],
     "answer": 2
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3203.- (Refiérase a la Figura 1). El ángulo agudo A es el ángulo de:",
-    "options": ["Incidencia.", "Ataque.", "Diedro."],
+    "options": [
+      "Incidencia.",
+      "Ataque.",
+      "Diedro."
+    ],
     "answer": 1
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3204.- El término 'ángulo de ataque' se define como el ángulo:",
-    "options": ["Entre la línea de la cuerda del ala y el viento relativo.", "Entre el ángulo de ascenso del avión y el horizonte.", "Formado por el eje longitudinal del avión y la línea de cuerda del ala."],
+    "options": [
+      "Entre la línea de la cuerda del ala y el viento relativo.",
+      "Entre el ángulo de ascenso del avión y el horizonte.",
+      "Formado por el eje longitudinal del avión y la línea de cuerda del ala."
+    ],
     "answer": 0
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3204.1.- El ángulo entre la línea de cuerda de un perfil aerodinámico y el viento relativo se conoce como el ángulo de:",
-    "options": ["Sustentación.", "Ataque.", "Incidencia."],
+    "options": [
+      "Sustentación.",
+      "Ataque.",
+      "Incidencia."
+    ],
     "answer": 1
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3317.- El término \"ángulo de ataque\" se define como el ángulo entre:",
-    "options": ["La cuerda del ala y el viento relativo.", "El eje longitudinal del avión y el del aire que golpea el perfil aerodinámico.", "La línea central del avión y el viento relativo."],
+    "options": [
+      "La cuerda del ala y el viento relativo.",
+      "El eje longitudinal del avión y el del aire que golpea el perfil aerodinámico.",
+      "La línea central del avión y el viento relativo."
+    ],
     "answer": 0
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3201.01.- ¿Qué enunciado se relaciona con el principio de Bernoulli?",
-    "options": ["Por cada acción hay una reacción igual y opuesta.", "Se genera una fuerza adicional hacia arriba cuando la superficie inferior del ala desvía el aire.", "El aire viaja más rápido sobre la superficie superior curva de un perfil aerodinámico reduciendo la presión en la superficie superior."],
+    "options": [
+      "Por cada acción hay una reacción igual y opuesta.",
+      "Se genera una fuerza adicional hacia arriba cuando la superficie inferior del ala desvía el aire",
+      "El aire viaja más rápido sobre la superficie superior curva de un perfil aerodinámico reduciendo la presión en la superficie superior."
+    ],
     "answer": 2
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3201.- Las cuatro fuerzas que actúan sobre un avión en vuelo son:",
-    "options": ["Sustentación, peso, empuje, resistencia.", "Sustentación, peso, gravedad, empuje.", "Sustentación, gravedad, potencia y fricción."],
+    "options": [
+      "Sustentación, peso, empuje, resistencia.",
+      "Sustentación, peso, gravedad, empuje.",
+      "Sustentación, gravedad, potencia y fricción."
+    ],
     "answer": 0
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3213.- ¿Cuál es el propósito del timón de un avión?",
-    "options": ["Controlar la guiñada.", "Controlar la tendencia la sobre inclinación.", "Controlar el alabeo."],
+    "options": [
+      "Controlar la guiñada.",
+      "Controlar la tendencia la sobre inclinación.",
+      "Controlar el alabeo."
+    ],
     "answer": 0
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3205.- ¿Cuál es la relación de sustentación, resistencia, empuje y peso cuando el avión está en vuelo recto y nivelado?",
-    "options": ["La sustentación es igual al peso y el empuje es igual a la resistencia.", "La sustentación, la resistencia y el peso es igual empuje.", "La sustentación y el peso son iguales en empuje y a la resistencia."],
+    "options": [
+      "La sustentación es igual al peso y el empuje es igual a la resistencia.",
+      "La sustentación, la resistencia y el peso es igual empuje.",
+      "La sustentación y el peso son iguales en empuje y a la resistencia."
+    ],
     "answer": 0
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3202.- ¿Cuándo están en equilibrio las cuatro fuerzas que actúan sobre un avión?",
-    "options": ["Durante un vuelo no acelerado.", "Cuando la aeronave acelera.", "Cuando la aeronave está en reposo en tierra."],
+    "options": [
+      "Durante un vuelo no acelerado.",
+      "Cuando la aeronave acelera.",
+      "Cuando la aeronave está en reposo en tierra."
+    ],
     "answer": 0
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3210.- Un avión que se dice que es inherentemente estable:",
-    "options": ["Será difícil que entre en pérdida.", "Requiere menos esfuerzo para controlarlo.", "No gira."],
+    "options": [
+      "Será difícil que entre en pérdida.",
+      "Requiere menos esfuerzo para controlarlo.",
+      "No gira."
+    ],
     "answer": 1
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3211.- ¿Qué determina la estabilidad longitudinal de un avión?",
-    "options": ["La ubicación del centro de gravedad con respecto al centro de sustentación.", "La efectividad del estabilizador horizontal, el timón y la pestaña de ajuste del timón.", "La relación de empuje y sustentación con peso y resistencia."],
+    "options": [
+      "La ubicación del centro de gravedad con respecto al centro de sustentación.",
+      "La efectividad del estabilizador horizontal, el timón y la pestaña de ajuste del timón.",
+      "La relación de empuje y sustentación con peso y resistencia."
+    ],
     "answer": 0
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3212.- ¿Qué hace que un avión (excepto una cola en T) se incline hacia abajo cuando se reduce la potencia y los controles no están ajustados?",
-    "options": ["El CG se desplaza hacia adelante cuando se reduce el empuje y la resistencia.", "Se reduce la corriente descendente en los elevadores de la corriente de deslizamiento de la hélice y se reduce la eficacia del elevador.", "Cuando el empuje se reduce a menos que el peso, la sustentación también se reduce y las alas ya no pueden soportar el peso."],
+    "options": [
+      "El CG se desplaza hacia adelante cuando se reduce el empuje y la resistencia.",
+      "Se reduce la corriente descendente en los elevadores de la corriente de deslizamiento de la hélice y se reduce la eficacia del elevador.",
+      "Cuando el empuje se reduce a menos que el peso, la sustentación también se reduce y las alas ya no pueden soportar el peso."
+    ],
     "answer": 1
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3287.- Se ha cargado un avión de tal manera que el CG está ubicado detrás del límite posterior del CG. Una característica de vuelo indeseable que un piloto podría experimentar con este avión sería:",
-    "options": ["Una carrera de despegue más larga.", "Dificultad para recuperarse de una condición de entrada en pérdida.", "Entrada en pérdida a una velocidad aérea superior a la normal."],
+    "options": [
+      "Una carrera de despegue más larga.",
+      "Dificultad para recuperarse de una condición de entrada en pérdida.",
+      "Entrada en pérdida a una velocidad aérea superior a la normal."
+    ],
     "answer": 1
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3288.- Cargar un avión en el CG más hacia el límite posterior hará que el avión sea:",
-    "options": ["Menos estable a todas las velocidades.", "Menos estable a bajas velocidades, pero más estable a altas velocidades.", "Menos estable a altas velocidades, pero más estable a bajas velocidades."],
+    "options": [
+      "Menos estable a todas las velocidades.",
+      "Menos estable a bajas velocidades, pero más estable a altas velocidades.",
+      "Menos estable a altas velocidades, pero más estable a bajas velocidades"
+    ],
     "answer": 0
   },
   {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3211.1.- Los cambios en el centro de presión de un ala afectan a la:",
-    "options": ["Relación sustentación / resistencia.", "Capacidad de sustentación.", "Equilibrio aerodinámico y controlabilidad."],
+    "options": [
+      "Relación sustentación / resistencia.",
+      "Capacidad de sustentación.",
+      "Equilibrio aerodinámico y controlabilidad."
+    ],
     "answer": 2
   },
   {
-    "category": "Aerodinámica Básica",
-    "question": "3214.- (Refiérase a la Figura 2). Si un avión pesa 2,300 libras, ¿qué peso aproximado podría soportar la estructura del avión durante un viraje inclinado de 60° mientras se mantiene la altitud?",
-    "options": ["2,300 libras.", "3,400 libras.", "4,600 libras."],
-    "answer": 2
-  },
-  {
-    "category": "Aerodinámica Básica",
-    "question": "3215.- (Refiérase la Figura 2). Si un avión pesa 3,300 libras, ¿qué peso aproximado debería soportar la estructura del avión durante un viraje inclinado de 30° mientras se mantiene la altitud?",
-    "options": ["1,200 libras.", "3,100 libras.", "3,960 libras."],
-    "answer": 2
-  },
-  {
-    "category": "Aerodinámica Básica",
+    "category": "AERODINÁMICA BÁSICA",
     "question": "3216.- (Refiérase a la Figura 2.) Si un avión pesa 4,500 libras, ¿qué peso aproximado debería soportar la estructura del avión durante un viraje inclinado de 45° mientras se mantiene la altitud?",
-    "options": ["4,500 libras.", "6,750 libras.", "7,200 libras."],
+    "options": [
+      "4,500 libras.",
+      "6,750 libras.",
+      "7,200 libras."
+    ],
     "answer": 1
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3400.- ¿Cuáles son los procesos mediante los cuales se agrega humedad al aire insaturado?",
+    "options": [
+      "Evaporación y sublimación.",
+      "Calefacción y condensación.",
+      "Sobresaturación y evaporación."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3444.- Si la dispersión de temperatura / punto de rocío es pequeña y está disminuyendo, y la temperatura es de 62° F, ¿qué tipo de clima es más probable que se desarrolle?",
+    "options": [
+      "Precipitación helada.",
+      "Tormentas.",
+      "Niebla o nubes bajas."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3422.- Una de las discontinuidades más fáciles de reconocer en un frente es:",
+    "options": [
+      "Un cambio de temperatura.",
+      "Un aumento en la cobertura de nubes.",
+      "Un aumento de la humedad relativa."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3423.- Un fenómeno meteorológico que siempre ocurrirá cuando se vuela a través de un frente es un cambio en el:",
+    "options": [
+      "Dirección del viento.",
+      "Tipo de precipitación.",
+      "Estabilidad de la masa de aire."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3385.- ¿Qué condiciones climáticas se deben esperar debajo de una capa de inversión de temperatura de bajo nivel cuando la humedad relativa es alta?",
+    "options": [
+      "Aire suave, mala visibilidad, niebla, neblina o nubes bajas.",
+      "Cizalladura leve del viento, mala visibilidad, neblina y lluvia ligera.",
+      "Aire turbulento, mala visibilidad, niebla, nubes de tipo estrato bajo y precipitaciones con chubascos."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3403.- ¿Qué medida se puede utilizar para determinar la estabilidad de la atmósfera?",
+    "options": [
+      "Presión atmosférica.",
+      "Tasa de caída real.",
+      "Temperatura de la superficie."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3404.- ¿Qué disminuiría la estabilidad de una masa de aire?",
+    "options": [
+      "Calentamiento desde abajo.",
+      "Refrigeración desde abajo.",
+      "Disminución del vapor de agua."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3405.- ¿Cuál es una característica del aire estable?",
+    "options": [
+      "Nubes estratiformes.",
+      "Visibilidad ilimitada.",
+      "Nubes cúmulos."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3408.- ¿Qué característica está asociada con una inversión de temperatura?",
+    "options": [
+      "Una capa de aire estable.",
+      "Una capa de aire inestable.",
+      "Vientos Chinook en las laderas de las montañas."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3412.- ¿Cuáles son las características de una masa de aire húmeda e inestable?",
+    "options": [
+      "Nubes cumuliformes y precipitación lluviosa.",
+      "Mala visibilidad y aire suave.",
+      "Nubes estratiformes y precipitación lluviosa."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3413.- ¿Cuáles son las características del aire inestable?",
+    "options": [
+      "Turbulencia y buena visibilidad en superficie.",
+      "Turbulencia y mala visibilidad de la superficie.",
+      "Nubes nimbostratus y buena visibilidad en superficie."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3414.- ¿Qué característica es más probable que tenga una masa de aire estable?",
+    "options": [
+      "Precipitación lluviosa.",
+      "Aire turbulento.",
+      "Mala visibilidad de la superficie."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3406.- Cuando el aire caliente, húmedo y estable fluye cuesta arriba se:",
+    "options": [
+      "Produce nubes de tipo estratos.",
+      "Provoca lluvias y tormentas eléctricas.",
+      "Desarrolla turbulencia convectiva."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3407.- Si una masa de aire inestable se fuerza hacia arriba, ¿qué tipo de nubes se pueden esperar?",
+    "options": [
+      "Nubes estratos con poco desarrollo vertical.",
+      "Nubes estratos con considerable turbulencia asociada.",
+      "Nubes con considerable desarrollo vertical y turbulencia asociada."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3424.- La precipitación constante que precede a un frente es una indicación de:",
+    "options": [
+      "Nubes estratiformes con turbulencia moderada.",
+      "Nubes cumuliformes con poca o ninguna turbulencia.",
+      "Nubes estratiformes con poca o ninguna turbulencia."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3433.- Las condiciones necesarias para la formación de nubes cumulonimbus son una acción de elevación y:",
+    "options": [
+      "Aire inestable que contiene un exceso de núcleos de condensación.",
+      "Aire húmedo e inestable.",
+      "Aire estable o inestable."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3409.- ¿Cuál es la base aproximada de los cúmulos si la temperatura del aire en la superficie a 1,000 pies MSL es 70° F y el punto de rocío es 48° F?",
+    "options": [
+      "4000 pies MSL.",
+      "5,000 pies MSL.",
+      "6,000 pies MSL."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3410.- ¿Aproximadamente a qué altitud sobre la superficie esperaría el piloto la base de las nubes cumuliformes si la temperatura del aire en la superficie es de 82 ° F y el punto de rocío es de 38 ° F?",
+    "options": [
+      "9.000 pies AGL.",
+      "10,000 pies AGL.",
+      "11.000 pies AGL."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3415.- El sufijo ³nimbus´\u000f\u0003usado para nombrar nubes, significa:",
+    "options": [
+      "Una nube con un extenso desarrollo vertical.",
+      "Una nube de lluvia.",
+      "Una nube media que contiene gránulos de hielo."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3416.- Las nubes se dividen en cuatro familias según su:",
+    "options": [
+      "Forma exterior.",
+      "Rango de altura.",
+      "Composición."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3419.- ¿Qué nubes tienen la mayor turbulencia?",
+    "options": [
+      "Cúmulos imponentes.",
+      "Cumulonimbus",
+      "Nimboestrato."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3417.- Una nube en forma de almendra o lente que parece estacionaria, pero que puede contener vientos de 50 nudos o más, se denomina:",
+    "options": [
+      "Una nube frontal inactiva.",
+      "Una nube de embudo.",
+      "Una nube lenticular."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3418.- Las crestas de las ondas montañosas estacionarias pueden estar marcadas por nubes estacionarias en forma de lente conocidas como",
+    "options": [
+      "Nubes de mammatocúmulos.",
+      "Nubes lenticulares estacionarias.",
+      "Enrollar nubes."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3420.- ¿Qué tipos de nubes indicarían turbulencia convectiva?",
+    "options": [
+      "Cirros.",
+      "Nubes Nimbostratus.",
+      "Cúmulos elevados."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3425.- Se pueden anticipar posibles turbulencias de olas de montaña cuando soplan vientos de 40 nudos o más:",
+    "options": [
+      "A través de la cresta de una montaña, y el aire es estable.",
+      "Por un valle de montaña, y el aire es inestable.",
+      "Paralelo a la cima de una montaña, y el aire es estable."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3442.- Al encontrarse con turbulencias severas, ¿qué condición de vuelo debería intentar mantener el piloto?",
+    "options": [
+      "Altitud y velocidad aerodinámica constantes.",
+      "Ángulo de ataque constante.",
+      "Actitud de vuelo nivelado."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3434.- ¿Qué característica se asocia normalmente con la etapa de cúmulos de una tormenta eléctrica?",
+    "options": [
+      "Rollo de nube.",
+      "Corriente ascendente continua.",
+      "Rayos frecuentes."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3435.- ¿Qué fenómeno meteorológico señala el comienzo de la etapa madura de una tormenta eléctrica?",
+    "options": [
+      "La apariencia de una tapa de yunque.",
+      "Las precipitaciones comienzan a caer.",
+      "Tasa máxima de crecimiento de las nubes."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3436.- ¿Qué condiciones son necesarias para la formación de tormentas eléctricas?",
+    "options": [
+      "Alta humedad, fuerza de elevación y condiciones inestables.",
+      "Humedad elevada, temperatura elevada y cúmulos.",
+      "Fuerza de elevación, aire húmedo y una extensa capa de nubes."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3437.- Durante el ciclo de vida de una tormenta, ¿qué etapa se caracteriza predominantemente por corrientes descendentes?",
+    "options": [
+      "Cúmulo.",
+      "Disipando.",
+      "Maduro."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3438.- Las tormentas eléctricas alcanzan su mayor intensidad durante la:",
+    "options": [
+      "Etapa de madurez.",
+      "Etapa de corriente descendente.",
+      "Etapa de cúmulo."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3439.- Las tormentas eléctricas que generalmente producen el peligro más intenso para las aeronaves son:",
+    "options": [
+      "Tormentas eléctricas de línea de turbonada.",
+      "Tormentas eléctricas de estado estacionario.",
+      "Tormentas de frente cálido."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3521.- La etapa madura de una tormenta comienza con:",
+    "options": [
+      "Formación de la parte superior del yunque.",
+      "El inicio de la precipitación.",
+      "Corrientes descendentes continuas."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3440.- Una banda estrecha y no frontal de tormentas eléctricas activas que a menudo se desarrollan antes de un frente frío se conoce como",
+    "options": [
+      "sistema prefrontal.",
+      "Línea de turbonada.",
+      "Línea seca."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3441.- Si hay actividad de tormenta eléctrica en las cercanías de un aeropuerto en el que planea aterrizar, ¿qué fenómeno atmosférico peligroso podría esperarse en la aproximación del aterrizaje?",
+    "options": [
+      "Precipitación estática.",
+      "Turbulencia de cizalladura del viento.",
+      "Lluvia constante."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3452.- ¿Qué fenómeno meteorológico siempre está asociado con una tormenta eléctrica?",
+    "options": [
+      "Relámpago.",
+      "Lluvia Pesada.",
+      "Granizo."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3426.- ¿Dónde ocurre la cizalladura del viento?",
+    "options": [
+      "Solo en altitudes más elevadas.",
+      "Solo en altitudes más bajas.",
+      "A todas las alturas, en todas direcciones."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3427.- ¿Cuándo se puede esperar una cizalladura peligrosa del viento?",
+    "options": [
+      "Cuando el aire estable atraviesa una barrera montañosa donde tiende a fluir en capas formando nubes lenticulares.",
+      "En áreas de inversión de temperatura de bajo nivel, zonas frontales y turbulencias de aire despejado.",
+      "Después del paso frontal cuando se forman nubes de estratocúmulos, lo que indica una mezcla mecánica."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3428.- Un piloto puede esperar una zona de cizalladura del viento en una inversión de temperatura siempre que la velocidad del viento 2,000 a 4,000 pies sobre la superficie sea al menos:",
+    "options": [
+      "10 nudos.",
+      "15 nudos.",
+      "25 nudos."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3402.- La presencia de gránulos de hielo en la superficie es evidencia de que",
+    "options": [
+      "Hay tormentas eléctricas en la zona.",
+      "Ha sido paso frontal frio.",
+      "Es una inversión de temperatura con lluvia helada a mayor altitud."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3429.- Una condición en vuelo necesaria para que se forme la formación de hielo estructural es:",
+    "options": [
+      "Pequeña dispersión de temperatura / punto de rocío.",
+      "Nubes estratiformes.",
+      "Humedad visible."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3430.- ¿En qué entorno es más probable que el hielo estructural de las aeronaves tenga la tasa de acumulación más alta?",
+    "options": [
+      "Cúmulos con temperaturas bajo cero.",
+      "Llovizna congelante.",
+      "Lluvia congelante."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3956.- Durante un vuelo a campo traviesa, recogió escarcha que estima que tiene un grosor de 1/2\" en el borde de ataque de las alas. Ahora se encuentra debajo de las nubes a 2000 pies AGL y se está acercando al aeropuerto de destino en VFR. La visibilidad debajo de las nubes es más de 10 millas, los vientos en el aeropuerto de destino son de 8 nudos en la pista y la temperatura de la superficie es de 3 grados Celsius, usted decide:",
+    "options": [
+      "Utilizar una velocidad de aproximación y aterrizaje más rápida de lo normal.",
+      "Acérquese y aterrice a su velocidad normal, ya que el hielo no es lo suficientemente grueso como para tener un efecto notable.",
+      "Volar su aproximación más lento de lo normal para disminuir el efecto de 'sensación térmica' y romper el hielo"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3443.- ¿Qué situación es más propicia para la formación de niebla de radiación?",
+    "options": [
+      "Aire cálido y húmedo sobre áreas bajas y planas en noches despejadas y tranquilas.",
+      "Aire húmedo tropical que se mueve sobre aguas frías de alta mar.",
+      "El movimiento del aire frío sobre agua mucho más caliente."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3445.- ¿En qué situación es más probable que se forme la niebla de advección?",
+    "options": [
+      "Una masa de aire cálido y húmedo en el lado de barlovento de las montañas.",
+      "Una masa de aire que se mueve tierra adentro desde la costa en invierno.",
+      "Una ligera brisa soplando aire más frío hacia el mar."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3446.- ¿Qué tipos de niebla dependen del viento para existir?",
+    "options": [
+      "Niebla de radiación y niebla helada",
+      "Niebla de vapor y niebla terrestre.",
+      "Niebla de advección y niebla de pendiente ascendente."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3447.- ¿En qué tipo de niebla se pueden producir turbulencias de bajo nivel y la formación de hielo puede volverse peligrosa?",
+    "options": [
+      "Niebla inducida por la lluvia.",
+      "Niebla cuesta arriba.",
+      "Niebla de vapor."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3401.- ¿Qué condiciones provocan la formación de escarcha?",
+    "options": [
+      "La temperatura de la superficie de recogida es igual o inferior a cero cuando pequeñas gotas de humedad caen sobre la superficie.",
+      "La temperatura de la superficie colectora es igual o inferior al punto de rocío del aire adyacente y el punto de rocío está por debajo del punto de congelación.",
+      "La temperatura del aire circundante es igual o inferior a cero cuando pequeñas gotas de humedad caen sobre la superficie de recolección."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3432.- ¿Cómo afecta la escarcha a las superficies de elevación de un avión durante el despegue?",
+    "options": [
+      "La escarcha pueden evitar que el avión despegue a la velocidad normal de despegue.",
+      "La escarcha cambiará la curvatura del ala, aumentando la sustentación durante el despegue.",
+      "La escarcha pueden hacer que el avión se eleve con un ángulo de ataque más bajo a una velocidad aerodinámica más baja indicada."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3206.- ¿Cómo afectará la escarcha en las alas de un avión al rendimiento de despegue?",
+    "options": [
+      "La escarcha interrumpirá el suave flujo de aire sobre el ala, lo que afectará negativamente su capacidad de elevación.",
+      "La escarcha cambiará la curvatura del ala, aumentando su capacidad de elevación.",
+      "La escarcha hará que el avión se eleve en el aire con un ángulo de ataque más alto, disminuyendo la velocidad de pérdida."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3431.- ¿Por qué la escarcha se considera peligrosas para volar?",
+    "options": [
+      "La escarcha cambia la forma aerodinámica básica de las aspas aerodinámicas, aumentando así la sustentación.",
+      "La escarcha ralentiza el flujo de aire sobre las aspas aerodinámicas, lo que aumenta la efectividad del control.",
+      "La escarcha estropea el suave flujo de aire sobre las alas, lo que reduce la capacidad de elevación."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3381.- Todo proceso físico del clima va acompañado o es el resultado de una:",
+    "options": [
+      "Movimiento del aire.",
+      "Presión diferencial.",
+      "De intercambio de calor."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3382.- ¿Qué causa las variaciones en la configuración del altímetro entre los puntos de informes meteorológicos?",
+    "options": [
+      "Calentamiento desigual de la superficie terrestre.",
+      "Variación de la elevación del terreno.",
+      "Fuerza Coriolis."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3395.- El viento a 5,000 pies AGL es del suroeste, mientras que el viento en la superficie es del sur. Esta diferencia de dirección se debe principalmente a:",
+    "options": [
+      "Gradiente de presión más fuerte a mayores altitudes.",
+      "Fricción entre el viento y la superficie.",
+      "Fuerza de Coriolis más fuerte en la superficie."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3450.- Los patrones de circulación convectiva asociados con la brisa marina son causados ¿¿por:",
+    "options": [
+      "Aire cálido y denso que se mueve tierra adentro desde el agua.",
+      "El agua absorbe e irradia calor más rápido que la tierra.",
+      "Aire fresco y denso que se mueve tierra adentro desde el agua."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3383.- Cuando hay una inversión de temperatura, esperaría experimentar:",
+    "options": [
+      "Nubes con un extenso desarrollo vertical sobre una inversión en el aire.",
+      "Buena visibilidad en los niveles más bajos de la atmósfera y mala visibilidad por encima de una inversión en el aire.",
+      "Un aumento de la temperatura a medida que aumenta la altitud."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3384.- El tipo más frecuente de inversión de temperatura en el suelo o en la superficie es el producido por:",
+    "options": [
+      "Radiación terrestre en una noche clara y relativamente tranquila.",
+      "El aire caliente se eleva rápidamente en las proximidades de un terreno montañoso.",
+      "El movimiento de aire más frío bajo aire caliente, o el movimiento de aire caliente sobre aire frío."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3397.- ¿Qué se entiende por el término \"punto de rocío\"?",
+    "options": [
+      "La temperatura a la que la condensación y la evaporación son iguales.",
+      "La temperatura a la que siempre se formará el rocío.",
+      "La temperatura a la que el aire debe enfriarse para saturarse."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3398.- La cantidad de vapor de agua que puede contener el aire depende de la:",
+    "options": [
+      "Punto de rocío.",
+      "Temperatura del aire.",
+      "Estabilidad del aire."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "METEOROLOGÍA",
+    "question": "3399.- Siempre se formarán nubes, niebla o rocío cuando:",
+    "options": [
+      "El vapor de agua se condensa.",
+      "Hay vapor de agua.",
+      "La humedad relativa alcanza el 100 por ciento."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "NAVEGACIÓN",
+    "question": "3643.- (Consulte la Figura 25, área 5). La instalación de navegación en Dallas-Ft. Worth International (DFW) es un:",
+    "options": [
+      "VOR.",
+      "VORTAC.",
+      "VOR / DME."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "NAVEGACIÓN",
+    "question": "3552.- (Consulte la Figura 23.) ¿Cuál es la posición aproximada de la aeronave si los receptores VOR indican el radial de 320° de Savannah VORTAC (área 3) y el radial de 184° de Allendale VOR (área 1)?",
+    "options": [
+      "Sureste de Guyton.",
+      "Ciudad de Springfield.",
+      "Sobre el aeropuerto de Briggs."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "NAVEGACIÓN",
+    "question": "3559.- (Consulte la Figura 24.) ¿Cuál es la posición aproximada de la aeronave si los receptores VOR indican el 245? radial de Sulphur Springs VOR-DME (área 5) y el 140? radial de Bonham VORTAC (área 3)?",
+    "options": [
+      "Internacional de Weese Aeropuerto.",
+      "Aeropuerto de Glenmar.",
+      "Aeropuerto Majors."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "NAVEGACIÓN",
+    "question": "3566.- (Consulte la Figura 25, área 5). El VOR está sintonizado con el VOR-DME en el aeropuerto de Dallas-Fort Worth. El selector de omnibearing (OBS) está configurado en 253°, con una indicación TO y una desviación del indicador de desviación de rumbo derecho (CDI). ¿Cuál es la posición de la aeronave desde el VOR-DME?",
+    "options": [
+      "Este-noreste.",
+      "Nordeste.",
+      "Oeste-suroeste."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "NAVEGACIÓN",
+    "question": "3577.- (Consulte la Figura 28, ilustración 4.) El receptor VOR tiene las indicaciones que se muestran. ¿Cuál es la posición de la aeronave en relación con la estación?",
+    "options": [
+      "Norte.",
+      "Este.",
+      "Sur."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "NAVEGACIÓN",
+    "question": "3578.- (Consulte la Figura 28, ilustración 7.) El receptor VOR tiene las indicaciones que se muestran. ¿Cuál es la posición de la aeronave en relación con la estación?",
+    "options": [
+      "Este.",
+      "Sureste.",
+      "Oeste."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "NAVEGACIÓN",
+    "question": "3579.- (Consulte la Figura 28, ilustración 5.) El receptor VOR tiene las indicaciones que se muestran. ¿Qué radial está cruzando la aeronave?",
+    "options": [
+      "030°.",
+      "210°.",
+      "300°."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "NAVEGACIÓN",
+    "question": "3553.- (Consulte la Figura 23). ¿En qué rumbo se debe configurar el receptor VOR (OBS) para navegar directamente desde el aeropuerto de Hampton Varnville (área 1) hasta Savannah VORTAC (área 3)?",
+    "options": [
+      "003°.",
+      "195°.",
+      "200°."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "NAVEGACIÓN",
+    "question": "3560.- (Consulte la Figura 24). ¿En qué rumbo se debe configurar el receptor VOR (OBS) para navegar directamente desde el aeropuerto Majors (área 1) hasta Quitman VOR-DME (área 2)?",
+    "options": [
+      "101°.",
+      "108°.",
+      "281°."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "NAVEGACIÓN",
+    "question": "3533.- (Consulte la Figura 20, área 3; y la Figura 28.) El VOR está sintonizado con el VOR / DME de Elizabeth City, y la aeronave está posicionada sobre Shawboro, una pequeña ciudad 3 NM al oeste de Currituck County Regional (ONX). ¿Qué indicación de VOR es correcta?",
+    "options": [
+      "2",
+      "5",
+      "8"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "NAVEGACIÓN",
+    "question": "3539.- (Consulte la Figura 21). ¿Qué rumbo debe seleccionarse en el selector omnibearing (OBS) para hacer un vuelo directo desde el Aeropuerto Regional del Condado de Mercer (área 3) al Minot VORTAC (área 1) con una indicación TO?",
+    "options": [
+      "001°.",
+      "359°.",
+      "179°."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "NAVEGACIÓN",
+    "question": "3814.- ¿Qué procedimiento se recomienda al subir o bajar VFR en una vía aérea?",
+    "options": [
+      "Ejecute bancos suaves, a la izquierda y a la derecha para un escaneo visual continuo del espacio aéreo.",
+      "Avise al FSS más cercano de los cambios de altitud.",
+      "Vuele lejos de la línea central de la vía aérea antes de cambiar de altitud."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "NAVEGACIÓN",
+    "question": "3598.1.- Cuando la aguja del indicador de desviación de rumbo (CDI) está centrada durante una verificación del omnireceptor utilizando una señal de prueba VOR (VOT), el selector omnibearing (OBS) y el indicador TO / FROM deben leer:",
+    "options": [
+      "180° DESDE, solo si el piloto está al norte del VOT.",
+      "0° HACIA o 180° DESDE, independientemente de la posición del piloto desde el VOT.",
+      "0° DESDE o 180° HACIA, independientemente de la posición del piloto desde el VOT."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "NAVEGACIÓN",
+    "question": "3598.3.- Si la capacidad de monitoreo autónomo de la integridad del receptor (RAIM) se pierde en vuelo:",
+    "options": [
+      "el piloto aún puede confiar en la altitud derivada del GPS para obtener información vertical.",
+      "el piloto no tiene ninguna garantía de la precisión de la posición GPS.",
+      "la posición GPS es confiable siempre que haya al menos 3 satélites GPS disponibles."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "NAVEGACIÓN",
+    "question": "3598.4.- ¿Cuántos satélites del sistema de posicionamiento global (GPS) se requieren para obtener una posición tridimensional (latitud, longitud y altitud) y una solución de tiempo?",
+    "options": [
+      "5",
+      "6",
+      "4"
+    ],
+    "answer": 0
   }
 ]
