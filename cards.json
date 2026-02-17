@@ -1798,5 +1798,4755 @@
       "4"
     ],
     "answer": 0
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3663.1.- (Refiérase a la figura 61.) Si 50 libras de peso están ubicadas en el punto X y 100 libras en el punto Z, ¿cuánto peso debe ubicarse en el punto Y para equilibrar la tabla?",
+    "options": [
+      "30 libras.",
+      "50 libras.",
+      "300 libras."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3663.2.- (Refiérase a la Figura 60.) ¿Cómo se debe cambiar el peso de 500 libras para equilibrar la tabla en el fulcro?",
+    "options": [
+      "1 pulgada a la izquierda.",
+      "1 pulgada a la derecha.",
+      "4.5 pulgadas a la derecha."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3815.- (Refiérase a la Figura 67). ¿Qué efecto tiene un consumo de combustible de 30 galones en el peso y el equilibrio si el avión pesaba 2,784 libras y el MOM / 100 era de 2,222 en el despegue?",
+    "options": [
+      "Sin efecto sobre el CG.",
+      "El momento aumentará a 2,357 libras-pulg.",
+      "El momento disminuirá a 2,087 libras-pulg."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3661.- ¿Qué elementos se incluyen en el peso vacío de un avión?",
+    "options": [
+      "Combustible inutilizable y aceite no drenable.",
+      "Solo el fuselaje, el motor y el equipo opcional.",
+      "Tanques de combustible llenos y aceite de motor al máximo."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3662.- Una aeronave se carga 110 libras por encima del peso bruto máximo certificado. Si se drena combustible para llevar el peso de la aeronave dentro de los límites, ¿cuánto combustible se debe drenar?",
+    "options": [
+      "15.7 galones.",
+      "16.2 galones.",
+      "18.4 galones."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3663.- Si una aeronave se carga 90 libras por encima del peso bruto máximo certificado y se drena combustible para llevar el peso de la aeronave dentro de los límites, ¿cuánto combustible se debe drenar?",
+    "options": [
+      "10 galones.",
+      "12 galones.",
+      "15 galones."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3664.- DADO: ¿A qué distancia de la referencia se encuentra el CG?",
+    "options": [
+      "CG 92.44.",
+      "CG 94.01.",
+      "CG 119.8"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3289.- Si la temperatura del aire exterior (OAT) a una altitud determinada es más cálida que la estándar, la altitud de densidad es:",
+    "options": [
+      "igual a la altitud de presión.",
+      "menor que la altitud de presión.",
+      "mayor que la altitud de presión."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3294.- (Refiérase a la Figura 8.) Determine la altitud de densidad para estas condiciones: Ajuste del altímetro 29.25 Temperatura de la pista + 81° F Elevación del aeropuerto 5,250 pies MSL",
+    "options": [
+      "4.600 pies MSL.",
+      "5.877 pies MSL.",
+      "8.500 pies MSL."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3295.- (Refiérase a la Figura 8). Determine la altitud de presión en un aeropuerto a 3563 pies MSL con un ajuste de altímetro de 29.96:",
+    "options": [
+      "3,527 pies MSL.",
+      "3,556 pies MSL.",
+      "3,639 pies MSL."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3298.- (Refiérase a la Figura 8.) Determine la altitud de densidad para estas condiciones: Ajuste del altímetro 30.35 Temperatura de la pista + 25° F Elevación del aeropuerto 3,894 pies MSL",
+    "options": [
+      "2,000 pies MSL.",
+      "2,900 pies MSL.",
+      "3,500 pies MSL."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3299.- (Refiérase a la Figura 8.) ¿Cuál es el efecto de una disminución de la temperatura y un aumento de la altitud de presión sobre la altitud de densidad de 90° F y 1,250 pies de altitud de presión a 55° F y 1,750 pies de altitud de presión?",
+    "options": [
+      "Aumenta 1,700 pies.",
+      "Disminuye 1.300 pies.",
+      "Disminuye 1.700 pies."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3386.- ¿Cuáles son los valores estándar de temperatura y presión para el nivel del mar?",
+    "options": [
+      "15° C y 29.92\" Hg.",
+      "59° C y 1,013.2 milibares.",
+      "59° F y 29.92 milibares."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3394.- ¿Qué factor tendería a incrementar la altitud de densidad en un aeropuerto dado?",
+    "options": [
+      "Un aumento de la presión barométrica.",
+      "Un aumento de la temperatura ambiente.",
+      "Disminución de la humedad relativa."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3290.- ¿Qué combinación de condiciones atmosféricas reducirá el despegue y el ascenso de la aeronave?",
+    "options": [
+      "Baja temperatura, baja humedad relativa y altitud de baja densidad.",
+      "Alta temperatura, baja humedad relativa y altitud de baja densidad.",
+      "Alta temperatura, alta humedad relativa y altitud de alta densidad."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3291.- ¿Qué efecto tiene la altitud de alta densidad en el rendimiento de la aeronave?",
+    "options": [
+      "Aumenta el rendimiento del motor.",
+      "Reduce el rendimiento de ascenso.",
+      "Aumenta el rendimiento de despegue."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3292.- (Refiérase a la Figura 8.) ¿Cuál es el efecto de un aumento de temperatura de 25 a 50° F en la altitud de densidad si la altitud de presión permanece en 5,000 pies?",
+    "options": [
+      "Aumento de 1,200 pies.",
+      "Aumento de 1.400 pies.",
+      "Aumento de 1,650 pies."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3293.- (Refiérase a la Figura 8.) Determine la altitud de presión con una altitud indicada de 1,380 pies MSL con un ajuste de altímetro de 28.22 a temperatura estándar:",
+    "options": [
+      "2,991 pies MSL.",
+      "2,913 pies MSL.",
+      "3,010 pies MSL."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3296.- (Refiérase a la Figura 8.) ¿Cuál es el efecto de un aumento de temperatura de 35 a 50° F en la altitud de densidad si la altitud de presión permanece a 3,000 pies MSL?",
+    "options": [
+      "Aumento de 1,000 pies.",
+      "Disminución de 1,100 pies.",
+      "Aumento de 1,300 pies."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3297.- (Refiérase a la Figura 8.) Determine la altitud de presión en un aeropuerto que está a 1,386 pies MSL con un ajuste de altímetro de 29.97:",
+    "options": [
+      "1,341 pies MSL.",
+      "1,451 pies MSL.",
+      "1,562 pies MSL."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3300.- ¿Qué efecto, si lo hay, tiene la alta humedad en el rendimiento de la aeronave?",
+    "options": [
+      "Aumenta el rendimiento.",
+      "Disminuye el rendimiento.",
+      "No tiene ningún efecto sobre el rendimiento."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3246.- ¿Qué efecto tiene la altitud de alta densidad, en comparación con la altitud de baja densidad, sobre la eficiencia de la hélice y por qué?",
+    "options": [
+      "La eficiencia aumenta debido a la menor fricción en las palas de la hélice.",
+      "La eficiencia se reduce porque la hélice ejerce menos fuerza en altitudes de alta densidad que en altitudes de baja densidad.",
+      "La eficiencia se reduce debido al aumento de la fuerza de la hélice en el aire más delgado."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3705.- (Refiérase a la Figura 40). Determine la distancia total requerida para el despegue para despejar un obstáculo de 50 pies: OAT: Std Altitud de presión: 4000 pies Peso de despegue: 2.800 lb Viento Calma",
+    "options": [
+      "1,500 pies.",
+      "1,750 pies.",
+      "2,000 pies."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3706.- (Refiérase a la Figura 40). Determine la distancia total requerida para el despegue para despejar un obstáculo de 50 pies: OAT: Std Altitud de presión: Nivel del mar Peso de despegue: 2,700 lb Viento Calma",
+    "options": [
+      "1,000 pies.",
+      "1,400 pies.",
+      "1,700 pies."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3707.- (Refiérase a la Figura 40). Determine la distancia aproximada de carrera sobre el terreno requerida para el despegue: OAT 100 ° F Altitud de presión 2,000 pies Peso de despegue 2,750 lb Viento Calma",
+    "options": [
+      "1,150 pies.",
+      "1.300 pies.",
+      "1.800 pies."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3708.- (Refiérase a la Figura 40). Determine la distancia aproximada de carrera sobre el terreno requerida para el despegue: OAT: 95° F Altitud de presión: 2,000 pies Peso de despegue: 2500 lb Viento: 20 nudos",
+    "options": [
+      "650 pies.",
+      "850 pies.",
+      "1,000 pies."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3678.- (Refiérase a la Figura 35.) ¿Aproximadamente qué velocidad aerodinámica real debería esperar un piloto con el acelerador a fondo 10,500 pies con una temperatura de 36 grados F por encima del estándar?",
+    "options": [
+      "190 nudos.",
+      "159 nudos.",
+      "165 nudos."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3679.- (Refiérase a la Figura 35). ¿Cuál es el consumo de combustible esperado para un vuelo de 1000 millas náuticas en las siguientes condiciones? Altitud de presión: 8.000 pies Temperatura: 22 ° Presión: 20,8\" Hg Viento Calma",
+    "options": [
+      "60,2 galones.",
+      "70,1 galones.",
+      "73,2 galones."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3680.- (Refiérase a la Figura 35.) ¿Cuál es el consumo de combustible esperado para un vuelo de 500 millas náuticas en las siguientes condiciones? Altitud de presión: 4000 pies Temperatura: + 29° Viento Calma",
+    "options": [
+      "31.4 galones.",
+      "36.1 galones.",
+      "40.1 galones."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3681.- (Refiérase a la Figura 35.) ¿Qué flujo de combustible debe esperar un piloto a 11,000 pies en un día estándar con 65 por ciento de potencia continua máxima?",
+    "options": [
+      "10.6 galones por hora.",
+      "11.2 galones por hora.",
+      "11.8 galones por hora."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3682.- (Refiérase a la Figura 35). Determine el ajuste aproximado de presión con 2,450 RPM para lograr un 65 por ciento de potencia continua máxima a 6,500 pies con una temperatura de 36° F más alta que la estándar:",
+    "options": [
+      "19.8\" Hg.",
+      "20.8\" Hg.",
+      "21.0\" Hg."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3698.- (Refiérase a la Figura 38). Determine la distancia aproximada para de aterrizaje: Altitud de presión: 1,250 pies Viento: 8 nudos Temperatura: estándar",
+    "options": [
+      "275 pies.",
+      "366 pies.",
+      "470 pies."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3689.- (Refiérase a la Figura 37). Determine la distancia total requerida para aterrizar: OAT 32° F Altitud de presión 8,000 pies Peso 2,600 lb Viento 20 nudos Obstáculo 50 pies",
+    "options": [
+      "850 pies.",
+      "1,400 pies.",
+      "1,750 pies."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3690.- (Refiérase a la Figura 37). Determine la distancia total requerida para aterrizar: OAT: Std Altitud de presión: 10,000 pies Peso: 2,400 lb Componente de viento: Calma Obstáculo: 50 pies",
+    "options": [
+      "750 pies.",
+      "1,925 pies.",
+      "1,450 pies."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3691.- (Refiérase a la Figura 37). Determine la distancia total requerida para aterrizar: OAT: 90° F Altitud de presión: 3000 pies Peso: 2,900 lb Viento: 10 nudos Obstáculo: 50 pies",
+    "options": [
+      "1,450 pies.",
+      "1,550 pies.",
+      "1,725 ¿¿pies."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3692.- (Refiérase a la Figura 37). Determine la distancia total aproximada requerida para aterrizar sobre un obstáculo de 50 pies: OAT: 90 ° F Altitud de presión: 4000 pies Peso 2.800 lb Viento: 10 nudos",
+    "options": [
+      "1,525 pies.",
+      "1,775 pies.",
+      "1,950 pies."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3693.- (Refiérase a la Figura 38). Determine la distancia aproximada de aterrizaje: Altitud de presión: Nivel del mar Viento: 4 nudos Temperatura: estándar",
+    "options": [
+      "356 pies.",
+      "401 pies.",
+      "490 pies."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3694.- (Refiérase a la Figura 38). Determine la distancia total requerida para aterrizar sobre un obstáculo de 50 pies: Altitud de presión: 7,500 pies Viento: 8 nudos Temperatura: 32° F",
+    "options": [
+      "1,004 pies.",
+      "1,205 pies.",
+      "1,506 pies."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3695.- (Refiérase a la Figura 38). Determine la distancia total requerida para aterrizar sobre un obstáculo de 50 pies: Altitud de presión: 5,000 pies Viento: 8 nudos Temperatura: 41° F",
+    "options": [
+      "837 pies.",
+      "956 pies.",
+      "1,076 pies."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3696.- (Refiérase a la Figura 38). Determine la distancia aproximada de aterrizaje: Altitud de presión: 5,000 pies Viento: calma Temperatura: 101° F",
+    "options": [
+      "495 pies.",
+      "545 pies.",
+      "445 pies."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3697.- (Consulte la Figura 38). Determine la distancia total requerida para aterrizar sobre un obstáculo de 50 pies: Altitud de presión: 3750 pies Viento: 12 nudos Temperatura: estándar",
+    "options": [
+      "794 pies.",
+      "836 pies.",
+      "816 pies."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3688.- (Refiérase a la Figura 36.) ¿Cuál es el componente de viento cruzado para un aterrizaje en la Pista 18 si la torre informa que el viento es de 220° a 30 nudos?",
+    "options": [
+      "19 nudos.",
+      "23 nudos.",
+      "30 nudos."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3683.- (Refiérase a la Figura 36.) ¿Cuál es el componente de viento en contra para un aterrizaje en la Pista 18 si la torre informa que el viento es de 220° a 30 nudos?",
+    "options": [
+      "19 nudos.",
+      "23 nudos.",
+      "26 nudos."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3684.- (Refiérase a la Figura 36). Determine la velocidad máxima del viento para un viento cruzado de 45° si la componente máxima del viento cruzado para el avión es de 25 nudos:",
+    "options": [
+      "25 nudos.",
+      "29 nudos.",
+      "35 nudos."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3685.- (Refiérase a la Figura 36.) ¿Cuál es la velocidad máxima del viento para un viento cruzado de 30° si la componente máxima del viento cruzado para el avión es de 12 nudos?",
+    "options": [
+      "16 nudos.",
+      "20 nudos.",
+      "24 nudos."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3686.- (Refiérase a la Figura 36.) Con un viento del norte reportado a 20 nudos, ¿qué pista (6, 29 o 32) es aceptable para un avión con un componente de viento cruzado máximo de 13 nudos?",
+    "options": [
+      "Pista 6.",
+      "Pista 29.",
+      "Pista 32."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "3687.- (Refiérase a la Figura 36.) Con un viento del sur reportado a 20 nudos, ¿qué pista (10, 14 o 24) es apropiada para un avión con un componente de viento cruzado máximo de 13 nudos?",
+    "options": [
+      "Pista 10.",
+      "Pista 14.",
+      "Pista 24."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3608.- (Consulte la Figura 22, área 2; y la Figura 31.) ¿Cuál es la frecuencia UNICOM correcta que se utilizará en Coeur D'Alene para solicitar combustible?",
+    "options": [
+      "135.075 MHz.",
+      "122.1 / 108.8 MHz.",
+      "122.8 MHz."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3609.- (Consulte la Figura 25, área 3). Si la torre Dallas Executive (RBD) no está en funcionamiento, ¿qué frecuencia se debe utilizar como frecuencia común de advertencia de tráfico (CTAF) para monitorear el tráfico del aeropuerto?",
+    "options": [
+      "127.25 MHz.",
+      "122.95 MHz.",
+      "126.35 MHz."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3641.- (Consulte la Figura 25, área 2). La frecuencia de la torre de control para el aeropuerto de Addison es:",
+    "options": [
+      "122.95 MHz.",
+      "126.0 MHz.",
+      "133.4 MHz."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3610.- (Consulte la Figura 26, área 2). ¿Cuál es el procedimiento de comunicación recomendado cuando se entra para aterrizar en el aeropuerto de Cooperstown?",
+    "options": [
+      "Intenciones de transmisión a 10 millas de distancia en la frecuencia CTAF / MULTICOM, 122.9 MHz.",
+      "Póngase en contacto con UNICOM cuando estén a 10 millas en 122.8 MHz.",
+      "Circule el aeropuerto en un giro a la izquierda antes de ingresar al tráfico."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3611.- (Consulte la Figura 26, área 4). La frecuencia CTAF / UNICOM en el aeropuerto de Jamestown es:",
+    "options": [
+      "122.0 MHz.",
+      "123.0 MHz.",
+      "123.6 MHz."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3612.- (Consulte la Figura 26, área 5). ¿Cuál es la frecuencia CTAF/UNICOM en el aeropuerto del condado de Barnes?",
+    "options": [
+      "122.0 MHz.",
+      "122.8 MHz.",
+      "123.6 MHz."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3791.- El Servicio Automático de Información de Terminal (ATIS) es la transmisión continua de información grabada concerniente a:",
+    "options": [
+      "pilotos de aeronaves identificadas por radar cuya aeronave se encuentra en una proximidad peligrosa al terreno o a una obstrucción.",
+      "información no esencial para reducir la congestión de frecuencias.",
+      "información no controlada en áreas terminales seleccionadas de alta actividad."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3790.- Seleccione las frecuencias UNICOM normalmente asignadas para estaciones en áreas de aterrizaje utilizadas exclusivamente como helipuertos:",
+    "options": [
+      "122.75 y 123.65 MHz.",
+      "123.0 y 122.95 MHz.",
+      "123.05 y 123.075 MHz."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3811.- Después de aterrizar en un aeropuerto controlado por torre, ¿cuándo debe el piloto contactar al control de tierra?",
+    "options": [
+      "Cuando la torre le aconseje que lo haga.",
+      "Antes de abandonar la pista.",
+      "Después de llegar a una calle de rodaje que conduce directamente a la zona de aparcamiento."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3812.- Si el control de tierra le indica que ruede a la pista 9, el piloto puede proceder:",
+    "options": [
+      "a través de calles de rodaje y a través de las pistas hacia la Pista 9, pero no hacia la misma.",
+      "hasta la siguiente pista de intersección donde se requiere más autorización.",
+      "a través de calles de rodaje y a través de pistas hasta la Pista 9, donde se puede realizar un despegue inmediato."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3111.- Una señal de luz verde fija dirigida desde la torre de control a una aeronave en vuelo es una señal de que el piloto:",
+    "options": [
+      "está despejado para aterrizar.",
+      "debería dar paso a otras aeronaves y seguir dando vueltas.",
+      "debe regresar para aterrizar."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3115.- Una señal alterna de luz roja y verde dirigida desde la torre de control a una aeronave en vuelo es una señal para:",
+    "options": [
+      "mantén la posición.",
+      "tenga extremo cuidado.",
+      "no aterrizar; el aeropuerto es inseguro."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3112.- ¿Qué señal luminosa de la torre de control autoriza a un piloto a rodar?",
+    "options": [
+      "Verde intermitente.",
+      "Verde fijo.",
+      "Blanco intermitente."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3113.- Si la torre de control utiliza una señal luminosa para indicar a un piloto que ceda el paso a otras aeronaves y continúe dando vueltas, la luz será:",
+    "options": [
+      "rojo intermitente.",
+      "rojo fijo.",
+      "alternando rojo y verde."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3114.- Una señal de luz blanca intermitente desde la torre de control a una aeronave en rodaje es una indicación de:",
+    "options": [
+      "rodar a mayor velocidad.",
+      "rodar solo en calles de rodaje y no cruzar pistas.",
+      "regreso al punto de partida en el aeropuerto."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3116.- Mientras se encuentra en la aproximación final para el aterrizaje, se recibe una luz verde y roja alternadas seguidas de una luz roja intermitente desde la torre de control. En estas circunstancias, el piloto debe:",
+    "options": [
+      "interrumpa la aproximación, vuele con el mismo patrón de tráfico, acérquese de nuevo y aterrice.",
+      "tenga extrema precaución y abandone la aproximación, al darse cuenta de que el aeropuerto no es seguro para aterrizar.",
+      "abandone la aproximación, rodee el aeropuerto a la derecha y espere una luz blanca intermitente cuando el aeropuerto sea seguro para el aterrizaje."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3804.- Si falla la radio de la aeronave, ¿cuál es el procedimiento recomendado al aterrizar en un aeropuerto controlado?",
+    "options": [
+      "Observar el flujo del tráfico, ingresar al patrón y buscar una señal luminosa de la torre.",
+      "Entrar en un tramo de viento cruzado y mover las alas.",
+      "Encender las luces de aterrizaje y girar el tren de aterrizaje mientras rodea el aeropuerto."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "2175.- ¿Por qué debería presentar un plan de vuelo VFR?",
+    "options": [
+      "Debe hacerlo cuando vuele a más de 25 NM desde un aeropuerto.",
+      "Proporcionar informes de tráfico con Flight Service.",
+      "Proporcionar búsqueda y rescate en caso de emergencia."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "2175.1.- (Refiérase a la Figura 51.) ¿Qué información se debe ingresar para el artículo 15, nivel, en el formulario del plan de vuelo?",
+    "options": [
+      "Altitud de crucero VFR.",
+      "Techo de servicio de aeronaves.",
+      "Centro de gravedad de la aeronave."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3792.1.- Cuando un controlador de tráfico aéreo emite información de tráfico por radar en relación con el reloj de 12 horas, la referencia que utiliza el controlador es la siguiente de la aeronave:",
+    "options": [
+      "curso verdadero.",
+      "trayectoria terrestre",
+      "rumbo magnético."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3792.- Una instalación de radar ATC emite el siguiente aviso a un piloto que vuela con un rumbo de 090° \u0003³TRÁFICO A LAS 3 EN PUNTO, 2 MILLAS, HACIA EL OESTE \u0011\u0011\u0011´ ¿Dónde debería buscar el piloto este tráfico?:",
+    "options": [
+      "Este.",
+      "sur.",
+      "oeste."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3793.- Una instalación de radar ATC emite el siguiente aviso a un piloto que vuela en un rumbo de 360 ¿°: ³TRÁFICO 10 EN PUNTO, 2 MILLAS, HACIA EL SUR \u0011\u0011\u0011´ ¿Dónde debería buscar el piloto este tráfico?",
+    "options": [
+      "Noroeste.",
+      "Noreste.",
+      "Sur oeste."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3798.- El área de servicio de radar terminal (TRSA) en el programa de radar terminal proporciona:",
+    "options": [
+      "separación IFR (1,000 pies verticales y 3 millas laterales) entre todas las aeronaves.",
+      "advirtiendo a los pilotos cuando sus aeronaves se encuentran en una proximidad peligrosa al terreno, obstrucciones u otras aeronaves.",
+      "secuenciación y separación para aeronaves VFR participantes."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3794.- Una instalación de radar ATC emite el siguiente aviso a un piloto durante un vuelo local: ³TRÁFICO 2 EN PUNTO, 5 MILLAS, HACIA EL NORTE \u0011\u0011\u0011´ ¿Dónde debería buscar el piloto este tráfico?",
+    "options": [
+      "Entre directamente adelante y 90° a la izquierda.",
+      "Entre directamente detrás y 90° a la derecha.",
+      "Entre directamente adelante y 90° a la derecha."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3795.- Una instalación de radar ATC emite el siguiente aviso a un piloto que vuela hacia el norte con viento en calma: ³TRÁFICO A LAS 9 EN PUNTO, 2 MILLAS, HACIA EL SUR \u0011\u0011\u0011´ ¿Dónde debería buscar el piloto este tráfico?",
+    "options": [
+      "Sur.",
+      "Norte.",
+      "Oeste."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3796.- El servicio de radar básico en el programa de radar terminal se describe mejor como:",
+    "options": [
+      "alertas de seguridad, avisos de tráfico y vectorización limitada a aeronaves VFR.",
+      "servicio de radar obligatorio proporcionado por el programa Automated Radar Terminal System (ARTS).",
+      "alerta de cizalladura del viento en los aeropuertos participantes."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3797.- Durante las operaciones en tierra ¿a quién debe solicitar una aeronave que salga VFR información de tráfico por radar?",
+    "options": [
+      "Entrega de liquidación.",
+      "Torre, justo antes del despegue.",
+      "Control de tierra, en el contacto inicial."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3129.- Se requiere un transpondedor operativo de código 4096 y un altímetro de codificación en Modo C en:",
+    "options": [
+      "espacio aéreo de Clase B y dentro de las 30 millas del aeropuerto principal de Clase B.",
+      "espacio aéreo de Clase D.",
+      "espacio aéreo Clase E por debajo de 10,000 pies MSL."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3801.- Cuándo se opera bajo VFR por debajo de 18,000 pies MSL, a menos que se autorice lo contrario, ¿qué código de transpondedor se debe seleccionar?",
+    "options": [
+      "1200",
+      "7600",
+      "7700"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3996.- Al operar el transpondedor con el código VFR (1200), ¿cuál es el modo mínimo en el que debe estar el transpondedor?",
+    "options": [
+      "Modo A.",
+      "Modo C.",
+      "Modo F."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3803.- Si el Control de tráfico aéreo informa que el servicio de radar se termina cuando el piloto está saliendo del espacio aéreo Clase C, el transpondedor debe configurarse en código:",
+    "options": [
+      "0",
+      "1200",
+      "4096"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3166.4.- El equipo ADS-B Out transmite la:",
+    "options": [
+      "posición tridimensional.",
+      "velocidad tridimensional.",
+      "posición y velocidad tridimensionales."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3800.- Al realizar cambios de rutina en el código del transpondedor, los pilotos deben evitar la selección inadvertida de qué códigos:",
+    "options": [
+      "0700, 1700, 7000.",
+      "1200, 1500, 7000.",
+      "7500, 7600, 7700."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3800.1.- Al realizar cambios de rutina en el código del transpondedor, los pilotos deben evitar la selección inadvertida de qué código:",
+    "options": [
+      "7200",
+      "7400",
+      "7500"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3802.- A menos que se autorice lo contrario, si vuela una aeronave equipada con transpondedor ¿qué código VFR debería reportar el piloto?",
+    "options": [
+      "1200",
+      "7600",
+      "7700"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3819.- Cuando se activa, un transmisor de localización de emergencia (ELT) transmite en:",
+    "options": [
+      "118.0 MHz.",
+      "406 MHz.",
+      "123.0 MHz."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3160.- ¿Cuándo se deben reemplazar o recargar las baterías de un transmisor de localización de emergencia (ELT), si es que son recargables?",
+    "options": [
+      "Después de cualquier activación inadvertida del ELT.",
+      "Cuando el ELT ha estado en uso durante más de 1 hora acumulada.",
+      "Cuando el ELT ya no puede ser escuchado por el receptor de radio de comunicación del avión."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3161.- ¿Cuándo es necesario reemplazar las baterías no recargables de un transmisor localizador de emergencia (ELT)?",
+    "options": [
+      "Cada 24 meses.",
+      "Cuando expira el 50 por ciento de su vida útil.",
+      "Al tiempo de cada inspección anual o de 100 horas."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3820.- ¿Cuándo se debe reemplazar la batería de un transmisor localizador de emergencia (ELT) (o recargarla si la batería es recargable)?",
+    "options": [
+      "Después de la mitad de la vida útil de la batería.",
+      "Durante cada inspección anual y cada 100 horas.",
+      "Cada 24 meses calendario."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3821.- ¿Cuándo se puede probar un transmisor de localización de emergencia (ELT)?",
+    "options": [
+      "En cualquier momento.",
+      "A los 15 y 45 minutos después de la hora.",
+      "Durante los primeros 5 minutos después de la hora."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3822.- ¿Qué procedimiento se recomienda para asegurar que no se ha activado el transmisor localizador de emergencia (ELT)?",
+    "options": [
+      "Apague el ELT de la aeronave después del aterrizaje.",
+      "Pregunte a la torre de control del aeropuerto si están recibiendo una señal de ELT.",
+      "Monitoree 121.5 antes de apagar el motor."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3613.- Al volar HAWK N666CB, la fraseología adecuada para el contacto inicial con McAlester Flight Service es:",
+    "options": [
+      "MC ALESTER RADIO, HAWK SEIS SEIS SEIS CHARLIE BRAVO, RECIBIENDO ARDMORE VORTAC, ACABADO.",
+      "ESTACIÓN MC ALESTER, HAWK SEIS SEIS SEIS CEE BEE, RECIBIENDO ARDMORE VORTAC, ACABADO.",
+      "ESTACIÓN DE SERVICIO DE VUELO MC ALESTER, HAWK SEIS DE NOVIEMBRE CHARLIE BRAVO, RECIBIENDO ARDMORE VORTAC, OVER."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3614.- El método correcto para indicar 4.500 pies MSL a ATC es:",
+    "options": [
+      "CUATRO MIL QUINIENTOS.",
+      "CUATRO PUNTO CINCO.",
+      "CUARENTA Y QUINIENTOS PIES MSL."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3615.- El método correcto de indicar 10,500 pies MSL al ATC es:",
+    "options": [
+      "DIEZ MIL QUINIENTOS PIES.",
+      "DIEZ PUNTO CINCO.",
+      "UN CERO MIL QUINIENTOS."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3604.- (Consulte la Figura 20, área 3.) ¿Cuál es el procedimiento de comunicaciones recomendado para un aterrizaje en el aeropuerto del condado de Currituck?",
+    "options": [
+      "Transmita intenciones en 122,9 MHz cuando estén a 10 millas de distancia y proporcione informes de posición en el patrón de tráfico.",
+      "Comuníquese con Elizabeth City FSS para obtener un servicio de asesoramiento aeroportuario.",
+      "Póngase en contacto con New Bern FSS para obtener información sobre el tráfico de la zona."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3605.- (Consulte la Figura 21, área 2). La frecuencia CTAF / MULTICOM para el aeropuerto Garrison es:",
+    "options": [
+      "122.8 MHz.",
+      "12.9 MHz.",
+      "123.0 MHz."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3998.- ¿Cuándo deben los pilotos indicar su posición en el aeropuerto al llamar a la torre para el despegue?",
+    "options": [
+      "Cuando la visibilidad es inferior a 1 milla.",
+      "Cuando se utilizan pistas paralelas.",
+      "Al salir de una intersección de pista."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3605.1.- Como práctica operativa estándar, todo el tráfico entrante a un aeropuerto sin una torre de control debe monitorear continuamente la instalación apropiada desde una distancia de:",
+    "options": [
+      "25 millas.",
+      "20 millas.",
+      "10 millas."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3605.2.- La ausencia de la condición del cielo y la visibilidad en una transmisión ATIS indican que:",
+    "options": [
+      "las condiciones climáticas son iguales o superiores a los mínimos VFR.",
+      "el cielo está despejado y la visibilidad es ilimitada.",
+      "el techo es de al menos 5,000 pies y la visibilidad es de 5 millas o más."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3606.- (Consulte la Figura 22, área 2; y la Figura 31.) En Coeur D'Alene, ¿qué frecuencia se debe usar como frecuencia común de advertencia de tráfico (CTAF) para autoanunciar posiciones e intenciones?",
+    "options": [
+      "122.05 MHz.",
+      "122.1 / 108.8 MHz.",
+      "122.8 MHz."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
+    "question": "3607.- (Consulte la Figura 22, área 2 y la Figura 31). En Coeur D'Alene, ¿qué frecuencia se debe utilizar como Frecuencia común de advertencia de tráfico (CTAF) para monitorear el tráfico del aeropuerto?",
+    "options": [
+      "122,05 MHz.",
+      "135,075 MHz.",
+      "122,8 MHz."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3123.- ¿Cuál es el procedimiento de salida de patrón de tráfico correcto para usar en un aeropuerto no controlado?",
+    "options": [
+      "Salga en cualquier dirección compatible con la seguridad, después de cruzar el límite del aeropuerto.",
+      "Haga todos los giros a la izquierda.",
+      "Cumplir con cualquier patrón de tráfico de la AAC establecido para el aeropuerto."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3123.1.- La posición de entrada recomendada a un patrón de tráfico del aeropuerto es:",
+    "options": [
+      "45° hasta el tramo base justo debajo de la altitud del patrón de tráfico.",
+      "Para ingresar 45° en el punto medio del tramo a favor del viento a la altitud del patrón de tráfico.",
+      "Para cruzar directamente sobre el aeropuerto a la altitud del patrón de tráfico y unirse al tramo a favor del viento."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3807.- (Refiérase la Figura 50). El círculo segmentado indica que el tráfico del aeropuerto está:",
+    "options": [
+      "A la izquierda para la Pista 36 y a la derecha para la Pista 18.",
+      "A la izquierda para la Pista 18 y a la derecha para la Pista 36.",
+      "A la derecha para la Pista 9 y a la izquierda para la Pista 27."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3808.- (Refiérase la Figura 50.) Los patrones de tráfico indicados en el círculo segmentado se han dispuesto para evitar vuelos sobre un área:",
+    "options": [
+      "Al sur del aeropuerto.",
+      "Al norte del aeropuerto.",
+      "Al sureste del aeropuerto."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3809.- (Refiérase a la Figura 50.) El círculo segmentado indica que un aterrizaje en la Pista 26 será con un:",
+    "options": [
+      "Viento en contra hacia la derecha.",
+      "Viento en contra a la izquierda.",
+      "Viento de cola hacia la derecha."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3810.- (Refiérase a la Figura 50.) ¿Qué pista y patrón de tránsito deberían usarse como lo indica el cono de viento en el círculo segmentado?",
+    "options": [
+      "Circulación por la derecha en la Pista 9.",
+      "Circulación por la derecha en la Pista 18.",
+      "Circulación por la izquierda en la pista 36."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3719.- Se deben realizar aproximaciones VFR a tierra por la noche:",
+    "options": [
+      "A una mayor velocidad aerodinámica.",
+      "Con un descenso más pronunciado.",
+      "Lo mismo que durante el día."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3778.- Los números 9 y 27 en una pista indican que la pista está orientada aproximadamente:",
+    "options": [
+      "009° y 027° verdaderos.",
+      ". 090° y 270° verdaderos.",
+      "090° y 270° magnético."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3778.1.- Los números 8 y 26 en los extremos de aproximación de la pista indican que la pista está orientada aproximadamente",
+    "options": [
+      "008° y 026° verdaderos.",
+      "080° y 260° verdaderos.",
+      "080° y 260° magnético."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3778.2.- Al girar hacia una calle de rodaje desde otra calle de rodaje, ¿cuál es el propósito de la señal direccional de la calle de rodaje?",
+    "options": [
+      "Indica dirección a la pista de despegue.",
+      "Indica la designación y la dirección de la calle de salida de la pista.",
+      "Indica la designación y la dirección de la calle de rodaje que sale de una intersección."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3778.3.- (Refiérase a la Figura 64.) ¿Qué símbolo indica una marca de posición de espera de calle de rodaje / intersección de calle de rodaje?",
+    "options": [
+      "B",
+      "D",
+      "E"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3957.- (Refiérase a la Figura 58.) Ha solicitado instrucciones de rodaje para el despegue utilizando la Pista 16. El controlador emite las siguientes instrucciones de rodaje: \"N123, Taxi a la pista 16.\" ¿Dónde debe detenerse para cumplir con las instrucciones del controlador?",
+    "options": [
+      "5 (cinco).",
+      "6 (seis).",
+      "9 (nueve)."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3955.1.- Al acercarse a las líneas de espera de la calle de rodaje desde el lado con las líneas continuas, el piloto:",
+    "options": [
+      "Puede continuar rodando.",
+      "No debe cruzar las líneas sin autorización del ATC.",
+      "Debe continuar rodando hasta que todas las partes de la aeronave hayan cruzado las líneas."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3955.2.- ¿Cuál es el propósito de la señal de posición de espera de pista / pista?",
+    "options": [
+      "Indica la entrada a la pista desde una calle de rodaje.",
+      "Denota área protegida para una aeronave que se aproxima o sale de una pista.",
+      "Denota pistas que se cruzan."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3955.3.- ¿Qué identifica el letrero de destino de salida?",
+    "options": [
+      "Identifica la entrada a la pista desde una calle de rodaje.",
+      "Identifica la dirección de las pistas de despegue.",
+      "Identifica la pista en la que se encuentra una aeronave."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3955.4.- ¿Cuál es el propósito del letrero de No Entrada?",
+    "options": [
+      "Identifica un área pavimentada donde se prohíbe la entrada de aeronaves.",
+      "Identifica el área que no continúa más allá de la intersección.",
+      "Identifica el límite de salida del área protegida de la pista."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3955.5.- (Refiérase a la Figura 65.) ¿Qué señal de aeropuerto es un límite de área de seguridad de pista / zona libre de obstáculos?",
+    "options": [
+      "G",
+      "H",
+      "N"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3955.6.- (Refiérase a la Figura 65). Desde la cabina, la marca G confirma que la aeronave está:",
+    "options": [
+      "En una calle de rodaje, a punto de entrar en la zona de la pista.",
+      "En una pista, a punto de despejar.",
+      "Cerca de una zona libre de aproximación por instrumentos."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3773.- (Refiérase a la Figura 48.) La porción de la pista identificada por la letra A puede usarse para:",
+    "options": [
+      "Aterrizaje.",
+      "Rodaje y despegue.",
+      "Rodaje y aterrizaje."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3774.- (Refiérase a la Figura 48). Según el diagrama del aeropuerto, ¿qué afirmación es verdadera?",
+    "options": [
+      "La pista 30 está equipada en la posición E con equipo de detención de emergencia para proporcionar un medio de detener las aeronaves militares.",
+      "Los despegues pueden iniciarse en la posición A de la pista 12, y la parte de aterrizaje de esta pista comienza en la posición B.",
+      "La parte de despegue y aterrizaje de la pista 30 comienza en la posición E."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3776.- (Consulte la Figura 48). El área C del aeropuerto representado se clasifica como:",
+    "options": [
+      ". Zona estabilizada.",
+      "Helipuerto múltiple.",
+      "Pista cerrada."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3777.- (Consulte la Figura 49). Las flechas que aparecen al final de la pista norte / sur indican que el área",
+    "options": [
+      "Sólo se puede utilizar para el rodaje.",
+      "Se puede utilizar para rodaje, despegue y aterrizaje.",
+      "No se puede utilizar para aterrizar, pero se puede utilizar para rodaje y despegue."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3805.- (Refiérase a la Figura 49). Seleccione el patrón de tráfico y la pista adecuados para el aterrizaje.",
+    "options": [
+      "Circulación por la izquierda y Pista 18.",
+      "Circulación por la derecha y Pista 18.",
+      "Circulación por la izquierda y Pista 22."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3806.- (Consulte la Figura 49). Si el viento es el que muestra el indicador de dirección de aterrizaje, el piloto debe aterrizar en:",
+    "options": [
+      "Pista 18 y espere viento cruzado desde la derecha.",
+      "Pista 22 directamente al viento.",
+      "Pista 36 y espere viento cruzado desde la derecha."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3806.1.- (Consulte la Figura 65). La señal F confirma su posición en:",
+    "options": [
+      "pista 22.",
+      "Encaminamiento a la pista 22.",
+      "Calle de rodaje 22."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3806.2.- (Refiérase a la Figura 65). La señal E es una pista visual que:",
+    "options": [
+      "Confirma que la ubicación de la aeronave está en la calle de rodaje B.",
+      "Advierte al piloto de que se aproxima a la calle de rodaje B.",
+      "Indica que el área de espera \"B\" está adelante"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3806.3.- (Refiérase a la Figura 65.) Un giro a la izquierda en la intersección que muestra la señal A colocaría la aeronave:",
+    "options": [
+      "Listo para un despegue en la intersección de la pista 4.",
+      "En la calle de rodaje que conduce a la Pista 4.",
+      "Listo para un despegue en la intersección de la pista 22."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3769.- La baliza giratoria de un aeropuerto operada durante el día indica:",
+    "options": [
+      "Hay obstrucciones en el aeropuerto.",
+      "Que el clima en el aeropuerto ubicado en el espacio aéreo de Clase D está por debajo de los mínimos climáticos básicos VFR",
+      "La torre de control de tráfico aéreo no está en funcionamiento."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3718.- Las luces del borde de la calle de rodaje del aeropuerto se identifican por la noche:",
+    "options": [
+      "Luces direccionales blancas.",
+      "Luces omnidireccionales azules.",
+      "Luces rojas y verdes alternas."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3768.- Para configurar las luces de pista de alta intensidad en intensidad media, el piloto debe hacer clic en el micrófono siete veces y luego hacer clic en él:",
+    "options": [
+      "Una vez en cuatro segundos.",
+      "Tres veces en tres segundos.",
+      "Cinco veces en cinco segundos."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3770.- Un helipuerto iluminado puede ser identificado por una:",
+    "options": [
+      "Baliza giratoria verde, amarilla y blanca.",
+      "Luz amarilla intermitente.",
+      "Área de aterrizaje cuadrada iluminada en azul."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3771.- Una estación aérea militar puede identificarse mediante una baliza giratoria que emite:",
+    "options": [
+      "Destellos alternos blanco y verde.",
+      "Dos destellos blancos rápidos entre destellos verdes.",
+      "Destellos verde, amarillo y blanco."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3772.- ¿Cómo se puede identificar un aeropuerto militar de noche?",
+    "options": [
+      "Destellos alternos de luz blanca y verde.",
+      "Dos destellos blancos puntiagudos (dos rápidos) entre destellos verdes.",
+      "Luces blancas intermitentes con verde fijo en el mismo lugar."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3778.4.- (Refiérase a la Figura 64.) ¿Qué marca indica un carril para vehículos?",
+    "options": [
+      "A",
+      "C",
+      "E"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3778.5.- La marca de \"barra de demarcación amarilla\" indica:",
+    "options": [
+      "Una pista con un umbral desplazado que precede a la pista.",
+      "Una línea de espera desde una calle de rodaje hasta una pista.",
+      "El comienzo de la pista disponible para aterrizar en el lado de aproximación."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3762.1.- ¿Qué objetivo de aproximación y aterrizaje está asegurado cuando el piloto permanece en la trayectoria de planeo adecuada del VASI?",
+    "options": [
+      "Identificación de pista y guía de rumbo.",
+      "Despeje seguro de obstáculos en el área de aproximación.",
+      "Orientación de rumbo lateral a la pista."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3764.- Una indicación de pendiente de planeo por debajo de un indicador de pendiente de aproximación pulsante es una",
+    "options": [
+      "Luz blanca pulsante.",
+      "Luz blanca constante.",
+      "Luz roja pulsante."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3120.- Mientras opera en el espacio aéreo de Clase D, cada piloto de una aeronave que se aproxima para aterrizar en una pista servida por un indicador visual de pendiente de aproximación (VASI) deberá:",
+    "options": [
+      "Mantener un planeo de 3 ° hasta aproximadamente 1/2 milla hasta la pista antes de pasar por debajo del VASI.",
+      "Mantener una altitud igual o superior a la pendiente de planeo hasta que sea necesaria una altitud menor para un aterrizaje seguro.",
+      "Mantenerse alto hasta que se pueda llegar a la pista en un aterrizaje sin motor."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3121.- Al acercarse para aterrizar en una pista servida por un indicador visual de pendiente de aproximación (VASI), el piloto deberá:",
+    "options": [
+      "Mantener una altitud que capture la pendiente de planeo al menos 2 millas a favor del viento desde el umbral de la pista.",
+      "Mantener una altitud igual o superior a la pendiente de planeo.",
+      "Permanezca en la senda de planeo y aterrice entre la barra de dos luces."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3760.- Una indicación de pendiente de planeo ligeramente alta de un indicador de trayectoria de aproximación de precisión es:",
+    "options": [
+      "Cuatro luces blancas.",
+      "Tres luces blancas y una luz roja.",
+      "Dos luces blancas y dos luces rojas."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3765.- (Consulte la Figura 47). La Ilustración A indica que la aeronave está:",
+    "options": [
+      "Debajo de la pista de planeo.",
+      "En la pista de planeo.",
+      "Por encima de la senda de planeo."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3766.- (Refiérase a la Figura 47). Las luces VASI, como se muestra en la ilustración C, indican que el avión está:",
+    "options": [
+      "Fuera de curso a la izquierda.",
+      "Por encima de la senda de planeo.",
+      "Debajo de la pista de planeo."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3767.- (Refiérase a la Figura 47). Mientras se encuentra en la aproximación final a una pista equipada con un VASI estándar de 2 barras, las luces aparecen como se muestra en la ilustración D. Esto significa que la aeronave está:",
+    "options": [
+      "Por encima de la senda de planeo.",
+      "Debajo de la senda de planeo.",
+      "En la senda de planeo."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3302.- Al rodar con fuertes vientos de cola, ¿qué posiciones de los alerones se deben utilizar?",
+    "options": [
+      "Alerón hacia abajo en el lado de sotavento.",
+      "Alerones neutros.",
+      "Alerón hacia abajo del lado de donde sopla el viento."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3303.- ¿Qué posiciones de alerones debería utilizar generalmente un piloto al rodar con fuertes vientos en contra?",
+    "options": [
+      "Alerón arriba del lado de donde sopla el viento.",
+      "Alerón hacia abajo del lado de donde sopla el viento.",
+      "Alerones neutros."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3304.- ¿Qué condición de viento sería más crítica al rodar un avión de ala alta equipado con rueda de nariz?",
+    "options": [
+      "Viento de cola.",
+      "Viento cruzado directo.",
+      "Reducción del viento en contra."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3305.- (Refiérase a la Figura 9, área A.) ¿Cómo se deben mantener los controles de vuelo mientras se opera un avión equipado con tren triciclo hacia un viento en contra hacia la izquierda?",
+    "options": [
+      "Alerón izquierdo arriba, ascensor neutral.",
+      "Alerón izquierdo abajo, ascensor neutral.",
+      "Alerón izquierdo arriba, ascensor abajo."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3306.- (Refiérase a la Figura 9, área B.) ¿Cómo se deben mantener los controles de vuelo mientras se conduce un avión de rueda de cola hacia un viento en contra de la derecha?",
+    "options": [
+      "Alerón derecho arriba, ascensor arriba.",
+      "Alerón derecho abajo, ascensor neutral.",
+      "Alerón derecho arriba, ascensor abajo."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3307.- (Refiérase a la Figura 9, área C.) ¿Cómo deben mantenerse los controles de vuelo durante el rodaje de un avión de rueda de cola con un viento de cola a la izquierda?",
+    "options": [
+      "Alerón izquierdo arriba, ascensor neutral.",
+      "Alerón izquierdo abajo, ascensor neutral.",
+      "Alerón izquierdo abajo, ascensor abajo."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3308.- (Refiérase a la Figura 9, área C.) ¿Cómo deben mantenerse los controles de vuelo durante el rodaje de un avión equipado con tren de tres ruedas con un viento de cola a la izquierda?",
+    "options": [
+      "Alerón izquierdo arriba, ascensor neutral.",
+      "Alerón izquierdo abajo, ascensor abajo.",
+      "Alerón izquierdo arriba, ascensor abajo."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3308.1.- Para minimizar las cargas laterales colocadas en el tren de aterrizaje durante el aterrizaje, el piloto debe mantener:",
+    "options": [
+      "La dirección de movimiento de la aeronave paralela a la pista.",
+      "El eje longitudinal de la aeronave paralelo a la dirección de su movimiento.",
+      "El ala a favor del viento bajada lo suficiente para eliminar la tendencia de la aeronave a derrapar."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3163.- Cuando se opera una aeronave en altitudes de presión de cabina por encima de 10,000 pies hasta e incluyendo 13,000 pies, se debe usar oxígeno suplementario durante:",
+    "options": [
+      "Todo el tiempo de vuelo a esas altitudes.",
+      "Ese tiempo de vuelo en exceso de 10 minutos a esas altitudes.",
+      "Ese tiempo de vuelo en exceso de 30 minutos a esas altitudes."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3164.- A menos que cada ocupante reciba oxígeno suplementario, ninguna persona puede operar una aeronave civil por encima de una altitud máxima de presión de cabina de:",
+    "options": [
+      "12,500 pies.",
+      "14,000 pies.",
+      "10.000 pies."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3832.- Grandes acumulaciones de monóxido de carbono en el cuerpo humano dan como resultado:",
+    "options": [
+      "Opresión en la frente.",
+      "Pérdida de potencia muscular.",
+      "Una mayor sensación de bienestar."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3844.- ¿Qué enunciado define mejor la hipoxia?",
+    "options": [
+      "Un estado de deficiencia de oxígeno en el cuerpo.",
+      "Un aumento anormal del volumen de aire respirado.",
+      "Afección de formación de burbujas de gas alrededor de las articulaciones o los músculos."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3845.- Cuando se encuentra una situación estresante en vuelo, un aumento anormal en el volumen de aire inhalado y exhalado puede causar una condición conocida como:",
+    "options": [
+      "Hiperventilación.",
+      "Aero sinusitis.",
+      "Aerotitis."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3846.- ¿Cuál de las siguientes opciones resultaría más probablemente en hiperventilación?",
+    "options": [
+      "Tensión emocional, ansiedad o miedo.",
+      "El consumo excesivo de alcohol.",
+      "Una frecuencia respiratoria extremadamente lenta y oxígeno insuficiente."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3847.- Un piloto que experimente los efectos de la hiperventilación, debería poder restaurar el nivel adecuado de dióxido de carbono en el cuerpo al:",
+    "options": [
+      "Disminuir la frecuencia respiratoria, respirar en una bolsa de papel o hablar en voz alta.",
+      "Respirar de forma espontánea y profunda o ganar control mental de la situación.",
+      "Aumentar la frecuencia respiratoria para aumentar la ventilación pulmonar."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3848.- La susceptibilidad a la intoxicación por monóxido de carbono aumenta a medida que:",
+    "options": [
+      "Aumenta la altitud.",
+      "La altitud disminuye.",
+      "Aumenta la presión del aire."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3850.- El peligro de desorientación espacial durante el vuelo en malas condiciones visuales puede reducirse mediante:",
+    "options": [
+      "Cambiando los ojos rápidamente entre el campo visual exterior y el panel de instrumentos.",
+      "Tener fe en los instrumentos en lugar de arriesgarse con los órganos sensoriales.",
+      "Inclinar el cuerpo en la dirección opuesta al movimiento de la aeronave."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3851.- La falta de orientación con respecto a la posición, actitud o movimiento de la aeronave en el espacio se define como:",
+    "options": [
+      "Desorientación espacial.",
+      "Hiperventilación.",
+      "Hipoxia."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3852.- Los pilotos están más sujetos a la desorientación espacial si:",
+    "options": [
+      "Ignoran las sensaciones de los músculos y el oído interno.",
+      "Las señales visuales se eliminan, ya que están en condiciones meteorológicas de instrumentos (IMC).",
+      "Los ojos se mueven a menudo en el proceso de verificación cruzada de los instrumentos de vuelo."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3853.- Si un piloto experimenta desorientación espacial durante el vuelo en una condición de visibilidad restringida, la mejor manera de superar el efecto es:",
+    "options": [
+      "Confiar en las indicaciones de los instrumentos de la aeronave.",
+      "Concéntrese en las sensaciones de guiñada, cabeceo y alabeo.",
+      "Disminuya conscientemente la frecuencia respiratoria hasta que los síntomas desaparezcan y luego reanude la frecuencia respiratoria normal."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3931.- ¿Cómo se llama a menudo cuando un piloto empuja sus capacidades y los límites de la aeronave al tratar de mantener contacto visual con el terreno en condiciones de poca visibilidad y techo?",
+    "options": [
+      "Carrera Scud.",
+      "Mentalidad.",
+      "Presión de grupo."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3932.- ¿Qué frase antídoto puede ayudar a revertir la peligrosa actitud de \"antiautoridad\"?",
+    "options": [
+      "Las reglas no se aplican en esta situación.",
+      "Sé lo que estoy haciendo.",
+      "Sigue las reglas."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3933.- ¿Qué frase antídoto puede ayudar a revertir la peligrosa actitud de impulsividad?",
+    "options": [
+      "Me podría pasar.",
+      "Hágalo rápidamente para terminar de una vez.",
+      "No tan rápido, piensa primero."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3931.1.- A todos los pilotos les ocurren actitudes peligrosas en algún grado en algún momento. ¿Cuáles son algunas de estas actitudes peligrosas?",
+    "options": [
+      "Mala gestión de riesgos y falta de gestión del estrés.",
+      "Antiautoridad, impulsividad, machismo, resignación e invulnerabilidad.",
+      "Falta de conciencia de la situación, juicios rápidos y falta de un proceso de toma de decisiones."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3931.2.- En el proceso de toma de decisiones aeronáuticas (ADM), ¿cuál es el primer paso para neutralizar una actitud peligrosa?",
+    "options": [
+      "Hacer un juicio racional.",
+      "Reconocer pensamientos peligrosos.",
+      "Reconociendo la invulnerabilidad de la situación."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3931.3.- ¿La gestión de riesgos, como parte del proceso de toma de decisiones aeronáuticas (ADM), en qué características se basna para reducir los riesgos asociados con cada vuelo?",
+    "options": [
+      "Aplicación de procedimientos de gestión de estrés y elementos de riesgo.",
+      "Conciencia situacional, reconocimiento de problemas y buen juicio.",
+      "El proceso mental de analizar toda la información en una situación particular y tomar una decisión oportuna sobre qué acción tomar."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3934.- ¿Qué frase antídoto puede ayudar a revertir la peligrosa actitud de \"invulnerabilidad\"?",
+    "options": [
+      "No me pasará a mí.",
+      "No puede ser tan malo.",
+      "Me podría pasar."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3935.- ¿Qué frase antídoto puede ayudar a revertir la peligrosa actitud del \"macho\"?",
+    "options": [
+      "Yo puedo hacerlo.",
+      "Es una tontería correr riesgos.",
+      "Nada pasará."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3936.- ¿Qué frase antídoto puede ayudar a revertir la peligrosa actitud de \"resignación\"?",
+    "options": [
+      "Cuál es el uso.",
+      "Alguien más es responsable.",
+      "No estoy indefenso."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3937.- ¿Quién es responsable de determinar si un piloto está en condiciones de volar para un vuelo en particular, aunque tenga un certificado médico vigente?",
+    "options": [
+      "La AAC",
+      "El médico forense.",
+      "El piloto."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3938.- ¿Cuál es el factor común que afecta a la mayoría de los accidentes evitables?",
+    "options": [
+      "Fallo estructural.",
+      "Mal funcionamiento mecánico.",
+      "Error humano."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3939.- ¿Qué conduce a menudo a la desorientación espacial o colisión con el suelo / obstáculos cuando se vuela bajo las Reglas de vuelo visual (VFR)?",
+    "options": [
+      "Vuelo continuo en condiciones de instrumentos.",
+      "Ponerse detrás del avión.",
+      "Síndrome del pato debajo."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3940.- ¿Cuál es uno de los elementos que se descuidan cuando un piloto se basa en la memoria a corto y largo plazo para tareas repetitivas?",
+    "options": [
+      "Listas de verificación.",
+      "Conciencia de la situación.",
+      "Volando fuera del sobre."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3940.1.- Un piloto y dos pasajeros aterrizaron en una franja de grava de 2,100 pies de este a oeste con una elevación de 1,800 pies. La temperatura es más cálida de lo esperado y, después de calcular la altitud de densidad, se determina que la distancia de despegue sobre un obstáculo de 50 pies es de 1,980 pies. El avión pesa 75 libras por debajo del peso bruto. ¿Cuál sería la mejor opción?",
+    "options": [
+      "Despegar con viento en contra le dará el tiempo adicional necesario para escalar.",
+      "Pruebe un despegue sin los pasajeros para asegurarse de que el ascenso sea adecuado.",
+      "Espere hasta que la temperatura baje y vuelva a calcular el rendimiento de despegue."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3710.1.- La mayoría de los accidentes de colisión en el aire ocurren durante:",
+    "options": [
+      "Días brumosos.",
+      "Días claros.",
+      "Noches nubladas."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3710.- Antes de comenzar cada maniobra, los pilotos deben:",
+    "options": [
+      "Verifique las indicaciones de altitud, velocidad aerodinámica y rumbo.",
+      "Escanee visualmente toda el área para evitar colisiones.",
+      "Anunciar sus intenciones sobre el CTAF más cercano."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3833.- ¿Qué efecto tiene la bruma en la capacidad de ver el tráfico o las características del terreno durante el vuelo?",
+    "options": [
+      "La bruma hace que los ojos se enfoquen al infinito.",
+      "Los ojos tienden a trabajar demasiado en la bruma y no detectan fácilmente el movimiento relativo.",
+      "Todo el tráfico o las características del terreno parecen estar más lejos que su distancia real."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3834.- Los movimientos oculares durante el escaneo diurno para evitar colisiones deben:",
+    "options": [
+      "No exceder los 10 grados y vea cada sector al menos 1 segundo.",
+      "Estar a 30 grados y ver cada sector al menos 3 segundos.",
+      "Utilizar la visión periférica escaneando sectores pequeños y utilizando la visión descentrada."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3835.- ¿Qué técnica debería usar un piloto para buscar tráfico a derecha e izquierda durante un vuelo recto y nivelado?",
+    "options": [
+      "Concéntrese sistemáticamente en diferentes segmentos del cielo durante intervalos cortos.",
+      "Concéntrese en el movimiento relativo detectado en el área de visión periférica.",
+      "Barrido continuo del parabrisas de derecha a izquierda."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3836.- ¿Cómo puede determinar si otra aeronave está en curso de colisión con su aeronave?",
+    "options": [
+      "El otro avión siempre parecerá volverse más grande y más cercano a un ritmo rápido.",
+      "La nariz de cada avión apunta al mismo punto en el espacio.",
+      "No habrá ningún movimiento relativo aparente entre su avión y el otro avión."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3849.- ¿Qué preparación debe hacer un piloto para adaptar los ojos a los vuelos nocturnos?",
+    "options": [
+      "Use gafas de sol después de la puesta del sol hasta que esté listo para el vuelo.",
+      "Evite las luces rojas al menos 30 minutos antes del vuelo.",
+      "Evite las luces blancas brillantes al menos 30 minutos antes del vuelo."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3713.- El mejor método a utilizar cuando se busca otro tráfico por la noche es:",
+    "options": [
+      "Mire hacia el costado del objeto y escanee lentamente.",
+      "Escanee el campo visual muy rápidamente.",
+      "Mire hacia el costado del objeto y escanee rápidamente."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3714.- El método más eficaz de escaneo de otras aeronaves para evitar colisiones durante las horas nocturnas es utilizar:",
+    "options": [
+      "Concentración regularmente espaciada en las posiciones de las 3, 9 y 12 en punto.",
+      "Una serie de movimientos oculares cortos y regularmente espaciados para buscar en cada sector de 30 grados.",
+      "Visión periférica escaneando pequeños sectores y utilizando la visualización fuera del centro."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3162.- Excepto en Alaska, ¿durante qué período de tiempo se deben exhibir las luces de posición encendidas en un avión?",
+    "options": [
+      "Final del crepúsculo civil vespertino hasta el comienzo del crepúsculo civil matutino.",
+      "1 hora después del atardecer hasta 1 hora antes del amanecer.",
+      "Desde el atardecer hasta el amanecer."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3916.- Se anima a los pilotos a encender sus luces de aterrizaje cuando operan por debajo de 10,000 pies, de día o de noche, y cuando operan dentro de:",
+    "options": [
+      "Espacio aéreo de clase B.",
+      "10 millas de cualquier aeropuerto.",
+      "A 15 millas de un aeropuerto con torres."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3916.1.- Se alienta a los pilotos a encender sus luces de aterrizaje cuando operan por debajo de 10,000 pies, de día o de noche, y especialmente cuando operan:",
+    "options": [
+      "En el espacio aéreo de Clase B.",
+      "En condiciones de visibilidad reducida.",
+      "A 15 millas de un aeropuerto con torres."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3715.- Durante un vuelo nocturno, observa una luz roja fija y una luz roja intermitente adelante ya la misma altitud. ¿Cuál es la dirección general de movimiento de la otra aeronave?",
+    "options": [
+      "El otro avión cruza a la izquierda.",
+      "El otro avión cruza a la derecha.",
+      "El otro avión se acerca de frente."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3716.- Durante un vuelo nocturno, observa una luz blanca fija y una luz roja intermitente adelante y a la misma altitud. ¿Cuál es la dirección general de movimiento de la otra aeronave?",
+    "options": [
+      "El otro avión se aleja de ti.",
+      "El otro avión cruza a la izquierda.",
+      "El otro avión cruza a la derecha."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "PROCEDIMIENTOS Y OPERACIONES",
+    "question": "3717.- Durante un vuelo nocturno, observa luces rojas y verdes fijas adelante y a la misma altitud. ¿Cuál es la dirección general de movimiento de la otra aeronave?",
+    "options": [
+      "El otro avión cruza a la izquierda.",
+      "El otro avión se aleja de ti.",
+      "El otro avión se acerca de frente."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3005.- La definición de noche es:",
+    "options": [
+      "Del atardecer al amanecer.",
+      "1 hora después del atardecer hasta 1 hora antes del amanecer.",
+      "El tiempo entre el final del crepúsculo civil vespertino y el comienzo del crepúsculo civil matutino."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3064.- Con respecto a los privilegios y limitaciones, un piloto privado puede:",
+    "options": [
+      "Actuar como piloto al mando, pero sin remuneración.",
+      "Actuar como piloto al mando de una aeronave que lleve un pasajero a cambio de una compensación si el vuelo está relacionado con una empresa o empleo.",
+      "Se pagará por los gastos operativos de un vuelo."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3066.- ¿Qué excepción, si la hay, permite que un piloto privado actúe como piloto al mando de una aeronave que transporta pasajeros que pagan el vuelo?",
+    "options": [
+      "Si los pasajeros pagan todos los gastos operativos.",
+      "Si se hace una donación a una organización benéfica para el vuelo.",
+      "No hay ninguna excepción."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3067.- (Consulte la Figura 74.) ¿Qué licencia mínima de piloto se requiere para un vuelo que sale de Hayward Executive (Área 6)?",
+    "options": [
+      "Licencia de Alumno Piloto.",
+      "Licencia de Piloto Privado.",
+      "Licencia de Piloto Deportivo."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3001.- Con respecto a las habilitaciones en las licencias de pilotos, ¿cuáles son las categorías de aeronaves?",
+    "options": [
+      "Giroplano, helicóptero, dirigible, globo libre.",
+      "Avión, helicóptero, dirigible de un volumen superior a 4 600 metros cúbicos, aeronave de despegue vertical.",
+      "Monomotor terrestre y marítimo, multimotor terrestre y marítimo."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3002.- Con respecto a las habilitaciones en las licencias de pilotos, ¿cuáles son las clases de aeronaves?",
+    "options": [
+      "Avión, helicóptero, planeador, más ligero que el aire.",
+      "Monomotores terrestres, multimotores terrestres, monomotores hidroavión, multimotores hidroavión.",
+      "Más ligero que el aire, dirigible, globo aerostático, globo de gas."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3024.- ¿El piloto al mando debe tener una habilitación de tipo en qué aeronave?",
+    "options": [
+      "Aeronaves operadas bajo una autorización emitida por la Autoridad.",
+      "Aeronaves certificadas para volar con una tripulación mínima de dos pilotos; aviones turbopropulsados; todos los helicópteros y aeronaves de despegue vertical.",
+      "Aeronaves involucradas en vuelos de ferry, vuelos de entrenamiento o vuelos de prueba."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3039.- Se emitió un certificado médico de Clase 2 a un piloto privado de 19 años, el certificado médico vencerá en:",
+    "options": [
+      "36 meses.",
+      "12 meses.",
+      "6 meses."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3020.- Un certificado médico Clase 2 se emite a un piloto de 36 años, el certificado médico será válido por:",
+    "options": [
+      "36 meses.",
+      "12 meses.",
+      "6 meses."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3021.- Un certificado médico Clase 2 que se emite a un piloto de 51 años, será válido por:",
+    "options": [
+      "36 meses.",
+      "12 meses.",
+      "6 meses"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3022.- El titular de una licencia de piloto comercial que tiene 42 años realiza operaciones de vuelo privadas, qué certificado médico y validez del mismo debe acreditar:",
+    "options": [
+      "Clase 2, 36 meses.",
+      "Clase 1, 12 meses.",
+      "Clase 2, 24 meses."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3023.- Para operaciones de piloto privado, un certificado médico Clase 2 emitido a un piloto de 23 años tendrá una validez de:",
+    "options": [
+      "36 meses",
+      "12 meses.",
+      "6 meses."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3016.- ¿Qué documento (s) debe (n) estar en su posesión personal o de fácil acceso en la aeronave mientras opera como piloto al mando de una aeronave?",
+    "options": [
+      "Certificados que demuestren la realización de una verificación en la aeronave y una revisión de vuelo actual.",
+      "Una licencia de piloto con un endoso que demuestre la realización de una revisión de vuelo anual y un diario de vuelo del piloto que muestre la experiencia reciente.",
+      "Una licencia de piloto apropiada y un certificado médico actual apropiado."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3017.- ¿Cuándo debe estar una licencia de piloto vigente en posesión personal del piloto o fácilmente accesible en la aeronave?",
+    "options": [
+      "Cuando actúa como jefe de tripulación durante el lanzamiento y la recuperación.",
+      "Solo cuando se transportan pasajeros.",
+      "En cualquier momento cuando actúe como piloto al mando o como miembro de la tripulación requerido."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3018.- Un piloto privado que actúe como piloto al mando, o en cualquier otra capacidad como piloto requerido miembro de la tripulación de vuelo, debe tener en su posesión personal o fácilmente accesible en la aeronave un:",
+    "options": [
+      "Endoso del libro de registro para demostrar que la revisión del vuelo se ha realizado satisfactoriamente.",
+      "Certificado médico y una licencia de piloto apropiada.",
+      "Endoso en el certificado de piloto para demostrar que una revisión de vuelo se ha realizado satisfactoriamente."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3019.- Toda persona que posea una licencia de piloto o un certificado médico deberá presentarlo para su inspección a solicitud de cualquier:",
+    "options": [
+      "Representante autorizado del Ministerio de Transporte.",
+      "Persona en una posición de autoridad.",
+      "Inspectores designados por la AAC."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3028.- Para actuar como piloto al mando de una aeronave que realiza operaciones privadas, un piloto debe demostrar mediante el endoso en su libro de vuelo la finalización satisfactoria de un repaso de vuelo, dentro del periodo anterior de:",
+    "options": [
+      "6 meses calendario.",
+      "12 meses calendario.",
+      "24 meses calendario."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3029.- Si no se cumplen los requisitos de experiencia reciente para vuelos nocturnos y la puesta de sol oficial es a las 18:30, la última hora en que se pueden transportar personas es:",
+    "options": [
+      "0.7701388888888889",
+      "0.7909722222222222",
+      "0.8118055555555556"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3030.- Para actuar como piloto al mando de una aeronave que transporta personas, el piloto debe haber realizado al menos tres despegues y tres aterrizajes en una aeronave de la misma categoría, clase, y si se requiere habilitación de tipo, del mismo tipo, dentro de los últimos:",
+    "options": [
+      "90 días.",
+      "60 días.",
+      "30 días"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3030.1.- Tu primo quiere que lo lleves a volar. Debe haber realizado al menos tres despegues y tres aterrizajes en su aeronave dentro de los",
+    "options": [
+      "90 días.",
+      "60 días.",
+      "30 días"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3031.- Para actuar como piloto al mando de una aeronave, el piloto debe haber realizado tres despegues y tres aterrizajes dentro de los 90 días anteriores en una aeronave de la misma:",
+    "options": [
+      "Marca y modelo.",
+      "Categoría y clase, pero no tipo.",
+      "Categoría, clase y tipo, si se requiere una habilitación de tipo."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3034.- Para cumplir con los requisitos de experiencia reciente para actuar como piloto al mando que transporta pasajeros por la noche, un piloto debe haber realizado al menos tres despegues y tres aterrizajes hasta detenerse por completo dentro de los 90 días anteriores en:",
+    "options": [
+      "La misma categoría y clase de aeronave que se utilizará.",
+      "El mismo tipo de aeronave que se utilizará.",
+      "Cualquier avión."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3040.- Si un piloto privado tuvo su repaso de vuelo, este año, ¿cuándo se requiere el próximo repaso de vuelo?",
+    "options": [
+      "2 años después.",
+      "1 año después.",
+      "No requiere repaso de vuelo."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3041.- Cada piloto privado requiere tener:",
+    "options": [
+      "Una revisión de vuelo bianual.",
+      "Una revisión de vuelo anual.",
+      "Una revisión de vuelo semianual."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3032.- Los aterrizajes necesarios para cumplir con los requisitos de experiencia reciente para transportar pasajeros en un avión de rueda de cola:",
+    "options": [
+      "Puede ser toque y listo o punto final.",
+      "Debe ser toque y listo.",
+      "Hasta la detención completa del avión en la pista."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3033.- Los tres despegues y aterrizajes que se requieren para actuar como piloto al mando en la noche deben realizarse durante el período de tiempo desde:",
+    "options": [
+      "Del atardecer al amanecer.",
+      "1 hora después del atardecer hasta 1 hora antes del amanecer.",
+      "Del final del crepúsculo civil vespertino al comienzo del crepúsculo civil matutino."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3035.- Si un piloto certificado cambia su domicilio permanente y no notifica a la AAC sobre la nueva dirección, el piloto tiene derecho ejercer los privilegios del certificado de piloto por un período de solo:",
+    "options": [
+      "30 días después de la fecha que cambió su domicilio.",
+      "60 días después de la fecha que cambió su domicilio.",
+      "90 días después de la fecha que cambió su domicilio."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3070.- La autoridad final en cuanto a la operación de una aeronave es la de:",
+    "options": [
+      "La Autoridad Aeronáutica.",
+      "El piloto al mando.",
+      "El fabricante del avión"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3072.- Si una emergencia en vuelo requiere una acción inmediata, el piloto al mando puede:",
+    "options": [
+      "Desviarse de cualquier regla del LAR 91 en la medida necesaria para hacer frente a la emergencia, sin dar aviso a la autoridad.",
+      "Desviarse de cualquier regla del LAR 91 en la medida necesaria para cumplir con esa emergencia, notificando a la autoridad competente.",
+      "No se desvíe de ninguna regla del LAR 91."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3073.- Cuándo un piloto que se desvía de un reglamento durante una emergencia, debe enviar un informe escrito de esa desviación si lo exigen las Autoridades competentes en un plazo de:",
+    "options": [
+      "En 7 días.",
+      "En 10 días.",
+      "En 15 días."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3074.- ¿Quién es responsable de determinar si una aeronave está en condiciones de realizar un vuelo seguro?",
+    "options": [
+      "Un mecánico de aeronaves certificado.",
+      "El piloto al mando.",
+      "El propietario u operador."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3080.- ¿Qué acción previa al vuelo se requiere específicamente del piloto antes de cada vuelo?",
+    "options": [
+      "Consultar los libros de registro de la aeronave para obtener las entradas adecuadas.",
+      "Familiarizarse con toda la información disponible sobre el vuelo.",
+      "Revisar los procedimientos para evitar estela turbulenta."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3081.- La acción previa al vuelo, como se requiere para todos los vuelos fuera de las proximidades de un aeropuerto, incluirá:",
+    "options": [
+      "La designación de un aeropuerto alternativo.",
+      "Un estudio de los procedimientos de llegada en los aeropuertos / helipuertos de uso previsto.",
+      "El plan a seguir en caso de que no se pueda completar el vuelo planeado."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3082.- Además de otras acciones previas al vuelo para un vuelo VFR lejos de las cercanías del aeropuerto de salida, las regulaciones requieren específicamente que el piloto al mando:",
+    "options": [
+      "Revisar los procedimientos de las señales de semáforo de control de tráfico.",
+      "Comprobar la precisión del equipo de navegación y del transmisor localizador de emergencia (ELT).",
+      "Determinar la longitud de las pistas en los aeropuertos de uso previsto y los datos de las distancias de despegue y aterrizaje de la aeronave."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3132.- ¿Cuál es el requisito específico de combustible para volar bajo VFR de noche en un avión?",
+    "options": [
+      "Suficiente para completar el vuelo a velocidad de crucero normal con condiciones de viento adversas.",
+      "Suficiente para volar al primer punto de aterrizaje previsto y después volar durante 30 minutos a la velocidad de crucero normal.",
+      "Suficiente para volar hasta el primer punto de aterrizaje previsto y después volar durante 45 minutos a la altitud de crucero normal."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3131.- ¿Cuál es el requisito de combustible específico para volar en VFR durante el día en un avión?",
+    "options": [
+      "Suficiente para completar el vuelo a velocidad de crucero normal con condiciones de viento adversas.",
+      "Suficiente para volar al primer punto de aterrizaje previsto y después volar durante 30 minutos a la altitud de crucero normal.",
+      "Suficiente para volar hasta el primer punto de aterrizaje previsto y después volar durante 45 minutos a la velocidad de crucero normal."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3083.- Los miembros de la tripulación de vuelo deben mantener abrochados sus cinturones de seguridad y arneses para hombros durante:",
+    "options": [
+      "Los despegues y aterrizajes.",
+      "Todas las condiciones de vuelo.",
+      "En turbulencia."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3084.- ¿Cuál describe mejor las condiciones de vuelo bajo las cuales se requiere específicamente que los miembros de la tripulación de vuelo mantengan abrochados sus cinturones de seguridad y arneses para hombros?",
+    "options": [
+      "Cinturones de seguridad durante el despegue y el aterrizaje; arneses para hombros durante el despegue y el aterrizaje.",
+      "Cinturones de seguridad durante el despegue y el aterrizaje; arneses para hombros durante el despegue y el aterrizaje y durante el trayecto.",
+      "Cinturones de seguridad durante el despegue y aterrizaje y en ruta; arneses para hombros durante el despegue y el aterrizaje."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3085.- Con respecto a los pasajeros, ¿qué obligación, si la hubiera, tiene un piloto al mando con respecto al uso de los cinturones de seguridad?",
+    "options": [
+      "El piloto al mando debe instruir a los pasajeros para que mantengan abrochados los cinturones de seguridad durante todo el vuelo.",
+      "El piloto al mando debe informar a los pasajeros sobre el uso de los cinturones de seguridad y notificarles que se abrochen los cinturones de seguridad durante el rodaje, el despegue y el aterrizaje.",
+      "El piloto al mando no tiene ninguna obligación con respecto al uso de los cinturones de seguridad por parte de los pasajeros."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3085.1.- La información previa al despegue de los pasajeros sobre el uso de cinturones de seguridad para un vuelo es responsabilidad de:",
+    "options": [
+      "Todos los pasajeros.",
+      "El piloto al mando.",
+      "El piloto del asiento derecho."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3086.- Con ciertas excepciones, se requiere que los cinturones de seguridad estén asegurados a los pasajeros durante:",
+    "options": [
+      "Rodaje, despegues y aterrizajes.",
+      "Todas las condiciones de vuelo.",
+      "Vuelo en aire turbulento."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3087.- ¿Se requiere que los cinturones de seguridad estén debidamente asegurados sobre qué personas en una aeronave y cuándo?",
+    "options": [
+      "Solo pilotos, durante despegues y aterrizajes.",
+      "Pasajeros, solo durante el rodaje, despegues y aterrizajes.",
+      "Cada persona a bordo del avión durante todo el vuelo."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3078.- ¿Puede un piloto permitir que una persona que está obviamente bajo la influencia de drogas sea transportada a bordo de un avión?",
+    "options": [
+      "No le permitirá el embarque.",
+      "Si le permitirá el embarque.",
+      "Solo si la persona no tiene acceso a la cabina del piloto o al compartimiento del piloto."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3079.- Ninguna persona puede intentar actuar como miembro de la tripulación de una aeronave civil con:",
+    "options": [
+      "0,008 por ciento en peso o más de alcohol en la sangre.",
+      "0,004 por ciento en peso o más de alcohol en la sangre.",
+      "Los miembros de la tripulación deben abstenerse de desempeñar sus funciones mientras están bajo la influencia del alcohol."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3089.- ¿Qué aeronave tiene el derecho de paso sobre el resto del tráfico aéreo?",
+    "options": [
+      "Un globo.",
+      "Un avión en peligro.",
+      "Un avión en aproximación final a tierra."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3090.- ¿Qué acción se requiere cuando dos aviones de la misma categoría convergen, pero no de frente?",
+    "options": [
+      "La aeronave más rápida cederá.",
+      "La aeronave de la izquierda cederá.",
+      "Cada aeronave alterará su rumbo hacia la derecha."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3093.- ¿Qué aeronave tiene el derecho de paso sobre las otras aeronaves enumeradas?",
+    "options": [
+      "Planeador.",
+      "Dirigible.",
+      "Aeronaves que vayan remolcando a otras."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3092.- Un avión y un dirigible convergen. Si el dirigible se encuentra a la izquierda de la posición del avión, ¿qué aeronave tiene el derecho de paso?",
+    "options": [
+      "El dirigible.",
+      "El avión.",
+      "Cada piloto debe alterar el rumbo hacia la derecha."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3091.- ¿Qué aeronave tiene el derecho de paso sobre las otras aeronaves enumeradas?",
+    "options": [
+      "Giroplano.",
+      "Dirigible.",
+      "Planeadores"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3095.- Cuando dos o más aeronaves se acercan a un aeropuerto con el propósito de aterrizar, el derecho de paso pertenece a la aeronave.",
+    "options": [
+      "Que tiene el otro a su derecha.",
+      "Eso es lo menos maniobrable.",
+      "La aeronave de menor altitud, pero no se aprovechará de esta regla para cortar por delante o adelantar a otro."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3096.- Un hidroavión y una lancha a motor están en vías de cruce. Si la lancha está a la izquierda del hidroavión, ¿cuál tiene el derecho de paso?",
+    "options": [
+      "La lancha.",
+      "El hidroavión.",
+      "Ambos deben cambiar de rumbo hacia la derecha."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3094.- ¿Qué acción deben tomar los pilotos de un planeador y un avión si se encuentran en un curso de colisión frontal?",
+    "options": [
+      "El piloto del avión debe ceder el paso a la izquierda.",
+      "El piloto del planeador debe ceder el paso a la derecha.",
+      "Ambos pilotos deben ceder el paso a la derecha."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3172.- Un paracaídas tipo asiento aprobado puede llevarse en una aeronave para uso de emergencia si ha sido plegado por un plegador de paracaídas certificado y apropiado dentro de los:",
+    "options": [
+      "120 días precedentes.",
+      "180 días precedentes",
+      "365 días precedentes"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3173.- Con ciertas excepciones, ¿cuándo debe cada ocupante de una aeronave usar un paracaídas aprobado?",
+    "options": [
+      "Cuando se quita una puerta de la aeronave para facilitar los saltadores en paracaídas.",
+      "Al inclinar intencionalmente la nariz de la aeronave hacia arriba o hacia abajo 30° o más.",
+      "Cuando se inclina intencionalmente a más de 30 °."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3108.- Cuando se ha obtenido una autorización ATC, ningún piloto al mando puede desviarse de esa autorización, a menos que ese piloto obtenga una autorización modificada. La única excepción a este reglamento es:",
+    "options": [
+      "cuando la autorización dice \"a discreción del piloto\".",
+      "Una emergencia.",
+      "Si la autorización contiene una restricción."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3108.1.- Como piloto al mando de una aeronave, ¿en qué situación puede desviarse de una autorización ATC?",
+    "options": [
+      "Cuando se opera en el espacio aéreo Clase A por la noche.",
+      "Si no se entiende una autorización ATC y en condiciones VFR.",
+      "En respuesta a una alerta de tráfico y un aviso de resolución del sistema para evitar colisiones."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3109.- ¿Cuándo se le exigirá a un piloto que informe sobre las medidas aplicadas en una emergencia que provocó que el piloto se desvíe de una autorización ATC?",
+    "options": [
+      "Dentro de las 48 horas siguientes.",
+      "Tan pronto como lo permitan las circunstancias",
+      "En 7 días."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3837.- Una autorización ATC proporciona:",
+    "options": [
+      "Prioridad sobre el resto del tráfico.",
+      "Separación adecuada de todo el tráfico.",
+      "Autorización para proceder en condiciones de tráfico específicas en espacio aéreo controlado."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "2004.- Mientras esté en un VFR de campo traviesa y no esté en contacto con ATC, ¿qué frecuencia usaría en caso de una emergencia?",
+    "options": [
+      "121,5 MHz.",
+      "122,5 MHz.",
+      "128,725 MHz."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3101.- Excepto cuando sea necesario para el despegue o el aterrizaje, ¿cuál es la altitud mínima segura para que un piloto opere una aeronave en vuelos VFR?",
+    "options": [
+      "A una altura de 300 m (1 000 ft) sobre el obstáculo más alto situado dentro de un radio de 600 m desde la aeronave, sobre aglomeraciones de edificios en ciudades, pueblos o lugares habitados, o sobre una reunión de personas al aire libre",
+      "Una altitud de 500 ft sobre la superficie y no más cerca de 500 pies de cualquier persona, embarcación, vehículo o estructura.",
+      "Una altitud de 500 ft por encima del obstáculo más alto dentro de un radio horizontal de 1,000 pies."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3102.- Excepto cuando sea necesario para el despegue o el aterrizaje, ¿cuál es la altitud mínima de seguridad requerida para que un piloto opere una aeronave en vuelo IFR?",
+    "options": [
+      "Una altitud de 1,000 pies sobre cualquier persona, embarcación, vehículo o estructura.",
+      "Una altitud de 500 pies por encima del obstáculo más alto dentro de un radio horizontal de 1,000 pies de la aeronave.",
+      "Sobre terreno elevado o en áreas montañosas, a un nivel de por lo menos 600 m (2 000 ft) por encima del obstáculo más alto que se halle dentro de un radio de 8 km con respecto a la posición estimada de la aeronave en vuelo."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3103.- Excepto cuando sea necesario para el despegue o el aterrizaje, ¿cuál es la altitud mínima segura requerida para que un piloto opere una aeronave en un área que no sea congestionada en vuelos VFR?",
+    "options": [
+      "500 ft sobre tierra o agua.",
+      "Una altitud que permite, si falla una unidad motriz, un aterrizaje de emergencia sin peligro indebido para las personas o la propiedad en la superficie.",
+      "1000 ft sobre tierra o agua."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3104.- Excepto cuando sea necesario para el despegue o el aterrizaje, ¿una aeronave no puede operarse más cerca de qué distancia de cualquier persona, embarcación, vehículo o estructura, en vuelo VFR?",
+    "options": [
+      "500 pies.",
+      "700 pies.",
+      "1000 pies."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3136.- Durante las operaciones dentro del espacio aéreo controlado a altitudes de menos de 3000 pies AMSL, el requisito de distancia horizontal mínima desde las nubes para el vuelo VFR es:",
+    "options": [
+      "1500 metros.",
+      "1000 pies.",
+      "300 metros."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3138.- ¿Qué visibilidad de vuelo mínima se requiere para operaciones de vuelo VFR en una vía aérea por debajo de 10,000 pies AMSL?",
+    "options": [
+      "8 km",
+      "3 km",
+      "5 km"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3139.- La distancia mínima de las nubes requerida para operaciones VFR en una vía aérea por debajo de 10,000 pies AMSL y por encima de 3000 pies es:",
+    "options": [
+      "1500 metros horizontalmente y 300 metros verticalmente.",
+      "Libre de nubes.",
+      "5 km."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3140.- Durante las operaciones dentro del espacio aéreo controlado a altitudes de más de 1,000 pies sobre el terreno, pero menos de 10,000 pies AMSL, el requisito de distancia mínima por encima de las nubes para vuelos VFR es:",
+    "options": [
+      "1,500 pies.",
+      "1500 metros horizontalmente y 300 metros verticalmente.",
+      "1500 metros verticalmente y 300 metros horizontalmente."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3141.- El vuelo VFR en espacio aéreo controlado por encima de los 3000 pies AMSL y por debajo de los 10,000 pies AMSL requiere una visibilidad mínima y un espacio de:",
+    "options": [
+      "5 km, 1500 metros horizontalmente y 300 metros verticalmente.",
+      "3 km y 500 pies por debajo o 1,000 pies por encima de las nubes",
+      "5 km y libre de nubes y con la superficie a la vista"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3145.- La visibilidad de vuelo mínima requerida para vuelos VFR por encima de 10,000 pies AMSL espacio aéreo controlado es:",
+    "options": [
+      "1500 metros horizontalmente y 300 metros verticalmente.",
+      "5 km",
+      "8 km"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3146.- Para operaciones de vuelo VFR por encima de los 10,000 pies AMSL la distancia horizontal mínima de las nubes requerida es:",
+    "options": [
+      "1,000 metros",
+      "1,500 pies.",
+      "1,500 metros."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3147.- Durante las operaciones en altitudes por encima de 10,000 pies AMSL, la distancia mínima por encima de las nubes requeridas para el vuelo VFR es:",
+    "options": [
+      "1500 metros horizontalmente y 300 metros verticalmente.",
+      "Libre de nubes y con la superficie a la vista",
+      "1500 pies horizontalmente y 1000 pies verticalmente."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3620.1.- Los requisitos de visibilidad y despeje de nubes para operar VFR durante el día sobre un aeropuerto ubicado en espacio aéreo F 1000 pies sobre el terreno es:",
+    "options": [
+      "5 km.",
+      "5 km, libre de nubes y con la superficie a la vista.",
+      "5 km y distancia de nubes de 1500 metros horizontalmente y 300 metros verticalmente."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3620.2.- Los requisitos de visibilidad y despeje de nubes para operar de noche sobre el aeropuerto espacio aéreo Clase E a 1000 pies sobre el terreno:",
+    "options": [
+      "8 km y 1500 metros horizontalmente y 300 metros verticalmente.",
+      "5 km, libre de nubes y con la superficie a la vista.",
+      "5 km y 1500 metros horizontalmente y 300 metros verticalmente."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3621.1.- Los requisitos de visibilidad y distancia de nubes para operar VFR durante las horas del día en el espacio aéreo Clase E entre 1,000 pies sobre el terreno y 10,000 pies AMSL son:",
+    "options": [
+      "1 milla y despejado de nubes.",
+      "5 km, 1500 metros horizontalmente y 300 metros verticalmente.",
+      "5 km, 1500 metros horizontalmente y 300 metros"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3621.2.- Los requisitos de visibilidad VFR diurna y despeje de nubes para operar sobre una ciudad en espacio aéreo Clase G y después de salir y ascender del aeropuerto a 1000 pies:",
+    "options": [
+      "5 km y libre de nubes y con la superficie a la vista",
+      "1 milla y 1,000 pies arriba, 500 pies abajo y 2,000 pies horizontalmente desde las nubes.",
+      "3 km y despejado de nubes."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3621.3.- ¿Cuáles son los mínimos meteorológicos VFR básicos necesarios para despegar de un aeropuerto en un espacio aéreo de Clase G, durante el día?",
+    "options": [
+      "5 km, libre de nubes y con la superficie a la vista.",
+      "5 km y 1500 metros horizontalmente y 300 metros verticalmente.",
+      "8 km."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3520.- En vuelo en el espacio aéreo Clase G a 300 metros sobre el terreno, las mínimas meteorológicas son:",
+    "options": [
+      "1500 metros horizontalmente y 300 metros verticalmente.",
+      "5 km. 1500 metros horizontalmente y 300 metros verticalmente.",
+      "5 km, libre de nubes y con la superficie a la vista."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3137.- ¿Qué visibilidad y distancia mínima de las nubes se requieren para las operaciones VFR en el espacio aéreo de Clase G a 3000 pies AMSL o menos durante las horas del día?",
+    "options": [
+      "Visibilidad de 5 km, libre de nubes y con la superficie a la vista.",
+      "Visibilidad de 1 milla, 500 pies por debajo, 1,000 pies por encima y 2,000 pies de distancia horizontal de las nubes.",
+      "Visibilidad de 3 km de visibilidad y despejado de nubes."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3142.- Durante las operaciones fuera del espacio aéreo controlado a 3,000 pies AMSL o por debajo, o a 1,000 pies sobre el terreno, la visibilidad mínima de vuelo para vuelos VFR es:",
+    "options": [
+      "5 km",
+      "3 km.",
+      "8 km."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3143.- Durante las operaciones fuera del espacio aéreo controlado a altitudes de más de 3000 pies AMSL, pero menos de 10,000 pies AMSL, la visibilidad mínima de vuelo para el vuelo VFR diurno es:",
+    "options": [
+      "8 km",
+      "5 km",
+      "3 km"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3144.- Durante las operaciones fuera del espacio aéreo controlado a altitudes de más de 1,000 pies sobre el terreno, pero menos de 10,000 pies AMSL, el requisito de distancia mínima debajo de las nubes para vuelos VFR de noche es:",
+    "options": [
+      "1500 metros horizontalmente y 300 metros verticalmente.",
+      "1500 pies.",
+      "Libre de nubes y con la superficie a la vista."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3148.- Ninguna persona puede despegar o aterrizar una aeronave con VFR básico en un aeropuerto dentro de una zona de control si la visibilidad en tierra es menor a:",
+    "options": [
+      "5 km",
+      "8 km",
+      "1500 m."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3149.- Los mínimos meteorológicos básicos VFR para operar una aeronave dentro de la zona de tránsito de aeródromo o en el circuito de tránsito de dicho aeródromo:",
+    "options": [
+      "Techo de nubes 1500 pies y visibilidad 5 km.",
+      "5 km.",
+      "450 m."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3150.- Una autorización VFR especial autoriza al piloto de una aeronave a operar VFR mientras se encuentra dentro del espacio aéreo Clase D cuando la visibilidad en tierra es:",
+    "options": [
+      "Menos de 1,000 pies.",
+      "Al menos 1500 metros.",
+      "Al menos 1000 metros y libre de nubes."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3151.- ¿Cuál es la condición climática mínima requerida para los aviones que operan bajo VFR especial en el espacio aéreo de Clase D?",
+    "options": [
+      "Visibilidad en tierra 1500 metros.",
+      "Visibilidad en tierra 1000 pies.",
+      "Visibilidad de 3 millas."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3813.- ¿Con qué instalación ATC debe contactar el piloto para recibir una autorización de salida VFR especial en el espacio aéreo de Clase D?",
+    "options": [
+      "Estación de servicio de vuelo automatizada.",
+      "Torre de control de tráfico aéreo.",
+      "Centro de Control de Tráfico de Rutas Aéreas."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3155.- ¿Qué altitud de crucero es apropiada para un vuelo VFR con un rumbo magnético de 135°?",
+    "options": [
+      "Cualquier altitud impar de miles de pies MSL más 500 pies.",
+      "Cualquier altitud par de miles de pies MSL más 500 pies",
+      "Cualquier altitud más 500 pies."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3156.- ¿Qué altitud de crucero VFR es aceptable para un vuelo a FL 115 con un rumbo magnético de 175 °?",
+    "options": [
+      "1000 pies",
+      "3000 metros.",
+      "11500 pies."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3157.- ¿Qué altitud de crucero VFR es apropiada cuando se vuela a 18500 pies en un curso magnético de 185°?",
+    "options": [
+      "5500 pies",
+      "5650 metros.",
+      "18000 metros."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3158.- Cada persona que opere una aeronave a una altitud de crucero VFR deberá mantener una altitud de miles impares más 500 pies mientras esté en un vuelo.",
+    "options": [
+      "Rumbo magnético de 0° a 179°.",
+      "Curso magnético de 0° a 179°.",
+      "Rumbo magnético de 180° a 359°."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3003.- Con respecto a la certificación de aeronaves, ¿cuáles son algunas de las categorías de aeronave?",
+    "options": [
+      "Normal, utilitario, acrobático.",
+      "Avión, helicóptero, planeador.",
+      "Avión terrestre, hidroavión."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3179.- A menos que se autorice específicamente lo contrario, ninguna persona puede operar una aeronave que tenga un certificado experimental",
+    "options": [
+      "Debajo del espacio aéreo Clase B.",
+      "Sobre un área densamente poblada o en una ruta aérea congestionada.",
+      "Desde el aeropuerto principal dentro del espacio aéreo de Clase D."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3178.- ¿Qué está normalmente prohibido cuando se opera una aeronave civil de categoría restringida?",
+    "options": [
+      "Vuelo bajo reglas de vuelo por instrumentos.",
+      "Vuelo sobre una zona densamente poblada.",
+      "Vuelo dentro del espacio aéreo Clase D."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3088.- Ninguna persona puede operar una aeronave en vuelo en formación:",
+    "options": [
+      "Sobre un área densamente poblada.",
+      "En el espacio aéreo de clase D.",
+      "Excepto por acuerdo previo con el piloto al mando de cada aeronave."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3076.- ¿En qué condiciones se pueden dejar caer objetos desde un avión?",
+    "options": [
+      "Solo en caso de emergencia.",
+      "No se hará ningún lanzamiento ni rociado desde aeronaves en vuelo salvo en las condiciones prescritas por la AAC y autorización de los servicios de tránsito aéreo.",
+      "Siempre que se requiera."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3818.- ¿Cómo se debe cerrar un plan de vuelo VFR al finalizar el vuelo en un aeropuerto controlado?",
+    "options": [
+      "La torre cerrará automáticamente el plan de vuelo cuando la aeronave salga de la pista.",
+      "El piloto debe cerrar el plan de vuelo con la dependencia ATS correspondiente al aterrizar.",
+      "La torre transmitirá las instrucciones cuando la aeronave contacte con la torre para aterrizar."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3075.- ¿Dónde se pueden encontrar las limitaciones operativas de una aeronave?",
+    "options": [
+      "En el certificado de aeronavegabilidad.",
+      "En el manual de vuelo, aprobado por la AAC.",
+      "En los cuadernos de bitácora del motor y la estructura del avión"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3075.1.- ¿Dónde se pueden encontrar las limitaciones operativas de una aeronave si la aeronave tiene un certificado de aeronavegabilidad experimental o especial para deportes ligeros?",
+    "options": [
+      "Adjunto al certificado de aeronavegabilidad.",
+      "En el manual de vuelo aprobado",
+      "En los cuadernos de bitácora del motor y la estructura del avión"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3159.- Además de un certificado de aeronavegabilidad válido, ¿qué documentos o registros deben estar a bordo de una aeronave durante el vuelo?",
+    "options": [
+      "Libros de registro de motores y fuselajes de aeronaves y manual del propietario.",
+      "Permiso de operador de radio y formularios de reparación y alteración.",
+      "Certificado de matrícula, libro de abordo, entre otros."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3187.- ¿Cuánto tiempo permanece válido el certificado de aeronavegabilidad de una aeronave?",
+    "options": [
+      "Siempre que la aeronave tenga un certificado de registro vigente.",
+      "Indefinidamente, a menos que la aeronave sufra daños importantes.",
+      "Siempre y cuando la aeronave se mantenga y opere como lo requieren los reglamentos LAR."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3180.1.- La responsabilidad de asegurar que una aeronave se mantenga en condiciones de aeronavegabilidad es principalmente del:",
+    "options": [
+      "Piloto al mando.",
+      "Propietario u operador.",
+      "Mecánico que realiza el trabajo."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3180.2.- La aeronavegabilidad de una aeronave se puede determinar mediante una inspección previa al vuelo y una:",
+    "options": [
+      "Declaración del propietario u operador de que la aeronave está en condiciones de aeronavegabilidad.",
+      "Aprobación del libro de registro de un instructor de vuelo.",
+      "Revisión de los registros de mantenimiento."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3181.1.- La responsabilidad de asegurar que el personal de mantenimiento haga las entradas apropiadas en los registros de mantenimiento de la aeronave que indiquen que la aeronave ha sido aprobada para su regreso al servicio recae en:",
+    "options": [
+      "Propietario u operador.",
+      "Piloto al mando.",
+      "Mecánico que realizó el trabajo."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3181.2.- ¿Quién es responsable de garantizar que se realicen las entradas adecuadas en los registros de mantenimiento que indiquen que la aeronave ha sido aprobada para volver al servicio?",
+    "options": [
+      "Propietario u operador.",
+      "Mecánico certificado.",
+      "Estación de reparación."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3182.- La finalización de una inspección anual de la aeronave y el regreso de la aeronave al servicio siempre deben indicarse mediante:",
+    "options": [
+      "La fecha de renovación de la licencia en el Certificado de registro.",
+      "Una anotación apropiada en los registros de mantenimiento de la aeronave.",
+      "Una etiqueta de inspección colocada en el panel de instrumentos que indica la fecha de finalización de la inspección anual."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3185.- La inspección anual del estado de la aeronave se realizó el 12 de julio de este año. La próxima inspección anual vencerá a más tardar el:",
+    "options": [
+      "1 de julio del año que viene.",
+      "13 de julio del próximo año.",
+      "31 de julio del próximo año."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3186.- Para determinar la fecha de vencimiento de la última inspección anual de la aeronave, una persona debe consultar el:",
+    "options": [
+      "Certificado de aeronavegabilidad.",
+      "Certificado de registro.",
+      "Registros de mantenimiento de aeronaves."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3191.- Ninguna persona puede usar un transponder ATC a menos que haya sido probado e inspeccionado dentro de al menos el:",
+    "options": [
+      "6 meses calendario.",
+      "12 meses calendario.",
+      "24 meses calendario."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3192.- Los registros de mantenimiento muestran que la última inspección del transpondedor se realizó el 1 de septiembre de 2020. La próxima inspección se debe realizar a más tardar el:",
+    "options": [
+      "30 de septiembre de 2021",
+      "1 de septiembre de 2022.",
+      "30 de septiembre de 2022."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3189.- Un avión tuvo una inspección de 100 horas cuando el tacómetro leyó 1259.6. ¿Cuándo vence la próxima inspección de 100 horas?",
+    "options": [
+      "1349.6 horas",
+      "1359.6 horas",
+      "1369.6 horas"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3190.- Se debía realizar una inspección de 100 horas a las 3302,5 horas. La inspección de 100 horas se realizó en realidad a las 3309,5 horas. ¿Cuándo vence la próxima inspección de 100 horas?",
+    "options": [
+      "3312.5 horas",
+      "3402.5 horas",
+      "3395.5 horas"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3193.- ¿Qué registros o documentos debe conservar el propietario u operador de una aeronave para demostrar el cumplimiento de una directiva de aeronavegabilidad aplicable?",
+    "options": [
+      "Registros de mantenimiento de aeronaves.",
+      "Certificado de aeronavegabilidad y manual operativo del piloto.",
+      "Certificados de aeronavegabilidad y matrícula."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3012.2.- ¿Qué debe saber un propietario u operador sobre las directivas de aeronavegabilidad (AD)?",
+    "options": [
+      "Solo con fines informativos.",
+      "Son obligatorios.",
+      "Son voluntarios."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3012.3.- ¿Puede un piloto operar una aeronave que no cumpla con una directiva de aeronavegabilidad (AD)?",
+    "options": [
+      "Sí, solo en condiciones VFR.",
+      "Sí, los AD son solo voluntarios.",
+      "No, no puede a menos que cumpla con las directrices de aeronavegabilidad."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3181.3.- ¿Quién es responsable de garantizar que se cumplan las directivas de aeronavegabilidad (AD)?",
+    "options": [
+      "Propietario u operador.",
+      "Estación de reparación.",
+      "Mecánico con autorización de inspección."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3709.- Las circulares de asesoramiento están disponibles para todos los pilotos y se obtienen por:",
+    "options": [
+      "Comprando en la Oficia Regional OACI.",
+      "Suscribiéndose a la Oficina Regional OACI.",
+      "Accediendo a la página web del SRVSOP."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3194.- Si una aeronave está involucrada en un accidente que resulta en daños sustanciales a la aeronave, se debe notificar a la Autoridad AIG más cercana.",
+    "options": [
+      "Inmediatamente.",
+      "Dentro de las 48 horas.",
+      "En 7 días."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3195.- ¿Qué incidente requiere una notificación inmediata a la oficina AIG más cercana?",
+    "options": [
+      "Un aterrizaje forzoso por avería del motor.",
+      "Daños en el tren de aterrizaje, debido a un aterrizaje forzoso.",
+      "Mal funcionamiento o falla del sistema de control de vuelo."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3196.- ¿Qué incidente requeriría una notificación inmediata a la oficina AIG más cercana?",
+    "options": [
+      "Una falla del alternador / generador en vuelo.",
+      "Un incendio en vuelo.",
+      "Una pérdida en vuelo de la capacidad del receptor VOR."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3198.- ¿Se pueden mover los restos de la aeronave antes de que la autoridad AIG tome la custodia?",
+    "options": [
+      "Sí, pero solo si lo traslada un agente de la ley estatal o local.",
+      "Sí, pero solo para proteger los restos de un daño mayor.",
+      "No, no se puede mover bajo ningún concepto."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "REGLAMENTACIÓN",
+    "question": "3200.- El operador de una aeronave que ha estado involucrada en un incidente debe enviar un informe a la oficina de la autoridad AIG.",
+    "options": [
+      "En 7 días.",
+      "En 10 días.",
+      "Cuando se solicite."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3464.- (Refiérase a la Figura 12.) La dirección y velocidad del viento en KJFK es de:",
+    "options": [
+      "180° verdadero a 4 nudos.",
+      "180° magnético a 4 nudos.",
+      "040° verdadero a 18 nudos."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3465.- (Refiérase a la Figura 12). ¿Cuáles son las condiciones del viento en Wink, Texas (KINK)?",
+    "options": [
+      "Calma.",
+      "110° a 12 nudos, ráfagas de 18 nudos.",
+      "111° a 2 nudos, ráfagas de 18 nudos."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3466.- (Refiérase a la Figura 12). La sección de comentarios para KMDW tiene RAB35 en la lista. Esta entrada significa:",
+    "options": [
+      "la niebla que sopla ha reducido la visibilidad a 1-1 / 2 SM.",
+      "la lluvia comenzó a las 1835Z.",
+      "el barómetro ha subido .35\" Hg."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3467.- (Refiérase a la Figura 12.) ¿Cuáles son las condiciones actuales representadas para el Aeropuerto Midway de Chicago (KMDW)?",
+    "options": [
+      "Cielo 700 pies cubierto, visibilidad 1-1 / 2 SM, lluvia.",
+      "Cielo 7000 pies cubierto, visibilidad 1-1 / 2 SM, lluvia intensa.",
+      "Cielo 700 pies cubierto, visibilidad 11, ocasionalmente 2 SM, con lluvia."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3472.- (Refiérase a la Figura 14.) La base y la parte superior de la capa nublada informada por un piloto, son:",
+    "options": [
+      "1,800 pies MSL y 5,500 pies MSL.",
+      "5,500 pies AGL y 7,200 pies MSL.",
+      "7,200 pies MSL y 8,900 pies MSL."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3473.- (Refiérase a la Figura 14.) El viento y la temperatura a 12,000 pies MSL según lo informado por un piloto son:",
+    "options": [
+      "090° a 21 MPH y -9° F.",
+      "090° a 21 nudos y -9° C.",
+      "080° a 21 nudos y -7° C."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3474.- (Refiérase a la Figura 14.) Si la elevación del terreno es de 1,295 pies MSL, ¿cuál es la altura sobre el nivel del suelo de la base del techo?",
+    "options": [
+      "505 pies AGL.",
+      "1,295 pies AGL.",
+      "6,586 pies AGL."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3475.- (Refiérase a la Figura 14.) La intensidad de la turbulencia notificada a una altitud específica es:",
+    "options": [
+      "moderada de 5.500 pies a 7.200 pies.",
+      "moderada a 5.500 pies y a 7.200 pies.",
+      "luz de 5,500 pies a 7,200 pies."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3476.- (Refiérase a la Figura 14.) La intensidad y el tipo de engelamiento informado por un piloto es:",
+    "options": [
+      "ligero a moderado.",
+      "escarcha ligera a moderada.",
+      "claro a moderado claro."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3479.- (Refiérase a la Figura 15.) ¿Cuál es el período válido para el TAF para KMEM?",
+    "options": [
+      "12 de 1800Z a 13 de 2400Z.",
+      "12 a las 1700Z.",
+      "1218Z a 1324Z."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3480.- (Refiérase a la Figura 15.) En TAF para KMEM, ¿qué significa \"SHRA\"?",
+    "options": [
+      "Chubascos de lluvia.",
+      "Se espera un cambio en la dirección del viento.",
+      "Es posible un cambio significativo en la precipitación."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3481.- (Refiérase la Figura 15.) Entre las 1000Z y las 1200Z, se prevé que la visibilidad en KMEM sea:",
+    "options": [
+      "1/2 milla terrestre.",
+      "3 millas terrestres.",
+      "6 millas terrestres."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3482.- (Refiérase a la Figura 15.) ¿Cuál es el viento pronosticado para KMEM desde las 1600Z hasta el final del pronóstico?",
+    "options": [
+      "Sin viento significativo.",
+      "Variable en dirección a 4 nudos.",
+      "Variable en dirección a 6 nudos."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3483.- (Refiérase a la Figura 15.) En el TAF de KOKC, el \"Grupo FM (FROM)\" se pronostica para las horas de 1600Z a 2200Z con el viento de:",
+    "options": [
+      "160° a 10 nudos.",
+      "180° a 10 nudos, convirtiéndose en 200 ° a 13 nudos.",
+      "180° a 10 nudos."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3484.- (Refiérase a la Figura 15.) En el TAF de KOKC, el cielo despejado se vuelve:",
+    "options": [
+      "nublado a 2,000 pies durante el período de pronóstico entre 2200Z y 2400Z.",
+      "nublado a 200 pies con un 40% de probabilidad de estar nublado a 600 pies durante el período de pronóstico entre 2200Z y 2400Z.",
+      "nublado a 200 pies con la probabilidad de volverse nublado a 400 pies durante el período de pronóstico entre 2200Z y 2400Z."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3485.- (Refiérase a la Figura 15.) Durante el período de tiempo de 0600Z a 0800Z, ¿qué visibilidad se prevé para KOKC?",
+    "options": [
+      "Más de 6 millas terrestres.",
+      "No pronosticado.",
+      "Posiblemente 6 millas terrestres."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3486.- (Consulte la Figura 15.) El único pronóstico de tipo de nube en los informes TAF es:",
+    "options": [
+      "nimboestrato.",
+      "cumulonimbo.",
+      "cúmulos dispersos."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3500.- (Refiérase a la Figura 17.) ¿Qué viento se pronostica para STL a 9,000 pies?",
+    "options": [
+      "230° verdadero a 32 nudos.",
+      "230° magnético a 25 nudos.",
+      "230° verdadero a 25 nudos."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3501.- (Refiérase a la Figura 17.) ¿Qué viento se pronostica para STL a 12,000 pies?",
+    "options": [
+      "230° verdadero a 56 nudos.",
+      "230° magnético a 56 nudos.",
+      "230° verdadero a 39 nudos."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3502.- (Refiérase a la Figura 17.) Determine el pronóstico de viento y temperatura en altura para DEN a 9,000 pies:",
+    "options": [
+      "230° magnético a 53 nudos, temperatura 47 ° C.",
+      "230° verdadero a 53 nudos, temperatura -47 ° C.",
+      "230° verdadero a 21 nudos, temperatura -4° C."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3503.- (Refiérase a la Figura 17.) Determine el pronóstico de viento y temperatura en altura para MKC a 6,000 pies:",
+    "options": [
+      "200° verdadero a 6 nudos, temperatura +3° C.",
+      "050° verdadero a 7 nudos, falta la temperatura.",
+      "200° magnético a 6 nudos, temperatura +3° C."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3505.- ¿Qué valores se utilizan para los pronósticos de Winds Aloft?",
+    "options": [
+      "Dirección magnética y nudos.",
+      "Dirección magnética y millas por hora.",
+      "Dirección verdadera y nudos."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3462.- (Refiérase la Figura 12.) ¿Cuáles de las estaciones de informes tienen condiciones meteorológicas VFR?",
+    "options": [
+      "Todas.",
+      "KINK, KBOI y KJFK.",
+      "KINK, KBOI y KLAX."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3463.- Para fines de aviación, el techo se define como la altura sobre la superficie terrestre de:",
+    "options": [
+      "el oscurecimiento más bajo reportado y la capa más alta de nubes reportada como nublada.",
+      "capa más baja rota o nublada o visibilidad vertical en un oscurecimiento.",
+      "capa más baja de nubes reportada como dispersa, rota o delgada."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3506.- Cuando el término 'ligero y variable' se usa en referencia a un pronóstico de vientos en altura, el grupo codificado y la velocidad del viento son:",
+    "options": [
+      "0000 y menos de 7 nudos.",
+      "9900 y menos de 5 nudos.",
+      "9999 y menos de 10 nudos."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3495.- ¿Qué se indica cuando un SIGMET CONVECTIVO actual pronostica tormentas eléctricas?",
+    "options": [
+      "Tormentas eléctricas moderadas que cubren el 30 por ciento del área.",
+      "Turbulencia moderada o severa.",
+      "Tormentas eléctricas oscurecidas por capas masivas de nubes."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3496.- ¿Qué información contiene un SIGMET CONVECTIVO?",
+    "options": [
+      "Tornados, tormentas eléctricas incrustadas y granizo de 3/4 de pulgada o más de diámetro.",
+      "Engelamiento severo, turbulencia severa o tormentas de polvo generalizadas que reducen la visibilidad a menos de 3 millas.",
+      "Vientos en la superficie superiores a 40 nudos o tormentas eléctricas iguales o superiores al nivel 4 del procesador integrador de vídeo (VIP)."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3497.- ¿Los SIGMET se emiten como una advertencia de condiciones climáticas peligrosas para qué aeronave?",
+    "options": [
+      "Solo aviones pequeños.",
+      "Solo aviones grandes.",
+      "Todos los aviones."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3498.- ¿Qué aviso en vuelo contendría información sobre engelamiento severo no asociado con tormentas eléctricas?",
+    "options": [
+      "SIGMET convectivo.",
+      "SIGMET.",
+      "AIRMET."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3499.- Los AIRMET son avisos de fenómenos meteorológicos significativos pero de menor intensidad que los SIGMET y están destinados a su difusión a:",
+    "options": [
+      "solo pilotos IFR.",
+      "todos los pilotos.",
+      "solo pilotos VFR."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3455.- Al llamar por teléfono a un centro de información meteorológica para obtener información meteorológica previa al vuelo, los pilotos deben indicar:",
+    "options": [
+      "si tienen la intención de volar VFR solamente.",
+      "que poseen un certificado de piloto vigente.",
+      "el nombre completo y la dirección del comandante de la formación."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3456.- Para obtener un informe meteorológico completo para el vuelo planificado, el piloto debe solicitar:",
+    "options": [
+      "un briefing general.",
+      "un briefing abreviado.",
+      "un briefing estándar."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3457.- ¿Qué tipo de información meteorológica debe solicitar un piloto, al partir dentro de una hora, si no se ha recibido información meteorológica preliminar?",
+    "options": [
+      "Informe de pronóstico.",
+      "Briefing abreviado.",
+      "Briefing estándar."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3458.- ¿Qué tipo de información meteorológica debería solicitar un piloto para complementar los datos difundidos masivamente?",
+    "options": [
+      "Un informe de perspectivas.",
+      "Una sesión informativa complementaria.",
+      "Una sesión informativa abreviada."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3459.- Para actualizar un informe meteorológico anterior, un piloto debe solicitar:",
+    "options": [
+      "un briefing abreviado.",
+      "un briefing estándar.",
+      "un briefing sobre el pronóstico."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3460.- Se proporciona un informe meteorológico que se proporciona cuando la información solicitada es 6 o más horas antes de la hora de salida propuesta:",
+    "options": [
+      "un briefing de pronóstico.",
+      "un informe de previsión.",
+      "un briefing estándar."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3461.- Al solicitar información meteorológica para la mañana siguiente, un piloto debe solicitar:",
+    "options": [
+      "un briefing sobre el pronóstico.",
+      "un briefing estándar.",
+      "un briefing abreviado."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3526.- ¿Qué deben indicar los pilotos inicialmente al llamar por teléfono a un centro de información meteorológica para obtener información meteorológica previa al vuelo?",
+    "options": [
+      "La ruta prevista de las frecuencias de radio de vuelo.",
+      "La dirección del piloto al mando.",
+      "La ruta prevista de vuelo y destino."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3527.- ¿Qué deben indicar los pilotos inicialmente al llamar por teléfono a un centro de información meteorológica para obtener información meteorológica previa al vuelo?",
+    "options": [
+      "Indique el número de ocupantes a bordo.",
+      "Identificarse como pilotos.",
+      "Indique su tiempo total de vuelo."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3528.- Al llamar por teléfono a un centro de información meteorológica para obtener información meteorológica previa al vuelo, los pilotos deben indicar:",
+    "options": [
+      "la identificación de la aeronave o el nombre del piloto.",
+      "verdadera velocidad aérea.",
+      "combustible a bordo."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "SERVICIO METEOROLÓGICO",
+    "question": "3528.1.- Cuando hable con un servicio de vuelo más breve sobre el clima, debe indicar:",
+    "options": [
+      "el nombre completo y la dirección del piloto al mando.",
+      "un resumen de sus calificaciones.",
+      "si el vuelo es VFR o IFR."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3657.- Si fuera necesario propulsar manualmente un motor de avión, es extremadamente importante que un piloto competente:",
+    "options": [
+      "Llame a \"contacto\" antes de tocar la hélice.",
+      "Estar en los controles en la cabina.",
+      "Estar en la cabina y llamar a todos los comandos."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3656.- ¿Cuál debería ser la primera acción después de arrancar el motor de un avión?",
+    "options": [
+      "Ajustar las RPM adecuadas y verifique las indicaciones deseadas en los indicadores del motor.",
+      "Colocar el magneto o el interruptor de encendido momentáneamente en la posición de apagado para verificar que la conexión a tierra sea adecuada.",
+      "Probar cada freno y el freno de estacionamiento"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3656.1.- ¿Cuál es un propósito del uso de motores alternativos?",
+    "options": [
+      "Mejor distribución del calor.",
+      "Para preservar la duración de la culata y mantener temperaturas más bajas.",
+      "Son relativamente simples y económicos de operar."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3223.- Uno de los propósitos del sistema de encendido dual en un motor de avión es proporcionar:",
+    "options": [
+      "Rendimiento mejorado del motor.",
+      "Distribución uniforme del calor.",
+      "Presión equilibrada de la culata de cilindros."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3223.1.- Se produce una falla del sistema eléctrico (batería y alternador) durante el vuelo. En esta situación, deberías:",
+    "options": [
+      "Experimentar fallas en el equipo de aviónica.",
+      "Probablemente experimente fallas en el sistema de encendido del motor, los indicadores de combustible, el sistema de iluminación de la aeronave y el equipo de aviónica.",
+      "Probablemente experimente fallas en el motor debido a la pérdida de la bomba de combustible impulsada por el motor y también experimente fallas en el equipo de radio, las luces y todos los instrumentos que requieren corriente alterna."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3223.2.- Si el cable de tierra entre el magneto y el interruptor de encendido se desconecta, el resultado más notable será que el motor:",
+    "options": [
+      "Funcionará con asperezas.",
+      "No se puede arrancar con el interruptor en la posición encendido.",
+      "No se puede apagar girando el interruptor a la posición de apagado."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3225.- El principio de funcionamiento de los carburadores de flotador se basa en:",
+    "options": [
+      "Medición automática de aire en el venturi a medida que la aeronave gana altura.",
+      "Diferencia de presión de aire en la garganta del venturi y la entrada de aire.",
+      "Aumento de la velocidad del aire en la garganta de un venturi que provoca un aumento de la presión del aire."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3226.- El propósito básico de ajustar la mezcla de aire / combustible en altitud es:",
+    "options": [
+      "Disminuir la cantidad de combustible en la mezcla para compensar el aumento de la densidad del aire.",
+      "Disminuir el flujo de combustible para compensar la disminución de la densidad del aire.",
+      "Aumentar la cantidad de combustible en la mezcla para compensar la disminución de la presión y la densidad del aire."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3228.- Mientras navega a 9,500 pies MSL, la mezcla de aire y combustible se ajusta correctamente. ¿Qué ocurrirá si se hace un descenso a 4,500 pies MSL sin reajustar la mezcla?",
+    "options": [
+      "La mezcla de combustible / aire puede volverse excesivamente pobre.",
+      "Habrá más combustible en los cilindros del necesario para la combustión normal, y el exceso de combustible absorberá calor y enfriará el motor.",
+      "La mezcla excesivamente rica creará temperaturas de culata más altas y puede causar detonación."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3227.- Durante el arranque en un aeropuerto a gran altura, un piloto nota una ligera aspereza del motor que no se ve afectada por la revisión del magneto, pero que empeora durante la revisión del calor del carburador. En estas circunstancias, ¿cuál sería la acción inicial más lógica?",
+    "options": [
+      "Verifique los resultados obtenidos con un ajuste más pobre de la mezcla.",
+      "Taxee de regreso a la línea de vuelo para una revisión de mantenimiento.",
+      "Reduzca la presión del colector para controlar la detonación."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3231.- Si una aeronave está equipada con una hélice de paso fijo y un carburador tipo flotador, lo más probable es que la primera indicación de hielo en el carburador sea:",
+    "options": [
+      "Aumento de RPM.",
+      "Rugosidad del motor.",
+      "Pérdida de RPM."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3235.- La presencia de hielo en el carburador en una aeronave equipada con una hélice de paso fijo se puede verificar aplicando calor al carburador y observando:",
+    "options": [
+      "Un aumento de las RPM y luego una disminución gradual de las RPM.",
+      "Una disminución de RPM y luego una indicación de RPM constante.",
+      "Una disminución de las RPM y luego un aumento gradual de las RPM."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3229.- ¿Qué condición es más favorable para el desarrollo de la formación de hielo en el carburador?",
+    "options": [
+      "Cualquier temperatura por debajo del punto de congelación y una humedad relativa inferior al 50 por ciento.",
+      "Temperatura entre 32 y 50° F y baja humedad.",
+      "Temperatura entre 20 y 70° F y alta humedad."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3230.- Existe la posibilidad de formación de hielo en el carburador incluso cuando la temperatura del aire ambiente es:",
+    "options": [
+      "De hasta 70° F y la humedad relativa es alta.",
+      "Hasta 95° F y hay humedad visible.",
+      "Baja como 0° F y la humedad relativa es alta."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3230.1.- La formación de hielo en el carburador puede ocurrir con una OAT tan alta como:",
+    "options": [
+      "100° F y humedad visible.",
+      "20° C y alta humedad relativa.",
+      "75° F y humedad relativa baja."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3232.- Aplicar calor al carburador:",
+    "options": [
+      "Como resultado, más aire pasa por el carburador.",
+      "Enriquece la mezcla de aire / combustible.",
+      "No afecta la mezcla de aire / combustible."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3233.- ¿Qué cambio ocurre en la mezcla de aire / combustible cuando se aplica calor al carburador?",
+    "options": [
+      "Una disminución en las RPM resulta de la mezcla pobre.",
+      "La mezcla de aire / combustible se vuelve más rica.",
+      "La mezcla de aire y combustible se vuelve más pobre."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3234.- En términos generales, el uso del calor del carburador tiende a:",
+    "options": [
+      "Disminuir el rendimiento del motor.",
+      "Aumentar el rendimiento del motor.",
+      "No tienen ningún efecto sobre el rendimiento del motor."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3236.- Con respecto al hielo del carburador, los sistemas de carburador de tipo flotador en comparación con los sistemas de inyección de combustible generalmente se consideran:",
+    "options": [
+      "Más susceptible a la formación de hielo.",
+      "Igualmente susceptible a la formación de hielo",
+      "Menos susceptible a la formación de hielo."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3224.- En aeronaves equipadas con bombas de combustible, ¿cuándo se usa la bomba auxiliar de accionamiento eléctrico?",
+    "options": [
+      "Todo el tiempo para ayudar a la bomba de combustible impulsada por el motor.",
+      "En caso de que falle la bomba de combustible impulsada por el motor.",
+      "Constantemente excepto en el arranque del motor."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3237.- Si el grado de combustible utilizado en el motor de un avión es menor que el especificado para el motor, lo más probable es que cause",
+    "options": [
+      "Una mezcla de combustible y aire que no es uniforme en todos los cilindros.",
+      "Temperaturas más bajas de la culata de cilindros.",
+      "Detonación."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3238.- La detonación puede ocurrir en configuraciones de alta potencia cuando:",
+    "options": [
+      "La mezcla de combustible se enciende instantáneamente en lugar de arder de manera progresiva y uniforme.",
+      "Una mezcla de combustible excesivamente rica provoca una ganancia explosiva de potencia.",
+      "La mezcla de combustible se enciende demasiado pronto debido a los depósitos de carbón caliente en el cilindro."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3238.1.- La detonación ocurre en un motor de avión alternativo cuando:",
+    "options": [
+      "Las bujías están sucias o en cortocircuito o el cableado está defectuoso.",
+      "Los puntos calientes en la cámara de combustión encienden la mezcla de aire / combustible antes del encendido normal.",
+      "La carga no quemada en los cilindros explota en lugar de arder normalmente."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3240.- El disparo incontrolado de la carga de combustible / aire antes del encendido normal por chispa se conoce como:",
+    "options": [
+      "Combustión.",
+      "Pre encendido.",
+      "Detonación."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3242.- ¿Qué tipo de combustible se puede sustituir por una aeronave si el octanaje recomendado no está disponible?",
+    "options": [
+      "El siguiente gas de aviación de mayor octanaje.",
+      "El siguiente gas de aviación de menor octanaje.",
+      "Gas automotriz sin plomo del mismo octanaje."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3243.- Llenar los tanques de combustible después del último vuelo del día se considera un buen procedimiento operativo porque:",
+    "options": [
+      "Fuerza el agua existente a la parte superior del tanque lejos de las líneas de combustible al motor.",
+      "Previene la expansión del combustible eliminando el espacio de aire en los tanques.",
+      "Evita la condensación de humedad eliminando el espacio de aire en los tanques."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3243.1.- Para purgar adecuadamente el agua del sistema de combustible de una aeronave equipada con sumideros de tanque de combustible y un drenaje rápido del colador de combustible, es necesario drenar el combustible del:",
+    "options": [
+      "Drenaje del colador de combustible.",
+      "Punto más bajo en el sistema de combustible.",
+      "Drenaje del colador de combustible y sumideros del tanque de combustible."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3239.- Si un piloto sospecha que el motor (con una hélice de paso fijo) está detonando durante el ascenso después del despegue, la acción correctiva inicial a tomar sería:",
+    "options": [
+      "Mezcla pobre.",
+      "Baje la nariz del avión ligeramente para aumentar la velocidad con respecto al aire.",
+      "Aplique calor al carburador."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3221.- Las temperaturas del motor excesivamente altas:",
+    "options": [
+      "Causar daños a las mangueras conductoras de calor y deformación de las aletas de refrigeración del cilindro.",
+      "Causan pérdida de potencia, consumo excesivo de aceite y posibles daños internos permanentes en el motor.",
+      "No afectan apreciablemente al motor de un avión."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3221.1.- Las temperaturas del motor excesivamente altas, ya sea en el aire o en el suelo:",
+    "options": [
+      "Aumentarán el consumo de combustible y puede aumentar la potencia debido al aumento de calor.",
+      "Provocarán daños en las mangueras conductoras de calor y deformación de los ventiladores de refrigeración del cilindro.",
+      "Causarán pérdida de potencia, consumo excesivo de aceite y posibles daños internos permanentes en el motor."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3222.- Si la temperatura del aceite del motor y la temperatura de la culata de cilindros han excedido su rango de operación normal, el piloto puede haber estado operando con:",
+    "options": [
+      "La mezcla se puso demasiado rica",
+      "Presión de aceite superior a la normal.",
+      "Demasiada potencia y con la mezcla demasiado pobre."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3241.- ¿Cuál es la causa más probable de que los indicadores de temperatura de la culata de cilindros y de la temperatura del aceite del motor excedan sus rangos de funcionamiento normales?",
+    "options": [
+      "Usar combustible que tiene una clasificación de combustible inferior a la especificada.",
+      "Usar combustible que tiene una clasificación de combustible superior a la especificada.",
+      "Funcionamiento con una presión de aceite superior a la normal."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3244.- Para el enfriamiento interno, los motores de aeronave alternativos dependen especialmente de:",
+    "options": [
+      "Un termostato que funcione correctamente.",
+      "Aire que fluye sobre el colector de escape.",
+      "La circulación de aceite lubricante."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3245.- Una indicación de temperatura del aceite del motor anormalmente alta puede ser causada por:",
+    "options": [
+      "El nivel de aceite es demasiado bajo.",
+      "Opera con un aceite de viscosidad demasiado alta.",
+      "Opera con una mezcla excesivamente rica."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3651.- ¿Qué acción puede tomar un piloto para ayudar a enfriar un motor que se sobrecalienta durante un ascenso?",
+    "options": [
+      "Reducir la velocidad de ascenso y aumentar la velocidad del aire.",
+      "Reducir la velocidad de ascenso y aumentar las RPM.",
+      "Aumentar la velocidad de ascenso y aumentar las RPM."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3652.- ¿Cuál es un procedimiento para ayudar a enfriar un motor que se sobrecalienta?",
+    "options": [
+      "Enriquece la mezcla de combustible.",
+      "Aumente las RPM.",
+      "Reducir la velocidad con respecto al aire."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3711.- La regla más importante para recordar en caso de un corte de energía después de estar en el aire es:",
+    "options": [
+      "Establezca inmediatamente la actitud de planeo adecuada y la velocidad con respecto al aire adecuada.",
+      "Compruebe rápidamente el suministro de combustible para ver si se ha agotado el combustible.",
+      "Determine la dirección del viento para planificar el aterrizaje forzoso."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3653.- ¿Cómo se controla el funcionamiento del motor en un motor equipado con una hélice de velocidad constante?",
+    "options": [
+      "El acelerador controla la salida de potencia registrada en el manómetro del colector y el control de la hélice regula las RPM del motor.",
+      "El acelerador controla la salida de potencia registrada en el manómetro del colector y el control de la hélice regula un ángulo de pala constante.",
+      "El acelerador controla las RPM del motor registradas en el tacómetro y el control de mezcla regula la salida de potencia."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3654.- ¿Cuál es la ventaja de una hélice de velocidad constante?",
+    "options": [
+      "Permite al piloto seleccionar y mantener la velocidad de crucero deseada.",
+      "Permite al piloto seleccionar el ángulo de pala para obtener el rendimiento más eficiente.",
+      "Proporciona un funcionamiento más suave con RPM estables y elimina las vibraciones."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3655.- Una precaución para el funcionamiento de un motor equipado con una hélice de velocidad constante es:",
+    "options": [
+      "Evite los ajustes de RPM altas con alta presión del colector.",
+      "Evite los ajustes de alta presión del colector con bajas RPM.",
+      "Utilice siempre una mezcla rica con ajustes de RPM altos."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3207.- ¿En qué condiciones de vuelo es mayor el efecto de torsión en un avión monomotor?",
+    "options": [
+      "Baja Velocidad con respecto al aire, alta potencia, alto ángulo de ataque.",
+      "Baja velocidad con respecto al aire, baja potencia, bajo ángulo de ataque.",
+      "Alta velocidad con respecto al aire, alta potencia, alto ángulo de ataque."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3208.- La tendencia de giro a la izquierda de un avión causada por el factor P es el resultado de la:",
+    "options": [
+      "La rotación en sentido horario del motor y la hélice girando el avión en sentido anti horario.",
+      "La pala de la hélice desciende a la derecha, produciendo más empuje que la pala ascendente de la izquierda.",
+      "Fuerzas giroscópicas aplicadas a las palas giratorias de la hélice que actúan 90 ° antes del punto en que se aplicó la fuerza."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3209.- ¿Cuándo el factor P hace que el avión se desvíe hacia la izquierda?",
+    "options": [
+      "Cuando en ángulos de ataque bajos.",
+      "Cuando se encuentra en ángulos de ataque elevados.",
+      "Cuando está a alta velocidad."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3658.- Durante la inspección previa al vuelo, ¿quién es responsable de determinar que la aeronave es segura para volar?",
+    "options": [
+      "El piloto al mando.",
+      "Propietario u operador.",
+      "El mecánico certificado que realizó la inspección anual."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3659.- ¿Cómo se debe realizar una inspección previa al vuelo de la aeronave para el primer vuelo del día?",
+    "options": [
+      "Camine rápido con una revisión de gasolina y aceite.",
+      "Medios rigurosos y sistemáticos recomendados por el fabricante.",
+      "Cualquier secuencia determinada por el piloto al mando."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "SISTEMAS DE AERONAVES",
+    "question": "3660.- ¿Quién es el principal responsable de mantener una aeronave en condiciones de aeronavegabilidad?",
+    "options": [
+      "Piloto al mando.",
+      "Propietario u operador.",
+      "Mecánico."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3637.1.- ¿Cuál de los siguientes ítems es verdadero, con respecto a los colores azul y magenta que se utilizan para representar los aeropuertos en las cartas aeronáuticas seccionales?",
+    "options": [
+      "Los aeropuertos con torres de control subyacentes al espacio aéreo de Clase A, B y C se muestran en azul, el espacio aéreo de Clase D y E en magenta.",
+      "Los aeropuertos con torres de control subyacentes al espacio aéreo de Clase C, D y E se muestran en magenta.",
+      "Los aeropuertos con torres de control subyacentes al espacio aéreo de Clase B, C, D y E se muestran en azul."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3637.- (Refiérase a la Figura 23, área 3.) ¿Cuál es la altura del obstáculo iluminado aproximadamente a 6 millas náuticas al suroeste de Savannah International?",
+    "options": [
+      "1,500 pies MSL.",
+      "1,531 pies AGL.",
+      "1,548 pies MSL."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3638.- (Refiérase a la Figura 23, área 3). La parte superior de la obstrucción del grupo aproximadamente a 11 millas náuticas del Savannah VORTAC en el radial 009° es:",
+    "options": [
+      "400 pies AGL.",
+      "454 pies MSL.",
+      "432 pies MSL."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3639.- (Refiérase a la Figura 24, área 1.) ¿Qué altitud mínima es necesaria para despejar verticalmente el obstáculo en el lado noreste del aeropuerto Airpark East en 500 pies?",
+    "options": [
+      "1,010 pies MSL.",
+      "1,273 pies MSL.",
+      "1,283 pies MSL."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3640.- (Refiérase a la Figura 24, área 2.) ¿Qué altitud mínima es necesaria para despejar verticalmente el obstáculo en el lado sureste del aeropuerto de Winnsboro por 500 pies?",
+    "options": [
+      "823 pies MSL.",
+      "1,013 pies MSL.",
+      "1,403 pies MSL."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3631.- (Refiérase a la Figura 20, área 5.) El cuadro de PRECAUCIÓN indica ¿qué peligro para la aeronave?",
+    "options": [
+      "Globo sin marcar en cable a 3008 pies MSL.",
+      "Globo sin marcar en cable a 3008 pies AGL.",
+      "Perchas para dirigibles sin marcar a 308 pies MSL."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3632.- (Refiérase a la Figura 20, área 2). El símbolo de la bandera en el lago Drummond representa un:",
+    "options": [
+      "punto de notificación obligatorio para el espacio aéreo de clase C de Norfolk.",
+      "punto de notificación obligatorio para el aeropuerto de Hampton Roads.",
+      "punto de control visual utilizado para identificar la posición para la llamada inicial a Norfolk Approach Control."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3633.- (Refiérase a la Figura 20, área 2.) La elevación del Aeropuerto Regional de Chesapeake es:",
+    "options": [
+      "19 pies.",
+      "55 pies.",
+      "230 pies."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3634.- (Refiérase a la Figura 21). La elevación del terreno del área de color tostado claro entre Minot (área 1) y Audubon Lake (área 2) varía de:",
+    "options": [
+      "nivel del mar hasta 2,000 pies MSL.",
+      "2,000 pies a 2,500 pies MSL.",
+      "2,000 pies a 2,700 pies MSL."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3635.- (Refiérase a la Figura 21). ¿Qué aeropuertos de uso público representados tienen combustible?",
+    "options": [
+      "Internacional de Minot (área 1) y Garrison (área 2).",
+      "Internacional de Minot (área 1).",
+      "Aeropuerto Regional del Condado de Mercer (área 3)."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3636.- (Refiérase a la Figura 23). Los símbolos de la bandera en el aeropuerto de Statesboro Bullock, el aeropuerto de Claxton-Evans y el aeropuerto de Ridgeland son:",
+    "options": [
+      "límites exteriores del espacio aéreo Clase C de Savannah.",
+      "aeropuertos con patrones de tráfico especiales.",
+      "puntos de control visual para identificar la posición para la llamada inicial antes de ingresar al espacio aéreo Clase C de Savannah."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3642.- (Refiérase a la Figura 25, área 8.) ¿Qué altitud mínima se requiere para volar sobre las torres de televisión Cedar Hill en el área congestionada al sur de Dallas Executive (RBD)?",
+    "options": [
+      "2,655 pies MSL.",
+      "3,549 pies MSL.",
+      "3,449 pies MSL."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3531.- (Refiérase a la Figura 20.) Determine el curso magnético desde el aeropuerto First Flight (área 5) hasta el aeropuerto Hampton Roads (área 2):",
+    "options": [
+      "141°.",
+      "321°.",
+      "332°."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3556.- (Refiérase a la Figura 24). Determine el curso magnético desde el aeropuerto Airpark East (área 1) hasta el aeropuerto de Winnsboro (área 2). La variación magnética es de 6° 30'E:",
+    "options": [
+      "075°.",
+      "082°.",
+      "091°."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3568.- (Refiérase a la Figura 26.) Determine el curso magnético desde el aeropuerto Tomlinson (área 1) al aeropuerto Jamestown (área 4):",
+    "options": [
+      "153°.",
+      "154°.",
+      "159°."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3816.- (Refiérase a la Figura 68). La línea del punto A al punto B del triángulo del viento representa:",
+    "options": [
+      "verdadero rumbo y velocidad aérea.",
+      "verdadero rumbo y velocidad terrestre.",
+      "velocidad terrestre y rumbo verdadero."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3817.- (Refiérase a la Figura 68). La línea del punto C al punto B del triángulo de viento representa:",
+    "options": [
+      "velocidad aerodinámica y rumbo.",
+      "velocidad terrestre y rumbo verdadero.",
+      "verdadero rumbo y velocidad terrestre."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "2001.- (Refiérase a la Figura 68). La línea del punto C al punto A del triángulo de viento representa:",
+    "options": [
+      "dirección y velocidad del viento.",
+      "verdadero rumbo y velocidad terrestre.",
+      "verdadero rumbo y velocidad terrestre."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3529.1.- Si un rumbo real de 135° da como resultado una trayectoria terrestre de 130° y una velocidad aerodinámica real de 135 nudos da como resultado una velocidad terrestre de 140 nudos, el viento sería de:",
+    "options": [
+      "019° y 12 nudos.",
+      "200° y 13 nudos.",
+      "246° y 13 nudos."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3529.2.- Al realizar la conversión de rumbo verdadero a rumbo magnético, el piloto debe:",
+    "options": [
+      "restar la variación hacia el este y el ángulo de corrección del viento a la derecha.",
+      "sumar la variación del oeste y reste el ángulo de corrección del viento a la izquierda.",
+      "restar la variación del oeste y agregue el ángulo de corrección del viento a la derecha."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3529.3.- ¿Qué distancia recorrerá un avión en 2-1/2 minutos con una velocidad respecto al suelo de 98 nudos?",
+    "options": [
+      "2.45 NM.",
+      "3.35 NM.",
+      "4.08 NM."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3529.4.- ¿Qué distancia recorrerá un avión en 7.5 minutos con una velocidad respecto al suelo de 114 nudos?",
+    "options": [
+      "14.25 NM.",
+      "15.00 NM.",
+      "14.50 NM."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3565.- (Refiérase a la Figura 25). Determine el rumbo magnético para un vuelo desde Fort Worth Meacham (área 4) a Denton Muni (área 1). El viento es de 330° a 25 nudos, la velocidad real es de 110 nudos y la variación magnética es de 7° este:",
+    "options": [
+      "004°.",
+      "017°.",
+      "023°."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3538.- (Refiérase a la Figura 21). Determine el rumbo magnético de un vuelo desde el aeropuerto de Mercer (área 3) a Minot International (área 1). El viento es de 330° a 25 nudos, la velocidad real es de 100 nudos y la variación magnética es de 10° este:",
+    "options": [
+      "002°.",
+      "012°.",
+      "352°."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3781.- Todas las operaciones dentro del espacio aéreo Clase C deben realizarse en:",
+    "options": [
+      "de acuerdo con las reglas de vuelo por instrumentos.",
+      "cumplimiento de las autorizaciones e instrucciones del ATC.",
+      "una aeronave equipada con un transpondedor de código 4096 con capacidad de codificación en Modo C."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3782.- ¿En qué condiciones puede operar una aeronave desde un aeropuerto satélite dentro del espacio aéreo de Clase C?",
+    "options": [
+      "El piloto debe presentar un plan de vuelo antes de la salida.",
+      "El piloto debe monitorear el ATC hasta que salga del espacio aéreo Clase C.",
+      "El piloto debe comunicarse con ATC tan pronto como sea posible después del despegue."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "2122.- (Refiérase a la Figura 69). ¿Qué equipo mínimo se requiere para un vuelo desde el aeropuerto de Kleberg Co. (área 7) al aeropuerto Corpus Christi Intl. (área 3)?",
+    "options": [
+      "ADS-B.",
+      "Equipo de radio bidireccional.",
+      "Transpondedor de radio bidireccional y modo C con equipo de informe de altitud."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3626.- (Consulte la Figura 23, área 3). ¿Cuál es el piso del espacio aéreo de Savannah Clase C en el área de la plataforma (círculo exterior)?",
+    "options": [
+      "1.300 pies AGL.",
+      "1,300 pies MSL.",
+      "1,700 pies MSL."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3627.- (Consulte la Figura 20, área 1.) ¿Qué equipo de radio mínimo se requiere para aterrizar y despegar en Norfolk International?",
+    "options": [
+      "Transpondedor y omnireceptor Modo C.",
+      "Transpondedor modo C y radio bidireccional.",
+      "Transpondedor modo C, omnireceptor y DME."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3069.- Las operaciones VFR normales en el espacio aéreo de Clase D con una torre de control operativa requieren que el techo y la visibilidad sean al menos:",
+    "options": [
+      "1,000 pies y 1 milla.",
+      "1 500 m horizontalmente 300 m (1 000 ft) verticalmente",
+      "2,500 pies y 3 millas."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3119.- A menos que se autorice lo contrario, se requieren comunicaciones de radio bidireccionales con la torre de control para aterrizajes o despegues:",
+    "options": [
+      "en todos los aeropuertos controlados por torres, independientemente de las condiciones meteorológicas.",
+      "en todos los aeropuertos controlados por torres solo cuando las condiciones meteorológicas son inferiores a VFR.",
+      "en todos los aeropuertos controlados por torres dentro del espacio aéreo Clase D solo cuando las condiciones climáticas son inferiores a VFR."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3625.- (Refiérase a la Figura 25, área 4). El espacio aéreo directamente sobre Fort Worth Meacham es:",
+    "options": [
+      "espacio aéreo Clase B hasta 10,000 pies MSL.",
+      "espacio aéreo Clase C a 5,000 pies MSL.",
+      "espacio aéreo Clase D a 3,200 pies MSL."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3421.- (Refiérase a la Figura 59, área 3). El espacio aéreo directamente sobre la ciudad de Findlay es:",
+    "options": [
+      "espacio aéreo Clase E desde 700 pies AGL.",
+      "área de superficie Espacio aéreo Clase E.",
+      "espacio aéreo Clase E desde 1200 pies AGL."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3068.1.- Con ciertas excepciones, el espacio aéreo de Clase E se extiende hacia arriba desde 700 pies o 1,200 pies AGL hasta, pero no incluye:",
+    "options": [
+      "10,000 pies MSL.",
+      "14,500 pies MSL.",
+      "18,000 pies MSL."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3622.- (Consulte la Figura 26, área 1.) Identifique el espacio aéreo sobre el aeropuerto Tomlinson:",
+    "options": [
+      "espacio aéreo Clase G: superficie hasta, pero sin incluir, 18,000 pies MSL.",
+      "espacio aéreo Clase G - superficie hasta, pero sin incluir, 1,200 pies AGL, espacio aéreo Clase E - 1,200 pies AGL hasta pero sin incluir 18,000 pies MSL.",
+      "espacio aéreo de clase G: superficie hasta, pero sin incluir, 700 pies MSL, espacio aéreo de clase E: 700 pies a 14,500 pies MSL."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3623.- (Refiérase a la Figura 26, área 5). El espacio aéreo suprayacente y dentro de las 5 millas del aeropuerto del condado de Barnes es:",
+    "options": [
+      "espacio aéreo Clase D desde la superficie hasta el piso del espacio aéreo Clase E suprayacente.",
+      "espacio aéreo Clase E desde la superficie hasta 1,200 pies MSL.",
+      "espacio aéreo Clase G desde la superficie hasta 700 pies AGL."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3624.- (Refiérase a la figura 25, área 7.) El espacio aéreo sobre Collin Co RGL McKinney (TKI) se controla desde la superficie hasta:",
+    "options": [
+      "2,500 pies MSL.",
+      "2,900 pies MSL.",
+      "700 pies AGL."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3601.- ¿Qué peligros para las aeronaves pueden existir en áreas restringidas?",
+    "options": [
+      "Actividades de entrenamiento militar que requieran maniobras de vuelo acrobáticas o bruscas.",
+      "Peligros inusuales, a menudo invisibles, como artillería aérea o misiles guiados.",
+      "Alto volumen de entrenamiento de pilotos o un tipo inusual de actividad aérea."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3602.- (Refiérase a la Figura 26, área 2.) ¿Qué peligros para las aeronaves pueden existir en áreas como Devils Lake East MOA?",
+    "options": [
+      "Peligros inusuales, a menudo invisibles, para las aeronaves, como disparos de artillería, artillería aérea o misiles guiados.",
+      "Alto volumen de entrenamiento de pilotos o un tipo inusual de actividad aérea.",
+      "Actividades de entrenamiento militar que requieran maniobras de vuelo acrobáticas o bruscas."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3783.- ¿Bajo qué condiciones, si las hay, pueden los pilotos volar a través de un área restringida?",
+    "options": [
+      "Al volar en aerovías con autorización ATC.",
+      "Con autorización de la agencia controladora.",
+      "Con el permiso del oficial de la base militar más cercana."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3783.1.- El vuelo a través de un área restringida no debe realizarse a menos que el piloto haya:",
+    "options": [
+      "presentado un plan de vuelo IFR.",
+      "recibido autorización previa de la agencia controladora.",
+      "recibido permiso previo del oficial al mando de la base militar más cercana."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3785.- ¿Qué acción debe tomar un piloto cuando opera bajo VFR en un Área de Operaciones Militares (MOA)?",
+    "options": [
+      "Obtenga una autorización de la agencia de control antes de ingresar al MOA.",
+      "Opere solo en las vías respiratorias que atraviesan el MOA.",
+      "Tenga mucho cuidado cuando se lleve a cabo una actividad militar."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3786.- La responsabilidad de evitar colisiones en un área de alerta recae en:",
+    "options": [
+      "la agencia controladora.",
+      "todos los pilotos.",
+      "control de tráfico aéreo."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3130.- ¿En qué tipo de espacio aéreo están prohibidos los vuelos VFR?",
+    "options": [
+      "Clase A.",
+      "Clase B.",
+      "Clase C."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3530.1.- ¿Qué afirmación sobre la longitud y la latitud es verdadera?",
+    "options": [
+      "Las líneas de longitud son paralelas al Ecuador.",
+      "Las líneas de longitud cruzan el Ecuador en ángulo recto.",
+      "Las líneas de latitud de 0° pasa por Greenwich, Inglaterra."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3530.- (Refiérase a la Figura 20, área 3.) Determine la latitud y longitud aproximadas del aeropuerto de Currituck County Airport:",
+    "options": [
+      "36° 24'N - 76° 01'W.",
+      "36° 48'N ±\u000376° 01'W.",
+      "47° 24'N - 75° 58'W."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3535.- (Refiérase a la Figura 21, área 2.) ¿Qué aeropuerto está ubicado aproximadamente a 47° 35'30\" N de latitud y 100° 43'00\" W de longitud?",
+    "options": [
+      "Turtle Lake.",
+      "MAKEEFF.",
+      "Johnson."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3536.- (Refiérase a la Figura 21, área 3.) ¿Qué aeropuerto está ubicado aproximadamente a 47° 21'N de latitud y 101° 01'W de longitud?",
+    "options": [
+      "Lorentzen.",
+      "Johnson.",
+      "Washburn."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3543.- (Refiérase a la Figura 22, área 3). Determine la latitud y longitud aproximadas del aeropuerto del Shoshone:",
+    "options": [
+      "47° 02'N - 116° 11'W.",
+      "47° 33'N - 116° 11'W.",
+      "47° 32'N - 116° 41'W."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3567.- (Refiérase a la Figura 26, área 2.) ¿Cuál es la latitud y longitud aproximadas del aeropuerto de Cooperstown?",
+    "options": [
+      "47° 25'N - 98° 06'W.",
+      "47° 25'N - 99° 54'W.",
+      "47° 55'N - 98° 06'W."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3571.- (Refiérase a la Figura 27). Una aeronave sale de un aeropuerto en la zona de horario de verano del este a las 0945 EDT para un vuelo de 2 horas a un aeropuerto ubicado en la zona de horario de verano central. ¿El aterrizaje debería ser en qué hora universal coordinada?",
+    "options": [
+      "1345Z.",
+      "1445Z.",
+      "1545Z."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3572.- (Refiérase a la Figura 27). Un avión sale de un aeropuerto en la zona horaria estándar central a las 0930 CST para un vuelo de 2 horas un aeropuerto ubicado en la zona horaria estándar de la montaña (MST). ¿El aterrizaje debe ser a qué hora?",
+    "options": [
+      "0930 MST.",
+      "1030 MST.",
+      "1130 MST."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3573.- (Refiérase a la Figura 27.) Un avión sale de un aeropuerto en la zona horaria estándar central a las 0845 CST para un vuelo de 2 horas un aeropuerto ubicado en la zona horaria estándar de la montaña. ¿El aterrizaje debería ser en qué hora universal coordinada?",
+    "options": [
+      "1345Z.",
+      "1445Z.",
+      "1645Z."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3574.- (Refiérase a la Figura 27.) Un avión sale de un aeropuerto en la zona horaria estándar de montaña a las 1615 MST para un vuelo de 2 horas y 15 minutos a un aeropuerto ubicado en la zona horaria estándar del Pacífico PST). La hora estimada de llegada al aeropuerto de destino debe ser:",
+    "options": [
+      "1630 PST.",
+      "1730 PST.",
+      "1830 PST."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3575.- (Refiérase a la Figura 27). Un avión sale de un aeropuerto en la zona horaria estándar del Pacífico a las 1030 PST para un vuelo de 4 horas a un aeropuerto ubicado en la zona horaria estándar central. ¿El aterrizaje debería ser en qué hora universal coordinada?",
+    "options": [
+      "2030Z.",
+      "2130Z.",
+      "2230Z."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3576.- (Refiérase a la Figura 27). Una aeronave sale de un aeropuerto en la zona horaria estándar de montaña a las 1515 MST para un vuelo de 2 horas y 30 minutos a un aeropuerto ubicado en la zona horaria estándar del Pacífico. ¿Cuál es la hora estimada de llegada al aeropuerto de destino?",
+    "options": [
+      "1645 PST.",
+      "1745 PST.",
+      "1845 PST."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3545.- (Refiérase a la Figura 22.) Determine el rumbo magnético para un vuelo desde el aeropuerto Sandpoint (área 1) al aeropuerto St. Maries (área 4). El viento es de 215° a 25 nudos y la velocidad aerodinámica real es de 125 nudos:",
+    "options": [
+      "172°.",
+      "349°.",
+      "187°."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3546.- (Refiérase a la Figura 22.) ¿Cuál es el rumbo magnético de un vuelo desde el aeropuerto Priest River (área 1) al aeropuerto del condado de Shoshone (área 3)? El viento es de 030° a 12 nudos y la velocidad real es de 95 nudos.",
+    "options": [
+      "121°.",
+      "143°.",
+      "136°."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3547.- (Refiérase a la figura 22.) Determine el rumbo magnético de un vuelo desde el aeropuerto St. Maries (área 4) hasta el aeropuerto Priest River (área 1). El viento es de 340° a 10 nudos y la velocidad aerodinámica real es de 90 nudos:",
+    "options": [
+      "345°.",
+      "329°.",
+      "327°."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3550.- (Refiérase a la Figura 23). Determine el rumbo magnético de un vuelo desde el aeropuerto del condado de Allendale (área 1) al aeropuerto del condado de Claxton-Evans (área 2). El viento es de 090° a 16 nudos, la velocidad real es de 90 nudos y la variación magnética es de 6 grados oeste:",
+    "options": [
+      "209°.",
+      "230°.",
+      "212°."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3550.1.- En un vuelo de travesía, el punto A se cruza a las 15.00 horas y el plan es llegar al punto B a las 15.30 horas. Utilice la siguiente información para determinar la velocidad aerodinámica indicada requerida para alcanzar el punto B según lo programado: Distancia entre A y B: 70 NM Pronóstico de viento: 310° a 15 kts Altitud de presión: 8.000 pies Temperatura ambiente: -10° Rumbo verdadero: 270° La velocidad indicada requerida sería aproximadamente:",
+    "options": [
+      "126 nudos.",
+      "137 nudos.",
+      "152 nudos."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3564.- (Refiérase a la Figura 25.) Determine el rumbo magnético para un vuelo desde Dallas Executive (área 3) a Fort Worth Meacham (área 4). El viento es de 030° a 10 nudos, la velocidad real es de 135 nudos y la variación magnética es de 7° este:",
+    "options": [
+      "266°.",
+      "286°.",
+      "312°."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3564.1.- (Refiérase a la Figura 75.) ¿Cuál es el tiempo en ruta desde Gila Bend VORTAC hasta Buckeye VOR a lo largo de V461 a un TAS de 125 nudos y vientos pronosticados de 180 a 17 nudos?",
+    "options": [
+      "Aproximadamente 14 minutos.",
+      "Aproximadamente 15 minutos.",
+      "Aproximadamente 13 minutos."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3564.2.- (Refiérase a la Figura 21). ¿Cuál es el tiempo estimado en ruta desde el Aeropuerto Regional del Condado de Mercer (área 3) hasta Minot International (área 1)? El viento es de 330 ° a 25 nudos y la velocidad real es de 100 nudos. Agregue 3-1 / 2 minutos para la salida y el ascenso:",
+    "options": [
+      "47 minutos.",
+      "44 minutos.",
+      "52 minutos."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3599.- (Refiérase a la Figura 25, área 4). El piso del espacio aéreo Clase B que cubre el Aeropuerto Hicks (T67) al norte-noroeste de Fort Worth Meacham Field es:",
+    "options": [
+      "en la superficie.",
+      "3,200 pies MSL.",
+      "4000 pies MSL."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3600.- (Refiérase a la Figura 25, área 2). El piso del espacio aéreo Clase B en el aeropuerto de Addison es:",
+    "options": [
+      "en la superficie.",
+      "3,000 pies MSL.",
+      "3,100 pies MSL."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3126.- ¿Qué licencia mínima de piloto se requiere para operar dentro del espacio aéreo de Clase B?",
+    "options": [
+      "Licencia de piloto comercial.",
+      "Licencia de piloto privado o licencia de alumno piloto con las correspondientes aprobaciones del libro de vuelo.",
+      "Certificado de piloto privado con habilitación de instrumentos."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3127.- ¿Qué licencia mínima de piloto se requiere para operar dentro del espacio aéreo de Clase B?",
+    "options": [
+      "Licencia de piloto privado o licencia de alumno piloto con las correspondientes aprobaciones del libro de vuelo.",
+      "Certificado de piloto recreativo.",
+      "Licencia de piloto privado con habilitación de instrumentos."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3128.- ¿Qué equipo de radio mínimo se requiere para la operación VFR dentro del espacio aéreo de Clase B?",
+    "options": [
+      "Equipo de radiocomunicación bidireccional y transpondedor de código 4096.",
+      "Equipo de comunicaciones por radio bidireccional, un transpondedor de código 4096 y un altímetro codificador.",
+      "Equipo de radiocomunicación bidireccional, un transpondedor de código 4096, un altímetro codificador y un receptor VOR o TACAN."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3628.- (Refiérase a la Figura 25.) ¿En qué aeropuertos no están autorizados los VFR especiales de ala fija?",
+    "options": [
+      "Fort Worth Meacham y Fort Worth Spinks.",
+      "Dallas-Fort Worth International y Dallas Love Field.",
+      "Addison y el ejecutivo de Dallas."
+    ],
+    "answer": 1
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3117.- ¿Un círculo azul segmentado en un gráfico seccional muestra qué clase de espacio aéreo?",
+    "options": [
+      "Clase B.",
+      "Clase C.",
+      "Clase D."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3118.- El espacio aéreo en un aeropuerto con una torre de control a tiempo parcial se clasifica como espacio aéreo de Clase D únicamente:",
+    "options": [
+      "cuando los mínimos climáticos están por debajo del VFR básico.",
+      "cuando la torre de control asociada está en funcionamiento.",
+      "cuando la estación de servicio de vuelo asociada esté en funcionamiento"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3787.- Las dimensiones laterales del espacio aéreo Clase D se basan en:",
+    "options": [
+      "el número de aeropuertos que se encuentran dentro del espacio aéreo de Clase D.",
+      "5 millas terrestres del centro geográfico del aeropuerto principal.",
+      "los procedimientos instrumentales para los cuales se establece el espacio aéreo controlado."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3787.1.- Cuando una torre de control, ubicada en un aeropuerto dentro del espacio aéreo de Clase D, deja de funcionar durante el día, ¿qué sucede con la designación del espacio aéreo?",
+    "options": [
+      "La designación del espacio aéreo normalmente no cambiará.",
+      "El espacio aéreo sigue siendo espacio aéreo de Clase D siempre que haya disponible un observador meteorológico o un sistema meteorológico automatizado.",
+      "El espacio aéreo se revierte a Clase E o una combinación de espacio aéreo de Clase E y G durante las horas que la torre no está en operación."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3799.- ¿Qué acción inicial debe tomar un piloto antes de ingresar al espacio aéreo Clase C?",
+    "options": [
+      "Póngase en contacto con el control de aproximación en la frecuencia adecuada.",
+      "Comuníquese con la torre y solicite permiso para ingresar.",
+      "Comuníquese con el FSS para recibir avisos de tráfico."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3779.- El límite vertical del espacio aéreo Clase C por encima del aeropuerto principal es normalmente:",
+    "options": [
+      "1,200 pies AGL.",
+      "3,000 pies AGL.",
+      "4,000 pies AGL."
+    ],
+    "answer": 2
+  },
+  {
+    "category": "VUELO EN RUTA",
+    "question": "3780.- El radio del área exterior procesal del espacio aéreo de Clase C es normalmente:",
+    "options": [
+      "10 NM.",
+      "20 NM.",
+      "30 NM."
+    ],
+    "answer": 1
   }
 ]
