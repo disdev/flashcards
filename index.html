@@ -278,6 +278,87 @@
       background: var(--accent-hover);
     }
 
+    /* Category picker */
+    .picker {
+      width: 100%;
+      animation: fadeIn 0.3s ease;
+    }
+
+    .picker h2 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 1.25rem;
+      text-align: center;
+    }
+
+    .cat-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .cat-btn {
+      background: var(--option-bg);
+      color: var(--text);
+      border: 2px solid transparent;
+      border-radius: var(--radius);
+      padding: 0.9rem 1.15rem;
+      font-size: 0.95rem;
+      text-align: left;
+      cursor: pointer;
+      transition: background 0.15s ease, border-color 0.15s ease, transform 0.1s ease;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .cat-btn:hover {
+      background: var(--option-hover);
+      transform: translateX(4px);
+    }
+
+    .cat-btn.selected {
+      border-color: var(--accent);
+      background: rgba(99, 102, 241, 0.15);
+    }
+
+    .cat-btn .cat-count {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      font-weight: 600;
+      background: var(--card-border);
+      padding: 0.2rem 0.6rem;
+      border-radius: 999px;
+    }
+
+    .cat-btn.selected .cat-count {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    .start-btn {
+      width: 100%;
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      border-radius: var(--radius);
+      padding: 1rem;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.15s ease;
+    }
+
+    .start-btn:hover {
+      background: var(--accent-hover);
+    }
+
+    .start-btn:disabled {
+      opacity: 0.5;
+      cursor: default;
+    }
+
     /* Responsive */
     @media (max-width: 480px) {
       .card {
@@ -318,6 +399,7 @@
     let correctCount = 0;
     let answered = false;
     let shuffledCards = [];
+    let selectedCategories = new Set();
 
     const letters = ['A', 'B', 'C', 'D'];
 
@@ -354,14 +436,104 @@
         const resp = await fetch('cards.json');
         if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
         flashcards = await resp.json();
-        startQuiz();
+        showCategoryPicker();
       } catch (err) {
         showError(err.message);
       }
     }
 
+    function getCategories() {
+      const map = {};
+      flashcards.forEach(c => {
+        map[c.category] = (map[c.category] || 0) + 1;
+      });
+      return Object.entries(map).sort((a, b) => a[0].localeCompare(b[0]));
+    }
+
+    function toggleCategory(cat) {
+      if (selectedCategories.has(cat)) {
+        selectedCategories.delete(cat);
+      } else {
+        selectedCategories.add(cat);
+      }
+      updatePickerUI();
+    }
+
+    function selectAllCategories() {
+      const cats = getCategories();
+      if (selectedCategories.size === cats.length) {
+        selectedCategories.clear();
+      } else {
+        cats.forEach(([cat]) => selectedCategories.add(cat));
+      }
+      updatePickerUI();
+    }
+
+    function updatePickerUI() {
+      const cats = getCategories();
+      const allSelected = selectedCategories.size === cats.length;
+
+      // Update category buttons
+      document.querySelectorAll('.cat-btn[data-cat]').forEach(btn => {
+        const cat = btn.dataset.cat;
+        if (cat === '__all__') {
+          btn.classList.toggle('selected', allSelected);
+        } else {
+          btn.classList.toggle('selected', selectedCategories.has(cat));
+        }
+      });
+
+      // Update start button
+      const total = flashcards.filter(c => selectedCategories.has(c.category)).length;
+      const startBtn = document.getElementById('start-btn');
+      startBtn.disabled = total === 0;
+      startBtn.textContent = total === 0
+        ? 'Selecciona una materia'
+        : `Comenzar (${total} pregunta${total !== 1 ? 's' : ''})`;
+    }
+
+    function showCategoryPicker() {
+      const cats = getCategories();
+
+      // Hide progress bar during picker
+      document.querySelector('.progress-bar-container').style.display = 'none';
+
+      // Default: all selected
+      if (selectedCategories.size === 0) {
+        cats.forEach(([cat]) => selectedCategories.add(cat));
+      }
+
+      const allSelected = selectedCategories.size === cats.length;
+      const total = flashcards.filter(c => selectedCategories.has(c.category)).length;
+
+      document.getElementById('main').innerHTML = `
+        <div class="picker">
+          <h2>Selecciona materias</h2>
+          <div class="cat-grid">
+            <button class="cat-btn${allSelected ? ' selected' : ''}" data-cat="__all__" onclick="selectAllCategories()">
+              <span>Todas las materias</span>
+              <span class="cat-count">${flashcards.length}</span>
+            </button>
+            ${cats.map(([cat, count]) => `
+              <button class="cat-btn${selectedCategories.has(cat) ? ' selected' : ''}" data-cat="${cat}" onclick="toggleCategory('${cat.replace(/'/g, "\\'")}')">
+                <span>${cat}</span>
+                <span class="cat-count">${count}</span>
+              </button>
+            `).join('')}
+          </div>
+          <button class="start-btn" id="start-btn" onclick="startQuiz()">
+            Comenzar (${total} pregunta${total !== 1 ? 's' : ''})
+          </button>
+        </div>
+      `;
+    }
+
     function startQuiz() {
-      shuffledCards = shuffle(flashcards);
+      const filtered = flashcards.filter(c => selectedCategories.has(c.category));
+      if (filtered.length === 0) return;
+
+      document.querySelector('.progress-bar-container').style.display = '';
+      shuffledCards = shuffle(filtered);
       currentIndex = 0;
       correctCount = 0;
       answered = false;
@@ -471,6 +643,7 @@
           <div class="score">${pct}%</div>
           <div class="score-detail">${correctCount} de ${total} respuestas correctas</div>
           <button class="restart-btn" onclick="startQuiz()">Intentar de nuevo</button>
+          <button class="restart-btn" style="margin-top:0.75rem;background:var(--card-border);" onclick="showCategoryPicker()">Cambiar materias</button>
         </div>
       `;
     }
