@@ -19,7 +19,10 @@
       "4,600 libras."
     ],
     "answer": 2,
-    "reason": "A 60° de inclinación, el factor de carga es 2G. 2,300 × 2 = 4,600 lbs."
+    "reason": "A 60° de inclinación, el factor de carga es 2G. 2,300 × 2 = 4,600 lbs.",
+    "figures": [
+      "Figure 2.png"
+    ]
   },
   {
     "category": "AERODINÁMICA BÁSICA",
@@ -30,7 +33,10 @@
       "3,960 libras."
     ],
     "answer": 2,
-    "reason": "A 30° de inclinación, el factor de carga es aproximadamente 1.2G. 3,300 × 1.2 ≈ 3,960 lbs."
+    "reason": "A 30° de inclinación, el factor de carga es aproximadamente 1.2G. 3,300 × 1.2 ≈ 3,960 lbs.",
+    "figures": [
+      "Figure 2.png"
+    ]
   },
   {
     "category": "INSTRUMENTOS DE VUELO",
@@ -107,7 +113,10 @@
       "La línea radial roja."
     ],
     "answer": 2,
-    "reason": "La línea radial roja marca VNE en el indicador de velocidad."
+    "reason": "La línea radial roja marca VNE en el indicador de velocidad.",
+    "figures": [
+      "Figure 4.png"
+    ]
   },
   {
     "category": "INSTRUMENTOS DE VUELO",
@@ -118,7 +127,10 @@
       "Límite inferior del arco verde."
     ],
     "answer": 2,
-    "reason": "El límite inferior del arco verde indica la velocidad de pérdida sin potencia en una configuración específica (VS1)."
+    "reason": "El límite inferior del arco verde indica la velocidad de pérdida sin potencia en una configuración específica (VS1).",
+    "figures": [
+      "Figure 4.png"
+    ]
   },
   {
     "category": "INSTRUMENTOS DE VUELO",
@@ -129,7 +141,10 @@
       "55 a 165 nudos."
     ],
     "answer": 0,
-    "reason": "El arco blanco abarca desde VS0 hasta VFE — el rango completo de operación con flaps. 55–100 nudos."
+    "reason": "El arco blanco abarca desde VS0 hasta VFE — el rango completo de operación con flaps. 55–100 nudos.",
+    "figures": [
+      "Figure 4.png"
+    ]
   },
   {
     "category": "INSTRUMENTOS DE VUELO",
@@ -140,7 +155,10 @@
       "208 nudos."
     ],
     "answer": 2,
-    "reason": "VNE (línea roja) es 208 nudos — la velocidad máxima en aire no turbulento."
+    "reason": "VNE (línea roja) es 208 nudos — la velocidad máxima en aire no turbulento.",
+    "figures": [
+      "Figure 4.png"
+    ]
   },
   {
     "category": "INSTRUMENTOS DE VUELO",
@@ -151,7 +169,10 @@
       "165 nudos."
     ],
     "answer": 1,
-    "reason": "VFE es el límite superior del arco blanco — 100 nudos con flaps extendidos."
+    "reason": "VFE es el límite superior del arco blanco — 100 nudos con flaps extendidos.",
+    "figures": [
+      "Figure 4.png"
+    ]
   },
   {
     "category": "INSTRUMENTOS DE VUELO",
@@ -162,7 +183,10 @@
       "El arco blanco."
     ],
     "answer": 2,
-    "reason": "El arco blanco representa el rango normal de operación con flaps."
+    "reason": "El arco blanco representa el rango normal de operación con flaps.",
+    "figures": [
+      "Figure 4.png"
+    ]
   },
   {
     "category": "INSTRUMENTOS DE VUELO",
@@ -173,7 +197,10 @@
       "Límite inferior del arco blanco."
     ],
     "answer": 2,
-    "reason": "El límite inferior del arco blanco marca VS0 — velocidad de pérdida en configuración de aterrizaje."
+    "reason": "El límite inferior del arco blanco marca VS0 — velocidad de pérdida en configuración de aterrizaje.",
+    "figures": [
+      "Figure 4.png"
+    ]
   },
   {
     "category": "INSTRUMENTOS DE VUELO",
@@ -184,7 +211,10 @@
       "208 nudos."
     ],
     "answer": 1,
-    "reason": "El límite superior del arco verde es VNO — velocidad máxima de crucero estructural — 165 nudos."
+    "reason": "El límite superior del arco verde es VNO — velocidad máxima de crucero estructural — 165 nudos.",
+    "figures": [
+      "Figure 4.png"
+    ]
   },
   {
     "category": "INSTRUMENTOS DE VUELO",
@@ -250,7 +280,10 @@
       "165 a 208 nudos."
     ],
     "answer": 2,
-    "reason": "El arco amarillo (rango de precaución) va de VNO a VNE: 165–208 nudos."
+    "reason": "El arco amarillo (rango de precaución) va de VNO a VNE: 165–208 nudos.",
+    "figures": [
+      "Figure 4.png"
+    ]
   },
   {
     "category": "INSTRUMENTOS DE VUELO",
@@ -470,7 +503,10 @@
       "10,500 pies."
     ],
     "answer": 2,
-    "reason": "Lectura de la Figura 3: el altímetro 1 indica 10,500 pies según la posición de las agujas."
+    "reason": "Lectura de la Figura 3: el altímetro 1 indica 10,500 pies según la posición de las agujas.",
+    "figures": [
+      "Figure 3.png"
+    ]
   },
   {
     "category": "INSTRUMENTOS DE VUELO",
@@ -481,7 +517,10 @@
       "14,500 pies."
     ],
     "answer": 2,
-    "reason": "Lectura de la Figura 3: el altímetro 2 indica 14,500 pies."
+    "reason": "Lectura de la Figura 3: el altímetro 2 indica 14,500 pies.",
+    "figures": [
+      "Figure 3.png"
+    ]
   },
   {
     "category": "INSTRUMENTOS DE VUELO",
@@ -492,7 +531,10 @@
       "15,940 pies."
     ],
     "answer": 0,
-    "reason": "Lectura de la Figura 3: el altímetro 3 indica 9,500 pies."
+    "reason": "Lectura de la Figura 3: el altímetro 3 indica 9,500 pies.",
+    "figures": [
+      "Figure 3.png"
+    ]
   },
   {
     "category": "INSTRUMENTOS DE VUELO",
@@ -503,7 +545,10 @@
       "Únicamente el 1."
     ],
     "answer": 1,
-    "reason": "Los altímetros 1 (10,500) y 2 (14,500) superan los 10,000 pies; el altímetro 3 (9,500) no."
+    "reason": "Los altímetros 1 (10,500) y 2 (14,500) superan los 10,000 pies; el altímetro 3 (9,500) no.",
+    "figures": [
+      "Figure 3.png"
+    ]
   },
   {
     "category": "INSTRUMENTOS DE VUELO",
@@ -514,7 +559,10 @@
       "080 grados magnético."
     ],
     "answer": 2,
-    "reason": "A 9,500 pies en un curso magnético de 080° (rango 0°–179°), la altitud VFR apropiada es miles impares + 500 = 9,500 pies."
+    "reason": "A 9,500 pies en un curso magnético de 080° (rango 0°–179°), la altitud VFR apropiada es miles impares + 500 = 9,500 pies.",
+    "figures": [
+      "Figure 82.png"
+    ]
   },
   {
     "category": "INSTRUMENTOS DE VUELO",
@@ -536,7 +584,10 @@
       "Por la relación del avión en miniatura (C) con la barra de horizonte desviada (B)."
     ],
     "answer": 2,
-    "reason": "La dirección de inclinación se determina por la posición del avión en miniatura respecto a la barra de horizonte desviada."
+    "reason": "La dirección de inclinación se determina por la posición del avión en miniatura respecto a la barra de horizonte desviada.",
+    "figures": [
+      "Figure 7.png"
+    ]
   },
   {
     "category": "INSTRUMENTOS DE VUELO",
@@ -547,7 +598,10 @@
       "Actitud de la aeronave con respecto al eje longitudinal."
     ],
     "answer": 0,
-    "reason": "Un coordinador de giro muestra movimiento sobre los ejes de guiñada y alabeo."
+    "reason": "Un coordinador de giro muestra movimiento sobre los ejes de guiñada y alabeo.",
+    "figures": [
+      "Figure 5.png"
+    ]
   },
   {
     "category": "INSTRUMENTOS DE VUELO",
@@ -558,7 +612,10 @@
       "Avión en miniatura a la barra del horizonte."
     ],
     "answer": 2,
-    "reason": "En vuelo nivelado, alinee el avión en miniatura con la barra de horizonte, no al revés."
+    "reason": "En vuelo nivelado, alinee el avión en miniatura con la barra de horizonte, no al revés.",
+    "figures": [
+      "Figure 7.png"
+    ]
   },
   {
     "category": "INSTRUMENTOS DE VUELO",
@@ -569,7 +626,10 @@
       "Periódicamente realineados con la brújula magnética mientras el giróscopo avanza."
     ],
     "answer": 2,
-    "reason": "El indicador de rumbo debe realinearse periódicamente con la brújula magnética porque el giróscopo precesiona con el tiempo."
+    "reason": "El indicador de rumbo debe realinearse periódicamente con la brújula magnética porque el giróscopo precesiona con el tiempo.",
+    "figures": [
+      "Figure 6.png"
+    ]
   },
   {
     "category": "INSTRUMENTOS DE VUELO",
@@ -745,7 +805,10 @@
       "Esquinas 2 y 4."
     ],
     "answer": 0,
-    "reason": "En patrones rectangulares, las esquinas 1 y 4 requieren menos de 90° de giro debido a la corrección por viento."
+    "reason": "En patrones rectangulares, las esquinas 1 y 4 requieren menos de 90° de giro debido a la corrección por viento.",
+    "figures": [
+      "Figure 62.png"
+    ]
   },
   {
     "category": "AERODINÁMICA BÁSICA",
@@ -756,7 +819,10 @@
       "4-5-6 porque la inclinación se incrementa demasiado lento durante la última parte del giro."
     ],
     "answer": 1,
-    "reason": "Patrón 4-5-6: inclinar demasiado rápido al inicio hace el semicírculo más pequeño e incompleto antes de cruzar la línea de referencia."
+    "reason": "Patrón 4-5-6: inclinar demasiado rápido al inicio hace el semicírculo más pequeño e incompleto antes de cruzar la línea de referencia.",
+    "figures": [
+      "Figure 66a.png"
+    ]
   },
   {
     "category": "AERODINÁMICA BÁSICA",
@@ -987,7 +1053,10 @@
       "Diedro."
     ],
     "answer": 1,
-    "reason": "El ángulo A en la figura representa el ángulo de ataque."
+    "reason": "El ángulo A en la figura representa el ángulo de ataque.",
+    "figures": [
+      "Figure 1.png"
+    ]
   },
   {
     "category": "AERODINÁMICA BÁSICA",
@@ -1152,7 +1221,10 @@
       "7,200 libras."
     ],
     "answer": 1,
-    "reason": "A 45° de inclinación, el factor de carga es aproximadamente 1.5G. 4,500 × 1.5 ≈ 6,750 lbs."
+    "reason": "A 45° de inclinación, el factor de carga es aproximadamente 1.5G. 4,500 × 1.5 ≈ 6,750 lbs.",
+    "figures": [
+      "Figure 2.png"
+    ]
   },
   {
     "category": "METEOROLOGÍA",
@@ -1823,7 +1895,10 @@
       "VOR / DME."
     ],
     "answer": 2,
-    "reason": "La instalación en DFW se identifica como VOR/DME en la carta."
+    "reason": "La instalación en DFW se identifica como VOR/DME en la carta.",
+    "figures": [
+      "Figure 25.png"
+    ]
   },
   {
     "category": "NAVEGACIÓN",
@@ -1834,7 +1909,10 @@
       "Sobre el aeropuerto de Briggs."
     ],
     "answer": 0,
-    "reason": "Trazando el radial 320° de Savannah y el 184° de Allendale, la aeronave se ubica al sureste de Guyton."
+    "reason": "Trazando el radial 320° de Savannah y el 184° de Allendale, la aeronave se ubica al sureste de Guyton.",
+    "figures": [
+      "Figure 23.png"
+    ]
   },
   {
     "category": "NAVEGACIÓN",
@@ -1845,7 +1923,10 @@
       "Aeropuerto Majors."
     ],
     "answer": 1,
-    "reason": "Trazando el radial 245° de Sulphur Springs y el 140° de Bonham, la intersección está cerca del Aeropuerto Glenmar."
+    "reason": "Trazando el radial 245° de Sulphur Springs y el 140° de Bonham, la intersección está cerca del Aeropuerto Glenmar.",
+    "figures": [
+      "Figure 24.png"
+    ]
   },
   {
     "category": "NAVEGACIÓN",
@@ -1856,7 +1937,10 @@
       "Oeste-suroeste."
     ],
     "answer": 0,
-    "reason": "OBS 253° con TO y CDI desviado a la derecha significa que la aeronave está al derecho/norte del curso 253° — al este-noreste de la estación."
+    "reason": "OBS 253° con TO y CDI desviado a la derecha significa que la aeronave está al derecho/norte del curso 253° — al este-noreste de la estación.",
+    "figures": [
+      "Figure 25.png"
+    ]
   },
   {
     "category": "NAVEGACIÓN",
@@ -1867,7 +1951,10 @@
       "Sur."
     ],
     "answer": 0,
-    "reason": "Las indicaciones VOR (OBS y TO/FROM) en la ilustración 4 ubican la aeronave al norte de la estación."
+    "reason": "Las indicaciones VOR (OBS y TO/FROM) en la ilustración 4 ubican la aeronave al norte de la estación.",
+    "figures": [
+      "Figure 28.png"
+    ]
   },
   {
     "category": "NAVEGACIÓN",
@@ -1878,7 +1965,10 @@
       "Oeste."
     ],
     "answer": 1,
-    "reason": "Las indicaciones en la ilustración 7 ubican la aeronave al sureste de la estación."
+    "reason": "Las indicaciones en la ilustración 7 ubican la aeronave al sureste de la estación.",
+    "figures": [
+      "Figure 28.png"
+    ]
   },
   {
     "category": "NAVEGACIÓN",
@@ -1889,7 +1979,10 @@
       "300°."
     ],
     "answer": 0,
-    "reason": "La ilustración 5 muestra la aeronave cruzando el radial 030°."
+    "reason": "La ilustración 5 muestra la aeronave cruzando el radial 030°.",
+    "figures": [
+      "Figure 28.png"
+    ]
   },
   {
     "category": "NAVEGACIÓN",
@@ -1900,7 +1993,10 @@
       "200°."
     ],
     "answer": 1,
-    "reason": "El curso directo de Hampton Varnville a Savannah VORTAC requiere un ajuste de OBS de aproximadamente 195°."
+    "reason": "El curso directo de Hampton Varnville a Savannah VORTAC requiere un ajuste de OBS de aproximadamente 195°.",
+    "figures": [
+      "Figure 23.png"
+    ]
   },
   {
     "category": "NAVEGACIÓN",
@@ -1911,7 +2007,10 @@
       "281°."
     ],
     "answer": 0,
-    "reason": "El curso directo de Majors a Quitman requiere un ajuste de OBS de aproximadamente 101°."
+    "reason": "El curso directo de Majors a Quitman requiere un ajuste de OBS de aproximadamente 101°.",
+    "figures": [
+      "Figure 24.png"
+    ]
   },
   {
     "category": "NAVEGACIÓN",
@@ -1922,7 +2021,11 @@
       "8"
     ],
     "answer": 1,
-    "reason": "Desde Shawboro, la indicación VOR que coincide con la posición relativa al VOR/DME de Elizabeth City es la ilustración 5."
+    "reason": "Desde Shawboro, la indicación VOR que coincide con la posición relativa al VOR/DME de Elizabeth City es la ilustración 5.",
+    "figures": [
+      "Figure 20.png",
+      "Figure 28.png"
+    ]
   },
   {
     "category": "NAVEGACIÓN",
@@ -1933,7 +2036,10 @@
       "179°."
     ],
     "answer": 1,
-    "reason": "El curso directo de Mercer County a Minot VORTAC es aproximadamente 359° con indicación TO."
+    "reason": "El curso directo de Mercer County a Minot VORTAC es aproximadamente 359° con indicación TO.",
+    "figures": [
+      "Figure 21.png"
+    ]
   },
   {
     "category": "NAVEGACIÓN",
@@ -1988,7 +2094,10 @@
       "300 libras."
     ],
     "answer": 2,
-    "reason": "Usando cálculos de brazo de momento con pesos en los puntos X, Y, Z, se necesitan 300 lbs en Y para equilibrar."
+    "reason": "Usando cálculos de brazo de momento con pesos en los puntos X, Y, Z, se necesitan 300 lbs en Y para equilibrar.",
+    "figures": [
+      "Figure 61.png"
+    ]
   },
   {
     "category": "PERFORMANCE",
@@ -1999,7 +2108,10 @@
       "4.5 pulgadas a la derecha."
     ],
     "answer": 0,
-    "reason": "Mover el peso de 500 lbs 1 pulgada a la izquierda equilibra los momentos alrededor del fulcro."
+    "reason": "Mover el peso de 500 lbs 1 pulgada a la izquierda equilibra los momentos alrededor del fulcro.",
+    "figures": [
+      "Figure 60.png"
+    ]
   },
   {
     "category": "PERFORMANCE",
@@ -2010,7 +2122,10 @@
       "El momento disminuirá a 2,087 libras-pulg."
     ],
     "answer": 2,
-    "reason": "30 gal × 6 lb/gal = 180 lbs consumidas. Recalculando: el peso disminuye y el momento baja a 2,087 lb-pulg."
+    "reason": "30 gal × 6 lb/gal = 180 lbs consumidas. Recalculando: el peso disminuye y el momento baja a 2,087 lb-pulg.",
+    "figures": [
+      "Figure 67.png"
+    ]
   },
   {
     "category": "PERFORMANCE",
@@ -2076,7 +2191,10 @@
       "8.500 pies MSL."
     ],
     "answer": 2,
-    "reason": "Usando la carta de altitud de densidad (Figura 8) con las condiciones dadas se obtiene aproximadamente 8,500 pies MSL."
+    "reason": "Usando la carta de altitud de densidad (Figura 8) con las condiciones dadas se obtiene aproximadamente 8,500 pies MSL.",
+    "figures": [
+      "Figure 8.png"
+    ]
   },
   {
     "category": "PERFORMANCE",
@@ -2087,7 +2205,10 @@
       "3,639 pies MSL."
     ],
     "answer": 0,
-    "reason": "Altitud de presión con ajuste 29.96: la corrección es pequeña, resultando aproximadamente 3,527 pies MSL."
+    "reason": "Altitud de presión con ajuste 29.96: la corrección es pequeña, resultando aproximadamente 3,527 pies MSL.",
+    "figures": [
+      "Figure 8.png"
+    ]
   },
   {
     "category": "PERFORMANCE",
@@ -2098,7 +2219,10 @@
       "3,500 pies MSL."
     ],
     "answer": 0,
-    "reason": "Figura 8 con 30.35\" Hg, +25°F, 3,894 pies de elevación da aproximadamente 2,000 pies MSL de altitud de densidad."
+    "reason": "Figura 8 con 30.35\" Hg, +25°F, 3,894 pies de elevación da aproximadamente 2,000 pies MSL de altitud de densidad.",
+    "figures": [
+      "Figure 8.png"
+    ]
   },
   {
     "category": "PERFORMANCE",
@@ -2109,7 +2233,10 @@
       "Disminuye 1.700 pies."
     ],
     "answer": 2,
-    "reason": "La disminución de temperatura compensa con creces el aumento de altitud de presión, resultando en una disminución de 1,700 pies en altitud de densidad."
+    "reason": "La disminución de temperatura compensa con creces el aumento de altitud de presión, resultando en una disminución de 1,700 pies en altitud de densidad.",
+    "figures": [
+      "Figure 8.png"
+    ]
   },
   {
     "category": "PERFORMANCE",
@@ -2164,7 +2291,10 @@
       "Aumento de 1,650 pies."
     ],
     "answer": 2,
-    "reason": "Usando la Figura 8, un aumento de temperatura de 25°F a 50°F a 5,000 pies de altitud de presión aumenta la altitud de densidad en aproximadamente 1,650 pies."
+    "reason": "Usando la Figura 8, un aumento de temperatura de 25°F a 50°F a 5,000 pies de altitud de presión aumenta la altitud de densidad en aproximadamente 1,650 pies.",
+    "figures": [
+      "Figure 8.png"
+    ]
   },
   {
     "category": "PERFORMANCE",
@@ -2175,7 +2305,10 @@
       "3,010 pies MSL."
     ],
     "answer": 0,
-    "reason": "Usando la Figura 8 con 1,380 pies MSL y 28.22\" Hg, la altitud de presión es aproximadamente 2,991 pies MSL."
+    "reason": "Usando la Figura 8 con 1,380 pies MSL y 28.22\" Hg, la altitud de presión es aproximadamente 2,991 pies MSL.",
+    "figures": [
+      "Figure 8.png"
+    ]
   },
   {
     "category": "PERFORMANCE",
@@ -2186,7 +2319,10 @@
       "Aumento de 1,300 pies."
     ],
     "answer": 0,
-    "reason": "Figura 8: cambio de temperatura de 35°F a 50°F a 3,000 pies de altitud de presión aumenta la altitud de densidad en aproximadamente 1,000 pies."
+    "reason": "Figura 8: cambio de temperatura de 35°F a 50°F a 3,000 pies de altitud de presión aumenta la altitud de densidad en aproximadamente 1,000 pies.",
+    "figures": [
+      "Figure 8.png"
+    ]
   },
   {
     "category": "PERFORMANCE",
@@ -2197,7 +2333,10 @@
       "1,562 pies MSL."
     ],
     "answer": 0,
-    "reason": "Usando la Figura 8, 1,386 pies MSL con 29.97\" Hg da aproximadamente 1,341 pies de altitud de presión."
+    "reason": "Usando la Figura 8, 1,386 pies MSL con 29.97\" Hg da aproximadamente 1,341 pies de altitud de presión.",
+    "figures": [
+      "Figure 8.png"
+    ]
   },
   {
     "category": "PERFORMANCE",
@@ -2230,7 +2369,10 @@
       "2,000 pies."
     ],
     "answer": 1,
-    "reason": "Figura 40 con temp estándar, 4,000 pies de altitud de presión, 2,800 lb, viento calma: aprox. 1,750 pies de distancia total sobre obstáculo de 50 pies."
+    "reason": "Figura 40 con temp estándar, 4,000 pies de altitud de presión, 2,800 lb, viento calma: aprox. 1,750 pies de distancia total sobre obstáculo de 50 pies.",
+    "figures": [
+      "Figure 40.png"
+    ]
   },
   {
     "category": "PERFORMANCE",
@@ -2241,7 +2383,10 @@
       "1,700 pies."
     ],
     "answer": 1,
-    "reason": "Figura 40 con temp estándar, nivel del mar, 2,700 lb, calma: aprox. 1,400 pies."
+    "reason": "Figura 40 con temp estándar, nivel del mar, 2,700 lb, calma: aprox. 1,400 pies.",
+    "figures": [
+      "Figure 40.png"
+    ]
   },
   {
     "category": "PERFORMANCE",
@@ -2252,7 +2397,10 @@
       "1.800 pies."
     ],
     "answer": 0,
-    "reason": "Figura 40 con 100°F, 2,000 pies, 2,750 lb, calma: aprox. 1,150 pies de rodaje."
+    "reason": "Figura 40 con 100°F, 2,000 pies, 2,750 lb, calma: aprox. 1,150 pies de rodaje.",
+    "figures": [
+      "Figure 40.png"
+    ]
   },
   {
     "category": "PERFORMANCE",
@@ -2263,7 +2411,10 @@
       "1,000 pies."
     ],
     "answer": 0,
-    "reason": "Figura 40 con 95°F, 2,000 pies, 2,500 lb, 20 nudos de viento: aprox. 650 pies de rodaje."
+    "reason": "Figura 40 con 95°F, 2,000 pies, 2,500 lb, 20 nudos de viento: aprox. 650 pies de rodaje.",
+    "figures": [
+      "Figure 40.png"
+    ]
   },
   {
     "category": "PERFORMANCE",
@@ -2274,7 +2425,10 @@
       "165 nudos."
     ],
     "answer": 2,
-    "reason": "Figura 35 a 10,500 pies con +36°F sobre estándar da aprox. 165 nudos de TAS."
+    "reason": "Figura 35 a 10,500 pies con +36°F sobre estándar da aprox. 165 nudos de TAS.",
+    "figures": [
+      "Figure 35.png"
+    ]
   },
   {
     "category": "PERFORMANCE",
@@ -2285,7 +2439,10 @@
       "73,2 galones."
     ],
     "answer": 1,
-    "reason": "Figura 35 a 8,000 pies, condiciones dadas, para 1,000 NM: aprox. 70.1 galones."
+    "reason": "Figura 35 a 8,000 pies, condiciones dadas, para 1,000 NM: aprox. 70.1 galones.",
+    "figures": [
+      "Figure 35.png"
+    ]
   },
   {
     "category": "PERFORMANCE",
@@ -2296,7 +2453,10 @@
       "40.1 galones."
     ],
     "answer": 1,
-    "reason": "Figura 35 a 4,000 pies, condiciones dadas, para 500 NM: aprox. 36.1 galones."
+    "reason": "Figura 35 a 4,000 pies, condiciones dadas, para 500 NM: aprox. 36.1 galones.",
+    "figures": [
+      "Figure 35.png"
+    ]
   },
   {
     "category": "PERFORMANCE",
@@ -2307,7 +2467,10 @@
       "11.8 galones por hora."
     ],
     "answer": 1,
-    "reason": "Figura 35 a 11,000 pies día estándar, 65% potencia: aprox. 11.2 GPH."
+    "reason": "Figura 35 a 11,000 pies día estándar, 65% potencia: aprox. 11.2 GPH.",
+    "figures": [
+      "Figure 35.png"
+    ]
   },
   {
     "category": "PERFORMANCE",
@@ -2318,7 +2481,10 @@
       "21.0\" Hg."
     ],
     "answer": 2,
-    "reason": "Figura 35 a 6,500 pies, +36°F sobre estándar, 2,450 RPM: aprox. 21.0\" Hg para 65% de potencia."
+    "reason": "Figura 35 a 6,500 pies, +36°F sobre estándar, 2,450 RPM: aprox. 21.0\" Hg para 65% de potencia.",
+    "figures": [
+      "Figure 35.png"
+    ]
   },
   {
     "category": "PERFORMANCE",
@@ -2329,7 +2495,10 @@
       "470 pies."
     ],
     "answer": 1,
-    "reason": "Figura 38 con 1,250 pies de altitud de presión, 8 nudos, temp estándar: aprox. 366 pies de distancia de aterrizaje."
+    "reason": "Figura 38 con 1,250 pies de altitud de presión, 8 nudos, temp estándar: aprox. 366 pies de distancia de aterrizaje.",
+    "figures": [
+      "Figure 38.png"
+    ]
   },
   {
     "category": "PERFORMANCE",
@@ -2340,7 +2509,10 @@
       "1,750 pies."
     ],
     "answer": 1,
-    "reason": "Figura 37 con las condiciones dadas: aprox. 1,400 pies de distancia total de aterrizaje sobre obstáculo de 50 pies."
+    "reason": "Figura 37 con las condiciones dadas: aprox. 1,400 pies de distancia total de aterrizaje sobre obstáculo de 50 pies.",
+    "figures": [
+      "Figure 37.png"
+    ]
   },
   {
     "category": "PERFORMANCE",
@@ -2351,7 +2523,10 @@
       "1,450 pies."
     ],
     "answer": 1,
-    "reason": "Figura 37 a 10,000 pies, estándar, 2,400 lb, calma, obstáculo 50 pies: aprox. 1,925 pies."
+    "reason": "Figura 37 a 10,000 pies, estándar, 2,400 lb, calma, obstáculo 50 pies: aprox. 1,925 pies.",
+    "figures": [
+      "Figure 37.png"
+    ]
   },
   {
     "category": "PERFORMANCE",
@@ -2362,7 +2537,10 @@
       "1,725 ¿¿pies."
     ],
     "answer": 2,
-    "reason": "Figura 37 con 90°F, 3,000 pies, 2,900 lb, 10 nudos, obstáculo 50 pies: aprox. 1,725 pies."
+    "reason": "Figura 37 con 90°F, 3,000 pies, 2,900 lb, 10 nudos, obstáculo 50 pies: aprox. 1,725 pies.",
+    "figures": [
+      "Figure 37.png"
+    ]
   },
   {
     "category": "PERFORMANCE",
@@ -2373,7 +2551,10 @@
       "1,950 pies."
     ],
     "answer": 1,
-    "reason": "Figura 37 con 90°F, 4,000 pies, 2,800 lb, 10 nudos: aprox. 1,775 pies."
+    "reason": "Figura 37 con 90°F, 4,000 pies, 2,800 lb, 10 nudos: aprox. 1,775 pies.",
+    "figures": [
+      "Figure 37.png"
+    ]
   },
   {
     "category": "PERFORMANCE",
@@ -2384,7 +2565,10 @@
       "490 pies."
     ],
     "answer": 1,
-    "reason": "Figura 38 a nivel del mar, 4 nudos, temp estándar: aprox. 401 pies."
+    "reason": "Figura 38 a nivel del mar, 4 nudos, temp estándar: aprox. 401 pies.",
+    "figures": [
+      "Figure 38.png"
+    ]
   },
   {
     "category": "PERFORMANCE",
@@ -2395,7 +2579,10 @@
       "1,506 pies."
     ],
     "answer": 0,
-    "reason": "Figura 38 a 7,500 pies, 8 nudos, 32°F, obstáculo 50 pies: aprox. 1,004 pies."
+    "reason": "Figura 38 a 7,500 pies, 8 nudos, 32°F, obstáculo 50 pies: aprox. 1,004 pies.",
+    "figures": [
+      "Figure 38.png"
+    ]
   },
   {
     "category": "PERFORMANCE",
@@ -2406,7 +2593,10 @@
       "1,076 pies."
     ],
     "answer": 1,
-    "reason": "Figura 38 a 5,000 pies, 8 nudos, 41°F, obstáculo 50 pies: aprox. 956 pies."
+    "reason": "Figura 38 a 5,000 pies, 8 nudos, 41°F, obstáculo 50 pies: aprox. 956 pies.",
+    "figures": [
+      "Figure 38.png"
+    ]
   },
   {
     "category": "PERFORMANCE",
@@ -2417,7 +2607,10 @@
       "445 pies."
     ],
     "answer": 1,
-    "reason": "Figura 38 a 5,000 pies, calma, 101°F: aprox. 545 pies de distancia de aterrizaje."
+    "reason": "Figura 38 a 5,000 pies, calma, 101°F: aprox. 545 pies de distancia de aterrizaje.",
+    "figures": [
+      "Figure 38.png"
+    ]
   },
   {
     "category": "PERFORMANCE",
@@ -2428,7 +2621,10 @@
       "816 pies."
     ],
     "answer": 2,
-    "reason": "Figura 38 a 3,750 pies, 12 nudos, estándar, obstáculo 50 pies: aprox. 816 pies."
+    "reason": "Figura 38 a 3,750 pies, 12 nudos, estándar, obstáculo 50 pies: aprox. 816 pies.",
+    "figures": [
+      "Figure 38.png"
+    ]
   },
   {
     "category": "PERFORMANCE",
@@ -2439,7 +2635,10 @@
       "30 nudos."
     ],
     "answer": 0,
-    "reason": "Viento de 220° aterrizando Pista 18: componente de viento cruzado ≈ 30 × sen(40°) ≈ 19 nudos."
+    "reason": "Viento de 220° aterrizando Pista 18: componente de viento cruzado ≈ 30 × sen(40°) ≈ 19 nudos.",
+    "figures": [
+      "Figure 36.png"
+    ]
   },
   {
     "category": "PERFORMANCE",
@@ -2450,7 +2649,10 @@
       "26 nudos."
     ],
     "answer": 1,
-    "reason": "Componente de viento en contra ≈ 30 × cos(40°) ≈ 23 nudos."
+    "reason": "Componente de viento en contra ≈ 30 × cos(40°) ≈ 23 nudos.",
+    "figures": [
+      "Figure 36.png"
+    ]
   },
   {
     "category": "PERFORMANCE",
@@ -2461,7 +2663,10 @@
       "35 nudos."
     ],
     "answer": 2,
-    "reason": "Para un ángulo de viento cruzado de 45°, velocidad máxima = 25/sen(45°) ≈ 35 nudos."
+    "reason": "Para un ángulo de viento cruzado de 45°, velocidad máxima = 25/sen(45°) ≈ 35 nudos.",
+    "figures": [
+      "Figure 36.png"
+    ]
   },
   {
     "category": "PERFORMANCE",
@@ -2472,7 +2677,10 @@
       "24 nudos."
     ],
     "answer": 2,
-    "reason": "Para un ángulo de viento cruzado de 30°, viento máximo = 12/sen(30°) = 24 nudos."
+    "reason": "Para un ángulo de viento cruzado de 30°, viento máximo = 12/sen(30°) = 24 nudos.",
+    "figures": [
+      "Figure 36.png"
+    ]
   },
   {
     "category": "PERFORMANCE",
@@ -2483,7 +2691,10 @@
       "Pista 32."
     ],
     "answer": 2,
-    "reason": "Viento norte a 20 nudos: la Pista 32 tiene el menor componente de viento cruzado dentro del límite de 13 nudos."
+    "reason": "Viento norte a 20 nudos: la Pista 32 tiene el menor componente de viento cruzado dentro del límite de 13 nudos.",
+    "figures": [
+      "Figure 36.png"
+    ]
   },
   {
     "category": "PERFORMANCE",
@@ -2494,7 +2705,10 @@
       "Pista 24."
     ],
     "answer": 1,
-    "reason": "Viento sur a 20 nudos: la Pista 14 proporciona la mejor alineación dentro del límite de 13 nudos de viento cruzado."
+    "reason": "Viento sur a 20 nudos: la Pista 14 proporciona la mejor alineación dentro del límite de 13 nudos de viento cruzado.",
+    "figures": [
+      "Figure 36.png"
+    ]
   },
   {
     "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
@@ -2505,7 +2719,10 @@
       "122.8 MHz."
     ],
     "answer": 2,
-    "reason": "La frecuencia UNICOM en Coeur D'Alene para solicitar combustible es 122.8 MHz."
+    "reason": "La frecuencia UNICOM en Coeur D'Alene para solicitar combustible es 122.8 MHz.",
+    "figures": [
+      "Figure 22.png"
+    ]
   },
   {
     "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
@@ -2516,7 +2733,10 @@
       "126.35 MHz."
     ],
     "answer": 0,
-    "reason": "Cuando la torre de Dallas Executive no opera, la frecuencia CTAF es 127.25 MHz."
+    "reason": "Cuando la torre de Dallas Executive no opera, la frecuencia CTAF es 127.25 MHz.",
+    "figures": [
+      "Figure 25.png"
+    ]
   },
   {
     "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
@@ -2527,7 +2747,10 @@
       "133.4 MHz."
     ],
     "answer": 1,
-    "reason": "La frecuencia de la torre de control del aeropuerto de Addison es 126.0 MHz."
+    "reason": "La frecuencia de la torre de control del aeropuerto de Addison es 126.0 MHz.",
+    "figures": [
+      "Figure 25.png"
+    ]
   },
   {
     "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
@@ -2538,7 +2761,10 @@
       "Circule el aeropuerto en un giro a la izquierda antes de ingresar al tráfico."
     ],
     "answer": 0,
-    "reason": "En Cooperstown (sin UNICOM), transmita intenciones en CTAF/MULTICOM 122.9 MHz a 10 millas."
+    "reason": "En Cooperstown (sin UNICOM), transmita intenciones en CTAF/MULTICOM 122.9 MHz a 10 millas.",
+    "figures": [
+      "Figure 26.png"
+    ]
   },
   {
     "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
@@ -2549,7 +2775,10 @@
       "123.6 MHz."
     ],
     "answer": 1,
-    "reason": "La CTAF/UNICOM de Jamestown es 123.0 MHz."
+    "reason": "La CTAF/UNICOM de Jamestown es 123.0 MHz.",
+    "figures": [
+      "Figure 26.png"
+    ]
   },
   {
     "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
@@ -2560,7 +2789,10 @@
       "123.6 MHz."
     ],
     "answer": 1,
-    "reason": "La CTAF/UNICOM de Barnes County es 122.8 MHz."
+    "reason": "La CTAF/UNICOM de Barnes County es 122.8 MHz.",
+    "figures": [
+      "Figure 26.png"
+    ]
   },
   {
     "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
@@ -2703,7 +2935,10 @@
       "Centro de gravedad de la aeronave."
     ],
     "answer": 0,
-    "reason": "El ítem 15 del plan de vuelo VFR es la altitud de crucero VFR."
+    "reason": "El ítem 15 del plan de vuelo VFR es la altitud de crucero VFR.",
+    "figures": [
+      "Figure 51.png"
+    ]
   },
   {
     "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
@@ -2989,7 +3224,10 @@
       "Póngase en contacto con New Bern FSS para obtener información sobre el tráfico de la zona."
     ],
     "answer": 0,
-    "reason": "Currituck County: transmita en 122.9 MHz a 10 millas y dé reportes de posición en el patrón de tráfico."
+    "reason": "Currituck County: transmita en 122.9 MHz a 10 millas y dé reportes de posición en el patrón de tráfico.",
+    "figures": [
+      "Figure 20.png"
+    ]
   },
   {
     "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
@@ -3000,7 +3238,10 @@
       "123.0 MHz."
     ],
     "answer": 1,
-    "reason": "La CTAF/MULTICOM de Garrison es 122.9 MHz."
+    "reason": "La CTAF/MULTICOM de Garrison es 122.9 MHz.",
+    "figures": [
+      "Figure 21.png"
+    ]
   },
   {
     "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
@@ -3044,7 +3285,10 @@
       "122.8 MHz."
     ],
     "answer": 2,
-    "reason": "La CTAF de Coeur D'Alene para autoanuncio es 122.8 MHz."
+    "reason": "La CTAF de Coeur D'Alene para autoanuncio es 122.8 MHz.",
+    "figures": [
+      "Figure 22.png"
+    ]
   },
   {
     "category": "PROCEDIMIENTOS DE COMUNICACIÓN",
@@ -3055,7 +3299,10 @@
       "122,8 MHz."
     ],
     "answer": 2,
-    "reason": "Misma frecuencia 122.8 MHz para monitorear tráfico en Coeur D'Alene."
+    "reason": "Misma frecuencia 122.8 MHz para monitorear tráfico en Coeur D'Alene.",
+    "figures": [
+      "Figure 22.png"
+    ]
   },
   {
     "category": "PROCEDIMIENTOS Y OPERACIONES",
@@ -3088,7 +3335,10 @@
       "A la derecha para la Pista 9 y a la izquierda para la Pista 27."
     ],
     "answer": 0,
-    "reason": "El círculo segmentado muestra tráfico a la izquierda para Pista 36 y a la derecha para Pista 18."
+    "reason": "El círculo segmentado muestra tráfico a la izquierda para Pista 36 y a la derecha para Pista 18.",
+    "figures": [
+      "Figure 50.png"
+    ]
   },
   {
     "category": "PROCEDIMIENTOS Y OPERACIONES",
@@ -3099,7 +3349,10 @@
       "Al sureste del aeropuerto."
     ],
     "answer": 2,
-    "reason": "Los patrones de tráfico están dispuestos para evitar vuelos sobre el área al sureste del aeropuerto."
+    "reason": "Los patrones de tráfico están dispuestos para evitar vuelos sobre el área al sureste del aeropuerto.",
+    "figures": [
+      "Figure 50.png"
+    ]
   },
   {
     "category": "PROCEDIMIENTOS Y OPERACIONES",
@@ -3110,7 +3363,10 @@
       "Viento de cola hacia la derecha."
     ],
     "answer": 0,
-    "reason": "Aterrizando en Pista 26 con patrón a la derecha indicado significa entrada con viento en contra hacia la derecha."
+    "reason": "Aterrizando en Pista 26 con patrón a la derecha indicado significa entrada con viento en contra hacia la derecha.",
+    "figures": [
+      "Figure 50.png"
+    ]
   },
   {
     "category": "PROCEDIMIENTOS Y OPERACIONES",
@@ -3121,7 +3377,10 @@
       "Circulación por la izquierda en la pista 36."
     ],
     "answer": 2,
-    "reason": "La manga de viento y el círculo segmentado indican vientos favoreciendo Pista 36 con tráfico a la izquierda."
+    "reason": "La manga de viento y el círculo segmentado indican vientos favoreciendo Pista 36 con tráfico a la izquierda.",
+    "figures": [
+      "Figure 50.png"
+    ]
   },
   {
     "category": "PROCEDIMIENTOS Y OPERACIONES",
@@ -3176,7 +3435,10 @@
       "E"
     ],
     "answer": 2,
-    "reason": "El símbolo E en la Figura 64 indica una marca de posición de espera de calle de rodaje/intersección."
+    "reason": "El símbolo E en la Figura 64 indica una marca de posición de espera de calle de rodaje/intersección.",
+    "figures": [
+      "Figure 64.png"
+    ]
   },
   {
     "category": "PROCEDIMIENTOS Y OPERACIONES",
@@ -3187,7 +3449,10 @@
       "9 (nueve)."
     ],
     "answer": 0,
-    "reason": "La posición 5 (cinco) es la línea de espera antes de la Pista 16."
+    "reason": "La posición 5 (cinco) es la línea de espera antes de la Pista 16.",
+    "figures": [
+      "Figure 58.png"
+    ]
   },
   {
     "category": "PROCEDIMIENTOS Y OPERACIONES",
@@ -3264,7 +3529,10 @@
       "Rodaje y aterrizaje."
     ],
     "answer": 1,
-    "reason": "El área A (umbral desplazado) puede usarse para rodaje y despegue, pero no para aterrizaje."
+    "reason": "El área A (umbral desplazado) puede usarse para rodaje y despegue, pero no para aterrizaje.",
+    "figures": [
+      "Figure 48.png"
+    ]
   },
   {
     "category": "PROCEDIMIENTOS Y OPERACIONES",
@@ -3275,7 +3543,10 @@
       "La parte de despegue y aterrizaje de la pista 30 comienza en la posición E."
     ],
     "answer": 1,
-    "reason": "Los despegues pueden iniciarse en la posición A de la Pista 12; la porción de aterrizaje comienza en la posición B."
+    "reason": "Los despegues pueden iniciarse en la posición A de la Pista 12; la porción de aterrizaje comienza en la posición B.",
+    "figures": [
+      "Figure 48.png"
+    ]
   },
   {
     "category": "PROCEDIMIENTOS Y OPERACIONES",
@@ -3286,7 +3557,10 @@
       "Pista cerrada."
     ],
     "answer": 2,
-    "reason": "El área C con marca X indica una pista cerrada."
+    "reason": "El área C con marca X indica una pista cerrada.",
+    "figures": [
+      "Figure 48.png"
+    ]
   },
   {
     "category": "PROCEDIMIENTOS Y OPERACIONES",
@@ -3297,7 +3571,10 @@
       "No se puede utilizar para aterrizar, pero se puede utilizar para rodaje y despegue."
     ],
     "answer": 2,
-    "reason": "Las flechas al final de una pista indican que el área es utilizable para rodaje y despegue pero no para aterrizaje (umbral desplazado)."
+    "reason": "Las flechas al final de una pista indican que el área es utilizable para rodaje y despegue pero no para aterrizaje (umbral desplazado).",
+    "figures": [
+      "Figure 49.png"
+    ]
   },
   {
     "category": "PROCEDIMIENTOS Y OPERACIONES",
@@ -3308,7 +3585,10 @@
       "Circulación por la izquierda y Pista 22."
     ],
     "answer": 1,
-    "reason": "La manga de viento y el círculo segmentado indican tráfico a la derecha para Pista 18."
+    "reason": "La manga de viento y el círculo segmentado indican tráfico a la derecha para Pista 18.",
+    "figures": [
+      "Figure 49.png"
+    ]
   },
   {
     "category": "PROCEDIMIENTOS Y OPERACIONES",
@@ -3319,7 +3599,10 @@
       "Pista 36 y espere viento cruzado desde la derecha."
     ],
     "answer": 0,
-    "reason": "Aterrizando en Pista 18 con la dirección del viento mostrada significa esperar viento cruzado desde la derecha."
+    "reason": "Aterrizando en Pista 18 con la dirección del viento mostrada significa esperar viento cruzado desde la derecha.",
+    "figures": [
+      "Figure 49.png"
+    ]
   },
   {
     "category": "PROCEDIMIENTOS Y OPERACIONES",
@@ -3429,7 +3712,10 @@
       "E"
     ],
     "answer": 1,
-    "reason": "El símbolo C en la Figura 64 indica un carril para vehículos."
+    "reason": "El símbolo C en la Figura 64 indica un carril para vehículos.",
+    "figures": [
+      "Figure 64.png"
+    ]
   },
   {
     "category": "PROCEDIMIENTOS Y OPERACIONES",
@@ -3506,7 +3792,10 @@
       "Por encima de la senda de planeo."
     ],
     "answer": 1,
-    "reason": "La ilustración A muestra en la senda de planeo (dos rojas, dos blancas en VASI estándar)."
+    "reason": "La ilustración A muestra en la senda de planeo (dos rojas, dos blancas en VASI estándar).",
+    "figures": [
+      "Figure 47.png"
+    ]
   },
   {
     "category": "PROCEDIMIENTOS Y OPERACIONES",
@@ -3517,7 +3806,10 @@
       "Debajo de la pista de planeo."
     ],
     "answer": 1,
-    "reason": "La ilustración C (todas blancas) indica por encima de la senda de planeo."
+    "reason": "La ilustración C (todas blancas) indica por encima de la senda de planeo.",
+    "figures": [
+      "Figure 47.png"
+    ]
   },
   {
     "category": "PROCEDIMIENTOS Y OPERACIONES",
@@ -3528,7 +3820,10 @@
       "En la senda de planeo."
     ],
     "answer": 1,
-    "reason": "La ilustración D (todas rojas) indica por debajo de la senda de planeo."
+    "reason": "La ilustración D (todas rojas) indica por debajo de la senda de planeo.",
+    "figures": [
+      "Figure 47.png"
+    ]
   },
   {
     "category": "PROCEDIMIENTOS Y OPERACIONES",
@@ -3572,7 +3867,10 @@
       "Alerón izquierdo arriba, ascensor abajo."
     ],
     "answer": 0,
-    "reason": "Viento en contra por la izquierda: alerón izquierdo arriba, elevador neutral — evita que el viento levante el ala izquierda."
+    "reason": "Viento en contra por la izquierda: alerón izquierdo arriba, elevador neutral — evita que el viento levante el ala izquierda.",
+    "figures": [
+      "Figure 9.png"
+    ]
   },
   {
     "category": "PROCEDIMIENTOS Y OPERACIONES",
@@ -3583,7 +3881,10 @@
       "Alerón derecho arriba, ascensor abajo."
     ],
     "answer": 0,
-    "reason": "Viento en contra por la derecha en avión de rueda de cola: alerón derecho arriba, elevador arriba — corrección estándar."
+    "reason": "Viento en contra por la derecha en avión de rueda de cola: alerón derecho arriba, elevador arriba — corrección estándar.",
+    "figures": [
+      "Figure 9.png"
+    ]
   },
   {
     "category": "PROCEDIMIENTOS Y OPERACIONES",
@@ -3594,7 +3895,10 @@
       "Alerón izquierdo abajo, ascensor abajo."
     ],
     "answer": 2,
-    "reason": "Viento de cola por la izquierda en avión de rueda de cola: alerón izquierdo abajo, elevador abajo — evita que el viento entre bajo el ala y la cola."
+    "reason": "Viento de cola por la izquierda en avión de rueda de cola: alerón izquierdo abajo, elevador abajo — evita que el viento entre bajo el ala y la cola.",
+    "figures": [
+      "Figure 9.png"
+    ]
   },
   {
     "category": "PROCEDIMIENTOS Y OPERACIONES",
@@ -3605,7 +3909,10 @@
       "Alerón izquierdo arriba, ascensor abajo."
     ],
     "answer": 1,
-    "reason": "Viento de cola por la izquierda en triciclo: alerón izquierdo abajo, elevador abajo — mismo principio."
+    "reason": "Viento de cola por la izquierda en triciclo: alerón izquierdo abajo, elevador abajo — mismo principio.",
+    "figures": [
+      "Figure 9.png"
+    ]
   },
   {
     "category": "PROCEDIMIENTOS Y OPERACIONES",
@@ -4111,7 +4418,10 @@
       "Licencia de Piloto Deportivo."
     ],
     "answer": 0,
-    "reason": "Saliendo de Hayward Executive: el certificado mínimo requerido es de alumno piloto."
+    "reason": "Saliendo de Hayward Executive: el certificado mínimo requerido es de alumno piloto.",
+    "figures": [
+      "Figure 74.png"
+    ]
   },
   {
     "category": "REGLAMENTACIÓN",
@@ -5409,7 +5719,10 @@
       "040° verdadero a 18 nudos."
     ],
     "answer": 0,
-    "reason": "Viento en KJFK: 180° verdadero a 4 nudos. El viento del METAR siempre se reporta en grados verdaderos."
+    "reason": "Viento en KJFK: 180° verdadero a 4 nudos. El viento del METAR siempre se reporta en grados verdaderos.",
+    "figures": [
+      "Figure 12.png"
+    ]
   },
   {
     "category": "SERVICIO METEOROLÓGICO",
@@ -5420,7 +5733,10 @@
       "111° a 2 nudos, ráfagas de 18 nudos."
     ],
     "answer": 1,
-    "reason": "KINK: 110° a 12 nudos, ráfagas de 18 nudos, decodificado del grupo de viento del METAR."
+    "reason": "KINK: 110° a 12 nudos, ráfagas de 18 nudos, decodificado del grupo de viento del METAR.",
+    "figures": [
+      "Figure 12.png"
+    ]
   },
   {
     "category": "SERVICIO METEOROLÓGICO",
@@ -5431,7 +5747,10 @@
       "el barómetro ha subido .35\" Hg."
     ],
     "answer": 1,
-    "reason": "RAB35 significa que la lluvia comenzó a los 35 minutos de la hora (1835Z)."
+    "reason": "RAB35 significa que la lluvia comenzó a los 35 minutos de la hora (1835Z).",
+    "figures": [
+      "Figure 12.png"
+    ]
   },
   {
     "category": "SERVICIO METEOROLÓGICO",
@@ -5442,7 +5761,10 @@
       "Cielo 700 pies cubierto, visibilidad 11, ocasionalmente 2 SM, con lluvia."
     ],
     "answer": 0,
-    "reason": "KMDW: cubierto a 700 pies, visibilidad 1.5 SM, lluvia — decodificado del METAR."
+    "reason": "KMDW: cubierto a 700 pies, visibilidad 1.5 SM, lluvia — decodificado del METAR.",
+    "figures": [
+      "Figure 12.png"
+    ]
   },
   {
     "category": "SERVICIO METEOROLÓGICO",
@@ -5453,7 +5775,10 @@
       "7,200 pies MSL y 8,900 pies MSL."
     ],
     "answer": 2,
-    "reason": "El PIREP muestra bases de nubes a 7,200 pies MSL y topes a 8,900 pies MSL."
+    "reason": "El PIREP muestra bases de nubes a 7,200 pies MSL y topes a 8,900 pies MSL.",
+    "figures": [
+      "Figure 14.png"
+    ]
   },
   {
     "category": "SERVICIO METEOROLÓGICO",
@@ -5464,7 +5789,10 @@
       "080° a 21 nudos y -7° C."
     ],
     "answer": 2,
-    "reason": "Viento y temperatura del PIREP a 12,000 pies: 080° a 21 nudos, −7°C."
+    "reason": "Viento y temperatura del PIREP a 12,000 pies: 080° a 21 nudos, −7°C.",
+    "figures": [
+      "Figure 14.png"
+    ]
   },
   {
     "category": "SERVICIO METEOROLÓGICO",
@@ -5475,7 +5803,10 @@
       "6,586 pies AGL."
     ],
     "answer": 0,
-    "reason": "Techo a 1,800 pies MSL menos terreno 1,295 pies = 505 pies AGL."
+    "reason": "Techo a 1,800 pies MSL menos terreno 1,295 pies = 505 pies AGL.",
+    "figures": [
+      "Figure 14.png"
+    ]
   },
   {
     "category": "SERVICIO METEOROLÓGICO",
@@ -5486,7 +5817,10 @@
       "luz de 5,500 pies a 7,200 pies."
     ],
     "answer": 2,
-    "reason": "Turbulencia ligera reportada de 5,500 a 7,200 pies."
+    "reason": "Turbulencia ligera reportada de 5,500 a 7,200 pies.",
+    "figures": [
+      "Figure 14.png"
+    ]
   },
   {
     "category": "SERVICIO METEOROLÓGICO",
@@ -5497,7 +5831,10 @@
       "claro a moderado claro."
     ],
     "answer": 1,
-    "reason": "Engelamiento de escarcha ligero a moderado reportado por el piloto."
+    "reason": "Engelamiento de escarcha ligero a moderado reportado por el piloto.",
+    "figures": [
+      "Figure 14.png"
+    ]
   },
   {
     "category": "SERVICIO METEOROLÓGICO",
@@ -5508,7 +5845,10 @@
       "1218Z a 1324Z."
     ],
     "answer": 0,
-    "reason": "TAF de KMEM válido del día 12 a las 1800Z hasta el día 13 a las 2400Z."
+    "reason": "TAF de KMEM válido del día 12 a las 1800Z hasta el día 13 a las 2400Z.",
+    "figures": [
+      "Figure 15.png"
+    ]
   },
   {
     "category": "SERVICIO METEOROLÓGICO",
@@ -5519,7 +5859,10 @@
       "Es posible un cambio significativo en la precipitación."
     ],
     "answer": 0,
-    "reason": "SHRA = chubascos de lluvia (SH = chubascos, RA = lluvia)."
+    "reason": "SHRA = chubascos de lluvia (SH = chubascos, RA = lluvia).",
+    "figures": [
+      "Figure 15.png"
+    ]
   },
   {
     "category": "SERVICIO METEOROLÓGICO",
@@ -5530,7 +5873,10 @@
       "6 millas terrestres."
     ],
     "answer": 1,
-    "reason": "Entre 1000Z y 1200Z, la visibilidad pronosticada para KMEM es 3 SM."
+    "reason": "Entre 1000Z y 1200Z, la visibilidad pronosticada para KMEM es 3 SM.",
+    "figures": [
+      "Figure 15.png"
+    ]
   },
   {
     "category": "SERVICIO METEOROLÓGICO",
@@ -5541,7 +5887,10 @@
       "Variable en dirección a 6 nudos."
     ],
     "answer": 2,
-    "reason": "Viento de KMEM de 1600Z al final: variable a 6 nudos."
+    "reason": "Viento de KMEM de 1600Z al final: variable a 6 nudos.",
+    "figures": [
+      "Figure 15.png"
+    ]
   },
   {
     "category": "SERVICIO METEOROLÓGICO",
@@ -5552,7 +5901,10 @@
       "180° a 10 nudos."
     ],
     "answer": 2,
-    "reason": "Grupo FM de KOKC 1600Z–2200Z: viento 180° a 10 nudos."
+    "reason": "Grupo FM de KOKC 1600Z–2200Z: viento 180° a 10 nudos.",
+    "figures": [
+      "Figure 15.png"
+    ]
   },
   {
     "category": "SERVICIO METEOROLÓGICO",
@@ -5563,7 +5915,10 @@
       "nublado a 200 pies con la probabilidad de volverse nublado a 400 pies durante el período de pronóstico entre 2200Z y 2400Z."
     ],
     "answer": 0,
-    "reason": "KOKC: cielo se vuelve cubierto a 2,000 pies entre 2200Z y 2400Z."
+    "reason": "KOKC: cielo se vuelve cubierto a 2,000 pies entre 2200Z y 2400Z.",
+    "figures": [
+      "Figure 15.png"
+    ]
   },
   {
     "category": "SERVICIO METEOROLÓGICO",
@@ -5574,7 +5929,10 @@
       "Posiblemente 6 millas terrestres."
     ],
     "answer": 0,
-    "reason": "KOKC 0600Z–0800Z: visibilidad mayor a 6 SM (P6SM en TAF)."
+    "reason": "KOKC 0600Z–0800Z: visibilidad mayor a 6 SM (P6SM en TAF).",
+    "figures": [
+      "Figure 15.png"
+    ]
   },
   {
     "category": "SERVICIO METEOROLÓGICO",
@@ -5585,7 +5943,10 @@
       "cúmulos dispersos."
     ],
     "answer": 1,
-    "reason": "El único tipo de nube específicamente pronosticado en TAFs es cumulonimbus (CB)."
+    "reason": "El único tipo de nube específicamente pronosticado en TAFs es cumulonimbus (CB).",
+    "figures": [
+      "Figure 15.png"
+    ]
   },
   {
     "category": "SERVICIO METEOROLÓGICO",
@@ -5596,7 +5957,10 @@
       "230° verdadero a 25 nudos."
     ],
     "answer": 0,
-    "reason": "Vientos en STL a 9,000 pies: 230° verdadero a 32 nudos del pronóstico de vientos en altura."
+    "reason": "Vientos en STL a 9,000 pies: 230° verdadero a 32 nudos del pronóstico de vientos en altura.",
+    "figures": [
+      "Figure 17.png"
+    ]
   },
   {
     "category": "SERVICIO METEOROLÓGICO",
@@ -5607,7 +5971,10 @@
       "230° verdadero a 39 nudos."
     ],
     "answer": 2,
-    "reason": "STL a 12,000 pies: 230° verdadero a 39 nudos."
+    "reason": "STL a 12,000 pies: 230° verdadero a 39 nudos.",
+    "figures": [
+      "Figure 17.png"
+    ]
   },
   {
     "category": "SERVICIO METEOROLÓGICO",
@@ -5618,7 +5985,10 @@
       "230° verdadero a 21 nudos, temperatura -4° C."
     ],
     "answer": 2,
-    "reason": "DEN a 9,000 pies: 230° verdadero a 21 nudos, temperatura −4°C."
+    "reason": "DEN a 9,000 pies: 230° verdadero a 21 nudos, temperatura −4°C.",
+    "figures": [
+      "Figure 17.png"
+    ]
   },
   {
     "category": "SERVICIO METEOROLÓGICO",
@@ -5629,7 +5999,10 @@
       "200° magnético a 6 nudos, temperatura +3° C."
     ],
     "answer": 0,
-    "reason": "MKC a 6,000 pies: 200° verdadero a 6 nudos, temperatura +3°C."
+    "reason": "MKC a 6,000 pies: 200° verdadero a 6 nudos, temperatura +3°C.",
+    "figures": [
+      "Figure 17.png"
+    ]
   },
   {
     "category": "SERVICIO METEOROLÓGICO",
@@ -5651,7 +6024,10 @@
       "KINK, KBOI y KLAX."
     ],
     "answer": 2,
-    "reason": "KINK, KBOI y KLAX reportan condiciones VFR (techo ≥ 1,000 pies y visibilidad ≥ 3 SM)."
+    "reason": "KINK, KBOI y KLAX reportan condiciones VFR (techo ≥ 1,000 pies y visibilidad ≥ 3 SM).",
+    "figures": [
+      "Figure 12.png"
+    ]
   },
   {
     "category": "SERVICIO METEOROLÓGICO",
@@ -6377,7 +6753,10 @@
       "1,548 pies MSL."
     ],
     "answer": 2,
-    "reason": "Figura 23: la obstrucción iluminada ~6 NM al SO del Int'l de Savannah está a 1,548 pies MSL."
+    "reason": "Figura 23: la obstrucción iluminada ~6 NM al SO del Int'l de Savannah está a 1,548 pies MSL.",
+    "figures": [
+      "Figure 23.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6388,7 +6767,10 @@
       "432 pies MSL."
     ],
     "answer": 1,
-    "reason": "Grupo de obstrucciones en el radial 009° ~11 NM del Savannah VORTAC: topes a 454 pies MSL."
+    "reason": "Grupo de obstrucciones en el radial 009° ~11 NM del Savannah VORTAC: topes a 454 pies MSL.",
+    "figures": [
+      "Figure 23.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6399,7 +6781,10 @@
       "1,283 pies MSL."
     ],
     "answer": 1,
-    "reason": "Obstáculo al NE de Airpark East: tope + 500 pies de despeje = 1,273 pies MSL de altitud mínima."
+    "reason": "Obstáculo al NE de Airpark East: tope + 500 pies de despeje = 1,273 pies MSL de altitud mínima.",
+    "figures": [
+      "Figure 24.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6410,7 +6795,10 @@
       "1,403 pies MSL."
     ],
     "answer": 2,
-    "reason": "Obstáculo al SE de Winnsboro: tope + 500 pies = 1,403 pies MSL."
+    "reason": "Obstáculo al SE de Winnsboro: tope + 500 pies = 1,403 pies MSL.",
+    "figures": [
+      "Figure 24.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6421,7 +6809,10 @@
       "Perchas para dirigibles sin marcar a 308 pies MSL."
     ],
     "answer": 0,
-    "reason": "Cuadro de precaución: globo sin marcar en cable a 3,008 pies MSL."
+    "reason": "Cuadro de precaución: globo sin marcar en cable a 3,008 pies MSL.",
+    "figures": [
+      "Figure 20.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6432,7 +6823,10 @@
       "punto de control visual utilizado para identificar la posición para la llamada inicial a Norfolk Approach Control."
     ],
     "answer": 2,
-    "reason": "El símbolo de bandera en Lake Drummond es un punto de control visual para contacto inicial con Norfolk Approach."
+    "reason": "El símbolo de bandera en Lake Drummond es un punto de control visual para contacto inicial con Norfolk Approach.",
+    "figures": [
+      "Figure 20.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6443,7 +6837,10 @@
       "230 pies."
     ],
     "answer": 0,
-    "reason": "La elevación del Aeropuerto Regional de Chesapeake es 19 pies MSL según los datos de la carta."
+    "reason": "La elevación del Aeropuerto Regional de Chesapeake es 19 pies MSL según los datos de la carta.",
+    "figures": [
+      "Figure 20.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6454,7 +6851,10 @@
       "2,000 pies a 2,700 pies MSL."
     ],
     "answer": 1,
-    "reason": "El color tostado claro entre Minot y Audubon Lake indica terreno de 2,000–2,500 pies MSL."
+    "reason": "El color tostado claro entre Minot y Audubon Lake indica terreno de 2,000–2,500 pies MSL.",
+    "figures": [
+      "Figure 21.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6465,7 +6865,10 @@
       "Aeropuerto Regional del Condado de Mercer (área 3)."
     ],
     "answer": 1,
-    "reason": "Solo Minot International (área 1) muestra servicios de combustible disponibles entre los aeropuertos listados."
+    "reason": "Solo Minot International (área 1) muestra servicios de combustible disponibles entre los aeropuertos listados.",
+    "figures": [
+      "Figure 21.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6476,7 +6879,10 @@
       "puntos de control visual para identificar la posición para la llamada inicial antes de ingresar al espacio aéreo Clase C de Savannah."
     ],
     "answer": 2,
-    "reason": "Los símbolos de bandera en esos aeropuertos son puntos de control visual para contacto inicial con Clase C de Savannah."
+    "reason": "Los símbolos de bandera en esos aeropuertos son puntos de control visual para contacto inicial con Clase C de Savannah.",
+    "figures": [
+      "Figure 23.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6487,7 +6893,10 @@
       "3,449 pies MSL."
     ],
     "answer": 1,
-    "reason": "Torres de TV de Cedar Hill en área congestionada: la más alta + 1,000 pies = aprox. 3,549 pies MSL de despeje requerido."
+    "reason": "Torres de TV de Cedar Hill en área congestionada: la más alta + 1,000 pies = aprox. 3,549 pies MSL de despeje requerido.",
+    "figures": [
+      "Figure 25.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6498,7 +6907,10 @@
       "332°."
     ],
     "answer": 2,
-    "reason": "Midiendo el curso verdadero y aplicando variación magnética se obtiene aprox. 332° de curso magnético."
+    "reason": "Midiendo el curso verdadero y aplicando variación magnética se obtiene aprox. 332° de curso magnético.",
+    "figures": [
+      "Figure 20.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6509,7 +6921,10 @@
       "091°."
     ],
     "answer": 0,
-    "reason": "De Airpark East a Winnsboro con variación 6°30'E: curso magnético ≈ 075°."
+    "reason": "De Airpark East a Winnsboro con variación 6°30'E: curso magnético ≈ 075°.",
+    "figures": [
+      "Figure 24.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6520,7 +6935,10 @@
       "159°."
     ],
     "answer": 0,
-    "reason": "De Tomlinson a Jamestown: curso magnético aproximadamente 153°."
+    "reason": "De Tomlinson a Jamestown: curso magnético aproximadamente 153°.",
+    "figures": [
+      "Figure 26.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6531,7 +6949,10 @@
       "velocidad terrestre y rumbo verdadero."
     ],
     "answer": 0,
-    "reason": "La línea A a B en el triángulo de viento representa rumbo verdadero y velocidad aerodinámica."
+    "reason": "La línea A a B en el triángulo de viento representa rumbo verdadero y velocidad aerodinámica.",
+    "figures": [
+      "Figure 68.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6542,7 +6963,10 @@
       "verdadero rumbo y velocidad terrestre."
     ],
     "answer": 1,
-    "reason": "La línea C a B representa velocidad respecto al suelo y curso verdadero."
+    "reason": "La línea C a B representa velocidad respecto al suelo y curso verdadero.",
+    "figures": [
+      "Figure 68.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6553,7 +6977,10 @@
       "verdadero rumbo y velocidad terrestre."
     ],
     "answer": 0,
-    "reason": "La línea C a A representa dirección y velocidad del viento."
+    "reason": "La línea C a A representa dirección y velocidad del viento.",
+    "figures": [
+      "Figure 68.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6608,7 +7035,10 @@
       "023°."
     ],
     "answer": 0,
-    "reason": "Cálculo del triángulo de viento con las condiciones dadas da rumbo magnético aproximadamente 004°."
+    "reason": "Cálculo del triángulo de viento con las condiciones dadas da rumbo magnético aproximadamente 004°.",
+    "figures": [
+      "Figure 25.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6619,7 +7049,10 @@
       "352°."
     ],
     "answer": 2,
-    "reason": "Triángulo de viento con 330°/25 nudos, TAS 100 nudos, variación 10°E: rumbo magnético aprox. 352°."
+    "reason": "Triángulo de viento con 330°/25 nudos, TAS 100 nudos, variación 10°E: rumbo magnético aprox. 352°.",
+    "figures": [
+      "Figure 21.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6652,7 +7085,10 @@
       "Transpondedor de radio bidireccional y modo C con equipo de informe de altitud."
     ],
     "answer": 2,
-    "reason": "De Kleberg a Corpus Christi Int'l (Clase C): se necesita radio bidireccional, transpondedor Modo C y reporte de altitud."
+    "reason": "De Kleberg a Corpus Christi Int'l (Clase C): se necesita radio bidireccional, transpondedor Modo C y reporte de altitud.",
+    "figures": [
+      "Figure 69.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6663,7 +7099,10 @@
       "1,700 pies MSL."
     ],
     "answer": 1,
-    "reason": "El piso del anillo exterior de Clase C de Savannah es 1,300 pies MSL."
+    "reason": "El piso del anillo exterior de Clase C de Savannah es 1,300 pies MSL.",
+    "figures": [
+      "Figure 23.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6674,7 +7113,10 @@
       "Transpondedor modo C, omnireceptor y DME."
     ],
     "answer": 1,
-    "reason": "Norfolk International (Clase C): equipo mínimo es transpondedor Modo C y radio bidireccional."
+    "reason": "Norfolk International (Clase C): equipo mínimo es transpondedor Modo C y radio bidireccional.",
+    "figures": [
+      "Figure 20.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6707,7 +7149,10 @@
       "espacio aéreo Clase D a 3,200 pies MSL."
     ],
     "answer": 2,
-    "reason": "El espacio aéreo sobre Fort Worth Meacham es Clase D hasta 3,200 pies MSL."
+    "reason": "El espacio aéreo sobre Fort Worth Meacham es Clase D hasta 3,200 pies MSL.",
+    "figures": [
+      "Figure 25.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6718,7 +7163,10 @@
       "espacio aéreo Clase E desde 1200 pies AGL."
     ],
     "answer": 1,
-    "reason": "Findlay tiene espacio aéreo Clase E desde la superficie (área de superficie Clase E)."
+    "reason": "Findlay tiene espacio aéreo Clase E desde la superficie (área de superficie Clase E).",
+    "figures": [
+      "Figure 59.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6740,7 +7188,10 @@
       "espacio aéreo de clase G: superficie hasta, pero sin incluir, 700 pies MSL, espacio aéreo de clase E: 700 pies a 14,500 pies MSL."
     ],
     "answer": 1,
-    "reason": "Tomlinson: Clase G desde superficie hasta 1,200 pies AGL, luego Clase E desde 1,200 AGL hasta 18,000 MSL."
+    "reason": "Tomlinson: Clase G desde superficie hasta 1,200 pies AGL, luego Clase E desde 1,200 AGL hasta 18,000 MSL.",
+    "figures": [
+      "Figure 26.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6751,7 +7202,10 @@
       "espacio aéreo Clase G desde la superficie hasta 700 pies AGL."
     ],
     "answer": 2,
-    "reason": "Barnes County: Clase G desde superficie hasta 700 pies AGL (sombreado magenta indica que Clase E comienza a 700 AGL)."
+    "reason": "Barnes County: Clase G desde superficie hasta 700 pies AGL (sombreado magenta indica que Clase E comienza a 700 AGL).",
+    "figures": [
+      "Figure 26.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6762,7 +7216,10 @@
       "700 pies AGL."
     ],
     "answer": 1,
-    "reason": "Collin Co RGL McKinney (TKI) controlado desde la superficie hasta 2,900 pies MSL."
+    "reason": "Collin Co RGL McKinney (TKI) controlado desde la superficie hasta 2,900 pies MSL.",
+    "figures": [
+      "Figure 25.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6784,7 +7241,10 @@
       "Actividades de entrenamiento militar que requieran maniobras de vuelo acrobáticas o bruscas."
     ],
     "answer": 2,
-    "reason": "Las MOAs pueden contener entrenamiento militar que requiere maniobras acrobáticas o bruscas."
+    "reason": "Las MOAs pueden contener entrenamiento militar que requiere maniobras acrobáticas o bruscas.",
+    "figures": [
+      "Figure 26.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6861,7 +7321,10 @@
       "47° 24'N - 75° 58'W."
     ],
     "answer": 0,
-    "reason": "El aeropuerto de Currituck County está aproximadamente en 36°24'N, 76°01'W."
+    "reason": "El aeropuerto de Currituck County está aproximadamente en 36°24'N, 76°01'W.",
+    "figures": [
+      "Figure 20.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6872,7 +7335,10 @@
       "Johnson."
     ],
     "answer": 1,
-    "reason": "El aeropuerto MAKEEFF está aproximadamente en 47°35'30\"N, 100°43'W."
+    "reason": "El aeropuerto MAKEEFF está aproximadamente en 47°35'30\"N, 100°43'W.",
+    "figures": [
+      "Figure 21.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6883,7 +7349,10 @@
       "Washburn."
     ],
     "answer": 2,
-    "reason": "El aeropuerto Washburn está aproximadamente en 47°21'N, 101°01'W."
+    "reason": "El aeropuerto Washburn está aproximadamente en 47°21'N, 101°01'W.",
+    "figures": [
+      "Figure 21.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6894,7 +7363,10 @@
       "47° 32'N - 116° 41'W."
     ],
     "answer": 1,
-    "reason": "El aeropuerto Shoshone está aproximadamente en 47°33'N, 116°11'W."
+    "reason": "El aeropuerto Shoshone está aproximadamente en 47°33'N, 116°11'W.",
+    "figures": [
+      "Figure 22.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6905,7 +7377,10 @@
       "47° 55'N - 98° 06'W."
     ],
     "answer": 0,
-    "reason": "El aeropuerto de Cooperstown está aproximadamente en 47°25'N, 98°06'W."
+    "reason": "El aeropuerto de Cooperstown está aproximadamente en 47°25'N, 98°06'W.",
+    "figures": [
+      "Figure 26.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6916,7 +7391,10 @@
       "1545Z."
     ],
     "answer": 2,
-    "reason": "0945 EDT = 1345Z + 2 horas de vuelo = 1545Z."
+    "reason": "0945 EDT = 1345Z + 2 horas de vuelo = 1545Z.",
+    "figures": [
+      "Figure 27.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6927,7 +7405,10 @@
       "1130 MST."
     ],
     "answer": 1,
-    "reason": "0930 CST + 2 horas = 1130 CST = 1030 MST (una zona horaria al oeste)."
+    "reason": "0930 CST + 2 horas = 1130 CST = 1030 MST (una zona horaria al oeste).",
+    "figures": [
+      "Figure 27.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6938,7 +7419,10 @@
       "1645Z."
     ],
     "answer": 2,
-    "reason": "0845 CST = 1445Z + 2 horas = 1645Z."
+    "reason": "0845 CST = 1445Z + 2 horas = 1645Z.",
+    "figures": [
+      "Figure 27.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6949,7 +7433,10 @@
       "1830 PST."
     ],
     "answer": 1,
-    "reason": "1615 MST + 2h 15min = 1830 MST = 1730 PST (una zona al oeste)."
+    "reason": "1615 MST + 2h 15min = 1830 MST = 1730 PST (una zona al oeste).",
+    "figures": [
+      "Figure 27.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6960,7 +7447,10 @@
       "2230Z."
     ],
     "answer": 2,
-    "reason": "1030 PST = 1830Z + 4 horas = 2230Z."
+    "reason": "1030 PST = 1830Z + 4 horas = 2230Z.",
+    "figures": [
+      "Figure 27.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6971,7 +7461,10 @@
       "1845 PST."
     ],
     "answer": 0,
-    "reason": "1515 MST + 2h 30min = 1745 MST = 1645 PST."
+    "reason": "1515 MST + 2h 30min = 1745 MST = 1645 PST.",
+    "figures": [
+      "Figure 27.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6982,7 +7475,10 @@
       "187°."
     ],
     "answer": 0,
-    "reason": "Triángulo de viento con valores dados de Sandpoint a St. Maries da rumbo magnético aprox. 172°."
+    "reason": "Triángulo de viento con valores dados de Sandpoint a St. Maries da rumbo magnético aprox. 172°.",
+    "figures": [
+      "Figure 22.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -6993,7 +7489,10 @@
       "136°."
     ],
     "answer": 0,
-    "reason": "Triángulo de viento de Priest River a Shoshone County con viento dado: rumbo magnético aprox. 121°."
+    "reason": "Triángulo de viento de Priest River a Shoshone County con viento dado: rumbo magnético aprox. 121°.",
+    "figures": [
+      "Figure 22.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -7004,7 +7503,10 @@
       "327°."
     ],
     "answer": 1,
-    "reason": "Triángulo de viento de St. Maries a Priest River: rumbo magnético aprox. 329°."
+    "reason": "Triángulo de viento de St. Maries a Priest River: rumbo magnético aprox. 329°.",
+    "figures": [
+      "Figure 22.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -7015,7 +7517,10 @@
       "212°."
     ],
     "answer": 0,
-    "reason": "Triángulo de viento de Allendale a Claxton-Evans con variación 6°W: rumbo magnético aprox. 209°."
+    "reason": "Triángulo de viento de Allendale a Claxton-Evans con variación 6°W: rumbo magnético aprox. 209°.",
+    "figures": [
+      "Figure 23.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -7037,7 +7542,10 @@
       "312°."
     ],
     "answer": 1,
-    "reason": "Triángulo de viento de Dallas Executive a Fort Worth Meacham con variación 7°E: rumbo magnético aprox. 286°."
+    "reason": "Triángulo de viento de Dallas Executive a Fort Worth Meacham con variación 7°E: rumbo magnético aprox. 286°.",
+    "figures": [
+      "Figure 25.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -7048,7 +7556,10 @@
       "Aproximadamente 13 minutos."
     ],
     "answer": 2,
-    "reason": "Distancia V461 y corrección de viento a 125 TAS con viento 180°/17 nudos: aprox. 13 minutos."
+    "reason": "Distancia V461 y corrección de viento a 125 TAS con viento 180°/17 nudos: aprox. 13 minutos.",
+    "figures": [
+      "Figure 75.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -7059,7 +7570,10 @@
       "52 minutos."
     ],
     "answer": 0,
-    "reason": "Mercer County a Minot con viento 330°/25 nudos, TAS 100 nudos + 3.5 min de ascenso: aprox. 47 minutos."
+    "reason": "Mercer County a Minot con viento 330°/25 nudos, TAS 100 nudos + 3.5 min de ascenso: aprox. 47 minutos.",
+    "figures": [
+      "Figure 21.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -7070,7 +7584,10 @@
       "4000 pies MSL."
     ],
     "answer": 2,
-    "reason": "El piso de Clase B sobre el Aeropuerto Hicks (T67) al norte-noroeste de Fort Worth Meacham es 4,000 pies MSL."
+    "reason": "El piso de Clase B sobre el Aeropuerto Hicks (T67) al norte-noroeste de Fort Worth Meacham es 4,000 pies MSL.",
+    "figures": [
+      "Figure 25.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -7081,7 +7598,10 @@
       "3,100 pies MSL."
     ],
     "answer": 1,
-    "reason": "El piso de Clase B en el aeropuerto de Addison es 3,000 pies MSL."
+    "reason": "El piso de Clase B en el aeropuerto de Addison es 3,000 pies MSL.",
+    "figures": [
+      "Figure 25.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",
@@ -7125,7 +7645,10 @@
       "Addison y el ejecutivo de Dallas."
     ],
     "answer": 1,
-    "reason": "VFR especial de ala fija no está autorizado en Dallas-Fort Worth International y Dallas Love Field (indicado en la carta)."
+    "reason": "VFR especial de ala fija no está autorizado en Dallas-Fort Worth International y Dallas Love Field (indicado en la carta).",
+    "figures": [
+      "Figure 25.png"
+    ]
   },
   {
     "category": "VUELO EN RUTA",

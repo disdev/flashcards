@@ -382,6 +382,49 @@
       cursor: default;
     }
 
+    /* Figure images */
+    .figures {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .figures img {
+      max-width: 100%;
+      border-radius: 8px;
+      border: 1px solid var(--card-border);
+      cursor: zoom-in;
+      transition: transform 0.2s ease;
+    }
+
+    .figures img:hover {
+      transform: scale(1.01);
+    }
+
+    /* Lightbox */
+    .lightbox {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.85);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+      cursor: zoom-out;
+    }
+
+    .lightbox.open {
+      display: flex;
+    }
+
+    .lightbox img {
+      max-width: 95vw;
+      max-height: 90vh;
+      border-radius: 8px;
+      box-shadow: 0 8px 40px rgba(0,0,0,0.6);
+    }
+
     /* Responsive */
     @media (max-width: 480px) {
       .card {
@@ -415,6 +458,10 @@
   </div>
 
   <main id="main"></main>
+
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <img id="lightbox-img" src="" alt="Figure">
+  </div>
 
   <script>
     let flashcards = [];
@@ -584,10 +631,17 @@
 
       const card = shuffledCards[currentIndex];
 
+      const figuresHtml = card.figures && card.figures.length
+        ? `<div class="figures">${card.figures.map(f =>
+            `<img src="figures/${encodeURIComponent(f)}" alt="${f}" onclick="openLightbox(this.src)">`
+          ).join('')}</div>`
+        : '';
+
       document.getElementById('main').innerHTML = `
         <div class="card">
           <div class="category">${card.category}</div>
           <div class="question">${card.question}</div>
+          ${figuresHtml}
           <div class="options" id="options">
             ${card.options.map((opt, i) => `
               <button class="option-btn" data-index="${i}" onclick="selectOption(${i})">
@@ -677,6 +731,19 @@
         </div>
       `;
     }
+
+    function openLightbox(src) {
+      document.getElementById('lightbox-img').src = src;
+      document.getElementById('lightbox').classList.add('open');
+    }
+
+    function closeLightbox() {
+      document.getElementById('lightbox').classList.remove('open');
+    }
+
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') closeLightbox();
+    });
 
     loadCards();
   </script>
