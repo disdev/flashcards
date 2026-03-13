@@ -7634,7 +7634,7 @@
       "Equipo de radiocomunicación bidireccional, un transpondedor de código 4096, un altímetro codificador y un receptor VOR o TACAN."
     ],
     "answer": 1,
-    "reason": "VFR en Clase B requiere radio bidireccional, transpondedor Modo C (código 4096) y altímetro codificador."
+    "reason": "VFR en Clase B requiere radio bid/ireccional, transpondedor Modo C (código 4096) y altímetro codificador."
   },
   {
     "category": "VUELO EN RUTA",
