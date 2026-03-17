@@ -1,0 +1,1479 @@
+[
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuál es la velocidad máxima del Cessna 152 a nivel del mar?",
+    "options": ["110 knots", "120 knots", "107 knots"],
+    "answer": 0,
+    "reason": "La velocidad máxima a nivel del mar es 110 kts. Curso C152 POH, pág. 5."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuál es la velocidad de crucero al 75% de potencia a 8,500 pies?",
+    "options": ["107 knots", "110 knots", "115 knots"],
+    "answer": 0,
+    "reason": "La velocidad de crucero al 75% de potencia a 8,500 pies es 107 kts. Curso C152 POH, pág. 5."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuál es el rango al 75% de potencia a 8,500 pies?",
+    "options": ["370 NM", "315 NM", "295 NM"],
+    "answer": 1,
+    "reason": "El rango al 75% de potencia a 8,500 pies es 315 NM (3 horas). Curso C152 POH, pág. 5."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuál es el rango máximo del Cessna 152 a 10,000 pies?",
+    "options": ["315 NM", "350 NM", "370 NM"],
+    "answer": 2,
+    "reason": "El rango máximo a 10,000 pies es 370 NM en 4.1 horas. Curso C152 POH, pág. 5."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuál es la tasa de ascenso a nivel del mar del Cessna 152?",
+    "options": ["800 FPM", "715 FPM", "650 FPM"],
+    "answer": 1,
+    "reason": "La tasa de ascenso a nivel del mar es 715 FPM. Curso C152 POH, pág. 5."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuál es el techo de servicio del Cessna 152?",
+    "options": ["12,500 pies", "16,500 pies", "14,700 pies"],
+    "answer": 2,
+    "reason": "El techo de servicio del Cessna 152 es 14,700 pies. Curso C152 POH, pág. 5."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuál es la distancia de rodada de despegue (ground roll) del Cessna 152?",
+    "options": ["600 pies", "725 pies", "850 pies"],
+    "answer": 1,
+    "reason": "La rodada de despegue es 725 pies. Curso C152 POH, pág. 6."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuál es la distancia total de despegue sobre un obstáculo de 50 pies?",
+    "options": ["1,200 pies", "1,500 pies", "1,340 pies"],
+    "answer": 2,
+    "reason": "La distancia total de despegue sobre un obstáculo de 50 pies es 1,340 pies. Curso C152 POH, pág. 6."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuál es la distancia de rodada de aterrizaje (ground roll) del Cessna 152?",
+    "options": ["475 pies", "600 pies", "350 pies"],
+    "answer": 0,
+    "reason": "La rodada de aterrizaje es 475 pies. Curso C152 POH, pág. 6."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuál es la distancia total de aterrizaje sobre un obstáculo de 50 pies?",
+    "options": ["1,340 pies", "1,200 pies", "1,000 pies"],
+    "answer": 1,
+    "reason": "La distancia total de aterrizaje sobre un obstáculo de 50 pies es 1,200 pies. Curso C152 POH, pág. 6."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuál es el fabricante del motor del Cessna 152?",
+    "options": ["Continental", "AVCO Lycoming", "Rotax"],
+    "answer": 1,
+    "reason": "El motor es fabricado por AVCO Lycoming. Curso C152 POH, pág. 7."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuál es el modelo del motor del Cessna 152?",
+    "options": ["O-200-A", "IO-360-L2A", "O-235-L2C"],
+    "answer": 2,
+    "reason": "El motor es el modelo O-235-L2C de Lycoming. Curso C152 POH, pág. 7."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuántos cilindros tiene el motor del Cessna 152?",
+    "options": ["6 cilindros", "4 cilindros", "2 cilindros"],
+    "answer": 1,
+    "reason": "El motor O-235-L2C tiene 4 cilindros horizontalmente opuestos. Curso C152 POH, pág. 7."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuál es la potencia y RPM máxima del motor del Cessna 152?",
+    "options": ["150 BHP a 2700 RPM", "110 BHP a 2550 RPM", "100 BHP a 2400 RPM"],
+    "answer": 1,
+    "reason": "El motor produce 110 BHP a 2550 RPM. Curso C152 POH, pág. 7."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuál es el desplazamiento cúbico del motor del Cessna 152?",
+    "options": ["200 pulgadas cúbicas", "235 pulgadas cúbicas", "360 pulgadas cúbicas"],
+    "answer": 1,
+    "reason": "El motor O-235-L2C tiene un desplazamiento de 235 pulgadas cúbicas. Curso C152 POH, pág. 7."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuál es el fabricante de la hélice del Cessna 152?",
+    "options": ["Hartzell", "McCauley", "Sensenich"],
+    "answer": 1,
+    "reason": "La hélice es fabricada por McCauley. Curso C152 POH, pág. 8."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuántas palas tiene la hélice del Cessna 152?",
+    "options": ["3 palas", "2 palas", "4 palas"],
+    "answer": 1,
+    "reason": "La hélice del Cessna 152 tiene 2 palas. Curso C152 POH, pág. 8."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuál es el diámetro máximo de la hélice del Cessna 152?",
+    "options": ["72 pulgadas", "67.5 pulgadas", "69 pulgadas"],
+    "answer": 2,
+    "reason": "El diámetro máximo de la hélice es 69 pulgadas. Curso C152 POH, pág. 8."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuál es el diámetro mínimo de la hélice del Cessna 152?",
+    "options": ["69 pulgadas", "67.5 pulgadas", "65 pulgadas"],
+    "answer": 1,
+    "reason": "El diámetro mínimo de la hélice es 67.5 pulgadas. Curso C152 POH, pág. 8."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Qué tipo de hélice tiene el Cessna 152?",
+    "options": ["Paso variable", "Paso fijo", "Paso constante"],
+    "answer": 1,
+    "reason": "La hélice del Cessna 152 es de paso fijo. Curso C152 POH, pág. 8."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuáles son los grados de combustible aprobados para el Cessna 152?",
+    "options": ["80/87 (rojo) y 100LL (azul)", "100LL (azul) y 100 (verde)", "Jet-A y 100LL (azul)"],
+    "answer": 1,
+    "reason": "Los grados aprobados son 100LL (azul) y 100 -antes 100/130- (verde). Curso C152 POH, pág. 9."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuál es la capacidad total de combustible del Cessna 152?",
+    "options": ["24.5 USG", "26 USG", "30 USG"],
+    "answer": 1,
+    "reason": "La capacidad total es 26 USG (13 USG por tanque). Curso C152 POH, pág. 9."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuánto combustible utilizable tiene el Cessna 152?",
+    "options": ["26 USG", "24.5 USG", "22 USG"],
+    "answer": 1,
+    "reason": "El combustible utilizable es 24.5 USG. El combustible no utilizable es 1.5 USG. Curso C152 POH, pág. 9."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuánto combustible no utilizable tiene el Cessna 152?",
+    "options": ["0.75 USG total", "1.5 USG total", "2.0 USG total"],
+    "answer": 1,
+    "reason": "El combustible no utilizable total es 1.5 USG. Curso C152 POH, pág. 9."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuál es la capacidad del sumidero de aceite del Cessna 152?",
+    "options": ["4 cuartos", "6 cuartos", "8 cuartos"],
+    "answer": 1,
+    "reason": "La capacidad del sumidero es 6 cuartos (más 1 cuarto del filtro = 7 cuartos total). Curso C152 POH, pág. 10."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuántos cuartos de aceite son el mínimo para el vuelo en el Cessna 152?",
+    "options": ["3 cuartos", "4 cuartos", "5 cuartos"],
+    "answer": 1,
+    "reason": "El mínimo para el vuelo es 4 cuartos. Curso C152 POH, pág. 10."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuál es la capacidad total de aceite incluyendo el filtro?",
+    "options": ["6 cuartos", "7 cuartos", "8 cuartos"],
+    "answer": 1,
+    "reason": "La capacidad total es 7 cuartos: 6 del sumidero más 1 del filtro. Curso C152 POH, pág. 10."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuál es el peso máximo certificado de rampa del Cessna 152?",
+    "options": ["1,670 lbs", "1,675 lbs", "1,700 lbs"],
+    "answer": 1,
+    "reason": "El peso máximo de rampa es 1,675 lbs. Curso C152 POH, pág. 11."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuál es el peso máximo certificado de despegue y aterrizaje del Cessna 152?",
+    "options": ["1,675 lbs", "1,670 lbs", "1,650 lbs"],
+    "answer": 1,
+    "reason": "El peso máximo de despegue y aterrizaje es 1,670 lbs. Curso C152 POH, pág. 11."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuál es el peso máximo en el compartimento de equipaje A1?",
+    "options": ["40 lbs", "80 lbs", "120 lbs"],
+    "answer": 1,
+    "reason": "El compartimento de equipaje A1 permite un máximo de 80 lbs. Curso C152 POH, pág. 11."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuál es el peso máximo total de equipaje entre los dos compartimentos?",
+    "options": ["80 lbs", "100 lbs", "120 lbs"],
+    "answer": 2,
+    "reason": "El peso máximo total de equipaje es 120 lbs (80 lbs en A1 + 40 lbs en A2). Curso C152 POH, pág. 11."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuál es la envergadura del Cessna 152?",
+    "options": ["7.34 metros", "10.18 metros", "8.50 metros"],
+    "answer": 1,
+    "reason": "La envergadura del Cessna 152 es de 10.18 metros. Curso C152 POH, pág. 4."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuál es la longitud del Cessna 152?",
+    "options": ["10.18 metros", "7.34 metros", "8.20 metros"],
+    "answer": 1,
+    "reason": "La longitud del Cessna 152 es 7.34 metros. Curso C152 POH, pág. 4."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuál es la altura del Cessna 152?",
+    "options": ["2.13 metros", "3.00 metros", "2.62 metros"],
+    "answer": 2,
+    "reason": "La altura del Cessna 152 es 2.62 metros. Curso C152 POH, pág. 4."
+  },
+  {
+    "category": "LÍMITES DE OPERACIÓN",
+    "question": "¿Cuál es la VNE (velocidad nunca exceder) del Cessna 152 en KIAS?",
+    "options": ["111 KIAS", "149 KIAS", "135 KIAS"],
+    "answer": 1,
+    "reason": "La VNE es 149 KIAS (145 KCAS). No se debe exceder esta velocidad en ninguna operación. Curso C152 POH, pág. 13."
+  },
+  {
+    "category": "LÍMITES DE OPERACIÓN",
+    "question": "¿Cuál es la VNO (velocidad máxima de crucero estructural) en KIAS?",
+    "options": ["149 KIAS", "85 KIAS", "111 KIAS"],
+    "answer": 2,
+    "reason": "La VNO es 111 KIAS (108 KCAS). No exceder excepto en aire tranquilo y solo con precaución. Curso C152 POH, pág. 13."
+  },
+  {
+    "category": "LÍMITES DE OPERACIÓN",
+    "question": "¿Cuál es la VA (velocidad de maniobra) con peso máximo de 1,670 lbs en KIAS?",
+    "options": ["98 KIAS", "104 KIAS", "111 KIAS"],
+    "answer": 1,
+    "reason": "La VA con 1,670 lbs es 104 KIAS (101 KCAS). No hacer movimientos bruscos de mandos por encima de esta velocidad. Curso C152 POH, pág. 13."
+  },
+  {
+    "category": "LÍMITES DE OPERACIÓN",
+    "question": "¿Cuál es la VA con peso de 1,500 lbs en KIAS?",
+    "options": ["104 KIAS", "98 KIAS", "93 KIAS"],
+    "answer": 1,
+    "reason": "La VA con 1,500 lbs es 98 KIAS (96 KCAS). Curso C152 POH, pág. 13."
+  },
+  {
+    "category": "LÍMITES DE OPERACIÓN",
+    "question": "¿Cuál es la VA con peso de 1,350 lbs en KIAS?",
+    "options": ["98 KIAS", "104 KIAS", "93 KIAS"],
+    "answer": 2,
+    "reason": "La VA con 1,350 lbs es 93 KIAS (91 KCAS). La VA disminuye con el peso. Curso C152 POH, pág. 13."
+  },
+  {
+    "category": "LÍMITES DE OPERACIÓN",
+    "question": "¿Cuál es la VFE (velocidad máxima con flaps extendidos) en KIAS?",
+    "options": ["111 KIAS", "100 KIAS", "85 KIAS"],
+    "answer": 2,
+    "reason": "La VFE es 85 KIAS (87 KCAS). No exceder esta velocidad con los flaps extendidos. Curso C152 POH, pág. 13."
+  },
+  {
+    "category": "LÍMITES DE OPERACIÓN",
+    "question": "¿Cuál es la velocidad máxima con ventanas abiertas?",
+    "options": ["111 KIAS", "149 KIAS", "85 KIAS"],
+    "answer": 1,
+    "reason": "La velocidad máxima con ventanas abiertas es 149 KIAS, igual que la VNE. Curso C152 POH, pág. 13."
+  },
+  {
+    "category": "LÍMITES DE OPERACIÓN",
+    "question": "¿Qué velocidad NO está indicada en el velocímetro del Cessna 152?",
+    "options": ["VNE", "VNO", "VA"],
+    "answer": 2,
+    "reason": "La VA (velocidad de maniobra) no es mostrada en el velocímetro. Curso C152 POH, pág. 15."
+  },
+  {
+    "category": "LÍMITES DE OPERACIÓN",
+    "question": "¿Cuál es la velocidad límite para realizar chandelles en el Cessna 152?",
+    "options": ["104 kts", "95 kts", "111 kts"],
+    "answer": 1,
+    "reason": "La velocidad máxima para chandelles es 95 kts. Curso C152 POH, pág. 16."
+  },
+  {
+    "category": "LÍMITES DE OPERACIÓN",
+    "question": "¿Cuál es el límite de deflexión de flaps para despegue?",
+    "options": ["0° a 30°", "0° a 10°", "0° a 20°"],
+    "answer": 1,
+    "reason": "Para despegue, los flaps pueden usarse de 0° a 10° máximo. Curso C152 POH, pág. 17."
+  },
+  {
+    "category": "LÍMITES DE OPERACIÓN",
+    "question": "¿Cuál es el límite de deflexión de flaps para aterrizaje?",
+    "options": ["0° a 10°", "0° a 20°", "0° a 30°"],
+    "answer": 2,
+    "reason": "Para aterrizaje, los flaps pueden usarse de 0° a 30°. Curso C152 POH, pág. 17."
+  },
+  {
+    "category": "LÍMITES DE OPERACIÓN",
+    "question": "¿Cuál es el factor de carga positivo con flaps retraídos (Flaps Up)?",
+    "options": ["+3.5g", "+4.4g", "+6.0g"],
+    "answer": 1,
+    "reason": "El factor de carga positivo con flaps retraídos es +4.4g. Curso C152 POH, pág. 17."
+  },
+  {
+    "category": "LÍMITES DE OPERACIÓN",
+    "question": "¿Cuál es el factor de carga negativo con flaps retraídos?",
+    "options": ["-1.76g", "-2.2g", "-3.5g"],
+    "answer": 0,
+    "reason": "El factor de carga negativo con flaps retraídos es -1.76g. Curso C152 POH, pág. 17."
+  },
+  {
+    "category": "LÍMITES DE OPERACIÓN",
+    "question": "¿Cuál es el factor de carga positivo con flaps extendidos (Flaps Down)?",
+    "options": ["+4.4g", "+2.0g", "+3.5g"],
+    "answer": 2,
+    "reason": "El factor de carga positivo con flaps extendidos es +3.5g. Curso C152 POH, pág. 17."
+  },
+  {
+    "category": "LÍMITES DE OPERACIÓN",
+    "question": "¿Qué tipos de operaciones están aprobados para el Cessna 152?",
+    "options": ["Solo VFR diurno", "VFR e IFR, diurno y nocturno", "Solo VFR diurno y nocturno"],
+    "answer": 1,
+    "reason": "El Cessna 152 está aprobado para operaciones VFR, IFR, diurnas y nocturnas. Curso C152 POH, pág. 17."
+  },
+  {
+    "category": "LÍMITES DE OPERACIÓN",
+    "question": "¿Cuál es la RPM máxima para despegue y operación continua del motor?",
+    "options": ["2,400 RPM", "2,700 RPM", "2,550 RPM"],
+    "answer": 2,
+    "reason": "La RPM máxima para despegue y operación continua es 2,550 RPM. Curso C152 POH, pág. 18."
+  },
+  {
+    "category": "LÍMITES DE OPERACIÓN",
+    "question": "¿Cuál es la temperatura máxima del aceite?",
+    "options": ["200°F", "245°F", "280°F"],
+    "answer": 1,
+    "reason": "La temperatura máxima del aceite es 245°F. Curso C152 POH, pág. 18."
+  },
+  {
+    "category": "LÍMITES DE OPERACIÓN",
+    "question": "¿Cuál es la presión máxima del aceite?",
+    "options": ["75 psi", "100 psi", "120 psi"],
+    "answer": 1,
+    "reason": "La presión máxima del aceite es 100 psi. Curso C152 POH, pág. 18."
+  },
+  {
+    "category": "LÍMITES DE OPERACIÓN",
+    "question": "¿Cuál es la presión mínima del aceite en operación normal?",
+    "options": ["15 psi", "25 psi", "40 psi"],
+    "answer": 1,
+    "reason": "La presión mínima del aceite es 25 psi. Curso C152 POH, pág. 18."
+  },
+  {
+    "category": "MARCAS EN INSTRUMENTOS",
+    "question": "¿Cuál es el rango del arco blanco en el velocímetro del Cessna 152?",
+    "options": ["40–111 KIAS", "35–85 KIAS", "111–149 KIAS"],
+    "answer": 1,
+    "reason": "El arco blanco es de 35 a 85 KIAS e indica el rango de operación con flaps. Curso C152 POH, pág. 14."
+  },
+  {
+    "category": "MARCAS EN INSTRUMENTOS",
+    "question": "¿Qué indica el límite inferior del arco blanco?",
+    "options": ["VNO – velocidad máxima crucero", "VSO – velocidad de pérdida en configuración de aterrizaje", "VA – velocidad de maniobra"],
+    "answer": 1,
+    "reason": "El límite inferior del arco blanco (35 KIAS) corresponde a la VSO, velocidad de pérdida con peso máximo en configuración de aterrizaje. Curso C152 POH, pág. 14."
+  },
+  {
+    "category": "MARCAS EN INSTRUMENTOS",
+    "question": "¿Cuál es el rango del arco verde en el velocímetro?",
+    "options": ["35–85 KIAS", "111–149 KIAS", "40–111 KIAS"],
+    "answer": 2,
+    "reason": "El arco verde (rango de operación normal) va de 40 a 111 KIAS. Curso C152 POH, pág. 14."
+  },
+  {
+    "category": "MARCAS EN INSTRUMENTOS",
+    "question": "¿Qué indica el límite superior del arco verde?",
+    "options": ["VFE – velocidad máxima flaps extendidos", "VNE – velocidad nunca exceder", "VNO – velocidad máxima crucero estructural"],
+    "answer": 2,
+    "reason": "El límite superior del arco verde (111 KIAS) corresponde a la VNO, velocidad máxima de crucero estructural. Curso C152 POH, pág. 14."
+  },
+  {
+    "category": "MARCAS EN INSTRUMENTOS",
+    "question": "¿Cuál es el rango del arco amarillo en el velocímetro?",
+    "options": ["35–85 KIAS", "40–111 KIAS", "111–149 KIAS"],
+    "answer": 2,
+    "reason": "El arco amarillo (precaución) va de 111 a 149 KIAS. Las operaciones en este rango deben ser solo en aire tranquilo. Curso C152 POH, pág. 14."
+  },
+  {
+    "category": "MARCAS EN INSTRUMENTOS",
+    "question": "¿Qué indica la línea roja en el velocímetro?",
+    "options": ["VNO a 111 KIAS", "VFE a 85 KIAS", "VNE a 149 KIAS"],
+    "answer": 2,
+    "reason": "La línea roja a 149 KIAS indica la VNE, velocidad máxima para todas las operaciones. Curso C152 POH, pág. 14."
+  },
+  {
+    "category": "MARCAS EN INSTRUMENTOS",
+    "question": "¿Cuál es el arco verde del tacómetro a nivel del mar?",
+    "options": ["1,000–2,550 RPM", "1,900–2,350 RPM", "2,000–2,550 RPM"],
+    "answer": 1,
+    "reason": "A nivel del mar el arco verde del tacómetro es 1,900–2,350 RPM. Curso C152 POH, pág. 19."
+  },
+  {
+    "category": "MARCAS EN INSTRUMENTOS",
+    "question": "¿Cuál es el arco verde del tacómetro a 4,000 pies?",
+    "options": ["1,900–2,350 RPM", "1,900–2,450 RPM", "1,900–2,550 RPM"],
+    "answer": 1,
+    "reason": "A 4,000 pies el arco verde del tacómetro es 1,900–2,450 RPM. Curso C152 POH, pág. 19."
+  },
+  {
+    "category": "MARCAS EN INSTRUMENTOS",
+    "question": "¿Cuál es el arco verde del tacómetro a 8,000 pies?",
+    "options": ["1,900–2,450 RPM", "2,000–2,550 RPM", "1,900–2,550 RPM"],
+    "answer": 2,
+    "reason": "A 8,000 pies el arco verde del tacómetro es 1,900–2,550 RPM. Curso C152 POH, pág. 19."
+  },
+  {
+    "category": "MARCAS EN INSTRUMENTOS",
+    "question": "¿Cuál es la línea roja del tacómetro?",
+    "options": ["2,400 RPM", "2,550 RPM", "2,700 RPM"],
+    "answer": 1,
+    "reason": "La línea roja del tacómetro está a 2,550 RPM, indicando la RPM máxima. Curso C152 POH, pág. 19."
+  },
+  {
+    "category": "MARCAS EN INSTRUMENTOS",
+    "question": "¿Cuál es el rango normal (arco verde) de presión de aceite?",
+    "options": ["25–100 psi", "60–90 psi", "50–100 psi"],
+    "answer": 1,
+    "reason": "El arco verde de presión de aceite es 60–90 psi, indicando operación normal. Curso C152 POH, pág. 19."
+  },
+  {
+    "category": "MARCAS EN INSTRUMENTOS",
+    "question": "¿Cuál es el rango normal (arco verde) de temperatura de aceite?",
+    "options": ["50°F–245°F", "100°F–245°F", "75°F–200°F"],
+    "answer": 1,
+    "reason": "El arco verde de temperatura de aceite es 100°F–245°F. Curso C152 POH, pág. 19."
+  },
+  {
+    "category": "MARCAS EN INSTRUMENTOS",
+    "question": "¿Cuál es el rango normal del indicador de succión (vacío)?",
+    "options": ["3.5–4.5 in.Hg", "5.0–6.0 in.Hg", "4.5–5.4 in.Hg"],
+    "answer": 2,
+    "reason": "El rango normal del indicador de succión es 4.5–5.4 in.Hg. Curso C152 POH, pág. 19."
+  },
+  {
+    "category": "MARCAS EN INSTRUMENTOS",
+    "question": "¿Qué indica el indicador de combustible en la marca 'E'?",
+    "options": ["El tanque está completamente vacío", "Quedan 0.75 galones no utilizables por tanque", "Quedan 2 galones utilizables"],
+    "answer": 1,
+    "reason": "La marca 'E' en el indicador de combustible representa 0.75 galones no utilizables por tanque. Curso C152 POH, pág. 19."
+  },
+  {
+    "category": "DESCRIPCIÓN DEL AVIÓN",
+    "question": "¿Cómo se describe la estructura del Cessna 152?",
+    "options": ["Bimotor, ala baja, tren triciclo", "Monomotor, todo metal, ala alta, dos plazas, tren triciclo", "Monomotor, fibra de carbono, ala media, dos plazas"],
+    "answer": 1,
+    "reason": "El Cessna 152 es monomotor, todo de metal, ala alta, dos plazas y tren triciclo. Curso C152 POH, pág. 21."
+  },
+  {
+    "category": "DESCRIPCIÓN DEL AVIÓN",
+    "question": "¿Qué tipo de construcción tiene el fuselaje del Cessna 152?",
+    "options": ["Monocoque", "Semi monocoque", "Estructura de vigas"],
+    "answer": 1,
+    "reason": "El fuselaje del Cessna 152 es de construcción semi monocoque. Curso C152 POH, pág. 21."
+  },
+  {
+    "category": "DESCRIPCIÓN DEL AVIÓN",
+    "question": "¿Qué tipo de ala tiene el Cessna 152?",
+    "options": ["Cantilever completa", "Semi cantilever", "Ala con tirantes múltiples"],
+    "answer": 1,
+    "reason": "El Cessna 152 tiene ala de tipo semi cantilever. Curso C152 POH, pág. 21."
+  },
+  {
+    "category": "DESCRIPCIÓN DEL AVIÓN",
+    "question": "¿Qué tipo de tren de aterrizaje tiene el Cessna 152?",
+    "options": ["Tren en tandem retractable", "Tren triciclo fijo con rueda nariz orientable", "Tren convencional (taildragger)"],
+    "answer": 1,
+    "reason": "El Cessna 152 tiene tren triciclo fijo con rueda de nariz orientable y dos ruedas principales. Curso C152 POH, pág. 38."
+  },
+  {
+    "category": "DESCRIPCIÓN DEL AVIÓN",
+    "question": "¿Cuál es la presión correcta de las llantas del tren de nariz?",
+    "options": ["29 psi", "35 psi", "30 psi"],
+    "answer": 2,
+    "reason": "La presión de las llantas del tren de nariz es 30 psi. Curso C152 POH, pág. 38."
+  },
+  {
+    "category": "DESCRIPCIÓN DEL AVIÓN",
+    "question": "¿Cuál es la presión correcta de las llantas del tren principal?",
+    "options": ["30 psi", "29 psi", "35 psi"],
+    "answer": 1,
+    "reason": "La presión de las llantas del tren principal es 29 psi. Curso C152 POH, pág. 38."
+  },
+  {
+    "category": "DESCRIPCIÓN DEL AVIÓN",
+    "question": "¿Qué tipo de amortiguador tiene el tren de nariz del Cessna 152?",
+    "options": ["Amortiguador de resorte", "Amortiguador oleo-neumático", "Sin amortiguador"],
+    "answer": 1,
+    "reason": "El tren de nariz tiene amortiguador oleo-neumático. El tren principal usa soportes de tren. Curso C152 POH, pág. 38."
+  },
+  {
+    "category": "DESCRIPCIÓN DEL AVIÓN",
+    "question": "¿Cuál es la deflexión de la rueda de nariz sin uso de frenos?",
+    "options": ["15° a cada lado", "30° a cada lado", "8.5° a cada lado"],
+    "answer": 2,
+    "reason": "La deflexión de la rueda de nariz es 8.5° a cada lado sin usar frenos. Curso C152 POH, pág. 29."
+  },
+  {
+    "category": "DESCRIPCIÓN DEL AVIÓN",
+    "question": "¿Cuántos grados puede deflectarse la rueda de nariz con el uso de frenos?",
+    "options": ["15°", "45°", "30°"],
+    "answer": 2,
+    "reason": "Con el uso diferencial de frenos, la rueda de nariz puede deflectarse hasta 30°. Curso C152 POH, pág. 29."
+  },
+  {
+    "category": "MOTOR Y SISTEMAS",
+    "question": "¿Cómo está dispuesta la configuración de los cilindros del motor del Cessna 152?",
+    "options": ["En línea vertical", "En V", "Horizontalmente opuestos"],
+    "answer": 2,
+    "reason": "El motor O-235-L2C tiene 4 cilindros horizontalmente opuestos. Curso C152 POH, pág. 40."
+  },
+  {
+    "category": "MOTOR Y SISTEMAS",
+    "question": "¿Qué tipo de sistema de lubricación tiene el motor del Cessna 152?",
+    "options": ["Sumidero seco", "Sumidero húmedo (carter)", "Lubricación por presión de inyección"],
+    "answer": 1,
+    "reason": "El motor usa sistema de sumidero húmedo (carter húmedo). Curso C152 POH, pág. 40."
+  },
+  {
+    "category": "MOTOR Y SISTEMAS",
+    "question": "¿Qué accesorios se encuentran en la parte delantera del motor?",
+    "options": ["Magnetos, filtro de aceite, bomba de vacío", "Starter, alternador, radiador de aceite", "Carburador, bomba de combustible, regulador"],
+    "answer": 1,
+    "reason": "En la parte delantera del motor se encuentran el starter, alternador y radiador de aceite. Curso C152 POH, pág. 40."
+  },
+  {
+    "category": "MOTOR Y SISTEMAS",
+    "question": "¿Qué accesorios se encuentran en la parte trasera del motor?",
+    "options": ["Starter, alternador, radiador de aceite", "Magnetos, filtro de aceite, bomba de vacío", "Carburador, bujías, alternador"],
+    "answer": 1,
+    "reason": "En la parte trasera del motor se encuentran los magnetos, filtro de aceite y bomba de vacío. Curso C152 POH, pág. 40."
+  },
+  {
+    "category": "MOTOR Y SISTEMAS",
+    "question": "¿Cuántos magnetos tiene el sistema de encendido del Cessna 152?",
+    "options": ["1 magneto", "2 magnetos", "4 magnetos"],
+    "answer": 1,
+    "reason": "El Cessna 152 tiene 2 magnetos mecánicos accionados por el motor. Curso C152 POH, pág. 49."
+  },
+  {
+    "category": "MOTOR Y SISTEMAS",
+    "question": "¿Cuántas bujías tiene el motor del Cessna 152 en total?",
+    "options": ["4 bujías", "6 bujías", "8 bujías"],
+    "answer": 2,
+    "reason": "El motor tiene 8 bujías: 2 bujías por cilindro × 4 cilindros = 8 bujías. Curso C152 POH, pág. 49."
+  },
+  {
+    "category": "MOTOR Y SISTEMAS",
+    "question": "¿Cuántas posiciones tiene el switch de ignición del Cessna 152?",
+    "options": ["3 posiciones", "4 posiciones", "5 posiciones"],
+    "answer": 2,
+    "reason": "El switch de ignición tiene 5 posiciones: OFF, RIGHT, LEFT, BOTH, START. Curso C152 POH, pág. 50."
+  },
+  {
+    "category": "MOTOR Y SISTEMAS",
+    "question": "¿Cuáles son las 5 posiciones del switch de ignición?",
+    "options": ["OFF, L, R, BOTH, GROUND", "OFF, RIGHT, LEFT, BOTH, START", "PARK, OFF, R, L, START"],
+    "answer": 1,
+    "reason": "Las 5 posiciones son: OFF, RIGHT, LEFT, BOTH, START. Curso C152 POH, pág. 50."
+  },
+  {
+    "category": "MOTOR Y SISTEMAS",
+    "question": "¿Qué indica una caída de RPM menor a 150 RPM al activar el calor de carburador?",
+    "options": ["Falla del sistema de calefacción", "Operación normal del sistema", "Hielo detectado en el carburador"],
+    "answer": 1,
+    "reason": "Una caída pequeña de RPM al activar el calor del carburador indica operación normal ya que el aire caliente es menos denso. Curso C152 POH, pág. 54."
+  },
+  {
+    "category": "MOTOR Y SISTEMAS",
+    "question": "¿Qué indica un aumento de RPM al activar el calor de carburador?",
+    "options": ["El sistema no funciona correctamente", "Hay hielo en el carburador que se está derritiendo", "El motor está sobreacelerado"],
+    "answer": 1,
+    "reason": "Un aumento de RPM al activar el calor indica que había hielo en el carburador y se está derritiendo. Curso C152 POH, pág. 54."
+  },
+  {
+    "category": "MOTOR Y SISTEMAS",
+    "question": "¿Cuál es la función del calor de carburador?",
+    "options": ["Aumentar la potencia del motor en altitud", "Prevenir o eliminar el hielo en el carburador", "Enfriar el motor en vuelo"],
+    "answer": 1,
+    "reason": "El calor de carburador calienta el aire de entrada para prevenir o eliminar la formación de hielo en el carburador. Curso C152 POH, pág. 51."
+  },
+  {
+    "category": "SISTEMA ELÉCTRICO",
+    "question": "¿Cuál es el voltaje del sistema eléctrico del Cessna 152?",
+    "options": ["12 voltios DC", "24 voltios DC", "28 voltios DC"],
+    "answer": 2,
+    "reason": "El sistema eléctrico del Cessna 152 es de 28 voltios de corriente directa (DC). Curso C152 POH, pág. 57."
+  },
+  {
+    "category": "SISTEMA ELÉCTRICO",
+    "question": "¿Cuál es la capacidad del alternador del Cessna 152?",
+    "options": ["28V / 40 amperios", "28V / 60 amperios", "24V / 60 amperios"],
+    "answer": 1,
+    "reason": "El alternador es de 28 voltios y 60 amperios. Curso C152 POH, pág. 57."
+  },
+  {
+    "category": "SISTEMA ELÉCTRICO",
+    "question": "¿Cuál es el voltaje de la batería del Cessna 152?",
+    "options": ["12 voltios", "28 voltios", "24 voltios"],
+    "answer": 2,
+    "reason": "La batería del Cessna 152 es de 24 voltios. Curso C152 POH, pág. 57."
+  },
+  {
+    "category": "SISTEMA ELÉCTRICO",
+    "question": "¿Cuántas barras eléctricas tiene el sistema del Cessna 152?",
+    "options": ["Una sola barra principal", "Tres barras: primaria, aviónica y emergencia", "Dos barras: Barra Primaria y Barra de Aviónica"],
+    "answer": 2,
+    "reason": "El sistema cuenta con dos barras eléctricas: la Barra Primaria y la Barra de Aviónica. Curso C152 POH, pág. 57."
+  },
+  {
+    "category": "SISTEMA ELÉCTRICO",
+    "question": "¿Cuáles son los dos componentes del Master Switch?",
+    "options": ["ALT y GEN", "BATT y ALT", "BATT y BUS"],
+    "answer": 1,
+    "reason": "El Master Switch del Cessna 152 tiene dos componentes: BATT (batería) y ALT (alternador). Curso C152 POH, pág. 57."
+  },
+  {
+    "category": "SISTEMA ELÉCTRICO",
+    "question": "¿Qué indica el amperímetro del Cessna 152?",
+    "options": ["Solo la carga de la batería", "La cantidad de corriente que entrega el alternador a la batería, o de la batería al sistema", "El voltaje del sistema eléctrico"],
+    "answer": 1,
+    "reason": "El amperímetro indica la corriente del alternador a la batería (carga) o de la batería al sistema (descarga). Curso C152 POH, pág. 58."
+  },
+  {
+    "category": "SISTEMA ELÉCTRICO",
+    "question": "¿A qué voltaje se enciende la luz de 'Low Voltage' en el Cessna 152?",
+    "options": ["22 voltios", "26 voltios", "24.5 voltios"],
+    "answer": 2,
+    "reason": "La luz de Low Voltage se enciende a 24.5 voltios, indicando falla del alternador. Curso C152 POH, pág. 58."
+  },
+  {
+    "category": "SISTEMA ELÉCTRICO",
+    "question": "¿Qué hace la Alternator Control Unit (ACU) en caso de sobre voltaje?",
+    "options": ["Desconecta la batería", "Desconecta el alternador", "Enciende una alarma sonora"],
+    "answer": 1,
+    "reason": "La ACU desconecta automáticamente el alternador en caso de sobre voltaje. Curso C152 POH, pág. 58."
+  },
+  {
+    "category": "SISTEMA ELÉCTRICO",
+    "question": "¿Cómo se reconecta el alternador después de ser desconectado por sobre voltaje?",
+    "options": ["Presionando el botón de reset del alternador", "Apagando y volviendo a encender el switch MASTER", "Apagando todos los equipos eléctricos y esperando"],
+    "answer": 1,
+    "reason": "Para reconectar el alternador tras un sobre voltaje, se debe apagar y volver a encender el switch MASTER. Curso C152 POH, pág. 58."
+  },
+  {
+    "category": "SISTEMA ELÉCTRICO",
+    "question": "Los aviones Cessna 152 fabricados antes de 1979, ¿qué luz tienen en lugar de 'Low Voltage'?",
+    "options": ["Luz 'Oil Pressure'", "Luz 'High Voltage'", "Luz 'Alternator Fail'"],
+    "answer": 1,
+    "reason": "Los aviones anteriores a 1979 tienen luz 'High Voltage' en lugar de 'Low Voltage'. Curso C152 POH, pág. 58."
+  },
+  {
+    "category": "SISTEMAS DE VUELO",
+    "question": "¿Cómo está protegido el sistema de flaps del Cessna 152?",
+    "options": ["Por un fusible reemplazable", "Por un rompe circuitos (circuit breaker)", "Por un relay de protección"],
+    "answer": 1,
+    "reason": "El sistema de flaps está protegido por un rompe circuitos instalado en el panel de circuit breakers. Curso C152 POH, pág. 37."
+  },
+  {
+    "category": "SISTEMAS DE VUELO",
+    "question": "¿Qué tipo de frenos tiene el Cessna 152?",
+    "options": ["Frenos de tambor mecánicos", "Frenos de disco actuados hidráulicamente", "Frenos de zapata neumáticos"],
+    "answer": 1,
+    "reason": "El Cessna 152 tiene frenos de disco actuados hidráulicamente en cada rueda principal. Curso C152 POH, pág. 56."
+  },
+  {
+    "category": "SISTEMAS DE VUELO",
+    "question": "¿Dónde están ubicados los cilindros maestros de los frenos?",
+    "options": ["En el compartimento del motor", "En el panel de instrumentos", "En cada pedal del piloto"],
+    "answer": 2,
+    "reason": "Los cilindros maestros de los frenos están ubicados en cada pedal del piloto. Curso C152 POH, pág. 56."
+  },
+  {
+    "category": "SISTEMAS DE VUELO",
+    "question": "¿A qué ángulo de ataque activa el sistema de aviso de pérdida (stall warning)?",
+    "options": ["10°", "20°", "+/- 16° AOA"],
+    "answer": 2,
+    "reason": "El sistema de aviso de pérdida se activa aproximadamente a ±16° de ángulo de ataque (AOA). Curso C152 POH, pág. 66."
+  },
+  {
+    "category": "SISTEMAS DE VUELO",
+    "question": "¿Cuántos nudos antes de la velocidad de pérdida activa el aviso de pérdida?",
+    "options": ["2–3 kts antes", "10–15 kts antes", "5–10 kts antes"],
+    "answer": 2,
+    "reason": "El aviso de pérdida se activa 5 a 10 kts antes de la velocidad de pérdida (Vs). Curso C152 POH, pág. 66."
+  },
+  {
+    "category": "SISTEMAS DE VUELO",
+    "question": "¿Cómo se verifica el sistema de aviso de pérdida en la inspección preflight?",
+    "options": ["Acelerando el motor a máximas RPM", "Aplicando succión al sistema", "Moviendo los alerones a máxima deflexión"],
+    "answer": 1,
+    "reason": "El aviso de pérdida se verifica en el preflight aplicando succión directamente al orificio del sistema. Curso C152 POH, pág. 66."
+  },
+  {
+    "category": "SISTEMAS DE VUELO",
+    "question": "¿Qué instrumentos utilizan la presión del tubo pitot?",
+    "options": ["Altímetro y variometro", "Solo el velocímetro (indicador de velocidad)", "Altímetro, variometro y velocímetro"],
+    "answer": 1,
+    "reason": "Solo el velocímetro (indicador de velocidad con respecto al aire) utiliza la presión del tubo pitot. Curso C152 POH, pág. 63."
+  },
+  {
+    "category": "SISTEMAS DE VUELO",
+    "question": "¿Qué instrumentos usan la presión estática?",
+    "options": ["Solo el velocímetro", "Altímetro, variometro y velocímetro", "Solo altímetro y variometro"],
+    "answer": 1,
+    "reason": "El altímetro, el variometro y el velocímetro utilizan la presión estática. Curso C152 POH, pág. 63."
+  },
+  {
+    "category": "AVIÓNICA",
+    "question": "¿Cuál es el modelo del radio COM/NAV 1 instalado en el Cessna 152?",
+    "options": ["KX-155", "KX-165", "KNS-80"],
+    "answer": 1,
+    "reason": "El radio COM/NAV 1 es el modelo KX-165. Curso C152 POH, pág. 68."
+  },
+  {
+    "category": "AVIÓNICA",
+    "question": "¿Cuál es el modelo del transpondedor del Cessna 152?",
+    "options": ["KT-76A", "RT-359A", "GTX-327"],
+    "answer": 1,
+    "reason": "El transpondedor instalado es el RT359A. Curso C152 POH, pág. 70."
+  },
+  {
+    "category": "AVIÓNICA",
+    "question": "¿Cuál es el modelo del panel de audio del Cessna 152?",
+    "options": ["KMA 28", "KMA 24", "PS Engineering PMA7000"],
+    "answer": 1,
+    "reason": "El panel de audio es el KMA 24. Curso C152 POH, pág. 71."
+  },
+  {
+    "category": "PROCEDIMIENTOS NORMALES",
+    "question": "¿En qué posición debe estar la mezcla para el arranque del motor con temperaturas sobre 0°C?",
+    "options": ["LEAN (pobre)", "IDLE CUTOFF (corte)", "RICH (rica)"],
+    "answer": 2,
+    "reason": "Para el arranque sobre temperaturas de congelación, la mezcla debe estar en RICH (rica). POH C152, Sección 4, pág. 47."
+  },
+  {
+    "category": "PROCEDIMIENTOS NORMALES",
+    "question": "¿En qué posición debe estar el calor de carburador para el arranque normal?",
+    "options": ["ON (caliente)", "COLD (frío)", "A mitad de recorrido"],
+    "answer": 1,
+    "reason": "El calor de carburador debe estar en COLD (frío) durante el arranque normal del motor. POH C152, Sección 4, pág. 47."
+  },
+  {
+    "category": "PROCEDIMIENTOS NORMALES",
+    "question": "¿Cuántos primes máximos se aplican para el arranque normal del motor?",
+    "options": ["5 primes", "1 prime", "Hasta 3 primes"],
+    "answer": 2,
+    "reason": "Para el arranque normal se aplican hasta 3 primes según sea requerido. POH C152, Sección 4, pág. 47."
+  },
+  {
+    "category": "PROCEDIMIENTOS NORMALES",
+    "question": "¿Cuánto debe abrirse el throttle para el arranque del motor?",
+    "options": ["Completamente abierto", "1/4 de pulgada", "1/2 pulgada"],
+    "answer": 2,
+    "reason": "Para el arranque, el throttle debe abrirse 1/2 pulgada. POH C152, Sección 4, pág. 47."
+  },
+  {
+    "category": "PROCEDIMIENTOS NORMALES",
+    "question": "¿Cuál es el primer paso antes de girar el switch de ignición a START?",
+    "options": ["Verificar que los frenos estén puestos", "Verificar que el área de la hélice esté despejada (PROPELLER AREA – CLEAR)", "Encender el Master Switch"],
+    "answer": 1,
+    "reason": "Antes de arrancar, se debe verificar que el área de la hélice esté completamente despejada por razones de seguridad. POH C152, Sección 4, pág. 47."
+  },
+  {
+    "category": "PROCEDIMIENTOS NORMALES",
+    "question": "¿A cuántas RPM se debe ajustar el motor inmediatamente después del arranque?",
+    "options": ["1,500 RPM o menos", "1,000 RPM o menos", "2,000 RPM o menos"],
+    "answer": 1,
+    "reason": "Después del arranque, el throttle se ajusta a 1,000 RPM o menos. POH C152, Sección 4, pág. 47."
+  },
+  {
+    "category": "PROCEDIMIENTOS NORMALES",
+    "question": "¿Cuál es el primer instrumento que se debe verificar después del arranque?",
+    "options": ["Temperatura del aceite", "Succión del giroscopio", "Presión del aceite"],
+    "answer": 2,
+    "reason": "Después del arranque, se debe verificar inmediatamente la presión del aceite (Oil Pressure – CHECK). POH C152, Sección 4, pág. 47."
+  },
+  {
+    "category": "PROCEDIMIENTOS NORMALES",
+    "question": "¿Cuál es la primera acción del checklist antes del despegue?",
+    "options": ["Verificar los controles de vuelo", "SET el freno de parqueo (Parking Brake)", "Encender el beacon y las luces de navegación"],
+    "answer": 1,
+    "reason": "La primera acción del checklist antes del despegue es SET el freno de parqueo (Parking Brake – SET). POH C152, Sección 4, pág. 47."
+  },
+  {
+    "category": "PROCEDIMIENTOS NORMALES",
+    "question": "¿Cómo deben estar las puertas de la cabina antes del despegue?",
+    "options": ["Solo entrecerradas", "CLOSED and LATCHED (cerradas y aseguradas)", "OPEN para ventilación"],
+    "answer": 1,
+    "reason": "Las puertas deben estar cerradas y aseguradas (CLOSED and LATCHED) antes del despegue. POH C152, Sección 4, pág. 47."
+  },
+  {
+    "category": "PROCEDIMIENTOS NORMALES",
+    "question": "¿En qué posición debe estar el elevator trim para el despegue?",
+    "options": ["Posición neutral (0)", "Posición TAKEOFF (despegue)", "Full nose-down"],
+    "answer": 1,
+    "reason": "El elevator trim debe configurarse en la posición TAKEOFF para el despegue. POH C152, Sección 4, pág. 47."
+  },
+  {
+    "category": "PROCEDIMIENTOS NORMALES",
+    "question": "¿A qué RPM se realiza el run-up del motor antes del despegue?",
+    "options": ["1,500 RPM", "2,000 RPM", "1,700 RPM"],
+    "answer": 2,
+    "reason": "El run-up del motor se realiza a 1,700 RPM. POH C152, Sección 4, pág. 47."
+  },
+  {
+    "category": "PROCEDIMIENTOS NORMALES",
+    "question": "Durante el run-up, ¿cuál es la caída máxima de RPM aceptable por cada magneto?",
+    "options": ["75 RPM", "100 RPM", "125 RPM"],
+    "answer": 2,
+    "reason": "La caída máxima de RPM aceptable en cada magneto es 125 RPM durante el run-up a 1,700 RPM. POH C152, Sección 4, pág. 47."
+  },
+  {
+    "category": "PROCEDIMIENTOS NORMALES",
+    "question": "¿Cuál es la diferencia máxima de RPM aceptable entre los dos magnetos?",
+    "options": ["100 RPM", "50 RPM", "25 RPM"],
+    "answer": 1,
+    "reason": "La diferencia máxima entre magnetos es 50 RPM durante el check en el run-up. POH C152, Sección 4, pág. 47."
+  },
+  {
+    "category": "PROCEDIMIENTOS NORMALES",
+    "question": "¿En qué posición debe estar la mezcla para el despegue por debajo de los 3,000 pies?",
+    "options": ["Lean (pobre)", "Rich (rica)", "A mitad de recorrido"],
+    "answer": 1,
+    "reason": "La mezcla debe estar en RICH para el despegue por debajo de los 3,000 pies. POH C152, Sección 4, pág. 47."
+  },
+  {
+    "category": "PROCEDIMIENTOS NORMALES",
+    "question": "¿Qué se debe verificar en el run-up además de los magnetos y el calor de carburador?",
+    "options": ["Solo los instrumentos del motor", "Engine Instruments, Ammeter y Suction Gauge", "Solo la presión de aceite"],
+    "answer": 1,
+    "reason": "En el run-up se verifican los instrumentos del motor, el amperímetro (Ammeter) y el indicador de succión (Suction Gauge). POH C152, Sección 4, pág. 47."
+  },
+  {
+    "category": "PROCEDIMIENTOS NORMALES",
+    "question": "¿Cuándo se deben encender el flashing beacon y las luces de navegación?",
+    "options": ["Solo durante el vuelo nocturno", "Antes del despegue, según sea requerido", "Solo en áreas de mucho tráfico"],
+    "answer": 1,
+    "reason": "El flashing beacon, luces de navegación y strobes se encienden antes del despegue según sea requerido. POH C152, Sección 4, pág. 47."
+  },
+  {
+    "category": "PROCEDIMIENTOS NORMALES",
+    "question": "¿Cuál es el procedimiento correcto al detectar humo en cabina durante el vuelo?",
+    "options": ["Abrir ventanas para ventilar, continuar vuelo", "Apagar el master switch y calefacción, aterrizar de emergencia inmediatamente", "Solo apagar la radio y comunicarse en 121.5 MHz"],
+    "answer": 1,
+    "reason": "Ante fuego en cabina se debe apagar el master switch, la calefacción y buscar el aterrizaje de emergencia más próximo. POH C152, Sección 3."
+  },
+  {
+    "category": "PROCEDIMIENTOS DE EMERGENCIA",
+    "question": "¿Cuál es el procedimiento ante una falla de motor en vuelo?",
+    "options": ["Apagar todo y descender rápidamente", "Establecer mejor velocidad de planeo, seleccionar campo de aterrizaje, seguir checklist de emergencia", "Aumentar la mezcla y bajar los flaps"],
+    "answer": 1,
+    "reason": "Ante falla de motor se debe establecer la velocidad de mejor planeo, seleccionar un campo de aterrizaje de emergencia y seguir el checklist. POH C152, Sección 3."
+  },
+  {
+    "category": "PROCEDIMIENTOS DE EMERGENCIA",
+    "question": "¿Qué acción se debe tomar inmediatamente ante fuego en el motor en tierra?",
+    "options": ["Aumentar la potencia para expulsar el fuego", "Throttle OFF, mezcla a IDLE CUTOFF, fuel valve OFF, master OFF, evacuar", "Activar el extintor de cabina y continuar"],
+    "answer": 1,
+    "reason": "Ante fuego en el motor en tierra: Throttle OFF, mezcla a IDLE CUTOFF, válvula de combustible OFF, master OFF y evacuar la aeronave. POH C152, Sección 3."
+  },
+  {
+    "category": "PROCEDIMIENTOS DE EMERGENCIA",
+    "question": "¿Cuál es el código de emergencia del transpondedor?",
+    "options": ["7600", "7500", "7700"],
+    "answer": 2,
+    "reason": "El código de emergencia del transpondedor es 7700 (emergencia general). POH C152, Sección 3."
+  },
+  {
+    "category": "PROCEDIMIENTOS DE EMERGENCIA",
+    "question": "¿Cuál es el código de transpondedor para falla de radio (NORDO)?",
+    "options": ["7700", "7600", "7500"],
+    "answer": 1,
+    "reason": "El código 7600 indica falla de comunicaciones de radio (NORDO – No Radio). POH C152, Sección 3."
+  },
+  {
+    "category": "PROCEDIMIENTOS DE EMERGENCIA",
+    "question": "¿Cuál es el código de transpondedor para interferencia ilegal (hijacking)?",
+    "options": ["7700", "7600", "7500"],
+    "answer": 2,
+    "reason": "El código 7500 indica interferencia ilegal (secuestro de aeronave). POH C152, Sección 3."
+  },
+  {
+    "category": "PROCEDIMIENTOS DE EMERGENCIA",
+    "question": "¿Cuál es la frecuencia de emergencia internacional?",
+    "options": ["122.8 MHz", "121.5 MHz", "123.0 MHz"],
+    "answer": 1,
+    "reason": "La frecuencia de emergencia internacional (Guarda) es 121.5 MHz. POH C152, Sección 3."
+  },
+  {
+    "category": "PROCEDIMIENTOS DE EMERGENCIA",
+    "question": "¿Cuál es el procedimiento de recuperación de un spin en el Cessna 152?",
+    "options": ["Alerón hacia el interior del spin, potencia reducida", "Throttle al ralentí, rudder opuesto al spin, elevador neutro, pull out", "Aumentar potencia, alerón hacia exterior del spin"],
+    "answer": 1,
+    "reason": "La recuperación de spin: Throttle al IDLE, rudder opuesto a la dirección del spin, elevador a posición neutra, alerones neutros, y recuperar del picado. POH C152, Sección 3."
+  },
+  {
+    "category": "PROCEDIMIENTOS DE EMERGENCIA",
+    "question": "¿Qué se debe hacer ante baja presión de aceite en vuelo?",
+    "options": ["Aumentar potencia para compensar", "Continuar hasta el destino si hay combustible", "Reducir potencia y aterrizar lo antes posible"],
+    "answer": 2,
+    "reason": "Ante baja presión de aceite en vuelo, se debe reducir la potencia y aterrizar lo antes posible para evitar daño al motor. POH C152, Sección 3."
+  },
+  {
+    "category": "PROCEDIMIENTOS DE EMERGENCIA",
+    "question": "¿Qué indica la luz de Low Voltage en vuelo?",
+    "options": ["La batería está completamente cargada", "Falla del alternador o bajo voltaje del sistema", "El sistema de ignición tiene problemas"],
+    "answer": 1,
+    "reason": "La luz Low Voltage indica falla del alternador o voltaje del sistema por debajo de 24.5V. Se debe verificar el switch ALT y apagar equipos no esenciales. Curso C152 POH, pág. 58."
+  },
+  {
+    "category": "PESOS Y BALANCE",
+    "question": "¿Qué pasa si el centro de gravedad (CG) está adelante del límite?",
+    "options": ["El avión se vuelve inestable y peligroso", "El avión se vuelve pesado en el morro y difícil de recuperar de la pérdida", "No hay efecto notable"],
+    "answer": 1,
+    "reason": "Un CG adelantado hace el avión pesado en el morro, requiere más contrapresión en el elevador y puede dificultar la recuperación de la pérdida. POH C152, Sección 6."
+  },
+  {
+    "category": "PESOS Y BALANCE",
+    "question": "¿Qué pasa si el CG está detrás del límite posterior?",
+    "options": ["El avión se vuelve muy estable", "El avión puede volverse inestable o incontrolable", "Mejora la maniobrabilidad"],
+    "answer": 1,
+    "reason": "Un CG excesivamente atrasado puede hacer el avión inestable o difícil/imposible de controlar. POH C152, Sección 6."
+  },
+  {
+    "category": "PESOS Y BALANCE",
+    "question": "¿Cuál es el efecto de volar con sobrepeso?",
+    "options": ["Mejora la estabilidad", "Reduce el performance, aumenta distancias de despegue/aterrizaje y puede sobrepasar límites estructurales", "No tiene efecto en el performance"],
+    "answer": 1,
+    "reason": "Volar sobre el peso máximo reduce el performance, aumenta las distancias de despegue y aterrizaje, y puede exceder los límites estructurales de la aeronave. POH C152, Sección 6."
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "¿Cuál es el efecto de la temperatura alta en el performance del Cessna 152?",
+    "options": ["Mejora el performance del motor", "Reduce el performance por aumentar la altitud de densidad", "No afecta el performance si es debajo de VNE"],
+    "answer": 1,
+    "reason": "Las altas temperaturas aumentan la altitud de densidad, reduciendo la potencia disponible y degradando el performance del avión. POH C152, Sección 5."
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "¿Cuál es el efecto de un viento de cola en el despegue?",
+    "options": ["Reduce la distancia de despegue", "Aumenta la distancia de despegue requerida", "No tiene efecto significativo"],
+    "answer": 1,
+    "reason": "Un viento de cola aumenta la distancia de despegue porque reduce la velocidad del viento relativo y requiere mayor velocidad sobre la pista. POH C152, Sección 5."
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "¿Cuál es el efecto de una pista con pendiente positiva (uphill) en el despegue?",
+    "options": ["Reduce la distancia de rodada", "No tiene efecto", "Aumenta la distancia de rodada de despegue"],
+    "answer": 2,
+    "reason": "Una pista con pendiente positiva (ascendente) aumenta la distancia de rodada de despegue ya que la aeronave debe trabajar contra la gravedad. POH C152, Sección 5."
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "¿Qué efecto tiene la alta humedad en el performance del motor carburado?",
+    "options": ["Aumenta la potencia disponible", "No tiene efecto en motores carburados", "Reduce el performance del motor"],
+    "answer": 2,
+    "reason": "La alta humedad reduce la densidad del aire y el performance del motor, similar al efecto de la alta temperatura. POH C152, Sección 5."
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "¿Cuál es el efecto de la altitud en el motor carburado del Cessna 152?",
+    "options": ["Aumenta la potencia disponible", "La mezcla se enriquece y la potencia disminuye con el aumento de altitud", "No tiene efecto si se usa calor de carburador"],
+    "answer": 1,
+    "reason": "Al aumentar la altitud, la mezcla se enriquece por menor densidad del aire, reduciendo la potencia. Se debe ajustar la mezcla (lean) para corregir esto. POH C152, Sección 4."
+  },
+  {
+    "category": "ILUMINACIÓN",
+    "question": "¿Qué luces exteriores tiene el Cessna 152?",
+    "options": ["Solo luces de navegación y aterrizaje", "Taxi, landing, navigation, strobes y beacon", "Navigation, strobes y beacon solamente"],
+    "answer": 1,
+    "reason": "El Cessna 152 tiene luces de taxi, aterrizaje, navegación, strobes y beacon. Curso C152 POH, pág. 61."
+  },
+  {
+    "category": "ILUMINACIÓN",
+    "question": "¿Qué luces interiores tiene el Cessna 152?",
+    "options": ["Panel, radio y cabina", "Solo iluminación del panel", "Iluminación de panel y radio"],
+    "answer": 2,
+    "reason": "La iluminación interior del Cessna 152 incluye luz de panel y luz de radio. Curso C152 POH, pág. 62."
+  },
+  {
+    "category": "PROCEDIMIENTOS NORMALES",
+    "question": "¿Cuál debe ser la posición del fuel shutoff valve (válvula de combustible) antes del despegue?",
+    "options": ["OFF", "ON", "A mitad de recorrido"],
+    "answer": 1,
+    "reason": "La válvula de combustible debe estar en ON antes del despegue para asegurar suministro de combustible. POH C152, Sección 4, pág. 47."
+  },
+  {
+    "category": "PROCEDIMIENTOS NORMALES",
+    "question": "¿Qué se debe verificar sobre los controles de vuelo antes del despegue?",
+    "options": ["Que estén bloqueados", "FREE and CORRECT (libres y correctos)", "Solo los alerones"],
+    "answer": 1,
+    "reason": "Los controles de vuelo deben verificarse como libres (free) y correctos (correct) en movimiento y dirección. POH C152, Sección 4, pág. 47."
+  },
+  {
+    "category": "SISTEMAS DE VUELO",
+    "question": "¿Qué tipo de inducción de aire tiene el motor del Cessna 152?",
+    "options": ["Turboalimentado", "Con sobrealimentador", "Normalmente aspirado con carburador"],
+    "answer": 2,
+    "reason": "El motor O-235-L2C es normalmente aspirado y usa carburador para la mezcla de aire y combustible. Curso C152 POH, pág. 7."
+  },
+  {
+    "category": "SISTEMAS DE VUELO",
+    "question": "¿Cuántos tanques de combustible tiene el Cessna 152?",
+    "options": ["1 tanque central", "3 tanques (dos en alas y uno auxiliar)", "2 tanques, uno en cada ala"],
+    "answer": 2,
+    "reason": "El Cessna 152 tiene 2 tanques de combustible, uno en cada ala, con capacidad de 13 USG cada uno. Curso C152 POH, pág. 9."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuántos ocupantes puede llevar el Cessna 152?",
+    "options": ["4 ocupantes", "3 ocupantes", "2 ocupantes"],
+    "answer": 2,
+    "reason": "El Cessna 152 es un avión de dos plazas. Curso C152 POH, pág. 21."
+  },
+  {
+    "category": "LÍMITES DE OPERACIÓN",
+    "question": "¿Qué velocidad se debe usar para ochos perezosos (lazy eights)?",
+    "options": ["104 kts máximo", "85 kts máximo", "95 kts máximo"],
+    "answer": 2,
+    "reason": "La velocidad límite para ochos perezosos es 95 kts. Curso C152 POH, pág. 16."
+  },
+  {
+    "category": "LÍMITES DE OPERACIÓN",
+    "question": "¿Qué velocidad se debe usar para virajes escarpados (steep turns)?",
+    "options": ["85 kts máximo", "111 kts máximo", "95 kts máximo"],
+    "answer": 2,
+    "reason": "La velocidad límite para virajes escarpados es 95 kts. Curso C152 POH, pág. 16."
+  },
+  {
+    "category": "PROCEDIMIENTOS NORMALES",
+    "question": "¿En qué posición debe estar el calor de carburador al comprobar su funcionamiento en el run-up?",
+    "options": ["OFF durante toda la verificación", "ON temporalmente para verificar la caída de RPM", "En la posición más baja del reostat"],
+    "answer": 1,
+    "reason": "El calor de carburador se pone ON en el run-up para verificar la caída de RPM, que confirma su funcionamiento. POH C152, Sección 4, pág. 47."
+  },
+  {
+    "category": "PROCEDIMIENTOS NORMALES",
+    "question": "¿Cuándo se debe usar la mezcla empobrecida (lean) en el Cessna 152?",
+    "options": ["Solo en aterrizaje", "En despegue a cualquier altitud", "En crucero por encima de 3,000 pies o según tabla de performance"],
+    "answer": 2,
+    "reason": "La mezcla se empobrece (lean) en vuelo de crucero a altitudes superiores a 3,000 pies o siguiendo las tablas de performance del POH para optimizar consumo. POH C152, Sección 4."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuál es el modelo de la hélice del Cessna 152?",
+    "options": ["1A103/TCM6958", "2A34C50", "HC-C2YK-1BF"],
+    "answer": 0,
+    "reason": "El modelo de la hélice es McCauley 1A103/TCM6958. Curso C152 POH, pág. 8."
+  },
+  {
+    "category": "PROCEDIMIENTOS NORMALES",
+    "question": "¿Qué indica la verificación de los instrumentos de vuelo en el checklist pre-despegue?",
+    "options": ["Solo verificar que estén encendidos", "SET (ajustados) correctamente, como altímetro, DI, etc.", "Solo verificar la iluminación de los instrumentos"],
+    "answer": 1,
+    "reason": "Los instrumentos de vuelo deben estar ajustados (SET) correctamente, incluyendo altímetro con QNH, giroscopio alineado, etc. POH C152, Sección 4."
+  },
+  {
+    "category": "SISTEMAS DE VUELO",
+    "question": "¿Qué indica un amperímetro con lectura negativa (hacia el lado de descarga)?",
+    "options": ["El alternador está cargando la batería normalmente", "La batería está proveyendo corriente al sistema (el alternador no está funcionando)", "El sistema eléctrico está apagado"],
+    "answer": 1,
+    "reason": "Una lectura negativa del amperímetro indica que la batería está supliendo corriente al sistema, lo que sugiere que el alternador no está funcionando. Curso C152 POH, pág. 58."
+  },
+  {
+    "category": "SISTEMAS DE VUELO",
+    "question": "¿Qué indica una lectura positiva del amperímetro en el Cessna 152?",
+    "options": ["La batería está descargada", "El alternador está cargando la batería normalmente", "El consumo eléctrico es muy alto"],
+    "answer": 1,
+    "reason": "Una lectura positiva indica que el alternador está cargando la batería y supliendo el sistema eléctrico normalmente. Curso C152 POH, pág. 58."
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "¿A qué altitud densa se basa el performance publicado del Cessna 152?",
+    "options": ["5,000 pies de altitud de densidad", "1,000 pies de altitud de densidad", "Nivel del mar (altitud de densidad 0)"],
+    "answer": 2,
+    "reason": "Las tablas de performance del Cessna 152 están basadas en condiciones de nivel del mar con temperatura estándar ISA. POH C152, Sección 5."
+  },
+  {
+    "category": "LÍMITES DE OPERACIÓN",
+    "question": "¿Por qué disminuye la VA con menor peso de la aeronave?",
+    "options": ["Porque el avión es más lento a menor peso", "Porque a menor peso las estructuras toleran menos G antes de alcanzar el límite de carga", "Porque el centro de gravedad cambia"],
+    "answer": 1,
+    "reason": "La VA disminuye con el peso porque a menor peso se alcanza el ángulo de ataque de pérdida con menos G, por lo que la velocidad a la que se puede aplicar control completo sin exceder límites es menor. Curso C152 POH, pág. 13."
+  },
+  {
+    "category": "MARCAS EN INSTRUMENTOS",
+    "question": "¿Qué indica el límite inferior del arco verde en el velocímetro?",
+    "options": ["VFE – velocidad máxima flaps extendidos", "VSO – pérdida en aterrizaje", "VS1 – velocidad de pérdida con flaps retraídos a peso máximo"],
+    "answer": 2,
+    "reason": "El límite inferior del arco verde (40 KIAS) es la VS1, velocidad de pérdida con flaps retraídos. Curso C152 POH, pág. 14."
+  },
+  {
+    "category": "SISTEMAS DE VUELO",
+    "question": "¿Qué tipo de motor acciona el sistema de flaps del Cessna 152?",
+    "options": ["Motor hidráulico", "Motor eléctrico con tornillo sin fin", "Sistema de cables y poleas manual"],
+    "answer": 1,
+    "reason": "El sistema de flaps está accionado por un motor eléctrico mediante un tornillo sin fin. Curso C152 POH, pág. 36."
+  },
+  {
+    "category": "PROCEDIMIENTOS NORMALES",
+    "question": "¿Cuándo se debe ajustar el Throttle Friction Lock?",
+    "options": ["Solo en crucero", "Solo en emergencia", "Antes del despegue, para evitar movimientos no deseados del throttle"],
+    "answer": 2,
+    "reason": "El Throttle Friction Lock se ajusta en el checklist antes del despegue. POH C152, Sección 4, pág. 47."
+  },
+  {
+    "category": "PROCEDIMIENTOS NORMALES",
+    "question": "¿Cuál es la acción final en el checklist antes del despegue?",
+    "options": ["Verificar los flaps", "Ajustar los radios", "Liberar los frenos (Brakes – RELEASE)"],
+    "answer": 2,
+    "reason": "La acción final en el checklist de antes del despegue es liberar los frenos (Brakes – RELEASE). POH C152, Sección 4, pág. 47."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuánto combustible hay en cada tanque del Cessna 152?",
+    "options": ["12 USG por tanque", "13 USG por tanque", "15 USG por tanque"],
+    "answer": 1,
+    "reason": "Cada tanque contiene 13 USG, para un total de 26 USG. Curso C152 POH, pág. 9."
+  },
+  {
+    "category": "LÍMITES DE OPERACIÓN",
+    "question": "¿Cuál es la potencia máxima del motor del Cessna 152?",
+    "options": ["100 BHP", "120 BHP", "110 BHP"],
+    "answer": 2,
+    "reason": "La potencia máxima del motor es 110 BHP. Curso C152 POH, pág. 18."
+  },
+  {
+    "category": "DESCRIPCIÓN DEL AVIÓN",
+    "question": "¿Qué tipo de enfriamiento usa el motor del Cessna 152?",
+    "options": ["Enfriado por agua", "Enfriado por aceite exclusivamente", "Enfriado por aire"],
+    "answer": 2,
+    "reason": "El motor O-235-L2C del Cessna 152 es enfriado por aire. Curso C152 POH, pág. 7."
+  },
+  {
+    "category": "DESCRIPCIÓN DEL AVIÓN",
+    "question": "¿Qué tipo de transmisión tiene el motor del Cessna 152?",
+    "options": ["Transmisión por reductor de engranajes", "Transmisión directa", "Transmisión por correa"],
+    "answer": 1,
+    "reason": "El motor tiene transmisión directa (direct drive), sin reductor de engranajes. Curso C152 POH, pág. 7."
+  },
+  {
+    "category": "MARCAS EN INSTRUMENTOS",
+    "question": "¿Cuál es la diferencia entre el arco blanco y el arco verde en el velocímetro?",
+    "options": ["El arco blanco es para vuelo IFR, el verde para VFR", "El arco blanco indica el rango de operación con flaps; el verde indica el rango de operación normal sin flaps", "El arco blanco indica turbulencia, el verde indica calma"],
+    "answer": 1,
+    "reason": "El arco blanco (35–85 KIAS) es el rango de operación con flaps extendidos; el arco verde (40–111 KIAS) es el rango normal de operación. Curso C152 POH, pág. 14."
+  },
+  {
+    "category": "PROCEDIMIENTOS NORMALES",
+    "question": "¿Cuál es la configuración correcta de los circuit breakers en el checklist pre-arranque?",
+    "options": ["PULLED (desconectados)", "CHECK IN (todos adentro/conectados)", "Solo los esenciales conectados"],
+    "answer": 1,
+    "reason": "En el pre-arranque se debe verificar que todos los circuit breakers estén CHECK IN (conectados). POH C152, Sección 4, pág. 47."
+  },
+  {
+    "category": "PROCEDIMIENTOS NORMALES",
+    "question": "¿Cuál debe ser el estado de los equipos de radio y eléctricos antes del arranque?",
+    "options": ["Todos encendidos para verificar su funcionamiento", "OFF (apagados)", "Solo la radio de comunicaciones encendida"],
+    "answer": 1,
+    "reason": "Los radios y equipos eléctricos deben estar OFF antes del arranque para evitar picos de voltaje. POH C152, Sección 4, pág. 47."
+  },
+  {
+    "category": "PROCEDIMIENTOS NORMALES",
+    "question": "¿En qué posición deben estar los frenos antes del arranque?",
+    "options": ["Completamente sueltos", "TEST and SET (verificados y puestos)", "Solo el freno del lado del piloto"],
+    "answer": 1,
+    "reason": "Antes del arranque, los frenos deben estar TEST and SET (verificados y puestos). POH C152, Sección 4, pág. 47."
+  },
+  {
+    "category": "PROCEDIMIENTOS NORMALES",
+    "question": "¿Cómo deben estar los asientos, cinturones y arneses de hombro antes del vuelo?",
+    "options": ["LOOSE (sueltos) para comodidad", "ADJUST and LOCK (ajustados y bloqueados)", "Solo verificar que estén instalados"],
+    "answer": 1,
+    "reason": "Los asientos, cinturones y arneses de hombro deben estar ADJUST and LOCK (ajustados y bloqueados) para seguridad. POH C152, Sección 4, pág. 47."
+  },
+  {
+    "category": "DESCRIPCIÓN DEL AVIÓN",
+    "question": "¿Qué tipo de calefacción tiene el Cessna 152?",
+    "options": ["Calefacción eléctrica", "Calefacción proveniente del escape del motor", "No tiene sistema de calefacción"],
+    "answer": 1,
+    "reason": "El sistema de calefacción del Cessna 152 utiliza calor del sistema de escape del motor para calentar la cabina. Curso C152 POH, pág. 60."
+  },
+  {
+    "category": "SISTEMAS DE VUELO",
+    "question": "¿Cuántos instrumentos giroscópicos típicamente tiene el panel del Cessna 152?",
+    "options": ["1 instrumento giroscópico", "4 instrumentos giroscópicos", "2 instrumentos giroscópicos (actitud y dirección)"],
+    "answer": 2,
+    "reason": "El Cessna 152 típicamente tiene indicador de actitud y giroscopio direccional como instrumentos giroscópicos principales. Curso C152 POH, pág. 30."
+  },
+  {
+    "category": "PROCEDIMIENTOS DE EMERGENCIA",
+    "question": "¿Cuál es la acción inmediata ante alta temperatura de aceite en vuelo?",
+    "options": ["Aumentar la potencia para enfriar más rápido", "Reducir la potencia y enriquecer la mezcla; aterrizar lo antes posible", "Apagar el motor inmediatamente"],
+    "answer": 1,
+    "reason": "Ante alta temperatura de aceite, se debe reducir la potencia, enriquecer la mezcla y buscar el aterrizaje lo antes posible para evitar daño al motor. POH C152, Sección 3."
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "¿Cuál es el tiempo de vuelo a crucero 75% de potencia a 8,500 pies para recorrer 315 NM?",
+    "options": ["2 horas", "4.1 horas", "3 horas"],
+    "answer": 2,
+    "reason": "Al 75% de potencia a 8,500 pies, el Cessna 152 recorre 315 NM en 3 horas. Curso C152 POH, pág. 5."
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "¿Cuánto tiempo tarda el Cessna 152 en recorrer 370 NM a rango máximo a 10,000 pies?",
+    "options": ["3 horas", "5 horas", "4.1 horas"],
+    "answer": 2,
+    "reason": "A rango máximo a 10,000 pies, el Cessna 152 recorre 370 NM en 4.1 horas. Curso C152 POH, pág. 5."
+  },
+  {
+    "category": "LÍMITES DE OPERACIÓN",
+    "question": "¿Cuál es la diferencia entre la VNE y la VNO?",
+    "options": ["Son la misma velocidad", "VNE es la velocidad nunca exceder; VNO es la velocidad máxima de crucero estructural, puede excederse solo en aire tranquilo", "VNO es más alta que VNE"],
+    "answer": 1,
+    "reason": "La VNE (149 KIAS) es la velocidad que nunca debe excederse. La VNO (111 KIAS) no debe excederse excepto en aire tranquilo con precaución. Curso C152 POH, pág. 13."
+  },
+  {
+    "category": "MARCAS EN INSTRUMENTOS",
+    "question": "¿En qué condición de vuelo se puede operar en el arco amarillo del velocímetro?",
+    "options": ["En cualquier condición de vuelo hasta VNE", "Solo en emergencias", "Solo en aire tranquilo y con precaución"],
+    "answer": 2,
+    "reason": "El arco amarillo (111–149 KIAS) solo debe usarse en aire tranquilo y con precaución, ya que la estructura puede verse comprometida en turbulencia. Curso C152 POH, pág. 14."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuál es el peso máximo del compartimento de equipaje A2?",
+    "options": ["80 lbs", "120 lbs", "40 lbs"],
+    "answer": 2,
+    "reason": "El compartimento de equipaje A2 permite un máximo de 40 lbs. Curso C152 POH, pág. 11."
+  },
+  {
+    "category": "DESCRIPCIÓN DEL AVIÓN",
+    "question": "¿El Cessna 152 es una aeronave categoría normal o acrobática?",
+    "options": ["Acrobática", "Normal (no acrobática)", "Utilitaria y acrobática"],
+    "answer": 1,
+    "reason": "El Cessna 152 está certificado en categoría Normal, no está aprobado para maniobras acrobáticas. POH C152, Sección 2."
+  },
+  {
+    "category": "SISTEMAS DE VUELO",
+    "question": "¿Qué ventaja tiene el doble sistema de encendido (dos magnetos) del Cessna 152?",
+    "options": ["Aumenta la potencia disponible", "Permite mayor velocidad", "Provee redundancia y mejor combustión para mayor eficiencia y seguridad"],
+    "answer": 2,
+    "reason": "El doble sistema de magnetos provee redundancia (si uno falla, el otro mantiene el encendido) y mejora la combustión al encender cada cilindro con dos chispas. Curso C152 POH, pág. 49."
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "¿Cuál de estos factores NO reduce el performance de despegue del Cessna 152?",
+    "options": ["Alta temperatura", "Viento de frente (headwind)", "Alta altitud"],
+    "answer": 1,
+    "reason": "El viento de frente (headwind) MEJORA el performance de despegue al reducir la velocidad sobre la pista necesaria para despegar. Los factores como alta temperatura y alta altitud reducen el performance. POH C152, Sección 5."
+  },
+  {
+    "category": "PROCEDIMIENTOS NORMALES",
+    "question": "¿Qué instrumento se usa para ajustar correctamente el giroscopio direccional?",
+    "options": ["El altímetro", "El horizonte artificial", "La brújula magnética"],
+    "answer": 2,
+    "reason": "El giroscopio direccional debe alinearse con la brújula magnética antes del vuelo. Curso C152 POH, pág. 30."
+  },
+  {
+    "category": "SISTEMAS DE VUELO",
+    "question": "¿Qué efecto tiene obstruir el tubo pitot en el velocímetro?",
+    "options": ["El velocímetro mostrará velocidad cero siempre", "El velocímetro quedará inoperante o mostrará lecturas incorrectas", "No afecta al velocímetro"],
+    "answer": 1,
+    "reason": "Si el tubo pitot se obstruye, el velocímetro quedará inoperante o mostrará lecturas incorrectas, ya que depende de la presión de impacto del pitot. Curso C152 POH, pág. 63."
+  },
+  {
+    "category": "PROCEDIMIENTOS DE EMERGENCIA",
+    "question": "¿Cuál es el procedimiento si se activa el aviso de pérdida (stall warning) inesperadamente?",
+    "options": ["Aumentar la potencia al máximo y mantener la actitud", "Bajar el morro para reducir el ángulo de ataque, añadir potencia y recuperar", "Subir el morro para ganar altitud"],
+    "answer": 1,
+    "reason": "Al activarse el stall warning, se debe bajar el morro para reducir el AOA, añadir potencia y recuperar la velocidad. La recuperación temprana es clave. POH C152, Sección 3."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuáles son los colores identificadores de los combustibles aprobados para el Cessna 152?",
+    "options": ["100LL es verde y 100 es rojo", "100LL es rojo y 100 es azul", "100LL es azul y 100 es verde"],
+    "answer": 2,
+    "reason": "El combustible 100LL es de color azul y el combustible grado 100 (antes 100/130) es de color verde. Curso C152 POH, pág. 9."
+  },
+  {
+    "category": "SISTEMAS DE VUELO",
+    "question": "¿Qué instrumento del grupo de vuelo por instrumentos básico ('six pack') usa solo presión estática?",
+    "options": ["Velocímetro", "Altímetro y variometro únicamente", "Horizonte artificial"],
+    "answer": 1,
+    "reason": "El altímetro y el variometro usan exclusivamente presión estática. El velocímetro usa ambas presiones (pitot y estática). Curso C152 POH, pág. 63."
+  },
+  {
+    "category": "DESCRIPCIÓN DEL AVIÓN",
+    "question": "¿Cuántos cilindros maestros de frenos tiene el Cessna 152?",
+    "options": ["1 cilindro maestro central", "4 cilindros maestros", "2 cilindros maestros, uno por pedal del piloto"],
+    "answer": 2,
+    "reason": "El Cessna 152 tiene 2 cilindros maestros de frenos, uno en cada pedal del piloto. Curso C152 POH, pág. 56."
+  },
+  {
+    "category": "PROCEDIMIENTOS NORMALES",
+    "question": "¿Qué acción se debe tomar antes de realizar el arranque para asegurarse de que el área de la hélice esté despejada?",
+    "options": ["Encender las luces stroboscópicas (strobes) y anunciar por radio", "Revisar visualmente el área alrededor de la hélice y anunciar 'Clear prop'", "Solo tocar el claxon de la aeronave"],
+    "answer": 1,
+    "reason": "Antes del arranque se debe revisar visualmente que el área alrededor de la hélice esté libre de personas y objetos, anunciando 'Clear prop'. POH C152, Sección 4."
+  },
+  {
+    "category": "LÍMITES DE OPERACIÓN",
+    "question": "¿Qué ocurre si se supera la VNE del Cessna 152?",
+    "options": ["El motor se apaga automáticamente", "Se puede producir falla estructural de la aeronave", "Solo hay vibración excesiva pero sin riesgo"],
+    "answer": 1,
+    "reason": "Superar la VNE puede causar falla estructural de la aeronave. Por eso es la velocidad que nunca debe excederse bajo ninguna circunstancia. Curso C152 POH, pág. 13."
+  },
+  {
+    "category": "PROCEDIMIENTOS DE EMERGENCIA",
+    "question": "¿Cuál es el procedimiento correcto ante una falla eléctrica total en vuelo?",
+    "options": ["Continuar el vuelo normalmente usando solo instrumentos magnéticos", "Encender la batería de emergencia automáticamente", "Conservar la batería apagando equipos no esenciales y aterrizar lo antes posible"],
+    "answer": 2,
+    "reason": "Ante falla eléctrica total, se deben apagar equipos no esenciales para conservar la batería y aterrizar lo antes posible. POH C152, Sección 3."
+  },
+  {
+    "category": "DESCRIPCIÓN DEL AVIÓN",
+    "question": "¿Dónde está ubicado el radiador de aceite del motor del Cessna 152?",
+    "options": ["Debajo del fuselaje", "En la parte trasera del motor", "En la parte delantera del motor"],
+    "answer": 2,
+    "reason": "El radiador de aceite está ubicado en la parte delantera del motor junto con el starter y el alternador. Curso C152 POH, pág. 40."
+  },
+  {
+    "category": "PROCEDIMIENTOS NORMALES",
+    "question": "¿Qué verificación de instrumentos se realiza antes del vuelo con respecto al altímetro?",
+    "options": ["Verificar que marque cero", "Ajustar con el QNH local para que indique la elevación del aeródromo", "Verificar que gire correctamente"],
+    "answer": 1,
+    "reason": "El altímetro se debe ajustar con la presión barométrica local (QNH) para que indique la elevación correcta del aeródromo. POH C152, Sección 4."
+  },
+  {
+    "category": "SISTEMAS DE VUELO",
+    "question": "¿Cuál es la fuente de energía para los instrumentos giroscópicos del Cessna 152?",
+    "options": ["Sistema eléctrico de 28V únicamente", "Vacío (succión) generado por la bomba de vacío del motor", "Batería de respaldo independiente"],
+    "answer": 1,
+    "reason": "Los instrumentos giroscópicos del Cessna 152 son accionados por el sistema de vacío (succión) generado por la bomba de vacío del motor. Curso C152 POH, pág. 40."
+  },
+  {
+    "category": "MARCAS EN INSTRUMENTOS",
+    "question": "¿Qué indica una lectura de succión fuera del arco verde (4.5–5.4 in.Hg)?",
+    "options": ["Normal, no hay indicación de problema", "Posible falla de la bomba de vacío o del sistema, los instrumentos giroscópicos pueden ser poco confiables", "Solo indica que se debe verificar la batería"],
+    "answer": 1,
+    "reason": "Una lectura fuera del arco verde de succión puede indicar falla de la bomba de vacío, lo que haría que los instrumentos giroscópicos sean poco confiables. Curso C152 POH, pág. 19."
+  },
+  {
+    "category": "SISTEMAS DE VUELO",
+    "question": "¿Cuál es la función principal del sistema de ventilación/calefacción del Cessna 152?",
+    "options": ["Solo ventilar la cabina con aire fresco del exterior", "Calentar y ventilar la cabina usando calor del sistema de escape y aire exterior", "Solo controlar la temperatura del motor"],
+    "answer": 1,
+    "reason": "El sistema proporciona tanto calefacción (usando calor del escape) como ventilación (usando aire del exterior) para el confort de los ocupantes. Curso C152 POH, pág. 60."
+  },
+  {
+    "category": "PROCEDIMIENTOS NORMALES",
+    "question": "¿Qué velocidad de aproximación se usa para un aterrizaje normal en el Cessna 152?",
+    "options": ["VNO de 111 KIAS", "VFE de 85 KIAS", "Aproximadamente 60–70 KIAS dependiendo del peso y configuración"],
+    "answer": 2,
+    "reason": "La velocidad de aproximación recomendada es aproximadamente 60–70 KIAS dependiendo del peso y la configuración de flaps. POH C152, Sección 4."
+  },
+  {
+    "category": "PERFORMANCE",
+    "question": "¿Cómo afecta una pista mojada o con nieve al performance de aterrizaje?",
+    "options": ["Reduce la distancia de frenado", "Aumenta la distancia de aterrizaje por reducción de fricción", "No tiene efecto en el performance"],
+    "answer": 1,
+    "reason": "Una pista mojada o con nieve reduce la fricción de las llantas, aumentando la distancia de frenado y la distancia total de aterrizaje. POH C152, Sección 5."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿Cuál es la principal diferencia entre el Cessna 152 y el Cessna 150?",
+    "options": ["El C152 tiene motor de mayor potencia y hélice mejorada", "El C152 tiene tren retractable", "El C152 es de ala baja"],
+    "answer": 0,
+    "reason": "El Cessna 152 es una evolución del Cessna 150 con el motor Lycoming O-235 de 110 BHP en lugar del Continental O-200 de 100 BHP, y hélice mejorada. POH C152, Sección 1."
+  },
+  {
+    "category": "PROCEDIMIENTOS DE EMERGENCIA",
+    "question": "¿Cuál es el procedimiento correcto ante pérdida de visibilidad en VMC (condiciones meteorológicas visuales)?",
+    "options": ["Continuar al destino a baja altitud", "Hacer un viraje de 180° para salir de las condiciones de IMC", "Subir por encima de las nubes"],
+    "answer": 1,
+    "reason": "Ante pérdida de visibilidad accidental en VMC, el procedimiento correcto es realizar un viraje de 180° para volver a condiciones VFR. POH C152, Sección 3."
+  },
+  {
+    "category": "SISTEMAS DE VUELO",
+    "question": "¿Para qué se usa el parking brake en tierra?",
+    "options": ["Solo para estacionar después del vuelo", "Para mantener el avión quieto durante el run-up, arranque y estacionamiento", "Solo para emergencias de frenos"],
+    "answer": 1,
+    "reason": "El parking brake se usa para mantener el avión detenido durante el arranque del motor, run-up y estacionamiento. POH C152, Sección 4."
+  },
+  {
+    "category": "GENERALIDADES",
+    "question": "¿En qué año fue fabricado por primera vez el Cessna 152?",
+    "options": ["1965", "1985", "1977"],
+    "answer": 2,
+    "reason": "El Cessna 152 fue introducido en 1977 como sucesor del Cessna 150. POH C152, Sección 1."
+  },
+  {
+    "category": "SISTEMAS DE VUELO",
+    "question": "¿Qué función cumple la válvula de combustible (fuel shutoff valve) en el Cessna 152?",
+    "options": ["Seleccionar entre los tanques de combustible", "Cortar o habilitar el flujo de combustible al motor", "Regular la cantidad de combustible al carburador"],
+    "answer": 1,
+    "reason": "La válvula de cierre de combustible (fuel shutoff valve) corta o habilita el flujo de combustible al motor. Solo tiene posición ON y OFF. Curso C152 POH, pág. 55."
+  },
+  {
+    "category": "PROCEDIMIENTOS NORMALES",
+    "question": "¿Cuál es el objetivo de verificar los controles de vuelo como 'FREE and CORRECT' antes del despegue?",
+    "options": ["Verificar que los controles estén bloqueados para el despegue", "Asegurarse de que los controles se muevan libremente sin obstrucciones y en la dirección correcta", "Solo verificar que los alerones funcionen"],
+    "answer": 1,
+    "reason": "La verificación FREE and CORRECT asegura que todos los controles se muevan sin obstrucciones y en la dirección correcta (movimiento de palanca = movimiento del avión esperado). POH C152, Sección 4."
+  },
+  {
+    "category": "LÍMITES DE OPERACIÓN",
+    "question": "¿Por qué el factor de carga con flaps extendidos (+3.5g) es menor que con flaps retraídos (+4.4g)?",
+    "options": ["Los flaps no afectan el factor de carga", "Los flaps extendidos reducen la velocidad estructural y se limita el factor de carga para proteger la estructura", "Con flaps la aeronave es más pesada"],
+    "answer": 1,
+    "reason": "Con flaps extendidos se operan a velocidades menores y los flaps generan cargas adicionales en la estructura del ala, por lo que el límite de factor de carga se reduce a +3.5g. Curso C152 POH, pág. 17."
+  },
+  {
+    "category": "DESCRIPCIÓN DEL AVIÓN",
+    "question": "¿Cuántas ruedas tiene el tren de aterrizaje del Cessna 152?",
+    "options": ["2 ruedas", "4 ruedas", "3 ruedas"],
+    "answer": 2,
+    "reason": "El Cessna 152 tiene tren triciclo con 3 ruedas: una de nariz y dos principales. Curso C152 POH, pág. 38."
+  },
+  {
+    "category": "SISTEMAS DE VUELO",
+    "question": "¿Qué sistema provee la energía para accionar el sistema de flaps?",
+    "options": ["Sistema hidráulico", "Sistema de vacío", "Sistema eléctrico"],
+    "answer": 2,
+    "reason": "El sistema de flaps es accionado eléctricamente mediante un motor eléctrico, protegido por un circuit breaker. Curso C152 POH, pág. 37."
+  },
+  {
+    "category": "MARCAS EN INSTRUMENTOS",
+    "question": "¿Dónde aparece la línea roja de presión mínima de aceite (25 psi) en los instrumentos del motor?",
+    "options": ["Al inicio del arco verde, marcado en el indicador de presión de aceite", "En la zona roja inferior del indicador de presión de aceite", "No existe marca de presión mínima en los instrumentos"],
+    "answer": 1,
+    "reason": "La presión mínima de aceite (25 psi) está marcada como línea roja inferior en el indicador de presión de aceite. Curso C152 POH, pág. 19."
+  },
+  {
+    "category": "PROCEDIMIENTOS NORMALES",
+    "question": "¿Cuándo se debe verificar la succión de los instrumentos giroscópicos en el run-up?",
+    "options": ["Solo si se nota vibración en los instrumentos", "Durante el run-up en el checklist de antes del despegue", "Solo antes de vuelos IFR"],
+    "answer": 1,
+    "reason": "El suction gauge (indicador de succión) se verifica durante el run-up como parte del checklist de antes del despegue. Debe estar entre 4.5 y 5.4 in.Hg. POH C152, Sección 4, pág. 47."
+  },
+  {
+    "category": "PROCEDIMIENTOS NORMALES",
+    "question": "¿Cuándo se debe verificar el amperímetro durante el run-up?",
+    "options": ["Solo si hay problemas eléctricos", "Solo antes de vuelos nocturnos", "Durante el run-up en el checklist de antes del despegue junto con los instrumentos del motor"],
+    "answer": 2,
+    "reason": "El amperímetro se verifica durante el run-up junto con los demás instrumentos del motor. POH C152, Sección 4, pág. 47."
+  }
+]
