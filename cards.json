@@ -7726,5 +7726,2465 @@
     ],
     "answer": 1,
     "reason": "El radio del área exterior procesal del espacio aéreo Clase C es normalmente 20 NM."
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Vire a la derecha rumbo 030 hasta interceptar UG437",
+    "options": [
+      "Turn left heading 030 to intercept UG437",
+      "Turn right heading 030 to intercept UG437",
+      "Turn right radial 030 to intercept UG437"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Después de la salida continúe rumbo de pista hasta nivel 050",
+    "options": [
+      "After departure continue heading to level 050",
+      "After departure continue taxiway heading to level 050",
+      "After departure continue runway heading to level 050"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Prosiga por derrota desplazada 20 millas a la derecha de UG437 a las 1515 hasta 1545",
+    "options": [
+      "Proceed displaced 20 miles right of UG437 at 1515 until 1545",
+      "Proceed offset 20 miles right of UG437 at 1515 until 1545",
+      "Proceed deviated 20 miles right of UG437 at 1515 until 1545"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Notifique si puede seguir derrota paralela desplazada",
+    "options": [
+      "Advise if able to proceed parallel offset",
+      "Advise if able to proceed displaced offset",
+      "Advise if able to proceed scrolled offset"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Demora no determinada",
+    "options": [
+      "Delay not determined",
+      "Delay not specified",
+      "Delay not defined"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Ceda paso a B767 detrás suyo",
+    "options": [
+      "Give way to B767 in front of you",
+      "Give way to B767 behind you",
+      "Give step to B767 behind you"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Crepúsculo",
+    "options": [
+      "Sunset",
+      "Twilight",
+      "Sunrise"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Transpondedor negativo",
+    "options": [
+      "Negative transponder",
+      "Without transponder",
+      "Negative squawq"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Notifique establecido en trayectoria de planeo",
+    "options": [
+      "Report established on glide track",
+      "Report established on glide path",
+      "Report established on localizer"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Mantenga 3000 pies hasta interceptar trayectoria de planeo",
+    "options": [
+      "Maintain 3000 feet until glide path interception",
+      "Maintain 3000 feet until localizer path interception",
+      "Maintain 3000 feet until ILS interception"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Interrumpa viraje ahora",
+    "options": [
+      "Cut turn now",
+      "Stop turn now",
+      "Interrupt turn now"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Notifique establecido sobre localizador",
+    "options": [
+      "Report established on glide path",
+      "Report established on track",
+      "Report established on localizer"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "La identificación se perderá pronto,reasuma propia navegación",
+    "options": [
+      "Will shortly lose identification, resume own navigation",
+      "Will shortly lose identification, resume proper navigation",
+      "Will shortly lose identification, start own navigation"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Servicio radar terminado",
+    "options": [
+      "Radar service finished",
+      "Radar service out of service",
+      "Radar service terminated"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Control radar terminado",
+    "options": [
+      "Radar control finished",
+      "Radar control terminated",
+      "Radar control over"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Si me recibe, presione el micrófono dos veces",
+    "options": [
+      "If you read me, press the microphone twice",
+      "f you read me, press the microphone two times",
+      "If you read me, press the microphone double"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Si no recibe comunicación durante 3 minutos, retorne a esta frecuencia",
+    "options": [
+      "If no transmissions received for 3 minutes, keep on this frequency",
+      "If no transmissions received for 3 minutes, come back to this frequency",
+      "If no transmissions received for 3 minutes, return to this frequency"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Radar secundario fuera de servicio",
+    "options": [
+      "Secondary radar unavailable",
+      "Secondary radar out of service",
+      "Secondary radar fuser"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Vire en círculo izquierda por tránsito",
+    "options": [
+      "Orbit left due traffic",
+      "Orbit right due traffic",
+      "Orbit left hand due traffic"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Vire tres, seis, cero grados izquierda por tránsito",
+    "options": [
+      "Make a three six turn left due traffic",
+      "Make a three sixty turn right due traffic",
+      "Make a three sixty turn left due traffic"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Rumbo correcto",
+    "options": [
+      "Heading correct",
+      "Heading is good",
+      "Heading OK"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Efectúe rodaje aéreo a puesto de estacionamiento de helicópteros zona naval",
+    "options": [
+      "Air-Taxi to helicopter position navy zone",
+      "Air-Taxi to parking position navy zone",
+      "Air-Taxi to helicopter parking position navy zone"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Tome la primera intersección a la izquierda y comunique con tierra 121,9",
+    "options": [
+      "Take first right and contact ground 121,9",
+      "Take first left and contact ground 121,9",
+      "Take first and contact ground 121,9"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Puesto 7",
+    "options": [
+      "Your stand 7",
+      "Your post 7",
+      "Your position 7"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Acelere pista libre",
+    "options": [
+      "Acelerate vacating",
+      "Hurry up vacating",
+      "Expedite vacating"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Cuando pista libre comunique con tierra 121,9",
+    "options": [
+      "When vacated contact apron 121,9",
+      "When vacated contact ground 121,9",
+      "When vacated contact surface 121,9"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Efectúe rodaje aéreo a puesto de estacionamiento de helicópteros",
+    "options": [
+      "Air-Taxi to helicopter stand",
+      "Air-Taxi to helicopter parking",
+      "Air-Taxi to helicopter post"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Comunique con tierra 121,9",
+    "options": [
+      "Contact ground 121,9",
+      "Contact earth 121,9",
+      "Contact ramp 121,9"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Precaución chorro de reactor",
+    "options": [
+      "Caution wake turbulence",
+      "Caution jet blast",
+      "Caution jet stream"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Precaución estela turbulenta de aeronave A320 que sale",
+    "options": [
+      "Caution wake turbulence from departing A320",
+      "Caution wake turbulence from arriving A320",
+      "Caution jet blast from departing A320"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "La rueda derecha no parece desplegada",
+    "options": [
+      "Right wheel does not appear below",
+      "Right wheel does not appear outside",
+      "Right wheel does not appear down"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Las ruedas parecen replegadas",
+    "options": [
+      "Wheels appear above",
+      "Wheels appear up",
+      "Wheels appear down"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "La rueda derecha parece replegada",
+    "options": [
+      "Right wheel appears up",
+      "Right wheel appears down",
+      "Right wheel appears above"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Precaución estela (estela de aeronave de hélice)",
+    "options": [
+      "Caution jet blast",
+      "Caution wake turbulence",
+      "Caution slipstream"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Dé otra vuelta",
+    "options": [
+      "Make another circuit",
+      "Make another turn",
+      "Make another turn around"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Efectúe rodaje aéreo vía calle de rodaje foxtrot, precaución detritos libres",
+    "options": [
+      "Air-Taxi via taxiway foxtrot, caution free debris",
+      "Air-Taxi via taxiway foxtrot, caution loose debris",
+      "Air-Taxi via taxiway foxtrot, caution lose debris"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Transferencia radar N5175W respondedor 5775 posición 20 millas LIM vor, nivel 100",
+    "options": [
+      "Radar handover N5175W squawking 5775 position 20 miles LIM vor, level 100",
+      "Radar transfer N5175W squawking 5775 position 20 miles LIM vor, level 100",
+      "Radar release N5175W squawking 5775 position 20 miles LIM vor, level 100"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Vuele rumbo 210, cuando pueda diríjase directamente a SLS",
+    "options": [
+      "Fly heading 210, when able proceed direct SLS",
+      "Fly heading 210, proceed direct SLS",
+      "Fly heading 210, when able go direct SLS"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Interrumpa el viraje rumbo 080",
+    "options": [
+      "Interrupt turn heading 080",
+      "Cut turn heading 080",
+      "Stop turn heading 080"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Vuele rumbo 060",
+    "options": [
+      "Flight heading 060",
+      "Fly heading 060",
+      "Flew heading 060"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Continúe rumbo actual",
+    "options": [
+      "Continue present heading",
+      "Continue present track",
+      "Continue present radial"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "No identificado, reanude su navegación",
+    "options": [
+      "Not identified, go ahead with own navigation",
+      "Not identified, start own navigation",
+      "Not identified, resume own navigation"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Efectúe rodaje aéreo vía calle de rodaje foxtrot, evite vehículos",
+    "options": [
+      "Air-taxi via taxiway foxtrot, avoid personnel",
+      "Air-taxi via runway foxtrot, avoid vehicles",
+      "Air-taxi via taxiway foxtrot, avoid vehicles"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Mantenga Mach 1 o mayor hasta Iremi",
+    "options": [
+      "Maintain Mach 1 or less until Iremi",
+      "Maintain Mach 1 or greater until Iremi",
+      "Maintain Mach 1 or upper until Iremi"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "COA111 notifique si puede cruzar SLS a las 2135 a nivel 180",
+    "options": [
+      "COA111 advise if able to cross SLS at 2135 at level 180",
+      "COA111 advise if unable to cross SLS at 2135 at level 180",
+      "COA111 please advice if able to cross SLS at 2135 at level 180"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Imposible, tránsito rumbo sur A320 nivel 290 estimado sobre ZCO a las 1727 AAL701. Notifique intenciones",
+    "options": [
+      "Unable, traffic southeast A320 level 290 estimated over ZCO at 1727 AAL701. Advise intentions",
+      "Unable, traffic southbound A320 level 290 over ZCO at 1727 AAL701. Advise intentions",
+      "Unable, traffic southbound A320 level 290 estimated over ZCO at 1727 AAL701. Advise intentions"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "DLH533 notifique luces de pista a la vista",
+    "options": [
+      "DLH533 notyfy runway lights in sight",
+      "DLH533 report taxiway lights in sight",
+      "DLH533 report runway lights in sight"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Solicito aproximación visual",
+    "options": [
+      "Request visual approach",
+      "Request visual descend",
+      "Request seen approach"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "N5175W no supere Mach 1",
+    "options": [
+      "N5175W do not surpass Mach 1",
+      "N5175W not exceed Mach 1",
+      "N5175W do not exceed Mach 1"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Notifique Sigas en alejamiento",
+    "options": [
+      "Report Sigas inbound",
+      "Report Sigas leaving",
+      "Report Sigas outbound"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Hora prevista de aproximación 0926",
+    "options": [
+      "Expected direct time 0926",
+      "Expected approach time 0926",
+      "Expected inbound time 0926"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Autorizado aproximación visual pista 15",
+    "options": [
+      "Cleared watched approach runway 15",
+      "Cleared visual approach runway 15",
+      "Cleared visual direct runway 15"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Autorizado hasta radial 280 del vor LIM a 5 millas punto de referencia DME mantenga nivel 100, mantenga rumbo sur, viraje a la derecha, tiempo de alejamiento un minuto.",
+    "options": [
+      "Cleared to the 280 radial of the LIM vor at 5 miles DME fix, maintain level 100, maintain southbound, left hand pattern, inbound time one minute",
+      "Cleared to the 280 radial of the LIM vor at 5 miles DME fix, maintain level 100, maintain southbound, right hand pattern, approach time one minute",
+      "Cleared to the 280 radial of the LIM vor at 5 miles DME fix, maintain level 100, maintain southbound, right hand pattern, outbound time one minute"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Prevea autorización posterior para aproximación a las 2210",
+    "options": [
+      "Expect approach cleared at 2210",
+      "Expect approach clearance at 2210",
+      "Expect approach clears at 2210"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Solicito instrucciones de espera",
+    "options": [
+      "Request holding instructions",
+      "Request waiting instructions",
+      "Request clearance instructions"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Mantenga espera visual sobre Ancón",
+    "options": [
+      "Maintain visual over Ancon",
+      "Hold sight over Ancon",
+      "Hold visual over Ancon"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "No se prevé demora",
+    "options": [
+      "No delay expected",
+      "No time expected",
+      "No distress expected"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Mantenga su propia separación",
+    "options": [
+      "Maintain own separation",
+      "Maintain proper separation",
+      "Maintain separation"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Notifique Sigas en acercamiento",
+    "options": [
+      "Report Sigas inbound",
+      "Report Sigas outbound",
+      "Report Sigas approaching"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Solicito descenso VMC",
+    "options": [
+      "Request VMC",
+      "Request VMC stall",
+      "Request VMC descent"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "N1985W notifique inicio viraje reglamentario",
+    "options": [
+      "N1985W report beginning procedure turn",
+      "N1985W report commencing procedure turn",
+      "N1985W report starting procedure turn"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "¿Conoce procedimiento aproximación Charlie?",
+    "options": [
+      "Do you familiar with Charlie approach procedure?",
+      "Are you familiar with Charlie approach procedure?",
+      "Have you known Charlie approach procedure?"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Contacto radar",
+    "options": [
+      "Radar observed",
+      "Radar contact",
+      "Radar service"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Para identificación vire izquierda rumbo 280",
+    "options": [
+      "For identification turn left radial 280",
+      "For identification turn left track 280",
+      "For identification turn left heading 280"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Notifique rumbo y altitud",
+    "options": [
+      "Report heading and flight level",
+      "Report heading and altitude",
+      "Report heading and level"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "RVSM imposible debido a equipo",
+    "options": [
+      "Unable RVSM due equipment",
+      "impossible RVSM due equipment",
+      "Negative RVSM due equipment"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "RVSM imposible debido a turbulencia",
+    "options": [
+      "Impossible RVSM due turbulence",
+      "Negative RVSM due turbulence",
+      "Unable RVSM due turbulence"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Negativo RVSM",
+    "options": [
+      "No RVSM",
+      "Negative RVSM",
+      "Unable RVSM"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Transmita identificación y notifique rumbo",
+    "options": [
+      "Transmit for identification and report heading",
+      "Transmit for identification and report radial",
+      "Transmit for identification and report glide path"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Ruede en línea recta",
+    "options": [
+      "Taxi straight ahead",
+      "Taxi right ahead",
+      "Taxi straight behind"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Notifique pasando radial 310 Lima VOR",
+    "options": [
+      "Notify passing 310 radial Lima VOR",
+      "Report passing 310 radial Lima VOR",
+      "Confirm passing 310 radial Lima VOR"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Pista de regreso 06",
+    "options": [
+      "Return runway 06",
+      "Backtrack runway 06",
+      "Come back runway 06"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Imposible autorización para entrar en el espacio aéreo RVSM, Mantenga 280",
+    "options": [
+      "Unable issue clearance into RVSM airspace, climb to 280",
+      "Unable issue clearance into RVSM airspace, descend to 280",
+      "Unable issue clearance into RVSM airspace, maintain 280"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Confirme aprobación RVSM",
+    "options": [
+      "Confirm RVSM approval",
+      "Confirm RVSM approved",
+      "Verify RVSM approved"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Iluminación de calles de rodaje inoperativa",
+    "options": [
+      "Holding bay lighting inoperative",
+      "Taxiway lighting inoperative",
+      "Runway lighting inoperative"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Eficacia de frenado notificada por B767 a las 1030 escasa",
+    "options": [
+      "Braking action reported by B767 at 1030 poor",
+      "Braking efficiency reported by B767 at 1030 poor",
+      "Braking efficacy reported by B767 at 1030 poor"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Precaución obras de construcción a ambos lados de la pista 15",
+    "options": [
+      "Caution construction work both sides of runway 15",
+      "Caution construction work inside of runway 15",
+      "Caution construction work aside of runway 15"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Precaución obras de construcción en calle de rodaje Alpha",
+    "options": [
+      "Caution, construction work on holding bay Alpha",
+      "Caution, construction work on runway Alpha",
+      "Caution, construction work on taxiway Alpha"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Superficie de aterrizaje operativa",
+    "options": [
+      "Landing surface out of service",
+      "Landing surface operative",
+      "Landing surface not available"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Lima, estado de la superficie de la pista, pista 15, No Actualizada",
+    "options": [
+      "Lima, runway surface condition, runway 15, not current",
+      "Lima, runway surface condition, runway 15, not updated",
+      "Lima, runway surface condition, runway 15, not operative"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Notifique distancia desde Trujillo DME",
+    "options": [
+      "Report distance from trujillo DME",
+      "Notify distance from trujillo DME",
+      "Confirm distance from Trujillo DME"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Reanude notificación de posición",
+    "options": [
+      "Resume position reporting",
+      "Acknowledge position reporting",
+      "Revert position reporting"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Omita informes de posición hasta Piura",
+    "options": [
+      "Skip position reports until Piura",
+      "Avoid position reports until Piura",
+      "Omit position reports until Piura"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "RVSM imposible debido a turbulencia",
+    "options": [
+      "Unable RVSM due jet blast",
+      "RVSM not possible due wake turbulence",
+      "Unable RVSM due turbulence"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "RVSM imposible debido a equipo",
+    "options": [
+      "Unable RVSM due equipment",
+      "Unable RVSM due team",
+      "Unable RVSM due equipped"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Informe capacidad para reanudar la RVSM",
+    "options": [
+      "Notify when able to resume RVSM",
+      "Report when able to resume RVSM",
+      "Say when able to resume RVSM"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Confirme capacidad para reanudar la RVSM",
+    "options": [
+      "Advise when able to resume RVSM",
+      "Inform able to resume RVSM",
+      "Confirm able to resume RVSM"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "AAL701 cruce Iremi por encima de nivel 290",
+    "options": [
+      "AAL701 cross Iremi above level 290",
+      "AAL701 cross Iremi below level 290",
+      "AAL701 cross Iremi after level 290"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "N1989F mantenga 380 mientras esté en espacio aéreo controlado",
+    "options": [
+      "N1989F maintain 380 in controlled airspace",
+      "N1989F maintain 380 while in controlled space",
+      "N1989F maintain 380 while in controlled airspace"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "DLH533 mantenga 390 hasta nuevo aviso",
+    "options": [
+      "DLH533 maintain at least 390",
+      "DLH533 maintain 390 until further advised",
+      "DLH533 maintain 390 until further adviced"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "AAL801 mantenga 370 hasta que le avise Lima control",
+    "options": [
+      "AAL801 maintain 370 until advised by Lima control",
+      "AAL801 maintain 370 until notified by Lima control",
+      "AAL801 maintain 370 until Lima control"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "N1985W mantenga nivel 350 durante 10 minutos después de pasar por Palon",
+    "options": [
+      "N1985W maintain level 350 before 10 minutes from Palon",
+      "N1985W maintain level 350 during 10 minutes before passing Palon",
+      "N1985W maintain level 350 during 10 minutes after passing Palon"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Notifique condiciones de vuelo",
+    "options": [
+      "Report weather conditions",
+      "Report flight conditions",
+      "Report fly conditions"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "N3736Y Mantenga nivel 310 hasta haber pasado Palon",
+    "options": [
+      "N3736Y maintain level 310 until reaching Palon",
+      "N3736Y maintain level 310 until passing Palon",
+      "N3736Y maintain level 310 when passing Palon"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Abandone el espacio aéreo controlado via Oyón a nivel 290",
+    "options": [
+      "Abandon controlled airspace via Oyon at level 290",
+      "Escape from controlled airspace via Oyon at level 290",
+      "Leave controlled airspace via Oyon at level 290"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Entre a espacio aéreo controlado vía Oyón a nivel 280 a las 1635",
+    "options": [
+      "Enter airspace via Oyon at level 280 at 1635",
+      "Enter controlled airspace via Oyon at level 280 at 1635",
+      "Enter controlled space via Oyon at level 280 at 1635"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "GNSS básico no disponible debido a pérdida de RAIM",
+    "options": [
+      "Basic GNSS unavailable due to lose of RAIM",
+      "Basic GNSS unavailable due to lost of RAIM",
+      "Basic GNSS unavailable due to loss of RAIM"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Efectúe aproximación directa, pista 15, viento 180 grados 14 KMH, temperatura 28, QNH 1013,7 hectopascales, sin tránsito notificado",
+    "options": [
+      "Make straight approach runway 15, wind 180 degrees 14 KMH temperature 28, QNH 1013,7 hectopascals, no traffic reported",
+      "Make straight-in approach runway 15, wind 180 degrees 14 KMH temperature 28, QNH1013,7 hectopascals, no transit notified",
+      "Make straight-in approach runway 15, wind 180 degrees 14 KMH temperature 28, QNH 1013,7 hectopascals, no traffic reported"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Ascienda directamente hasta alcanzar nivel 250",
+    "options": [
+      "Climb straight until reaching level 250",
+      "Climb straight ahead until reaching level 250",
+      "Climb straight-in until reaching level 250"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Derrota de prolongación del eje de pista",
+    "options": [
+      "Track extended centre line",
+      "Heading extended centre line",
+      "Runway extended centre line"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Continúe rumbo de pista, comunique Lima aproximación 119,7",
+    "options": [
+      "Continue runway track, contact Lima approach 119,7",
+      "Continue runway course, contact Lima approach 119,7",
+      "Continue runway heading, contact Lima approach 119,7"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Después de pasar nivel 080 comunique Lima control en 128,1",
+    "options": [
+      "After passing level 080 call Lima control on 128,1",
+      "After passing level 080 contact Lima control on 128,1",
+      "After passing level 080 communicate Lima control on 128,1"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Notificará más tarde viraje izquierda",
+    "options": [
+      "Will advise further for left turn",
+      "Will advise later for left turn",
+      "Will advise after for left turn"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Notifique en el aire",
+    "options": [
+      "Report on the air",
+      "Report departed",
+      "Report airborne"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Aprobado viraje derecha",
+    "options": [
+      "Right turn approved",
+      "Side turn approved",
+      "Straight turn approved"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Señal GNSS transmitida no fiable debido a interferencia",
+    "options": [
+      "GNSS signal unreliable due to interference",
+      "GNSS reported unreliable due to interference",
+      "GNSS notified unreliable due to interference"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Listo para reanudar RVSM",
+    "options": [
+      "Ready to resume RVSM",
+      "OK to resume RVSM",
+      "All ready to resume RVSM"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Nivel 240 no utilizable debido a tránsito como alternativas hay nivel 260 y 280, avise",
+    "options": [
+      "Level 240 not available due traffic alternatives are level 260 and 280, advise",
+      "Level 240 not available, 260 and 280, advice",
+      "Level 240 not available due traffic alternatives are level 260 and 280, inform"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "AFR201 cruce Gatuk a las 1830 o antes a nivel 280",
+    "options": [
+      "AFR201 cross Gatuk at 1830 or after at level 280",
+      "AFR201 cross Gatuk at 1830 or before at level 280",
+      "AFR201 cross Gatuk at 1830 or later at level 280"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Alcance visual en la pista 27 no disponible",
+    "options": [
+      "Runway visual range runway 27 not available",
+      "Runway visual range runway 27 not operative",
+      "Runway visual range runway 27 not notified"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Solicito viraje izquierda",
+    "options": [
+      "Request right turn",
+      "Request side turn",
+      "Request left turn"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Después de la salida vire derecha, comunique Lima aproximación en 119,7",
+    "options": [
+      "After departure turn right contact Lima aproximation on 119,7",
+      "After departure turn right contact Lima approach on 119,7",
+      "After departure turn straight contact Lima approach on 119,7"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Solicito instrucciones de salida",
+    "options": [
+      "Request departure instructions",
+      "Request depart instructions",
+      "Request departing instructions"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "En el aire 1959",
+    "options": [
+      "Airborne 1959",
+      "Departed 1959",
+      "On the air 1959"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Tránsito adicional rumbo sur B747 nivel 270 previsto en Gatuk a las 1920",
+    "options": [
+      "Additional traffic south B747 level 270 estimated Gatuk at 1920",
+      "Additional traffic southbound B747 level 270 reported Gatuk at 1920",
+      "Additional traffic southbound B747 level 270 estimated Gatuk at 1920"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Si no es posible, mantenga nivel 280 y notifique",
+    "options": [
+      "If unable maintain level 280 and advise",
+      "If possible maintain level 280 and notify",
+      "If able maintain level 280 and advise"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Mantenga propia separación y VMC por encima de 080",
+    "options": [
+      "Maintain proper separation and VMC above 080",
+      "Maintain below separation and VMC above 080",
+      "Maintain own separation and VMC above 080"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Mantenga propia separación y VMC desde 100 hasta 180",
+    "options": [
+      "Keep own separation and VMC from 100 to 180",
+      "Hold own separation and VMC from 100 to 180",
+      "Maintain own separation and VMC from 100 to 180"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Solicito descenso a las 1720",
+    "options": [
+      "Request landing at 1720",
+      "Request descent at 1720",
+      "Request lower at 1720"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Prevea ascenso a las 1500",
+    "options": [
+      "Expect climb at 1500",
+      "Predict climb at 1500",
+      "Foresee climb at 1500"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Cuando esté listo descienda hasta 200",
+    "options": [
+      "When ready descend to level 200",
+      "When you are ready descend to level 200",
+      "When is ready descend to level 200"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Acelere descenso hasta pasar por 280",
+    "options": [
+      "Accelerate descent until passing 280",
+      "Expedite descent until passing 280",
+      "Expedite landing until passing 280"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Siga ascenso hasta 350",
+    "options": [
+      "Follow climb to 350",
+      "Go on climb to 350",
+      "Continue climb to 350"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Solicite cambio de nivel a Lima control a las 1715",
+    "options": [
+      "Request level change from Lima control at 1715",
+      "Ask level change to Lima control at 1715",
+      "Request level exchange from Lima control at 1715"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Mantenga por lo menos 1000 pies por encima del N5175X",
+    "options": [
+      "Maintain at least 1000 feet below N5175X",
+      "Maintain at least 1000 feet above N5175X",
+      "Maintain at less 1000 feet above N5175X"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "AAL801, puerta 11, solicito rodaje hasta punto de espera pista 15",
+    "options": [
+      "AAL801, door 11, request taxi to holding point runway 15",
+      "AAL801, stand 11, request taxi to holding bay runway 15",
+      "AAL801, stand 11, request taxi to holding point runway 15"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Descenso TCAS",
+    "options": [
+      "TCAS",
+      "TCAS descent",
+      "TCAS climb"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Ascenso TCAS completado, reanudado ascenso a nivel 350",
+    "options": [
+      "TCAS climb finished, climb to level 350 completed",
+      "TCAS climb completed, climb to level 350 resumed",
+      "TCAS climb completed, climb to level 350 terminated"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Imposible, aviso de resolución TCAS",
+    "options": [
+      "Unable, TCAS resolution advisory",
+      "Unable, TCAS resolution report",
+      "Unable, TCAS resolution notam"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Comunique a Lima torre en 118,1 ahora",
+    "options": [
+      "Call Lima tower on 118,1 now",
+      "Notify Lima tower on 118,1 now",
+      "Contact Lima tower on 118,1 now"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Contacto negativo",
+    "options": [
+      "Contact observed",
+      "Negative observed contact",
+      "Negative contact"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Tránsito a la vista",
+    "options": [
+      "Traffic to my sight",
+      "Traffic in sight",
+      "Traffic not observed"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Estoy observando",
+    "options": [
+      "Looking out",
+      "Observing",
+      "Watching"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Ningún tránsito notificado",
+    "options": [
+      "No traffic notified",
+      "Traffic reported negative",
+      "No reported traffic"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Vuelva al distintivo de llamada del plan de vuelo",
+    "options": [
+      "Change to flight plan call sign",
+      "Come back to flight plan call sign",
+      "Revert to flight plan call sign"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Viento a nivel 350, 270 grados 14 kilómetros por hora",
+    "options": [
+      "Wind at level 350, 270 degrees 14 kilometers per hour",
+      "Wind at level 350, 270 celsius 14 kilometers per hour",
+      "Wind at level 350, 270 degrees 14 kilometers per minute"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Modifique distintivo de llamada a OB1248 hasta nuevo aviso",
+    "options": [
+      "Modify your call sign to OB1248 until further advised",
+      "Change your call sign to OB1248 until further advised",
+      "Alter your call sign to OB1248 until further advised"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Cuando esté listo comunique Lima Torre en 118,1",
+    "options": [
+      "When ready call Lima Tower on 118,1",
+      "When ready inform Lima Tower on 118,1",
+      "When ready contact Lima Tower on 118,1"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Cambio de frecuencia aprobado",
+    "options": [
+      "Frequency change approved",
+      "Frequency return approved",
+      "Return to frequency approved"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Solicito cambio a 128,1",
+    "options": [
+      "Request change to 128,1",
+      "Report change to 128,1",
+      "Ask change to 128,1"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Si no establece contacto retorne a esta frecuencia",
+    "options": [
+      "If no contact return to this frequency",
+      "If no report return to this frequency",
+      "If no established return to this frequency"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "A las 1720 llame a Guayaquil control frecuencia 123,9",
+    "options": [
+      "At 1720 call Guayaquil control frequency 123,9",
+      "At 1720 contact Guayaquil control frequency 123,9",
+      "At 1720 stand by for Guayaquil control on frequency 123,9"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Mantenga esta frecuencia",
+    "options": [
+      "Maintain this frequency",
+      "Remain this frequency",
+      "Keep this frequency"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "N1989F ascienda en crucero por encima del nivel 290",
+    "options": [
+      "N1989F cruise climb below level 290",
+      "N1989F cruise climb before level 290",
+      "N1989F cruise climb above level 290"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "B767, 10 millas, nivel 050, información Charlie, para aterrizar",
+    "options": [
+      "B767, 10 miles, level 050, information Charlie, for landing",
+      "B767, 10 miles, level 050, information Charlie, for arriving",
+      "B767, 10 miles, level 050, information Charlie, for departing"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Efectúe aproximación corta",
+    "options": [
+      "Make short approach",
+      "Do short approach",
+      "Perform short approach"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Número 2, siga a B757 en final pista 15",
+    "options": [
+      "Number 2, after B757 on final runway 15",
+      "Number 2, behind B757 on final runway 15",
+      "Number 2, follow B757 on final runway 15"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Entre en circuito de aeródromo",
+    "options": [
+      "Join the aerodrome",
+      "Circle the aerodrome",
+      "Circling the aerodrome"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Solicito aproximación en circuito, viraje a la izquierda hasta puesto de estacionamiento de helicópteros, mantenga fuera de pista activa",
+    "options": [
+      "Request circling approach, left turn to helicopters stand, hold short of active runway",
+      "Request circling approach, left turn to helicopters stand, maintain out of active runway",
+      "Request circling approach, left turn to helicopters stand, hold out of active runway"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Solicito aproximación en circuito, viraje a la izquierda hasta puesto de estacionamiento de helicópteros",
+    "options": [
+      "Request in circuit approach, left turn to helicopters stand",
+      "Request circle approach, left turn to helicopters stand",
+      "Request circling approach, left turn to helicopters stand"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Autorizado a pasada baja",
+    "options": [
+      "Cleared below pass",
+      "Cleared low pass",
+      "Cleared low landing"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Solicito pasada baja",
+    "options": [
+      "Request low pass",
+      "Request lower pass",
+      "Request below pass"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Entre en tramo a favor del viento, pista 15, QNH 1013,6 hectopascales, tránsito B747 en final pista 15",
+    "options": [
+      "Enter downwind leg, runway 15, QNH 1013,6 hectopascals, traffic B747 on final runway 15",
+      "Join downwind leg, runway 15, QNH 1013,6 hectopascals, traffic B747 on final runway 15",
+      "Come downwind leg, runway 15, QNH 1013,6 hectopascals, traffic B747 on final runway 15"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Autorizado aproximación baja pista 12",
+    "options": [
+      "Cleared lower approach runway 12",
+      "Cleared below approach runway 12",
+      "Cleared low approach runway 12"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Aterrizaje completo",
+    "options": [
+      "Make full stop",
+      "Make complete stop",
+      "Make full landing"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Autorizado para toma y despegue",
+    "options": [
+      "Cleared touch and going",
+      "Cleared touching and going",
+      "Cleared touch and go"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Pista 06 autorizado a aterrizar",
+    "options": [
+      "Runway 06 cleared to landing",
+      "Runway 06 cleared to land",
+      "Runway 06 cleared for land"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Continúe la aproximación, prepare posible motor y al aire",
+    "options": [
+      "Continue landing, prepare for possible go around",
+      "Continue approach, prepare for engine airborne",
+      "Continue approach, prepare for possible go around"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Prolongue a favor del viento",
+    "options": [
+      "Enlarge downwind",
+      "Extend downwind",
+      "Stretch downwind"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Solicito aproximación baja",
+    "options": [
+      "Request below approach",
+      "Request low approach",
+      "Request lower approach"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "(Acuse de recibo del Piloto cuando el ATC requiere detener un despegue después que la aeronave ha iniciado el recorrido de despegue): Paro",
+    "options": [
+      "Maintain",
+      "Hold",
+      "Stopping"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "(Respuesta del piloto a cancelación de autorización de despeque): Mantengo posición",
+    "options": [
+      "Holding",
+      "Maintaining",
+      "Standing by"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "(Para cancelar autorización de despegue): Mantenga posición, cancele despegue, repito, cancele despegue debido a invasión de personas en la pista",
+    "options": [
+      "Hold position, cancel take-off, repeat, cancel take-off due to invasion of persons on the runway",
+      "Hold position, cancel take-off, I say again, continue take-off due to invasion of persons on the runway",
+      "Hold position, cancel take-off, I say again, cancel take-off due to invasion of persons on the runway"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Espero fuera",
+    "options": [
+      "Holding short",
+      "Wait out",
+      "Holding out"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Mantenga posición",
+    "options": [
+      "Maintain position",
+      "Stop position",
+      "Hold position"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Rodando más despacio",
+    "options": [
+      "Taxiing slow",
+      "Slowing down",
+      "Taxiing slowly"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Precaución, ruede más despacio, personal trabajando en calle de rodaje Alpha",
+    "options": [
+      "Caution, taxi slower, personnel working on taxiway Alpha",
+      "Caution, taxi slower, personal working on taxiway Alpha",
+      "Caution, taxi slower, person working on taxiway Alpha"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Apresurando rodaje",
+    "options": [
+      "Running",
+      "Acelerating",
+      "Expediting"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Apresure el rodaje debido a tránsito",
+    "options": [
+      "Hurry up taxi due traffic",
+      "Expedite taxi due traffic",
+      "Speed up taxi due traffic"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Pista libre",
+    "options": [
+      "Runway vacated",
+      "Runway free",
+      "Runway clear"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Deje pista libre",
+    "options": [
+      "Free runway",
+      "Clear runway",
+      "Vacate runway"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Ruede a apartadero de espera",
+    "options": [
+      "Taxi into waiting bay",
+      "Taxi into holding bay",
+      "Taxi into standing bay"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Tránsito a la vista",
+    "options": [
+      "Traffic in sight",
+      "Traffic in watch",
+      "Traffic in mind"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Cedo paso a A320",
+    "options": [
+      "Giving step to A320",
+      "Giving space to A320",
+      "Giving way to A320"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Solicito cruzar pista 18",
+    "options": [
+      "Request climb runway 18",
+      "Request cross runway 18",
+      "Request abeam runway 18"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Cruce pista 20, notifique pista libre",
+    "options": [
+      "Cross runway 20, report free",
+      "Cross runway 20, report cleared",
+      "Cross runway 20, report vacated"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Apresure cruce pista 20, tránsito B757, 2 millas, final",
+    "options": [
+      "Expedite crossing runway 20, traffic B757, 2 miles, final",
+      "Acelerate crossing runway 20, traffic B757, 2 miles, final",
+      "Rapid crossing runway 20, traffic B757, 2 miles, final"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "N5175X autorizado a Miami vía ruta plan de vuelo",
+    "options": [
+      "N5175X cleared to Miami via flight planned route",
+      "N5175X recleared to Miami via flight plan route",
+      "N5175X clearance to Miami via flight planned route"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "N1234X espere autorización a las 1530",
+    "options": [
+      "N1234X wait clearance at 1530",
+      "N1234X expect clearance at 1530",
+      "N1234X hope clearance at 1530"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "N2453B prevea 20 minutos de demora debido a tránsito",
+    "options": [
+      "N2453B expect 20 minutes holding due traffic",
+      "N2453B expect 20 minutes delayed traffic",
+      "N2453B expect 20 minutes delay due traffic"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Retroceso remolcado a su discreción",
+    "options": [
+      "Backtrack at own discretion",
+      "Push back at own discretion",
+      "Start back at own discretion"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Retroceso remolcado aprobado",
+    "options": [
+      "Push back approved",
+      "Push up approved",
+      "Push down cleared"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Atención todas las aeronaves cerca de Lima Vor descenso de emergencia en progreso desde nivel 200",
+    "options": [
+      "Attention all aircraft in the vicinity of Lima Vor emergency descent in progress from level 200",
+      "Attention all aircraft in the vicinity of Lima Vor descent in progress from level 200",
+      "Attention all aircrafts in the vicinity of Lima Vor emergency descent in progress from level 200"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Ruede a punto de espera pista 15 vía calle de rodaje Alpha, espere fuera de pista 15",
+    "options": [
+      "Taxi to holding bay runway 15 via taxiway Alpha, hold short of runway 15",
+      "Taxi to holding point runway 15 via taxiway Alpha, hold short of runway 15",
+      "Taxi to holding stand runway 15 via taxiway Alpha, hold short of runway 15"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Despegue inmediatamente o espere fuera de pista",
+    "options": [
+      "Take off immediately or vacate the runway",
+      "Take off immediately or hold short of runway",
+      "Take off immediately or leave the runway"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Despegue inmediatamente o deje pista libre",
+    "options": [
+      "Take off immediately or vacate runway",
+      "Take off immediately or hold short of runway",
+      "Take off immediately or clear the runway"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Prevea su salida a las 0715 puesta en marcha a su discreción",
+    "options": [
+      "Expect departure 0715 tow up at own discretion",
+      "Expect departure 0715 start up at own discretion",
+      "Expect departure 0715 push up at own discretion"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Solicito remolque, Lufthansa B747, desde toma 5 hasta zona negra",
+    "options": [
+      "request tow, Lufthansa B747, from gate 5 to black zone",
+      "request tug, Lufthansa B747, from gate 5 to black zone",
+      "request backtrack, Lufthansa B747, from gate 5 to black zone"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Puesta en marcha a su discreción",
+    "options": [
+      "Start up at own discretion",
+      "Follow up at own discretion",
+      "Move up at own discretion"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Ponga en marcha a las 0700",
+    "options": [
+      "Tow at 0700",
+      "Start up at 0700",
+      "Push back at 0700"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Puesta en marcha aprobada",
+    "options": [
+      "Start up approved",
+      "Start up cleared",
+      "Push up approved"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Solicito puesta en marcha",
+    "options": [
+      "Request push back",
+      "Request backtrack",
+      "Request start up"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Confirme encendiendo y apagando faros de aterrizaje",
+    "options": [
+      "Acknowledge by turning on landing lights",
+      "Acknowledge by flashing landing lights",
+      "Acknowledge by turning off landing lights"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Confirme balanceando alas",
+    "options": [
+      "Acknowledge by rocking wings",
+      "Acknowledge by balancing wings",
+      "Acknowledge by moving wings"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Prevea puesta en marcha a las 0710",
+    "options": [
+      "Expect push back up at 0710",
+      "Wait start up at 0710",
+      "Expect start up at 0710"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Confirme moviendo timón de dirección",
+    "options": [
+      "Acknowledge by moving wings",
+      "Acknowledge by moving ailerons",
+      "Acknowledge by moving rudder"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Remolque aprobado via calle de rodaje Alpha",
+    "options": [
+      "Backtrack approved via taxiway Alpha",
+      "Tow approved via taxiway Alpha",
+      "Tow approved via runway Alpha"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Solicito información de salida",
+    "options": [
+      "Request departure information",
+      "Request take-off information",
+      "Request depart information"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Regreso por la pista aprobado",
+    "options": [
+      "Backtrack approved",
+      "Come back through the runway approved",
+      "Return by the runway approved"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Solicito regresar por la pista",
+    "options": [
+      "Request return by the runway",
+      "Request come back through the runway",
+      "Request backtrack"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Efectúe rodaje aéreo vía calle de rodaje Foxtrot, precaución aeronaves ligeras en rodaje",
+    "options": [
+      "Taxi via taxiway Foxtrot, caution taxiing light aircraft",
+      "Air-taxi via taxiway Foxtrot, caution taxiing light aircraft",
+      "Aero-taxi via taxiway Foxtrot, caution taxiing light aircraft"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Solicito rodaje aéreo de calle de rodaje Foxtrot a puesto de estacionamiento de helicópteros",
+    "options": [
+      "Request air-taxiing from taxiway Foxtrot to helicopters stand",
+      "Request taxiing from taxiway Foxtrot to helicopters stand",
+      "Request air-taxiing from taxiway Foxtrot to helicopters"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Ruede a puesto estacionamiento 7",
+    "options": [
+      "Taxi to parking lot 7",
+      "Taxi to parking gate 7",
+      "Taxi to stand 7"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Solicito verificación de hora",
+    "options": [
+      "Request verification of time",
+      "Request verify time",
+      "Request time check"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Ruede a zona de aviación general",
+    "options": [
+      "Taxi to general aviation zone",
+      "Taxi to general aviation area",
+      "Taxi to general aviation field"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Vire segunda intersección izquierda",
+    "options": [
+      "Turn first right",
+      "Take second left",
+      "Take second right"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Espere fuera de pista 15",
+    "options": [
+      "Wait out of runway 15",
+      "Hold short of runway 15",
+      "Hold out of runway 15"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "AZA544, B747 pesada, solicito instrucciones de rodaje detalladas",
+    "options": [
+      "AZA544, B747 heavy, request detailed taxi instructions",
+      "AZA544, B747 heavy, request taxi instructions",
+      "AZA544, B747 heavy, request minimum taxi instructions"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Ruede a punto de espera pista 15",
+    "options": [
+      "Taxi to holding bay runway 15",
+      "Taxi to holding stand runway 15",
+      "Taxi to holding point runway 15"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Solicito rodaje",
+    "options": [
+      "Request running",
+      "Request taxi",
+      "Request taxiway"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Ruede vía calle de rodaje Alpha",
+    "options": [
+      "Taxi via taxiway Alpha",
+      "Taxi via runway Alpha",
+      "Taxi via holding bay Alpha"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Encienda faros de aterrizaje",
+    "options": [
+      "Light on landing lights",
+      "Show landing lights",
+      "Start landing lights"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Solicito retroceso remolcado",
+    "options": [
+      "Request push up",
+      "Request push down",
+      "Request push back"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Revisión de hora prevista de aproximación 0932",
+    "options": [
+      "Review of expected approach time 0932",
+      "Verified expected approach time 0932",
+      "Revised expected approach time 0932"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Autorizado aproximación directa pista 15",
+    "options": [
+      "Authorized straight-in approach runway 15",
+      "Cleared straight-in approach runway 15",
+      "Cleared direct approach runway 15"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Solicito aproximación directa pista 15",
+    "options": [
+      "Request straight-in approach runway 15",
+      "Request direct approach runway 15",
+      "Request directly approach runway 15"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "N3736J inicie aproximación a las 2035",
+    "options": [
+      "N3736J begin approach at 2035",
+      "N3736J report approach at 2035",
+      "N3736J commence approach at 2035"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "N5175W Pista 15, autorizado a despegar, notifique en el aire",
+    "options": [
+      "N5175W runway 15, cleared for take-off, notify airborne",
+      "N5175W runway 15, cleared for take-off, advice airborne",
+      "N5175W runway 15, cleared for take-off, report airborne"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Ruede a posición, listo para salida inmediata",
+    "options": [
+      "Taxi up, be ready for immediate departure",
+      "Line up, be ready for immediate departure",
+      "Taxi straight, be ready for immediate departure"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Ruede a posición en pista 15",
+    "options": [
+      "Line up runway 15",
+      "Taxi up runway 15",
+      "Taxi to runway 15"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "(Para detener un despegue después que la aeronave ha iniciado el recorrido de despegue): VRG876 Pare inmediatamente, VRG876 pare inmediatamente",
+    "options": [
+      "VRG876 stop soon, VRG876 stop soon",
+      "VRG876 stop immediately, VRG876 stop immediately",
+      "VRG876 stop as soon as possible, VRG876 stop as soon as possible"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Ruede a posición y espere",
+    "options": [
+      "Line up and maintain",
+      "Line up and holding",
+      "Line up and wait"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "¿Listo para salir inmediatamente?",
+    "options": [
+      "Are you ready for immediate departure?",
+      "Are you ready for immediately departing?",
+      "Are you ready for rapid departure?"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "¿Listo para salir?",
+    "options": [
+      "Are you ready for airborne?",
+      "Are you list for departure?",
+      "Are you ready for departure?"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Notifique listo para salida",
+    "options": [
+      "Notify when ready for departure",
+      "Report when ready for departure",
+      "Advice when ready for departure"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Imposible conceder ruta salida SLS 2 debido a tránsito",
+    "options": [
+      "Unable to issue SLS 2 departure due traffic",
+      "Able to issue SLS 2 departure due traffic",
+      "Cleared to issue SLS 2 departure due traffic"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Pista libre (Nota: Cuando se le pida, el piloto notificará \"PISTA LIBRE\" cuando toda la aeronave esté más allá del punto de espera de la pista pertinente.)",
+    "options": [
+      "Runway free",
+      "Runway cleared",
+      "Runway vacated"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Espere, tránsito en final",
+    "options": [
+      "Stand by, traffic on final",
+      "Wait, traffic on final",
+      "Maintain, traffic on final"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Vuele en círculos a la izquierda desde su posición actual",
+    "options": [
+      "Flight in circles left from present position",
+      "Circle left from present position",
+      "Orbit left from present position"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Tren de aterrizaje parece desplegado",
+    "options": [
+      "Landing gear disappears down",
+      "Landing gear appears up",
+      "Landing gear appears down"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Motor y al aire",
+    "options": [
+      "Engine and to the air",
+      "Go around",
+      "Engine around"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Tránsito a las cinco, 15 millas, rumbo este, acercándose",
+    "options": [
+      "Traffic five o´clock, 15 miles, eastbound, closing",
+      "Traffic five o´clock, 15 miles, westbound, closing",
+      "Traffic five o´clock, 15 miles, eastbound, close"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Tránsito a las seis, 20 millas, rumbo norte, rápido",
+    "options": [
+      "Traffic six o´clock, 20 miles, northbound, fastly moving",
+      "Traffic six o´clock, 20 miles, northbound, faster moving",
+      "Traffic six o´clock, 20 miles, northbound, fast moving"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Tránsito a las dos, 20 millas, rumbo norte, lento",
+    "options": [
+      "Traffic two o´clock, 20 miles, northbound, fast moving",
+      "Traffic two o´clock, 20 miles, northbound, slow moving",
+      "Traffic two o´clock, 20 miles, northbound, slow motion"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Tránsito a las tres, 10 millas, rumbo sur, desconocido",
+    "options": [
+      "Traffic three o´clock, 10 miles, southbound, unknown",
+      "Traffic three o´clock, 10 miles, southbound, known",
+      "Traffic three o´clock, 10 miles, southbound, not known"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Reanude informes de posición",
+    "options": [
+      "Renew position reporting",
+      "Start position reporting",
+      "Resume position reporting"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Omita informes de posición hasta Palón",
+    "options": [
+      "Omit positions until Palon",
+      "Omit position reports until Palon",
+      "Omit reports until Palon"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Sin limitaciones de velocidad por ATC",
+    "options": [
+      "No ATC speed restrictions",
+      "No ATC restrictions",
+      "No ATC speed problems"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Reduzca a velocidad mínima de aproximación",
+    "options": [
+      "Reduce to minimum speed",
+      "Reduce to minimum straight-in approach speed",
+      "Reduce to minimum approach speed"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Reanude velocidad normal",
+    "options": [
+      "Renew normal speed",
+      "Resume normal speed",
+      "Continue normal speed"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "No exceda 200 nudos",
+    "options": [
+      "Do not exceed 200 knots",
+      "Do not pass 200 knots",
+      "Do not run 200 knots"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Mantenga 250 nudos o más hasta SLS",
+    "options": [
+      "Maintain 250 knots or more until SLS",
+      "Maintain 250 knots or less until SLS",
+      "Maintain 250 knots or greater until SLS"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Tránsito a las siete, 15 millas, rumbo sur, mismo sentido",
+    "options": [
+      "Traffic seven o´clock, 15 miles, eastbound, similar direction",
+      "Traffic seven o´clock, 15 miles, southbound, same direction",
+      "Traffic seven o´clock, 15 miles, southbound, opposite direction"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Tránsito a las dos, 15 millas, rumbo oeste, sobrepasando",
+    "options": [
+      "Traffic two o´clock, 15 miles, westbound, overpassing",
+      "Traffic two o´clock, 15 miles, westbound, overcrossing",
+      "Traffic two o´clock, 15 miles, westbound, overtaking"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "Vire izquierda inmediatamente rumbo 030 para evitar tránsito no identificado a las dos, 20 millas",
+    "options": [
+      "Turn left immediately heading 030 to avoid unidentified traffic two o ´clock, 20 miles",
+      "Turn left immediately heading 030 to skip unidentified traffic two o ´clock, 20 miles",
+      "Turn left immediately heading 030 to verify unidentified traffic two o ´clock, 20 miles"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "FRASEOLOGIA AERONAUTICA",
+    "question": "En caso de falla de radio, proceda de acuerdo a su última autorización",
+    "options": [
+      "If radio contact lost, proceed with last clearance",
+      "If radio contact lost, proceed according your last clearance",
+      "If radio contact lost, proceed according your clearance"
+    ],
+    "answer": 1
   }
 ]
