@@ -314,50 +314,137 @@
       text-align: center;
     }
 
-    .cat-grid {
-      display: flex;
-      flex-direction: column;
-      gap: 0.6rem;
-      margin-bottom: 1.5rem;
+    .field {
+      margin-bottom: 1rem;
     }
 
-    .cat-btn {
+    .field-label {
+      display: block;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .dropdown {
+      position: relative;
+      width: 100%;
+    }
+
+    .dropdown-toggle {
+      width: 100%;
       background: var(--option-bg);
       color: var(--text);
-      border: 2px solid transparent;
+      border: 2px solid var(--card-border);
       border-radius: var(--radius);
       padding: 0.9rem 1.15rem;
       font-size: 0.95rem;
       text-align: left;
       cursor: pointer;
-      transition: background 0.15s ease, border-color 0.15s ease, transform 0.1s ease;
+      transition: background 0.15s ease, border-color 0.15s ease;
       display: flex;
       justify-content: space-between;
       align-items: center;
+      gap: 0.5rem;
     }
 
-    .cat-btn:hover {
+    .dropdown-toggle:hover {
       background: var(--option-hover);
-      transform: translateX(4px);
     }
 
-    .cat-btn.selected {
+    .dropdown.open .dropdown-toggle {
       border-color: var(--accent);
-      background: rgba(99, 102, 241, 0.15);
     }
 
-    .cat-btn .cat-count {
-      font-size: 0.8rem;
+    .dropdown-toggle .chevron {
+      color: var(--text-muted);
+      transition: transform 0.15s ease;
+    }
+
+    .dropdown.open .dropdown-toggle .chevron {
+      transform: rotate(180deg);
+    }
+
+    .dropdown-panel {
+      display: none;
+      margin-top: 0.5rem;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 0.4rem;
+      max-height: 320px;
+      overflow-y: auto;
+    }
+
+    .dropdown.open .dropdown-panel {
+      display: block;
+    }
+
+    .dropdown-item {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.65rem 0.85rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.1s ease;
+      user-select: none;
+    }
+
+    .dropdown-item:hover {
+      background: var(--option-hover);
+    }
+
+    .dropdown-item input[type="checkbox"] {
+      width: 1.1rem;
+      height: 1.1rem;
+      accent-color: var(--accent);
+      cursor: pointer;
+      flex-shrink: 0;
+    }
+
+    .dropdown-item .item-label {
+      flex: 1;
+      font-size: 0.95rem;
+    }
+
+    .dropdown-item .item-count {
+      font-size: 0.78rem;
       color: var(--text-muted);
       font-weight: 600;
       background: var(--card-border);
-      padding: 0.2rem 0.6rem;
+      padding: 0.15rem 0.55rem;
       border-radius: 999px;
     }
 
-    .cat-btn.selected .cat-count {
-      background: var(--accent);
-      color: #fff;
+    .dropdown-divider {
+      height: 1px;
+      background: var(--card-border);
+      margin: 0.3rem 0;
+    }
+
+    .count-select {
+      width: 100%;
+      background: var(--option-bg);
+      color: var(--text);
+      border: 2px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 0.9rem 1.15rem;
+      font-size: 0.95rem;
+      cursor: pointer;
+      appearance: none;
+      -webkit-appearance: none;
+      background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'><path fill='%2394a3b8' d='M6 8L0 0h12z'/></svg>");
+      background-repeat: no-repeat;
+      background-position: right 1.15rem center;
+      padding-right: 2.5rem;
+    }
+
+    .count-select:focus {
+      outline: none;
+      border-color: var(--accent);
     }
 
     .start-btn {
@@ -380,6 +467,69 @@
     .start-btn:disabled {
       opacity: 0.5;
       cursor: default;
+    }
+
+    /* Study topics (end-of-quiz) */
+    .study-list {
+      text-align: left;
+      margin-top: 1.75rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--card-border);
+    }
+
+    .study-list h3 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: var(--text);
+    }
+
+    .study-item {
+      background: var(--option-bg);
+      border-left: 3px solid var(--incorrect);
+      border-radius: 8px;
+      padding: 0.9rem 1rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .study-item .study-topic {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--accent);
+      margin-bottom: 0.35rem;
+    }
+
+    .study-item .study-question {
+      font-size: 0.92rem;
+      font-weight: 600;
+      line-height: 1.45;
+      margin-bottom: 0.5rem;
+    }
+
+    .study-item .study-answer {
+      font-size: 0.88rem;
+      color: var(--correct);
+      margin-bottom: 0.5rem;
+    }
+
+    .study-item .study-reason {
+      font-size: 0.85rem;
+      line-height: 1.5;
+      color: var(--text-muted);
+      margin-bottom: 0.5rem;
+    }
+
+    .study-item .study-ref {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    .study-item .study-ref strong {
+      color: var(--text);
+      font-style: normal;
     }
 
     /* Figure images */
@@ -470,8 +620,34 @@
     let answered = false;
     let shuffledCards = [];
     let selectedCategories = new Set();
+    let missedCards = [];
+    let questionCount = 50;
 
     const letters = ['A', 'B', 'C', 'D'];
+
+    // Mapping from category to PHAK (FAA-H-8083-25C) chapter.
+    // Page numbers can be added per-card later via an optional `page` field.
+    const PHAK_CHAPTERS = {
+      'AERODINÁMICA BÁSICA':              { chapter: 5,  title: 'Aerodinámica en Vuelo',              source: 'PHAK (FAA-H-8083-25C)' },
+      'INSTRUMENTOS DE VUELO':            { chapter: 8,  title: 'Instrumentos de Vuelo',              source: 'PHAK (FAA-H-8083-25C)' },
+      'METEOROLOGÍA':                     { chapter: 12, title: 'Teoría del Tiempo',                  source: 'PHAK (FAA-H-8083-25C)' },
+      'NAVEGACIÓN':                       { chapter: 16, title: 'Navegación',                         source: 'PHAK (FAA-H-8083-25C)' },
+      'PERFORMANCE':                      { chapter: 11, title: 'Performance de la Aeronave',         source: 'PHAK (FAA-H-8083-25C)' },
+      'PROCEDIMIENTOS DE COMUNICACIÓN':   { chapter: 14, title: 'Operaciones de Aeropuerto',          source: 'PHAK / AIM' },
+      'PROCEDIMIENTOS Y OPERACIONES':     { chapter: 14, title: 'Operaciones de Aeropuerto',          source: 'PHAK (FAA-H-8083-25C)' },
+      'REGLAMENTACIÓN':                   { chapter: null, title: 'Regulaciones (14 CFR Partes 61 y 91)', source: 'FAR/AIM' },
+      'SERVICIO METEOROLÓGICO':           { chapter: 13, title: 'Servicios Meteorológicos de Aviación', source: 'PHAK (FAA-H-8083-25C)' },
+      'SISTEMAS DE AERONAVES':            { chapter: 7,  title: 'Sistemas de la Aeronave',            source: 'PHAK (FAA-H-8083-25C)' },
+      'VUELO EN RUTA':                    { chapter: 15, title: 'Espacio Aéreo',                      source: 'PHAK (FAA-H-8083-25C)' },
+      'FRASEOLOGIA AERONAUTICA':          { chapter: 14, title: 'Operaciones de Aeropuerto',          source: 'PHAK / AIM' }
+    };
+
+    function handbookRef(category) {
+      const info = PHAK_CHAPTERS[category];
+      if (!info) return null;
+      const chapterPart = info.chapter != null ? `Capítulo ${info.chapter}: ${info.title}` : info.title;
+      return { chapterPart, source: info.source };
+    }
 
     function shuffle(arr) {
       const a = [...arr];
@@ -520,6 +696,10 @@
       return Object.entries(map).sort((a, b) => a[0].localeCompare(b[0]));
     }
 
+    function toggleCatDropdown() {
+      document.getElementById('cat-dropdown').classList.toggle('open');
+    }
+
     function toggleCategory(cat) {
       if (selectedCategories.has(cat)) {
         selectedCategories.delete(cat);
@@ -539,27 +719,47 @@
       updatePickerUI();
     }
 
+    function onCountChange() {
+      const v = document.getElementById('count-select').value;
+      questionCount = v === 'all' ? 'all' : parseInt(v, 10);
+      updatePickerUI();
+    }
+
+    function pickerTargetCount() {
+      const available = flashcards.filter(c => selectedCategories.has(c.category)).length;
+      if (questionCount === 'all') return available;
+      return Math.min(available, questionCount);
+    }
+
     function updatePickerUI() {
       const cats = getCategories();
-      const allSelected = selectedCategories.size === cats.length;
+      const allSelected = cats.length > 0 && selectedCategories.size === cats.length;
 
-      // Update category buttons
-      document.querySelectorAll('.cat-btn[data-cat]').forEach(btn => {
-        const cat = btn.dataset.cat;
-        if (cat === '__all__') {
-          btn.classList.toggle('selected', allSelected);
-        } else {
-          btn.classList.toggle('selected', selectedCategories.has(cat));
-        }
+      const allCb = document.getElementById('cat-all');
+      if (allCb) allCb.checked = allSelected;
+      document.querySelectorAll('.dropdown-item input[data-cat]').forEach(cb => {
+        cb.checked = selectedCategories.has(cb.dataset.cat);
       });
 
-      // Update start button
-      const total = flashcards.filter(c => selectedCategories.has(c.category)).length;
+      const label = document.getElementById('cat-label');
+      if (label) {
+        if (selectedCategories.size === 0) {
+          label.textContent = 'Selecciona materias';
+        } else if (allSelected) {
+          label.textContent = `Todas las materias (${cats.length})`;
+        } else if (selectedCategories.size === 1) {
+          label.textContent = [...selectedCategories][0];
+        } else {
+          label.textContent = `${selectedCategories.size} materias seleccionadas`;
+        }
+      }
+
+      const target = pickerTargetCount();
       const startBtn = document.getElementById('start-btn');
-      startBtn.disabled = total === 0;
-      startBtn.textContent = total === 0
+      startBtn.disabled = target === 0;
+      startBtn.textContent = target === 0
         ? 'Selecciona una materia'
-        : `Comenzar (${total} pregunta${total !== 1 ? 's' : ''})`;
+        : `Comenzar (${target} pregunta${target !== 1 ? 's' : ''})`;
     }
 
     function showCategoryPicker() {
@@ -573,39 +773,111 @@
         cats.forEach(([cat]) => selectedCategories.add(cat));
       }
 
-      const allSelected = selectedCategories.size === cats.length;
-      const total = flashcards.filter(c => selectedCategories.has(c.category)).length;
+      const countOptions = [25, 50, 75, 100, 150, 200];
 
       document.getElementById('main').innerHTML = `
         <div class="picker">
-          <h2>Selecciona materias</h2>
-          <div class="cat-grid">
-            <button class="cat-btn${allSelected ? ' selected' : ''}" data-cat="__all__" onclick="selectAllCategories()">
-              <span>Todas las materias</span>
-              <span class="cat-count">${flashcards.length}</span>
-            </button>
-            ${cats.map(([cat, count]) => `
-              <button class="cat-btn${selectedCategories.has(cat) ? ' selected' : ''}" data-cat="${cat}" onclick="toggleCategory('${cat.replace(/'/g, "\\'")}')">
-                <span>${cat}</span>
-                <span class="cat-count">${count}</span>
+          <h2>Configura tu examen</h2>
+
+          <div class="field">
+            <label class="field-label">Materias</label>
+            <div class="dropdown" id="cat-dropdown">
+              <button type="button" class="dropdown-toggle" onclick="toggleCatDropdown()">
+                <span id="cat-label">Cargando...</span>
+                <span class="chevron">&#9662;</span>
               </button>
-            `).join('')}
+              <div class="dropdown-panel">
+                <label class="dropdown-item">
+                  <input type="checkbox" id="cat-all" onchange="selectAllCategories()">
+                  <span class="item-label"><strong>Todas las materias</strong></span>
+                  <span class="item-count">${flashcards.length}</span>
+                </label>
+                <div class="dropdown-divider"></div>
+                ${cats.map(([cat, count]) => `
+                  <label class="dropdown-item">
+                    <input type="checkbox" data-cat="${cat.replace(/"/g, '&quot;')}" onchange="toggleCategory('${cat.replace(/'/g, "\\'")}')">
+                    <span class="item-label">${cat}</span>
+                    <span class="item-count">${count}</span>
+                  </label>
+                `).join('')}
+              </div>
+            </div>
           </div>
-          <button class="start-btn" id="start-btn" onclick="startQuiz()">
-            Comenzar (${total} pregunta${total !== 1 ? 's' : ''})
-          </button>
+
+          <div class="field">
+            <label class="field-label" for="count-select">Número de preguntas</label>
+            <select class="count-select" id="count-select" onchange="onCountChange()">
+              ${countOptions.map(n =>
+                `<option value="${n}"${n === questionCount ? ' selected' : ''}>${n} preguntas</option>`
+              ).join('')}
+              <option value="all"${questionCount === 'all' ? ' selected' : ''}>Todas las preguntas</option>
+            </select>
+          </div>
+
+          <button class="start-btn" id="start-btn" onclick="startQuiz()">Comenzar</button>
         </div>
       `;
+
+      // Close dropdown when clicking outside
+      document.addEventListener('click', outsideDropdownClick, true);
+
+      updatePickerUI();
+    }
+
+    function outsideDropdownClick(e) {
+      const dd = document.getElementById('cat-dropdown');
+      if (dd && dd.classList.contains('open') && !dd.contains(e.target)) {
+        dd.classList.remove('open');
+      }
+    }
+
+    // Round-robin stratified sample: shuffle each category's cards, then
+    // pick one at a time from each selected category until the target is
+    // reached. Guarantees at least one card from every selected category
+    // when target >= number of categories.
+    function stratifiedSample(pool, targetCount, categoriesInOrder) {
+      if (targetCount >= pool.length) return shuffle(pool);
+
+      const buckets = new Map();
+      categoriesInOrder.forEach(cat => buckets.set(cat, []));
+      pool.forEach(c => {
+        if (buckets.has(c.category)) buckets.get(c.category).push(c);
+      });
+      buckets.forEach((arr, k) => buckets.set(k, shuffle(arr)));
+
+      const cats = [...buckets.keys()].filter(k => buckets.get(k).length > 0);
+      const result = [];
+      let drew = true;
+      while (result.length < targetCount && drew) {
+        drew = false;
+        for (const cat of cats) {
+          if (result.length >= targetCount) break;
+          const b = buckets.get(cat);
+          if (b.length > 0) {
+            result.push(b.pop());
+            drew = true;
+          }
+        }
+      }
+      return shuffle(result);
     }
 
     function startQuiz() {
       const filtered = flashcards.filter(c => selectedCategories.has(c.category));
       if (filtered.length === 0) return;
 
+      const target = questionCount === 'all'
+        ? filtered.length
+        : Math.min(filtered.length, questionCount);
+
+      const selectedInOrder = [...selectedCategories];
+      shuffledCards = stratifiedSample(filtered, target, selectedInOrder);
+
       document.querySelector('.progress-bar-container').style.display = '';
-      shuffledCards = shuffle(filtered);
+      document.removeEventListener('click', outsideDropdownClick, true);
       currentIndex = 0;
       correctCount = 0;
+      missedCards = [];
       answered = false;
       renderCard();
     }
@@ -678,6 +950,7 @@
         feedback.className = 'feedback show correct';
         feedback.innerHTML = '&#10003; &#160; &#161;Correcto!';
       } else {
+        missedCards.push({ card, selected });
         buttons[selected].classList.add('incorrect');
         buttons[card.answer].classList.add('correct');
         feedback.className = 'feedback show incorrect';
@@ -701,9 +974,63 @@
       renderCard();
     }
 
+    function escapeHtml(s) {
+      return String(s)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    function renderStudyList() {
+      if (missedCards.length === 0) return '';
+
+      // Group missed cards by category and sort categories by miss count (desc)
+      const byCat = new Map();
+      missedCards.forEach(m => {
+        if (!byCat.has(m.card.category)) byCat.set(m.card.category, []);
+        byCat.get(m.card.category).push(m);
+      });
+      const orderedCats = [...byCat.entries()].sort((a, b) => b[1].length - a[1].length);
+
+      const itemsHtml = orderedCats.map(([cat, misses]) => {
+        const ref = handbookRef(cat);
+        return misses.map(m => {
+          const card = m.card;
+          const correctText = card.options[card.answer];
+          const reasonHtml = card.reason
+            ? `<div class="study-reason">${escapeHtml(card.reason)}</div>`
+            : '';
+          const pageHtml = card.page
+            ? ` &mdash; pág. ${escapeHtml(card.page)}`
+            : '';
+          const refHtml = ref
+            ? `<div class="study-ref"><strong>${escapeHtml(ref.chapterPart)}</strong> &middot; ${escapeHtml(ref.source)}${pageHtml}</div>`
+            : '';
+          return `
+            <div class="study-item">
+              <div class="study-topic">${escapeHtml(cat)}</div>
+              <div class="study-question">${escapeHtml(card.question)}</div>
+              <div class="study-answer">&#10003; ${escapeHtml(correctText)}</div>
+              ${reasonHtml}
+              ${refHtml}
+            </div>
+          `;
+        }).join('');
+      }).join('');
+
+      return `
+        <div class="study-list">
+          <h3>Temas a estudiar (${missedCards.length})</h3>
+          ${itemsHtml}
+        </div>
+      `;
+    }
+
     function renderResults() {
       const total = shuffledCards.length;
-      const pct = Math.round((correctCount / total) * 100);
+      const pct = total > 0 ? Math.round((correctCount / total) * 100) : 0;
 
       document.getElementById('progress-fill').style.width = '100%';
       document.getElementById('progress-text').textContent = 'Completado';
@@ -728,6 +1055,7 @@
           <div class="score-detail">${correctCount} de ${total} respuestas correctas</div>
           <button class="restart-btn" onclick="startQuiz()">Intentar de nuevo</button>
           <button class="restart-btn" style="margin-top:0.75rem;background:var(--card-border);" onclick="showCategoryPicker()">Cambiar materias</button>
+          ${renderStudyList()}
         </div>
       `;
     }
