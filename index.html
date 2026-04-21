@@ -532,6 +532,24 @@
       font-style: normal;
     }
 
+    .pages-ref {
+      margin-top: 0.75rem;
+      font-size: 0.85rem;
+      display: none;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+
+    .pages-ref.show {
+      display: flex;
+    }
+
+    .pages-ref-label {
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
     .page-link {
       display: inline-flex;
       align-items: center;
@@ -948,6 +966,7 @@
           </div>
           <div class="feedback" id="feedback"></div>
           <div class="reason" id="reason"></div>
+          <div class="pages-ref" id="pages-ref"></div>
           <button class="next-btn" id="next-btn" onclick="nextCard()">
             ${currentIndex < shuffledCards.length - 1 ? 'Siguiente' : 'Ver resultados'}
           </button>
@@ -988,6 +1007,15 @@
         const reasonEl = document.getElementById('reason');
         reasonEl.innerHTML = `<div class="reason-label">¿Por qué?</div>${card.reason}`;
         reasonEl.classList.add('show');
+      }
+
+      if (card.pages && card.pages.length) {
+        const pagesEl = document.getElementById('pages-ref');
+        const links = card.pages.map(p =>
+          `<a class="page-link" href="pdf-viewer.html?page=${p}" target="_blank">pág. ${p}</a>`
+        ).join(' ');
+        pagesEl.innerHTML = `<span class="pages-ref-label">Estudiar en el manual:</span> ${links}`;
+        pagesEl.classList.add('show');
       }
 
       nextBtn.classList.add('show');
