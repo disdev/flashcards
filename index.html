@@ -532,6 +532,30 @@
       font-style: normal;
     }
 
+    .page-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      color: var(--accent);
+      font-style: normal;
+      font-weight: 600;
+      text-decoration: none;
+      background: rgba(99,102,241,0.12);
+      border: 1px solid rgba(99,102,241,0.3);
+      border-radius: 4px;
+      padding: 0.05rem 0.45rem;
+      transition: background 0.15s;
+    }
+
+    .page-link:hover {
+      background: rgba(99,102,241,0.25);
+    }
+
+    .page-link::before {
+      content: '📄';
+      font-size: 0.7rem;
+    }
+
     /* Figure images */
     .figures {
       display: flex;
@@ -1002,9 +1026,12 @@
           const reasonHtml = card.reason
             ? `<div class="study-reason">${escapeHtml(card.reason)}</div>`
             : '';
-          const pageHtml = card.page
-            ? ` &mdash; pág. ${escapeHtml(card.page)}`
+          const pageLinks = (card.pages && card.pages.length)
+            ? card.pages.map(p =>
+                `<a class="page-link" href="pdf-viewer.html?page=${p}" target="_blank">pág. ${p}</a>`
+              ).join(' ')
             : '';
+          const pageHtml = pageLinks ? ` &mdash; ${pageLinks}` : '';
           const refHtml = ref
             ? `<div class="study-ref"><strong>${escapeHtml(ref.chapterPart)}</strong> &middot; ${escapeHtml(ref.source)}${pageHtml}</div>`
             : '';
