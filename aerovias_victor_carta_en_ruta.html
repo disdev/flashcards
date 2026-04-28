@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+  body { margin: 0; font-family: var(--font-sans, sans-serif); background: transparent; color: var(--color-text-primary); }
+  #tabs { display: flex; gap: 8px; padding: 12px 16px 0; }
+  .tab { padding: 7px 16px; border-radius: 8px 8px 0 0; border: 1px solid var(--color-border-tertiary); border-bottom: none; font-size: 13px; cursor: pointer; background: var(--color-background-secondary); color: var(--color-text-secondary); }
+  .tab.active { background: var(--color-background-primary); color: var(--color-text-primary); font-weight: 500; }
+  #panel { border: 1px solid var(--color-border-tertiary); border-radius: 0 8px 8px 8px; margin: 0 16px 16px; padding: 0; overflow: hidden; }
+  svg text { font-family: var(--font-sans, sans-serif); }
+  #legend { display: flex; gap: 20px; flex-wrap: wrap; padding: 10px 16px; font-size: 12px; border-top: 1px solid var(--color-border-tertiary); color: var(--color-text-secondary); }
+  .leg { display: flex; align-items: center; gap: 6px; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; }
+</style>
+
+<div id="tabs">
+  <div class="tab active" onclick="show(0)">1. Etiqueta de aerovía</div>
+  <div class="tab" onclick="show(1)">2. Caja MEA</div>
+  <div class="tab" onclick="show(2)">3. Radiales y dirección</div>
+  <div class="tab" onclick="show(3)">4. Trazar una ruta</div>
+</div>
+
+<div id="panel">
+  <!-- TAB 0: Airway label -->
+  <svg id="t0" width="100%" viewBox="0 0 648 340">
+    <!-- Airway line -->
+    <line x1="60" y1="170" x2="588" y2="170" stroke="#378ADD" stroke-width="2.5"/>
+    <!-- Airway label box -->
+    <rect x="274" y="148" width="100" height="26" rx="4" fill="#E6F1FB" stroke="#378ADD" stroke-width="1.5"/>
+    <text x="324" y="165" text-anchor="middle" font-size="14" font-weight="500" fill="#0C447C">V-27</text>
+    <!-- Arrows pointing at parts -->
+    <!-- V prefix -->
+    <line x1="290" y1="136" x2="285" y2="110" stroke="#888780" stroke-width="1" stroke-dasharray="3 3"/>
+    <text x="245" y="104" text-anchor="middle" font-size="12" fill="#5F5E5A">"V" = aerovía Victor</text>
+    <text x="245" y="120" text-anchor="middle" font-size="12" fill="#5F5E5A">(VHF, vuelo por instrumentos)</text>
+    <!-- Number -->
+    <line x1="345" y1="136" x2="380" y2="110" stroke="#888780" stroke-width="1" stroke-dasharray="3 3"/>
+    <text x="430" y="104" text-anchor="middle" font-size="12" fill="#5F5E5A">Número único que identifica</text>
+    <text x="430" y="120" text-anchor="middle" font-size="12" fill="#5F5E5A">este segmento de ruta</text>
+    <!-- VOR stations -->
+    <polygon points="100,170 120,152 140,170 120,188" fill="none" stroke="#185FA5" stroke-width="2"/>
+    <circle cx="120" cy="170" r="4" fill="#185FA5"/>
+    <text x="120" y="210" text-anchor="middle" font-size="11" fill="#185FA5" font-weight="500">LIMA VOR</text>
+    <text x="120" y="224" text-anchor="middle" font-size="11" fill="#185FA5">116.3</text>
+    <polygon points="508,170 528,152 548,170 528,188" fill="none" stroke="#185FA5" stroke-width="2"/>
+    <circle cx="528" cy="170" r="4" fill="#185FA5"/>
+    <text x="528" y="210" text-anchor="middle" font-size="11" fill="#185FA5" font-weight="500">CUZCO VOR</text>
+    <text x="528" y="224" text-anchor="middle" font-size="11" fill="#185FA5">113.8</text>
+    <!-- Course numbers on line -->
+    <text x="220" y="160" text-anchor="middle" font-size="12" fill="#5F5E5A">092°</text>
+    <text x="430" y="160" text-anchor="middle" font-size="12" fill="#5F5E5A">272°</text>
+    <!-- Arrows showing direction -->
+    <line x1="190" y1="170" x2="210" y2="170" stroke="#5F5E5A" stroke-width="1" marker-end="url(#arr2)"/>
+    <line x1="460" y1="170" x2="440" y2="170" stroke="#5F5E5A" stroke-width="1" marker-end="url(#arr2)"/>
+    <defs>
+      <marker id="arr2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+        <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </marker>
+    </defs>
+    <text x="324" y="310" text-anchor="middle" font-size="12" fill="#888780">Los rumbos magnéticos se muestran a cada lado del identificador</text>
+  </svg>
+
+  <!-- TAB 1: MEA box -->
+  <svg id="t1" width="100%" viewBox="0 0 648 340" style="display:none">
+    <defs>
+      <marker id="arr3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+        <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </marker>
+    </defs>
+    <line x1="60" y1="190" x2="588" y2="190" stroke="#378ADD" stroke-width="2.5"/>
+    <rect x="274" y="168" width="100" height="26" rx="4" fill="#E6F1FB" stroke="#378ADD" stroke-width="1.5"/>
+    <text x="324" y="185" text-anchor="middle" font-size="14" font-weight="500" fill="#0C447C">V-27</text>
+    <!-- MEA box -->
+    <rect x="274" y="130" width="100" height="26" rx="4" fill="#EAF3DE" stroke="#3B6D11" stroke-width="1.5"/>
+    <text x="324" y="147" text-anchor="middle" font-size="14" font-weight="500" fill="#27500A">13000</text>
+    <!-- Arrow to MEA -->
+    <line x1="374" y1="143" x2="430" y2="105" stroke="#888780" stroke-width="1" stroke-dasharray="3 3"/>
+    <text x="500" y="96" text-anchor="middle" font-size="12" fill="#5F5E5A">MEA = Altitud Mínima</text>
+    <text x="500" y="112" text-anchor="middle" font-size="12" fill="#5F5E5A">de Envergadura</text>
+    <text x="500" y="128" text-anchor="middle" font-size="12" fill="#27500A" font-weight="500">No volar por debajo de</text>
+    <text x="500" y="144" text-anchor="middle" font-size="12" fill="#27500A" font-weight="500">13,000 pies en esta ruta</text>
+    <!-- Terrain below -->
+    <polygon points="60,280 130,220 200,250 280,200 360,240 440,210 520,230 588,280" fill="#D3D1C7" opacity="0.5"/>
+    <polygon points="60,300 588,300 588,280 520,230 440,210 360,240 280,200 200,250 130,220 60,280" fill="#B4B2A9" opacity="0.4"/>
+    <!-- Aircraft -->
+    <text x="324" y="118" text-anchor="middle" font-size="18">✈</text>
+    <!-- Clearance arrow -->
+    <line x1="324" y1="122" x2="324" y2="200" stroke="#E24B4A" stroke-width="1" stroke-dasharray="4 3"/>
+    <text x="340" y="168" font-size="11" fill="#A32D2D">↕ margen</text>
+    <!-- Label terrain -->
+    <text x="120" y="292" text-anchor="middle" font-size="11" fill="#5F5E5A">Terreno / obstáculos</text>
+    <!-- Also note about reception -->
+    <text x="324" y="322" text-anchor="middle" font-size="12" fill="#888780">El MEA también garantiza recepción del VOR en ese segmento</text>
+  </svg>
+
+  <!-- TAB 2: Radials -->
+  <svg id="t2" width="100%" viewBox="0 0 648 360" style="display:none">
+    <defs>
+      <marker id="arr4" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+        <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </marker>
+    </defs>
+    <!-- VOR A left -->
+    <polygon points="140,200 160,182 180,200 160,218" fill="none" stroke="#185FA5" stroke-width="2"/>
+    <circle cx="160" cy="200" r="4" fill="#185FA5"/>
+    <text x="160" y="235" text-anchor="middle" font-size="11" fill="#185FA5" font-weight="500">VOR LIMA</text>
+    <!-- VOR B right -->
+    <polygon points="468,200 488,182 508,200 488,218" fill="none" stroke="#185FA5" stroke-width="2"/>
+    <circle cx="488" cy="200" r="4" fill="#185FA5"/>
+    <text x="488" y="235" text-anchor="middle" font-size="11" fill="#185FA5" font-weight="500">VOR CUZCO</text>
+    <!-- Airway line -->
+    <line x1="180" y1="200" x2="468" y2="200" stroke="#378ADD" stroke-width="2.5"/>
+    <rect x="294" y="178" width="60" height="22" rx="4" fill="#E6F1FB" stroke="#378ADD" stroke-width="1.2"/>
+    <text x="324" y="193" text-anchor="middle" font-size="12" font-weight="500" fill="#0C447C">V-27</text>
+    <!-- Radial FROM Lima -->
+    <line x1="160" y1="200" x2="60" y2="200" stroke="#E24B4A" stroke-width="1.2" stroke-dasharray="5 4" marker-end="url(#arr4)"/>
+    <text x="110" y="190" text-anchor="middle" font-size="11" fill="#A32D2D">R-272°</text>
+    <!-- Radial TO Cuzco -->
+    <line x1="488" y1="200" x2="590" y2="200" stroke="#E24B4A" stroke-width="1.2" stroke-dasharray="5 4" marker-end="url(#arr4)"/>
+    <text x="538" y="190" text-anchor="middle" font-size="11" fill="#A32D2D">R-092°</text>
+    <!-- Explanation boxes -->
+    <rect x="30" y="260" width="268" height="72" rx="8" fill="#FCEBEB" stroke="#F09595" stroke-width="0.8"/>
+    <text x="164" y="280" text-anchor="middle" font-size="12" font-weight="500" fill="#501313">Saliendo de LIMA</text>
+    <text x="164" y="297" text-anchor="middle" font-size="11" fill="#791F1F">La aerovía sale por el radial 092°</text>
+    <text x="164" y="313" text-anchor="middle" font-size="11" fill="#791F1F">(rumbo magnético hacia el este)</text>
+    <text x="164" y="329" text-anchor="middle" font-size="11" fill="#791F1F">En la carta verás: "092°"</text>
+    <rect x="350" y="260" width="268" height="72" rx="8" fill="#FCEBEB" stroke="#F09595" stroke-width="0.8"/>
+    <text x="484" y="280" text-anchor="middle" font-size="12" font-weight="500" fill="#501313">Llegando a CUZCO</text>
+    <text x="484" y="297" text-anchor="middle" font-size="11" fill="#791F1F">La aerovía llega por el radial 272°</text>
+    <text x="484" y="313" text-anchor="middle" font-size="11" fill="#791F1F">(rumbo magnético hacia el oeste)</text>
+    <text x="484" y="329" text-anchor="middle" font-size="11" fill="#791F1F">En la carta verás: "272°"</text>
+    <!-- Key note -->
+    <text x="324" y="106" text-anchor="middle" font-size="12" fill="#5F5E5A">El radial define el curso — los dos números suman ~180° (son opuestos)</text>
+    <text x="324" y="124" text-anchor="middle" font-size="13" font-weight="500" fill="#185FA5">092° + 272° = misma línea, sentidos opuestos</text>
+  </svg>
+
+  <!-- TAB 3: Trace a route -->
+  <svg id="t3" width="100%" viewBox="0 0 648 380" style="display:none">
+    <defs>
+      <marker id="arr5" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+        <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </marker>
+    </defs>
+    <!-- Three VORs -->
+    <!-- A -->
+    <polygon points="80,190 100,172 120,190 100,208" fill="none" stroke="#185FA5" stroke-width="2"/>
+    <circle cx="100" cy="190" r="4" fill="#185FA5"/>
+    <text x="100" y="225" text-anchor="middle" font-size="11" fill="#185FA5" font-weight="500">VOR ALFA</text>
+    <!-- B (junction) -->
+    <polygon points="288,140 308,122 328,140 308,158" fill="none" stroke="#185FA5" stroke-width="2"/>
+    <circle cx="308" cy="140" r="4" fill="#185FA5"/>
+    <text x="308" y="175" text-anchor="middle" font-size="11" fill="#185FA5" font-weight="500">VOR BETA</text>
+    <text x="308" y="189" text-anchor="middle" font-size="11" fill="#888780">(intersección)</text>
+    <!-- C -->
+    <polygon points="528,190 548,172 568,190 548,208" fill="none" stroke="#185FA5" stroke-width="2"/>
+    <circle cx="548" cy="190" r="4" fill="#185FA5"/>
+    <text x="548" y="225" text-anchor="middle" font-size="11" fill="#185FA5" font-weight="500">VOR GAMMA</text>
+    <!-- D (off route) -->
+    <polygon points="288,290 308,272 328,290 308,308" fill="none" stroke="#888780" stroke-width="1.5"/>
+    <circle cx="308" cy="290" r="3" fill="#888780"/>
+    <text x="308" y="325" text-anchor="middle" font-size="11" fill="#888780">VOR DELTA</text>
+    <!-- Routes -->
+    <!-- V-10: A to B -->
+    <line x1="120" y1="190" x2="288" y2="140" stroke="#378ADD" stroke-width="2.5"/>
+    <rect x="175" y="148" width="50" height="20" rx="4" fill="#E6F1FB" stroke="#378ADD" stroke-width="1.2"/>
+    <text x="200" y="162" text-anchor="middle" font-size="11" font-weight="500" fill="#0C447C">V-10</text>
+    <!-- V-27: B to C -->
+    <line x1="328" y1="140" x2="528" y2="190" stroke="#378ADD" stroke-width="2.5"/>
+    <rect x="395" y="148" width="50" height="20" rx="4" fill="#E6F1FB" stroke="#378ADD" stroke-width="1.2"/>
+    <text x="420" y="162" text-anchor="middle" font-size="11" font-weight="500" fill="#0C447C">V-27</text>
+    <!-- V-15: B to D (not selected) -->
+    <line x1="308" y1="158" x2="308" y2="272" stroke="#B4B2A9" stroke-width="1.5" stroke-dasharray="6 4"/>
+    <rect x="316" y="208" width="50" height="20" rx="4" fill="#F1EFE8" stroke="#888780" stroke-width="1"/>
+    <text x="341" y="222" text-anchor="middle" font-size="11" fill="#5F5E5A">V-15</text>
+    <!-- Aircraft on route -->
+    <text x="155" y="168" text-anchor="middle" font-size="16">✈</text>
+    <!-- Route highlight -->
+    <line x1="120" y1="190" x2="288" y2="140" stroke="#1D9E75" stroke-width="4" stroke-dasharray="8 4" opacity="0.45"/>
+    <line x1="328" y1="140" x2="528" y2="190" stroke="#1D9E75" stroke-width="4" stroke-dasharray="8 4" opacity="0.45"/>
+    <!-- Step labels -->
+    <rect x="30" y="340" width="180" height="30" rx="6" fill="#E1F5EE" stroke="#5DCAA5" stroke-width="0.8"/>
+    <text x="120" y="359" text-anchor="middle" font-size="11" fill="#085041">① Identificar VOR de salida</text>
+    <rect x="234" y="340" width="180" height="30" rx="6" fill="#E1F5EE" stroke="#5DCAA5" stroke-width="0.8"/>
+    <text x="324" y="359" text-anchor="middle" font-size="11" fill="#085041">② Seguir aerovía hasta intersección</text>
+    <rect x="438" y="340" width="180" height="30" rx="6" fill="#E1F5EE" stroke="#5DCAA5" stroke-width="0.8"/>
+    <text x="528" y="359" text-anchor="middle" font-size="11" fill="#085041">③ Cambiar a siguiente aerovía</text>
+    <!-- Note -->
+    <text x="324" y="52" text-anchor="middle" font-size="12" fill="#5F5E5A">Ruta seleccionada: ALFA → BETA → GAMMA (V-10 luego V-27)</text>
+    <text x="324" y="70" text-anchor="middle" font-size="12" fill="#888780">V-15 hacia DELTA existe pero no es parte de esta ruta</text>
+  </svg>
+</div>
+
+<div id="legend">
+  <div class="leg"><div class="dot" style="background:#185FA5"></div><span>Estación VOR</span></div>
+  <div class="leg"><div class="dot" style="background:#378ADD;border-radius:2px;width:18px;height:4px"></div><span>Aerovía Victor</span></div>
+  <div class="leg"><div class="dot" style="background:#3B6D11;border-radius:2px;width:18px;height:4px"></div><span>Ruta seleccionada</span></div>
+  <div class="leg"><div class="dot" style="background:#888780;border-radius:2px;width:18px;height:4px"></div><span>Ruta no seleccionada</span></div>
+</div>
+
+<script>
+function show(i) {
+  ['t0','t1','t2','t3'].forEach((id,j) => {
+    document.getElementById(id).style.display = j===i ? 'block' : 'none';
+    document.querySelectorAll('.tab')[j].classList.toggle('active', j===i);
+  });
+}
+</script>
+</body>
+</html>
