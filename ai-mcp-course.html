@@ -1,0 +1,688 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plugged In — AI, MCP &amp; Your Data</title>
+<style>
+  :root{
+    --ground:#0B181D;
+    --panel:#12242B;
+    --panel-2:#0F1F25;
+    --line:rgba(146,184,188,.20);
+    --line-soft:rgba(146,184,188,.11);
+    --text:#E8E4D8;
+    --muted:#93A8A8;
+    --faint:#5F7679;
+    --model:#56C6D2;
+    --model-dim:rgba(86,198,210,.14);
+    --data:#E3A44A;
+    --data-dim:rgba(227,164,74,.13);
+    --sans:system-ui,"Segoe UI","Helvetica Neue",Arial,sans-serif;
+    --mono:ui-monospace,"SF Mono","Cascadia Code","JetBrains Mono",Menlo,Consolas,monospace;
+  }
+  html,body{height:100%;}
+  body{
+    margin:0;background:var(--ground);color:var(--text);
+    font-family:var(--sans);overflow:hidden;
+  }
+  .viewport{position:fixed;inset:0;display:grid;place-items:center;background:var(--ground);}
+  .stage{
+    position:relative;width:1280px;height:720px;flex:none;
+    transform-origin:center center;
+    background:
+      radial-gradient(rgba(146,184,188,.075) 1px, transparent 1.2px) 0 0/28px 28px,
+      var(--ground);
+    box-shadow:0 0 0 1px var(--line-soft);
+  }
+
+  /* ---------- slide chrome ---------- */
+  .slide{
+    position:absolute;inset:0;padding:64px 76px 84px;
+    display:none;flex-direction:column;box-sizing:border-box;
+  }
+  .slide.on{display:flex;animation:rise .28s ease-out;}
+  @keyframes rise{from{opacity:0;transform:translateY(12px);}to{opacity:1;transform:none;}}
+  @media (prefers-reduced-motion:reduce){.slide.on{animation:none;}}
+
+  .topbar{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:34px;}
+  .eyebrow{
+    font-family:var(--mono);font-size:14px;letter-spacing:.18em;
+    text-transform:uppercase;color:var(--muted);
+  }
+  .eyebrow b{color:var(--data);font-weight:400;}
+  .pageno{font-family:var(--mono);font-size:14px;color:var(--faint);letter-spacing:.08em;}
+
+  h1,h2,h3{margin:0;font-weight:750;letter-spacing:-.025em;text-wrap:balance;}
+  h2{font-size:46px;line-height:1.08;margin-bottom:26px;}
+  .lede{font-size:22px;line-height:1.5;color:var(--muted);max-width:62ch;margin:0 0 28px;}
+  .lede strong{color:var(--text);font-weight:600;}
+
+  em.m,em.d{font-style:normal;}
+  em.m{color:var(--model);}
+  em.d{color:var(--data);}
+
+  .grow{flex:1;min-height:0;}
+  .bottomline{
+    margin-top:auto;padding-top:22px;border-top:1px solid var(--line-soft);
+    font-size:19px;color:var(--muted);
+  }
+  .bottomline b{color:var(--text);font-weight:600;}
+
+  /* ---------- shared components ---------- */
+  .cols{display:grid;gap:26px;}
+  .cols.two{grid-template-columns:1fr 1fr;}
+  .cols.three{grid-template-columns:1fr 1fr 1fr;}
+  .cols.four{grid-template-columns:repeat(4,1fr);}
+
+  .card{
+    background:var(--panel);border:1px solid var(--line-soft);
+    padding:24px 26px;display:flex;flex-direction:column;gap:10px;box-sizing:border-box;
+  }
+  .card .tag{
+    font-family:var(--mono);font-size:13px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--muted);
+  }
+  .card h3{font-size:22px;font-weight:700;letter-spacing:-.015em;}
+  .card p{margin:0;font-size:17px;line-height:1.5;color:var(--muted);}
+  .card p strong{color:var(--text);font-weight:600;}
+  .card.model{border-top:3px solid var(--model);}
+  .card.data{border-top:3px solid var(--data);}
+  .card.plain{border-top:3px solid var(--faint);}
+
+  ul.list{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:14px;}
+  ul.list li{
+    font-size:20px;line-height:1.45;color:var(--text);
+    padding-left:26px;position:relative;
+  }
+  ul.list li::before{
+    content:"";position:absolute;left:0;top:.52em;width:12px;height:2px;background:var(--faint);
+  }
+  ul.list.m li::before{background:var(--model);}
+  ul.list.d li::before{background:var(--data);}
+  ul.list li small{display:block;font-size:16px;color:var(--muted);margin-top:2px;}
+
+  .chip{
+    display:inline-block;font-family:var(--mono);font-size:15px;padding:3px 9px;
+    border:1px solid var(--line);color:var(--text);white-space:nowrap;
+  }
+  .chip.m{border-color:rgba(86,198,210,.5);color:var(--model);background:var(--model-dim);}
+  .chip.d{border-color:rgba(227,164,74,.5);color:var(--data);background:var(--data-dim);}
+
+  code{font-family:var(--mono);font-size:.92em;color:var(--model);}
+
+  /* ---------- title slide ---------- */
+  .s-title{justify-content:center;}
+  .s-title .kicker{margin-bottom:30px;}
+  .s-title h1{font-size:96px;line-height:1.0;letter-spacing:-.03em;}
+  .s-title .sub{font-size:26px;line-height:1.45;color:var(--muted);max-width:44ch;margin:30px 0 0;}
+  .s-title .sub strong{color:var(--text);font-weight:600;}
+  .titleplug{
+    margin-top:52px;display:flex;align-items:center;gap:0;font-family:var(--mono);font-size:16px;
+  }
+  .plugnode{padding:12px 22px;border:1px solid var(--line);letter-spacing:.1em;}
+  .plugnode.m{color:var(--model);border-color:rgba(86,198,210,.55);background:var(--model-dim);}
+  .plugnode.d{color:var(--data);border-color:rgba(227,164,74,.55);background:var(--data-dim);}
+  .plugwire{width:120px;height:1px;background:linear-gradient(90deg,var(--model),var(--data));position:relative;}
+  .plugwire::after{
+    content:"MCP";position:absolute;left:50%;top:-9px;transform:translate(-50%,-100%);
+    font-size:12px;letter-spacing:.22em;color:var(--muted);
+  }
+  .plugwire::before{
+    content:"";position:absolute;left:50%;top:-4px;transform:translateX(-50%);
+    width:7px;height:7px;border-radius:50%;background:var(--text);
+  }
+  .s-title .meta{
+    margin-top:56px;font-family:var(--mono);font-size:14px;color:var(--faint);letter-spacing:.1em;
+  }
+
+  /* ---------- thesis slide ---------- */
+  .s-thesis{justify-content:center;}
+  .s-thesis .line1{font-size:58px;font-weight:750;letter-spacing:-.025em;color:var(--muted);}
+  .s-thesis .line2{
+    font-size:64px;font-weight:750;letter-spacing:-.028em;line-height:1.12;
+    margin-top:22px;max-width:20ch;text-wrap:balance;
+  }
+  .s-thesis .foot{margin-top:54px;font-size:20px;color:var(--faint);max-width:60ch;line-height:1.5;}
+
+  /* ---------- diagrams ---------- */
+  .diagram{position:relative;}
+  .dg-col{display:flex;flex-direction:column;gap:14px;}
+  .dg-node{
+    font-family:var(--mono);font-size:15px;letter-spacing:.04em;
+    border:1px solid var(--line);padding:10px 14px;background:var(--panel-2);
+    white-space:nowrap;text-align:center;
+  }
+  .dg-node.m{border-color:rgba(86,198,210,.5);color:var(--model);}
+  .dg-node.d{border-color:rgba(227,164,74,.5);color:var(--data);}
+  .dg-node.hub{
+    border-color:var(--text);color:var(--text);letter-spacing:.14em;
+    background:var(--panel);padding:14px 16px;
+  }
+  .dg-caption{font-family:var(--mono);font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);}
+  svg.wires{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;}
+  svg.wires line{stroke:var(--line);stroke-width:1;}
+  svg.wires line.hot{stroke:url(#wgrad);stroke-width:1.4;}
+
+  .archstrip{
+    margin-top:30px;display:flex;align-items:center;gap:14px;
+    font-family:var(--mono);font-size:15px;
+  }
+  .archstrip .arrow{color:var(--faint);font-size:18px;}
+  .archstrip .dg-node{padding:12px 18px;}
+  .archstrip small{display:block;font-size:11px;letter-spacing:.12em;color:var(--faint);margin-top:5px;text-transform:uppercase;}
+
+  /* ---------- loop slide ---------- */
+  .loopwrap{display:flex;align-items:center;gap:18px;margin:14px 0 30px;}
+  .loopstep{
+    flex:1;background:var(--panel);border:1px solid var(--line-soft);border-top:3px solid var(--model);
+    padding:20px 20px;box-sizing:border-box;
+  }
+  .loopstep .n{font-family:var(--mono);font-size:13px;color:var(--model);letter-spacing:.16em;}
+  .loopstep h3{font-size:20px;margin:8px 0 6px;}
+  .loopstep p{margin:0;font-size:15.5px;line-height:1.45;color:var(--muted);}
+  .looparrow{color:var(--faint);font-size:26px;flex:none;}
+  .loopback{
+    display:flex;align-items:center;gap:12px;font-family:var(--mono);
+    font-size:14px;color:var(--muted);letter-spacing:.1em;
+    border:1px dashed var(--line);padding:10px 16px;width:fit-content;
+  }
+
+  /* ---------- table-ish rows ---------- */
+  .rows{display:flex;flex-direction:column;}
+  .row{
+    display:grid;grid-template-columns:250px 1fr 320px;gap:26px;align-items:baseline;
+    padding:17px 4px;border-bottom:1px solid var(--line-soft);
+  }
+  .row:first-child{border-top:1px solid var(--line-soft);}
+  .row .name{font-size:20px;font-weight:650;letter-spacing:-.01em;}
+  .row .desc{font-size:17px;color:var(--muted);line-height:1.45;}
+  .row .fit{font-family:var(--mono);font-size:14px;color:var(--data);line-height:1.5;}
+
+  /* ---------- course map ---------- */
+  .mods{display:grid;grid-template-columns:1fr 1fr 1fr;gap:22px;}
+  .mod{background:var(--panel);border:1px solid var(--line-soft);padding:20px 22px;}
+  .mod .n{font-family:var(--mono);font-size:13px;letter-spacing:.18em;color:var(--data);}
+  .mod h3{font-size:19px;margin:9px 0 7px;letter-spacing:-.01em;}
+  .mod p{margin:0;font-size:15px;line-height:1.45;color:var(--muted);}
+
+  /* ---------- close ---------- */
+  .s-close{justify-content:center;}
+  .s-close .big{font-size:72px;font-weight:750;letter-spacing:-.03em;line-height:1.08;max-width:16ch;text-wrap:balance;}
+  .s-close .next{margin-top:52px;display:flex;gap:26px;}
+  .s-close .next .card{flex:1;}
+
+  /* ---------- nav chrome ---------- */
+  .hud{
+    position:absolute;left:0;right:0;bottom:0;height:52px;padding:0 76px;
+    display:flex;align-items:center;justify-content:space-between;box-sizing:border-box;
+  }
+  .hud .course{font-family:var(--mono);font-size:12.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--faint);}
+  .hud .ctrls{display:flex;align-items:center;gap:14px;}
+  .hud button{
+    font-family:var(--mono);font-size:15px;color:var(--muted);
+    background:none;border:1px solid var(--line);padding:5px 13px;cursor:pointer;
+  }
+  .hud button:hover{color:var(--text);border-color:var(--muted);}
+  .hud button:focus-visible{outline:2px solid var(--model);outline-offset:2px;}
+  .hud .count{font-family:var(--mono);font-size:14px;color:var(--faint);letter-spacing:.1em;min-width:64px;text-align:center;}
+  .progress{position:absolute;left:0;bottom:0;height:3px;background:linear-gradient(90deg,var(--model),var(--data));transition:width .25s ease;}
+  @media (prefers-reduced-motion:reduce){.progress{transition:none;}}
+</style>
+
+<div class="viewport">
+<div class="stage" id="stage">
+
+  <!-- 1 · TITLE -->
+  <section class="slide s-title on">
+    <div class="kicker eyebrow">Internal training · <b>Applied AI series</b></div>
+    <h1>Plugged&nbsp;In</h1>
+    <p class="sub">Using AI with <strong>MCP</strong> and access to our data &amp; tools — and why a great model gets a lot greater the moment it can see your world.</p>
+    <div class="titleplug">
+      <span class="plugnode m">MODEL</span>
+      <span class="plugwire"></span>
+      <span class="plugnode d">YOUR DATA &amp; TOOLS</span>
+    </div>
+    <div class="meta">90-minute session · engineers, analysts &amp; builders · → / ← to navigate</div>
+  </section>
+
+  <!-- 2 · THESIS -->
+  <section class="slide s-thesis">
+    <div class="topbar"><span class="eyebrow">The one-line thesis</span><span class="pageno">02</span></div>
+    <div class="line1">The models are great.</div>
+    <div class="line2">They're even greater when they can leverage <em class="d">our data</em> and <em class="d">our tools</em>.</div>
+    <p class="foot">Every module in this course hangs off this sentence. The model is the engine; context is the fuel line. Today is about building that fuel line properly.</p>
+  </section>
+
+  <!-- 3 · OUT OF THE BOX -->
+  <section class="slide">
+    <div class="topbar"><span class="eyebrow">Module 1 · Foundations</span><span class="pageno">03</span></div>
+    <h2>Out of the box: brilliant, and blind</h2>
+    <div class="cols two grow">
+      <div class="card model">
+        <span class="tag" style="color:var(--model)">What the model brings</span>
+        <ul class="list m" style="margin-top:8px">
+          <li>Reasoning, planning and synthesis across domains</li>
+          <li>Fluent writing, code and analysis on demand</li>
+          <li>Broad knowledge of the public world</li>
+          <li>Native ability to <strong>use tools</strong> when you hand it some</li>
+        </ul>
+      </div>
+      <div class="card data">
+        <span class="tag" style="color:var(--data)">What it can't know or do alone</span>
+        <ul class="list d" style="margin-top:8px">
+          <li>Your private data <small>wikis, tickets, warehouse, CRM, code — none of it was in training</small></li>
+          <li>Anything after its training cutoff</li>
+          <li>Taking real actions <small>it can describe a fix; it can't file the ticket</small></li>
+          <li>Grounding <small>asked about your world with no access, it guesses — that's the hallucination you've met</small></li>
+        </ul>
+      </div>
+    </div>
+    <p class="bottomline">Think of it as a <b>brilliant consultant on day one</b> — sharp as anyone you've hired, but no badge, no laptop, no logins.</p>
+  </section>
+
+  <!-- 4 · CONTEXT -->
+  <section class="slide">
+    <div class="topbar"><span class="eyebrow">Module 2 · Context engineering</span><span class="pageno">04</span></div>
+    <h2>Context is the whole game</h2>
+    <p class="lede">The context window is the model's working memory. Answer quality tracks context quality almost one-for-one — so the real engineering question is: <strong>how does the right information get in there?</strong></p>
+    <div class="rows grow">
+      <div class="row">
+        <span class="name">Paste it in</span>
+        <span class="desc">A human copies the doc, the error log, the spreadsheet into the chat by hand.</span>
+        <span class="fit">Fine for one-offs. Doesn't scale, goes stale instantly.</span>
+      </div>
+      <div class="row">
+        <span class="name">Retrieve it</span>
+        <span class="desc">A pipeline searches your corpus and injects relevant passages automatically (RAG).</span>
+        <span class="fit">Great for Q&amp;A over large, mostly-static document sets.</span>
+      </div>
+      <div class="row">
+        <span class="name">Let the model fetch it</span>
+        <span class="desc">The model calls tools itself — queries the database, reads the ticket, hits the API — deciding what it needs as it works.</span>
+        <span class="fit">Live systems + actions. This is where MCP lives, and where this course spends most of its time.</span>
+      </div>
+    </div>
+    <p class="bottomline">These <b>compose</b> — real assistants usually use all three.</p>
+  </section>
+
+  <!-- 5 · INTEGRATION TAX -->
+  <section class="slide">
+    <div class="topbar"><span class="eyebrow">Module 3 · Why a protocol</span><span class="pageno">05</span></div>
+    <h2>The integration tax</h2>
+    <p class="lede">Before a standard existed, every AI app needed custom glue for every system it touched: <strong>N apps × M systems</strong> = N×M bespoke, brittle integrations — each with its own auth, its own bugs, its own owner.</p>
+    <div class="diagram grow" style="min-height:250px">
+      <svg class="wires" id="wires5" aria-hidden="true"></svg>
+      <div style="display:flex;justify-content:space-between;position:relative">
+        <div class="dg-col">
+          <span class="dg-caption">AI apps</span>
+          <span class="dg-node m" id="n5a1">Claude / chat assistant</span>
+          <span class="dg-node m" id="n5a2">Coding agent</span>
+          <span class="dg-node m" id="n5a3">Support copilot</span>
+        </div>
+        <div class="dg-col" style="text-align:right">
+          <span class="dg-caption" style="text-align:right">Your systems</span>
+          <span class="dg-node d" id="n5s1">Data warehouse</span>
+          <span class="dg-node d" id="n5s2">Wiki / docs</span>
+          <span class="dg-node d" id="n5s3">CRM &amp; tickets</span>
+          <span class="dg-node d" id="n5s4">GitHub / CI</span>
+        </div>
+      </div>
+    </div>
+    <p class="bottomline">Twelve integrations for three apps and four systems — and you haven't shipped a feature yet. <b>This is the problem MCP exists to delete.</b></p>
+  </section>
+
+  <!-- 6 · ENTER MCP -->
+  <section class="slide">
+    <div class="topbar"><span class="eyebrow">Module 3 · Model Context Protocol</span><span class="pageno">06</span></div>
+    <h2>MCP: one port, any system</h2>
+    <p class="lede"><strong>Model Context Protocol</strong> — an open standard (Anthropic, 2024; now adopted across the industry) for connecting AI apps to data and tools. Think <strong>USB-C for AI</strong>: build one MCP server per system, and every MCP-capable app can plug into it. N×M collapses to <strong>N&nbsp;+&nbsp;M</strong>.</p>
+    <div class="diagram" style="height:206px">
+      <svg class="wires" id="wires6" aria-hidden="true">
+        <defs>
+          <linearGradient id="wgrad" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1128" y2="0">
+            <stop offset="0" stop-color="#56C6D2"/><stop offset="1" stop-color="#E3A44A"/>
+          </linearGradient>
+        </defs>
+      </svg>
+      <div style="display:flex;justify-content:space-between;align-items:center;position:relative;height:206px">
+        <div class="dg-col">
+          <span class="dg-node m" id="n6a1">Claude / chat assistant</span>
+          <span class="dg-node m" id="n6a2">Coding agent</span>
+          <span class="dg-node m" id="n6a3">Support copilot</span>
+        </div>
+        <span class="dg-node hub" id="n6hub">MCP</span>
+        <div class="dg-col">
+          <span class="dg-node d" id="n6s1">Warehouse server</span>
+          <span class="dg-node d" id="n6s2">Wiki server</span>
+          <span class="dg-node d" id="n6s3">CRM server</span>
+          <span class="dg-node d" id="n6s4">GitHub server</span>
+        </div>
+      </div>
+    </div>
+    <div class="archstrip">
+      <span class="dg-node m">HOST<small>the AI app the user sees</small></span>
+      <span class="arrow">→</span>
+      <span class="dg-node m">CLIENT<small>speaks the protocol</small></span>
+      <span class="arrow">⇄</span>
+      <span class="dg-node d">SERVER<small>exposes one system</small></span>
+      <span class="arrow">→</span>
+      <span class="dg-node d">YOUR SYSTEM<small>DB · SaaS · files · API</small></span>
+    </div>
+  </section>
+
+  <!-- 7 · PRIMITIVES -->
+  <section class="slide">
+    <div class="topbar"><span class="eyebrow">Module 3 · Protocol primitives</span><span class="pageno">07</span></div>
+    <h2>Three things a server can offer</h2>
+    <div class="cols three grow">
+      <div class="card model">
+        <span class="tag" style="color:var(--model)">Tools · model-controlled</span>
+        <h3>Actions the model may take</h3>
+        <p>Functions the model chooses to call while it works — <strong>the workhorse primitive</strong>.</p>
+        <p><code>query_warehouse(sql)</code><br><code>create_ticket(title, body)</code><br><code>search_docs(query)</code></p>
+      </div>
+      <div class="card data">
+        <span class="tag" style="color:var(--data)">Resources · app-controlled</span>
+        <h3>Data the app can attach</h3>
+        <p>Readable context — files, schemas, records — that the host app pulls into the conversation.</p>
+        <p><code>file:///specs/api.md</code><br><code>crm://accounts/ac-1042</code></p>
+      </div>
+      <div class="card plain">
+        <span class="tag">Prompts · user-controlled</span>
+        <h3>Workflows users invoke</h3>
+        <p>Reusable templates a person picks from a menu — the "slash commands" of your integration.</p>
+        <p><code>/triage-incident</code><br><code>/weekly-metrics-review</code></p>
+      </div>
+    </div>
+    <p class="bottomline">Transports are boring on purpose: <b>stdio</b> for local servers, <b>streamable HTTP</b> for remote — same primitives either way.</p>
+  </section>
+
+  <!-- 8 · AGENT LOOP -->
+  <section class="slide">
+    <div class="topbar"><span class="eyebrow">Module 4 · How agents actually work</span><span class="pageno">08</span></div>
+    <h2>The agentic loop</h2>
+    <p class="lede">Give a model tools and a goal, and it runs a loop — no flowchart you wrote, just the model deciding what it needs next. <strong>Your leverage is the quality of the tools and the guardrails, not scripting each step.</strong></p>
+    <div class="loopwrap">
+      <div class="loopstep">
+        <span class="n">01 · PLAN</span>
+        <h3>Read the goal</h3>
+        <p>"Why did checkout conversion dip last week?"</p>
+      </div>
+      <span class="looparrow">→</span>
+      <div class="loopstep">
+        <span class="n">02 · ACT</span>
+        <h3>Call a tool</h3>
+        <p><code>query_warehouse(…)</code> — the request travels over MCP to your system.</p>
+      </div>
+      <span class="looparrow">→</span>
+      <div class="loopstep">
+        <span class="n">03 · OBSERVE</span>
+        <h3>Read the result</h3>
+        <p>Rows come back into context. The dip started Tuesday, mobile only.</p>
+      </div>
+      <span class="looparrow">→</span>
+      <div class="loopstep">
+        <span class="n">04 · REFINE</span>
+        <h3>Decide what's next</h3>
+        <p>Check Tuesday's deploys → <code>list_releases(…)</code> — or answer, if it has enough.</p>
+      </div>
+    </div>
+    <div class="loopback">⟲&nbsp; REPEAT UNTIL DONE — typically 3–15 tool calls per real task</div>
+  </section>
+
+  <!-- 9 · PATTERNS -->
+  <section class="slide">
+    <div class="topbar"><span class="eyebrow">Module 4 · Choosing a pattern</span><span class="pageno">09</span></div>
+    <h2>Matching the pattern to the data</h2>
+    <div class="rows grow">
+      <div class="row">
+        <span class="name">Prompt stuffing</span>
+        <span class="desc">Small, stable reference material — put it straight in the system prompt or attach the file.</span>
+        <span class="fit">style guides · policies under ~50 pages · schemas</span>
+      </div>
+      <div class="row">
+        <span class="name">Classic RAG</span>
+        <span class="desc">Embed a large corpus once; retrieve semantically similar chunks per question.</span>
+        <span class="fit">knowledge bases · past tickets · contracts</span>
+      </div>
+      <div class="row">
+        <span class="name">Agentic search <span class="chip m" style="margin-left:8px">via MCP</span></span>
+        <span class="desc">The model queries live systems with real query languages — SQL, API filters, code search — and iterates on what comes back.</span>
+        <span class="fit">warehouses · CRMs · repos · anything with an API</span>
+      </div>
+      <div class="row">
+        <span class="name">Actions <span class="chip d" style="margin-left:8px">via MCP</span></span>
+        <span class="desc">Beyond reading: the model files the ticket, opens the PR, sends the summary — with approval gates where it matters.</span>
+        <span class="fit">write paths · workflows · automation</span>
+      </div>
+    </div>
+    <p class="bottomline">Rule of thumb: <b>static knowledge → retrieval; live state or side-effects → tools.</b></p>
+  </section>
+
+  <!-- 10 · UNLOCKS -->
+  <section class="slide">
+    <div class="topbar"><span class="eyebrow">Module 4 · What this unlocks</span><span class="pageno">10</span></div>
+    <h2>Same model, new superpowers</h2>
+    <p class="lede">Nothing below needs a better model. Every one is <strong>today's model plus access</strong>.</p>
+    <div class="cols two grow">
+      <div class="card model">
+        <span class="tag" style="color:var(--model)">Analytics</span>
+        <h3>"Which accounts drove Q2 churn?"</h3>
+        <p><strong>Before:</strong> a generic essay about churn. <strong>After:</strong> it writes the SQL, runs it against the warehouse, and answers with your numbers — and its working shown.</p>
+      </div>
+      <div class="card data">
+        <span class="tag" style="color:var(--data)">Support</span>
+        <h3>Replies grounded in the actual customer</h3>
+        <p><strong>Before:</strong> plausible boilerplate. <strong>After:</strong> a draft based on this customer's ticket history, plan and entitlements, pulled live from the CRM.</p>
+      </div>
+      <div class="card model">
+        <span class="tag" style="color:var(--model)">Engineering</span>
+        <h3>Triage that ends in a PR</h3>
+        <p><strong>Before:</strong> "have you checked the logs?" <strong>After:</strong> it reads the CI failure, bisects the diff, and opens the fix as a draft pull request.</p>
+      </div>
+      <div class="card data">
+        <span class="tag" style="color:var(--data)">Everyone</span>
+        <h3>Docs that answer back — with citations</h3>
+        <p><strong>Before:</strong> confident guesses about policy. <strong>After:</strong> answers quoting the current handbook, linked to the paragraph they came from.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 11 · TRUST -->
+  <section class="slide">
+    <div class="topbar"><span class="eyebrow">Module 5 · Trust &amp; safety</span><span class="pageno">11</span></div>
+    <h2>New capability, new attack surface</h2>
+    <p class="lede">The moment the model can read your data and touch your systems, security stops being someone else's module. <strong>Four disciplines, non-negotiable:</strong></p>
+    <div class="cols two grow">
+      <div class="card data">
+        <span class="tag" style="color:var(--data)">01 · Prompt injection</span>
+        <p>Everything a tool returns — web pages, tickets, emails — is <strong>untrusted input that can carry instructions</strong>. Treat retrieved content as data, never as commands; sanitize and sandbox accordingly.</p>
+      </div>
+      <div class="card data">
+        <span class="tag" style="color:var(--data)">02 · Least privilege</span>
+        <p>Scoped tokens, read-only by default, per-user auth (OAuth) so the model can only see <strong>what that user could already see</strong>. Never a god-mode service account.</p>
+      </div>
+      <div class="card data">
+        <span class="tag" style="color:var(--data)">03 · Human in the loop</span>
+        <p>Reads can flow freely; <strong>writes and irreversible actions get an approval gate</strong>. Deleting records and emailing customers are earned privileges, not defaults.</p>
+      </div>
+      <div class="card data">
+        <span class="tag" style="color:var(--data)">04 · Audit &amp; evals</span>
+        <p>Log every tool call with inputs and outputs. Build an eval set before you scale, so "it seems fine" becomes <strong>a number you can watch</strong>.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 12 · TOOL DESIGN -->
+  <section class="slide">
+    <div class="topbar"><span class="eyebrow">Module 5 · Craft</span><span class="pageno">12</span></div>
+    <h2>Your tools are prompts</h2>
+    <p class="lede">The model reads your tool names, descriptions and errors the way a developer reads docs. <strong>Tool design is the highest-leverage prompt engineering you'll do.</strong></p>
+    <ul class="list grow">
+      <li><strong>Fewer, sharper tools.</strong> A handful the model can't confuse beats forty that overlap.</li>
+      <li><strong>Write descriptions for the model.</strong> When to use it, when not to, what a good call looks like — with examples.</li>
+      <li><strong>Pick the right altitude.</strong> <code>schedule_meeting(person, topic)</code>, not five raw calendar endpoints the model must choreograph.</li>
+      <li><strong>Budget tokens.</strong> Return what the task needs and paginate the rest — a 50,000-row dump helps no one.</li>
+      <li><strong>Errors that teach.</strong> <code>"date must be ISO-8601, e.g. 2026-07-06"</code> lets the loop self-correct; <code>"400 Bad Request"</code> ends it.</li>
+    </ul>
+    <p class="bottomline">Lab 4 is exactly this: <b>you'll build and ship a small MCP server</b> against one of our real systems.</p>
+  </section>
+
+  <!-- 13 · COURSE MAP -->
+  <section class="slide">
+    <div class="topbar"><span class="eyebrow">Syllabus</span><span class="pageno">13</span></div>
+    <h2>The course at a glance</h2>
+    <div class="mods grow" style="align-content:start">
+      <div class="mod">
+        <span class="n">MODULE 1</span>
+        <h3>Foundations</h3>
+        <p>What models are genuinely great at, where they're blind, and why "just prompt better" hits a ceiling.</p>
+      </div>
+      <div class="mod">
+        <span class="n">MODULE 2</span>
+        <h3>Context engineering</h3>
+        <p>Context windows, retrieval and RAG, and how answer quality tracks context quality.</p>
+      </div>
+      <div class="mod">
+        <span class="n">MODULE 3</span>
+        <h3>MCP: the protocol</h3>
+        <p>Hosts, clients, servers; tools, resources, prompts; local vs. remote transports.</p>
+      </div>
+      <div class="mod">
+        <span class="n">MODULE 4</span>
+        <h3>Agents in practice</h3>
+        <p>The agentic loop, choosing retrieval vs. tools, and the workflows this unlocks per team.</p>
+      </div>
+      <div class="mod">
+        <span class="n">MODULE 5</span>
+        <h3>Safety, security &amp; craft</h3>
+        <p>Prompt injection, least privilege, approval gates, audit, evals — and designing tools models use well.</p>
+      </div>
+      <div class="mod">
+        <span class="n">MODULE 6</span>
+        <h3>Capstone lab</h3>
+        <p>Build an MCP server for a real internal system and wire it into an assistant, end to end.</p>
+      </div>
+    </div>
+    <p class="bottomline">Six modules, three hands-on labs, one working integration per participant by the end.</p>
+  </section>
+
+  <!-- 14 · CLOSE -->
+  <section class="slide s-close">
+    <div class="topbar"><span class="eyebrow">Takeaway</span><span class="pageno">14</span></div>
+    <div class="big">Great <em class="m">model</em>. Greater with <em class="d">your context</em>.</div>
+    <div class="next">
+      <div class="card model">
+        <span class="tag" style="color:var(--model)">This week</span>
+        <p>Connect your first MCP server to Claude — the GitHub or filesystem server takes about ten minutes.</p>
+      </div>
+      <div class="card data">
+        <span class="tag" style="color:var(--data)">Before module 3</span>
+        <p>Bring one workflow from your team that dies on "the model can't see our data." It becomes your lab project.</p>
+      </div>
+      <div class="card plain">
+        <span class="tag">Reading</span>
+        <p>MCP spec &amp; quickstart: <code>modelcontextprotocol.io</code> · Anthropic docs on tool use &amp; agents.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="hud">
+    <span class="course">Plugged In · AI × MCP × Your Data</span>
+    <div class="ctrls">
+      <button id="prev" aria-label="Previous slide">←</button>
+      <span class="count" id="count">01 / 14</span>
+      <button id="next" aria-label="Next slide">→</button>
+    </div>
+  </div>
+  <div class="progress" id="progress" style="width:0"></div>
+</div>
+</div>
+
+<script>
+(function(){
+  var stage = document.getElementById('stage');
+  var slides = Array.prototype.slice.call(document.querySelectorAll('.slide'));
+  var count = document.getElementById('count');
+  var progress = document.getElementById('progress');
+  var i = 0;
+
+  function pad(n){ return (n < 10 ? '0' : '') + n; }
+
+  var WIRES = {
+    wires5: { hot: false, pairs: [] },
+    wires6: { hot: true, pairs: [
+      ['n6a1','n6hub'], ['n6a2','n6hub'], ['n6a3','n6hub'],
+      ['n6hub','n6s1'], ['n6hub','n6s2'], ['n6hub','n6s3'], ['n6hub','n6s4']
+    ]}
+  };
+  ['n5a1','n5a2','n5a3'].forEach(function(a){
+    ['n5s1','n5s2','n5s3','n5s4'].forEach(function(s){ WIRES.wires5.pairs.push([a, s]); });
+  });
+
+  function drawWires(){
+    Object.keys(WIRES).forEach(function(id){
+      var svg = document.getElementById(id);
+      if (!svg) return;
+      var box = svg.parentElement.getBoundingClientRect();
+      if (box.width === 0) return; // slide hidden
+      svg.setAttribute('viewBox', '0 0 ' + box.width + ' ' + box.height);
+      var grad = svg.querySelector('linearGradient');
+      if (grad) grad.setAttribute('x2', box.width);
+      Array.prototype.slice.call(svg.querySelectorAll('line')).forEach(function(l){ l.remove(); });
+      WIRES[id].pairs.forEach(function(p){
+        var a = document.getElementById(p[0]).getBoundingClientRect();
+        var b = document.getElementById(p[1]).getBoundingClientRect();
+        var ln = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+        ln.setAttribute('x1', a.right - box.left);
+        ln.setAttribute('y1', a.top + a.height / 2 - box.top);
+        ln.setAttribute('x2', b.left - box.left);
+        ln.setAttribute('y2', b.top + b.height / 2 - box.top);
+        if (WIRES[id].hot) ln.setAttribute('class', 'hot');
+        svg.appendChild(ln);
+      });
+    });
+  }
+
+  function go(n){
+    i = Math.max(0, Math.min(slides.length - 1, n));
+    slides.forEach(function(s, k){ s.classList.toggle('on', k === i); });
+    count.textContent = pad(i + 1) + ' / ' + pad(slides.length);
+    progress.style.width = ((i + 1) / slides.length * 100) + '%';
+    if (history.replaceState) history.replaceState(null, '', '#' + (i + 1));
+    drawWires();
+  }
+
+  document.getElementById('next').addEventListener('click', function(){ go(i + 1); });
+  document.getElementById('prev').addEventListener('click', function(){ go(i - 1); });
+
+  document.addEventListener('keydown', function(e){
+    if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') { e.preventDefault(); go(i + 1); }
+    else if (e.key === 'ArrowLeft' || e.key === 'PageUp') { e.preventDefault(); go(i - 1); }
+    else if (e.key === 'Home') { e.preventDefault(); go(0); }
+    else if (e.key === 'End') { e.preventDefault(); go(slides.length - 1); }
+  });
+
+  var touchX = null;
+  document.addEventListener('touchstart', function(e){ touchX = e.touches[0].clientX; }, {passive:true});
+  document.addEventListener('touchend', function(e){
+    if (touchX === null) return;
+    var dx = e.changedTouches[0].clientX - touchX;
+    if (Math.abs(dx) > 48) go(dx < 0 ? i + 1 : i - 1);
+    touchX = null;
+  }, {passive:true});
+
+  function fit(){
+    var s = Math.min(window.innerWidth / 1280, window.innerHeight / 720);
+    stage.style.transform = 'scale(' + s + ')';
+  }
+  window.addEventListener('resize', fit);
+  fit();
+
+  var fromHash = parseInt((location.hash || '').replace('#',''), 10);
+  go(isNaN(fromHash) ? 0 : fromHash - 1);
+})();
+</script>
+
+</html>
